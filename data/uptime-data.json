@@ -1,0 +1,5243 @@
+{
+  "rwppv331jlwc": {
+    "component": {
+      "code": "rwppv331jlwc",
+      "name": "claude.ai",
+      "startDate": "2023-07-11"
+    },
+    "days": [
+      {
+        "date": "2026-02-26",
+        "outages": {
+          "p": 23748
+        },
+        "related_events": [
+          {
+            "name": "Outage in usage reporting",
+            "code": "9s03yn69ky6m"
+          }
+        ]
+      },
+      {
+        "date": "2026-02-27",
+        "outages": {
+          "p": 16039
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on claude.ai",
+            "code": "6rw4nd44bqqh"
+          },
+          {
+            "name": "Outage in usage reporting",
+            "code": "9s03yn69ky6m"
+          },
+          {
+            "name": "Sonnet 4.6 elevated error rate",
+            "code": "0xc7ybw5wd3x"
+          },
+          {
+            "name": "Claude Desktop login issues",
+            "code": "70jm56f7jlpk"
+          },
+          {
+            "name": "Elevated errors on claude.ai",
+            "code": "zp9x05pcbwxq"
+          }
+        ]
+      },
+      {
+        "date": "2026-02-28",
+        "outages": {
+          "p": 10369
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on claude.ai",
+            "code": "ddyyz34c24vt"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "pmx7385vm0z1"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-02",
+        "outages": {
+          "p": 9959
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on claude.ai, console, and claude code",
+            "code": "0ghc53zpsfmt"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "5zg05jnrqmzg"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "0j8dkb38jymf"
+          },
+          {
+            "name": "Elevated errors in claude.ai",
+            "code": "63943gpfb97z"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "vqnfq1179169"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-03",
+        "outages": {
+          "p": 2914
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors in claude.ai, cowork, platform, claude code",
+            "code": "yf48hzysrvl5"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "kyj825w6vxr8"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "s0pmy4yywshv"
+          },
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "v3j5tpfcr3dn"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-04",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "cvh0kqnmzjks"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "4xx67ythzxg5"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "5dbf8slk8mhr"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-06",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Filesystem connector missing from Claude Desktop",
+            "code": "jbc4ybjk83c6"
+          },
+          {
+            "name": "Elevated TCP three-way handshake failures on api.anthropic.com",
+            "code": "htjkfrfnzq12"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-07",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Filesystem connector missing from Claude Desktop",
+            "code": "jbc4ybjk83c6"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "qy1zsq4wwp1q"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-08",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Filesystem connector missing from Claude Desktop",
+            "code": "jbc4ybjk83c6"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-11",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude.ai (including login issues for Claude Code)",
+            "code": "jm3b4jjy2jrt"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-12",
+        "outages": {
+          "p": 5160
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Sonnet 4.6",
+            "code": "gtj167mtk9pg"
+          },
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "tdp33ycsk4rb"
+          },
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6 and on Claude.ai",
+            "code": "28hx7gp8hnzw"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-13",
+        "outages": {
+          "p": 10218
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6 and Sonnet 4.6",
+            "code": "q58b2gkv64pw"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-16",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude.ai",
+            "code": "t2m389x6k1tq"
+          },
+          {
+            "name": "Elevated errors on Claude.ai",
+            "code": "81m3f5p97qkk"
+          },
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "0266tzhrb7rn"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-17",
+        "outages": {
+          "p": 14940
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "t252hkdgt81f"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "h04m7sftmtk5"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "mhnzmndv58bt"
+          },
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "66wxjy8wc8fx"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-18",
+        "outages": {
+          "p": 5851
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude.ai",
+            "code": "p88wl8gmb05c"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "s914kvccjthq"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "mhnzmndv58bt"
+          },
+          {
+            "name": "Increased errors on Opus 4.6",
+            "code": "0dvq4gvy5f5f"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-19",
+        "outages": {
+          "p": 4310,
+          "m": 1008
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors across surfaces",
+            "code": "6wlrxz9pqz8f"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "bf1hsq5gbm9b"
+          },
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "mfhmykgrbzt5"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-21",
+        "outages": {
+          "p": 5714
+        },
+        "related_events": [
+          {
+            "name": "Elevated error rates on Claude Opus and Sonnet 4.6",
+            "code": "tj7zxr47cfx6"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-22",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Delayed response completion on Claude.ai",
+            "code": "cjwz4sx4pl5j"
+          },
+          {
+            "name": "Claude.ai and Claude login down",
+            "code": "f4wqmj8rhjsc"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-23",
+        "outages": {
+          "p": 960
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude.ai [retroactive]",
+            "code": "0kxm85c9w7rw"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-25",
+        "outages": {
+          "p": 31930,
+          "m": 4506
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "yvb76l3ryzpb"
+          },
+          {
+            "name": "Elevated Errors on claude.ai",
+            "code": "9rt6y2y4gkh1"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "9qwph3lqc885"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-26",
+        "outages": {
+          "p": 5095
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6 and Sonnet 4.6",
+            "code": "vcp3jwhttwrg"
+          },
+          {
+            "name": "Elevated errors for MCP calls",
+            "code": "zq248kgmyyyk"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "9qwph3lqc885"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-27",
+        "outages": {
+          "p": 16920,
+          "m": 2820
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6 and Sonnet 4.6",
+            "code": "vcp3jwhttwrg"
+          },
+          {
+            "name": "Elevated error rates on Opus 4.6",
+            "code": "b9802k1zb5l2"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-28",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-29",
+        "outages": {
+          "p": 13885
+        },
+        "related_events": [
+          {
+            "name": "Dispatch sessions not responding in Claude Desktop",
+            "code": "q5qk1234v205"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-30",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-31",
+        "outages": {
+          "p": 4060
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "k3z0fjwdjkzl"
+          },
+          {
+            "name": "Opus 4.6 and Sonnet 4.6 error rate elevated",
+            "code": "65w1yxq40m3l"
+          },
+          {
+            "name": "Unavailable connectors in Claude.ai desktop applications",
+            "code": "z5scppyhphjk"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-01",
+        "outages": {
+          "p": 5740
+        },
+        "related_events": [
+          {
+            "name": "Elevated timeouts on requests to Claude Opus 4.6 and Sonnet 4.6",
+            "code": "fvj2fgqrchsj"
+          },
+          {
+            "name": "Elevated errors on requests to Claude Opus 4.6",
+            "code": "3bg93cy9bk1v"
+          },
+          {
+            "name": "Errors on the Claude.ai desktop application",
+            "code": "z22j49ktx41d"
+          },
+          {
+            "name": "Elevated errors and latency on Claude Haiku 4.5",
+            "code": "cbffv7jf2jck"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-03",
+        "outages": {
+          "p": 4103
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on requests to Claude Sonnet 4.6",
+            "code": "fznql3y9tpn7"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-06",
+        "outages": {
+          "p": 5465
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude.ai",
+            "code": "vfjv5x6qkd4j"
+          },
+          {
+            "name": "Sonnet 4.6 elevated rate of errors",
+            "code": "xmqkb966qt1h"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-07",
+        "outages": {
+          "m": 3846
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude.ai",
+            "code": "124yr07585k9"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-08",
+        "outages": {
+          "p": 9460
+        },
+        "related_events": [
+          {
+            "name": "Sonnet 4.6 elevated rate of errors",
+            "code": "lhws0phdvzz3"
+          },
+          {
+            "name": "Elevated errors on Claude.ai, API, Claude Code",
+            "code": "5f418rpyb84x"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-09",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Sonnet 4.6 elevated rate of errors",
+            "code": "v0t3z924dbhg"
+          },
+          {
+            "name": "Elevated Connector Error Rates",
+            "code": "cb0h2zyzl0kd"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-10",
+        "outages": {
+          "p": 1266
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on requests to Claude models",
+            "code": "411xbc51v608"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-13",
+        "outages": {
+          "m": 3315
+        },
+        "related_events": [
+          {
+            "name": "Claude.ai down",
+            "code": "6jd2m42f8mld"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-14",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Degraded service on usage and analytics admin API endpoints",
+            "code": "w3389p5qg7kp"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-15",
+        "outages": {
+          "p": 4392,
+          "m": 2427
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude.ai, API, Claude Code",
+            "code": "f00h6l76tsjs"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-16",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Opus 4.6 elevated rate of errors",
+            "code": "7jbzthbc1dwr"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-17",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Errors uploading documents to Google Drive in Claude.ai",
+            "code": "4t4qg3vkrz6z"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-19",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Opus 4.6",
+            "code": "34yy5hskyw2v"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-20",
+        "outages": {
+          "p": 1454
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for uploading files",
+            "code": "8482mmb5n1n1"
+          },
+          {
+            "name": "Elevated errors on Opus 4.6",
+            "code": "34yy5hskyw2v"
+          },
+          {
+            "name": "Claude Sonnet 4.5 error spike",
+            "code": "8rg3l7v56ngc"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-23",
+        "outages": {
+          "p": 976
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "1gz3fcvd76fx"
+          },
+          {
+            "name": "MCP apps unavailable on Claude.ai",
+            "code": "9tyl1z4b03cs"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-24",
+        "outages": {
+          "m": 2309
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "1mx31vhgl3ms"
+          },
+          {
+            "name": "Elevated errors on Sonnet 4.6",
+            "code": "wlysnq540b32"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-25",
+        "outages": {
+          "p": 3595
+        },
+        "related_events": [
+          {
+            "name": "Investigated elevated errors and slower responses on claude.ai",
+            "code": "c3km369dp85h"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "87m29x6sk78g"
+          },
+          {
+            "name": "Elevated error rates on Claude Opus 4.7",
+            "code": "q93x64nrhwnn"
+          },
+          {
+            "name": "Claude Code v2.1.120 Crashes on Startup",
+            "code": "zqsk02ryfmrd"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "29ryc4sj27jk"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-27",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated billing related errors on Claude.ai",
+            "code": "mct55f8gxb7k"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-28",
+        "outages": {
+          "m": 4671
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "lryjwwy0q9pl"
+          },
+          {
+            "name": "Claude.ai unavailable and elevated errors on the API",
+            "code": "9l93x2ht4s5w"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "c20m4lbfd6pm"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-29",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "lryjwwy0q9pl"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-30",
+        "outages": {
+          "m": 1850
+        },
+        "related_events": [
+          {
+            "name": "claude.ai and API unavailable",
+            "code": "2gf1jpyty350"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "dv9r688vqt8s"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-04",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.5 and Sonnet 4.5",
+            "code": "77j6yv8kc0vn"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "89vbl7qk5dqp"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.5",
+            "code": "zxv1xv501678"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-06",
+        "outages": {
+          "p": 9039
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors across multiple models",
+            "code": "437swp24nrf4"
+          },
+          {
+            "name": "Connection failures for organizations restricting GitHub access by IP address",
+            "code": "snxm62gpxfc9"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-07",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "9h32bh60z06w"
+          },
+          {
+            "name": "Connection failures for organizations restricting GitHub access by IP address",
+            "code": "snxm62gpxfc9"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-08",
+        "outages": {
+          "p": 6213
+        },
+        "related_events": [
+          {
+            "name": "Elevated Errors on File Operations",
+            "code": "vtt35dc73941"
+          },
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "fv8psq0wdpkn"
+          },
+          {
+            "name": "Elevated errors across Claude Models",
+            "code": "378dqscjgghp"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "5p98r08qfvwl"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-09",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.1",
+            "code": "1m6xs1xcw9kk"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-12",
+        "outages": {
+          "p": 3332
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "3kkmgccb9z85"
+          },
+          {
+            "name": "Elevated errors for Claude Sonnet 4.6 and Haiku 4.5",
+            "code": "c2hjyfpgsprx"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-13",
+        "outages": {
+          "p": 3666
+        },
+        "related_events": [
+          {
+            "name": "Claude.ai is experiencing elevated error rates",
+            "code": "yn24rtdnf77b"
+          },
+          {
+            "name": "Claude.ai is experiencing elevated error rates",
+            "code": "sb7byp4h7yp8"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-14",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "6f1wzlw5cjqx"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-16",
+        "outages": {
+          "p": 957
+        },
+        "related_events": [
+          {
+            "name": "Elevated error rates on requests to multiple models",
+            "code": "v9s6d0jt84hj"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-18",
+        "outages": {
+          "p": 525
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "fvddmdx8z6y7"
+          },
+          {
+            "name": "Elevated errors for Claude Opus 4.7",
+            "code": "6qbg6ft2r9j4"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-19",
+        "outages": {
+          "p": 4681
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "0y2vzr60dktt"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "f9yk8lqw384x"
+          },
+          {
+            "name": "Elevated errors on Claude.ai and Claude Code login",
+            "code": "cgwwyh79gpm3"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "qkwdrjxvkb9s"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-20",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "4znk51f63g93"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "vpwz6hxsvgs3"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-22",
+        "outages": {
+          "p": 6733
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "r1prbh7v5gcn"
+          },
+          {
+            "name": "Elevated error rate on multiple models",
+            "code": "p0mgnjv3bj97"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-25",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated error rates on Opus 4.7",
+            "code": "44pgyz54d48z"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-26",
+        "outages": {},
+        "related_events": []
+      }
+    ]
+  },
+  "0qbwn08sd68x": {
+    "component": {
+      "code": "0qbwn08sd68x",
+      "name": "Claude Console (platform.claude.com)",
+      "startDate": "2023-07-11"
+    },
+    "days": [
+      {
+        "date": "2026-02-26",
+        "outages": {
+          "p": 29018
+        },
+        "related_events": [
+          {
+            "name": "Outage in usage reporting",
+            "code": "9s03yn69ky6m"
+          }
+        ]
+      },
+      {
+        "date": "2026-02-27",
+        "outages": {
+          "p": 11094
+        },
+        "related_events": [
+          {
+            "name": "Sonnet 4.6 elevated error rate",
+            "code": "0xc7ybw5wd3x"
+          },
+          {
+            "name": "Outage in usage reporting",
+            "code": "9s03yn69ky6m"
+          }
+        ]
+      },
+      {
+        "date": "2026-02-28",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-02",
+        "outages": {
+          "p": 8948
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "5zg05jnrqmzg"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "0j8dkb38jymf"
+          },
+          {
+            "name": "Elevated errors on claude.ai, console, and claude code",
+            "code": "0ghc53zpsfmt"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "vqnfq1179169"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-03",
+        "outages": {
+          "p": 25810
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors in claude.ai, cowork, platform, claude code",
+            "code": "yf48hzysrvl5"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "kyj825w6vxr8"
+          },
+          {
+            "name": "Outage in Usage Reporting",
+            "code": "p7nq2jdg4zwj"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-04",
+        "outages": {
+          "p": 5379
+        },
+        "related_events": [
+          {
+            "name": "Outage in Usage Reporting",
+            "code": "p7nq2jdg4zwj"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-07",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-08",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-12",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Sonnet 4.6",
+            "code": "gtj167mtk9pg"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-16",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "0266tzhrb7rn"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-17",
+        "outages": {
+          "p": 14940
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "h04m7sftmtk5"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "mhnzmndv58bt"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-18",
+        "outages": {
+          "p": 2939
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "s914kvccjthq"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "mhnzmndv58bt"
+          },
+          {
+            "name": "Increased errors on Opus 4.6",
+            "code": "0dvq4gvy5f5f"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-19",
+        "outages": {
+          "p": 4310
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors across surfaces",
+            "code": "6wlrxz9pqz8f"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-21",
+        "outages": {
+          "p": 5714
+        },
+        "related_events": [
+          {
+            "name": "Elevated error rates on Claude Opus and Sonnet 4.6",
+            "code": "tj7zxr47cfx6"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-22",
+        "outages": {
+          "p": 75,
+          "m": 632
+        },
+        "related_events": [
+          {
+            "name": "Claude.ai and Claude login down",
+            "code": "f4wqmj8rhjsc"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-25",
+        "outages": {
+          "p": 32160
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "yvb76l3ryzpb"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "9qwph3lqc885"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-26",
+        "outages": {
+          "p": 5095
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6 and Sonnet 4.6",
+            "code": "vcp3jwhttwrg"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "9qwph3lqc885"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-27",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6 and Sonnet 4.6",
+            "code": "vcp3jwhttwrg"
+          },
+          {
+            "name": "Elevated error rates on Opus 4.6",
+            "code": "b9802k1zb5l2"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-28",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Opus 4.6 Fast Mode",
+            "code": "pgxwhv06t0y8"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-30",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-31",
+        "outages": {
+          "p": 4060
+        },
+        "related_events": [
+          {
+            "name": "Opus 4.6 and Sonnet 4.6 error rate elevated",
+            "code": "65w1yxq40m3l"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-01",
+        "outages": {
+          "p": 5660
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on requests to Claude Opus 4.6",
+            "code": "3bg93cy9bk1v"
+          },
+          {
+            "name": "Elevated errors and latency on Claude Haiku 4.5",
+            "code": "cbffv7jf2jck"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-03",
+        "outages": {
+          "p": 4103
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on requests to Claude Sonnet 4.6",
+            "code": "fznql3y9tpn7"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-06",
+        "outages": {
+          "p": 4954
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude.ai",
+            "code": "vfjv5x6qkd4j"
+          },
+          {
+            "name": "Sonnet 4.6 elevated rate of errors",
+            "code": "xmqkb966qt1h"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-07",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-08",
+        "outages": {
+          "p": 9460
+        },
+        "related_events": [
+          {
+            "name": "Sonnet 4.6 elevated rate of errors",
+            "code": "lhws0phdvzz3"
+          },
+          {
+            "name": "Elevated errors on Claude.ai, API, Claude Code",
+            "code": "5f418rpyb84x"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-09",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Sonnet 4.6 elevated rate of errors",
+            "code": "v0t3z924dbhg"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-10",
+        "outages": {
+          "p": 1266
+        },
+        "related_events": [
+          {
+            "name": "Degraded Performance on Vaults",
+            "code": "2z4mf00ffcwd"
+          },
+          {
+            "name": "Elevated errors on requests to Claude models",
+            "code": "411xbc51v608"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-13",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Claude.ai down",
+            "code": "6jd2m42f8mld"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-14",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Degraded service on usage and analytics admin API endpoints",
+            "code": "w3389p5qg7kp"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-15",
+        "outages": {
+          "p": 4392,
+          "m": 2427
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude.ai, API, Claude Code",
+            "code": "f00h6l76tsjs"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-16",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Failures to add Credentials to Vaults",
+            "code": "fkltkq8kgjkh"
+          },
+          {
+            "name": "Opus 4.6 elevated rate of errors",
+            "code": "7jbzthbc1dwr"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-17",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Errors uploading documents to Google Drive in Claude.ai",
+            "code": "4t4qg3vkrz6z"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-19",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Opus 4.6",
+            "code": "34yy5hskyw2v"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-20",
+        "outages": {
+          "p": 1454
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Opus 4.6",
+            "code": "34yy5hskyw2v"
+          },
+          {
+            "name": "Claude Sonnet 4.5 error spike",
+            "code": "8rg3l7v56ngc"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-23",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "MCP apps unavailable on Claude.ai",
+            "code": "9tyl1z4b03cs"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-24",
+        "outages": {
+          "p": 1702,
+          "m": 2309
+        },
+        "related_events": [
+          {
+            "name": "Issues with sign-ups on platform.claude.com",
+            "code": "s0lttkq5mmt2"
+          },
+          {
+            "name": "Elevated errors on Sonnet 4.6",
+            "code": "wlysnq540b32"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-25",
+        "outages": {
+          "p": 3595
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "87m29x6sk78g"
+          },
+          {
+            "name": "Elevated error rates on Claude Opus 4.7",
+            "code": "q93x64nrhwnn"
+          },
+          {
+            "name": "Claude Code v2.1.120 Crashes on Startup",
+            "code": "zqsk02ryfmrd"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-28",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Claude.ai unavailable and elevated errors on the API",
+            "code": "9l93x2ht4s5w"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-30",
+        "outages": {
+          "m": 1850
+        },
+        "related_events": [
+          {
+            "name": "claude.ai and API unavailable",
+            "code": "2gf1jpyty350"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-04",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "89vbl7qk5dqp"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-06",
+        "outages": {
+          "p": 3813
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors across multiple models",
+            "code": "437swp24nrf4"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-07",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "9h32bh60z06w"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-08",
+        "outages": {
+          "p": 6213
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "fv8psq0wdpkn"
+          },
+          {
+            "name": "Elevated errors across Claude Models",
+            "code": "378dqscjgghp"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-09",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.1",
+            "code": "1m6xs1xcw9kk"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-12",
+        "outages": {
+          "p": 2187
+        },
+        "related_events": [
+          {
+            "name": "Elevated Error Rate for Vaults and Credentials",
+            "code": "n0c72xml12l4"
+          },
+          {
+            "name": "Elevated errors for Claude Sonnet 4.6 and Haiku 4.5",
+            "code": "c2hjyfpgsprx"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-16",
+        "outages": {
+          "p": 957
+        },
+        "related_events": [
+          {
+            "name": "Elevated error rates on requests to multiple models",
+            "code": "v9s6d0jt84hj"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-18",
+        "outages": {
+          "p": 525
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "fvddmdx8z6y7"
+          },
+          {
+            "name": "Elevated errors for Claude Opus 4.7",
+            "code": "6qbg6ft2r9j4"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-19",
+        "outages": {
+          "p": 4566
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "0y2vzr60dktt"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "f9yk8lqw384x"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "qkwdrjxvkb9s"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-20",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "vpwz6hxsvgs3"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-22",
+        "outages": {
+          "p": 6733
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "r1prbh7v5gcn"
+          },
+          {
+            "name": "Elevated error rate on multiple models",
+            "code": "p0mgnjv3bj97"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-25",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated error rates on Opus 4.7",
+            "code": "44pgyz54d48z"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-26",
+        "outages": {},
+        "related_events": []
+      }
+    ]
+  },
+  "k8w3r06qmzrp": {
+    "component": {
+      "code": "k8w3r06qmzrp",
+      "name": "Claude API (api.anthropic.com)",
+      "startDate": "2023-07-11"
+    },
+    "days": [
+      {
+        "date": "2026-02-26",
+        "outages": {
+          "p": 29018
+        },
+        "related_events": [
+          {
+            "name": "Outage in usage reporting",
+            "code": "9s03yn69ky6m"
+          }
+        ]
+      },
+      {
+        "date": "2026-02-27",
+        "outages": {
+          "p": 11094
+        },
+        "related_events": [
+          {
+            "name": "Sonnet 4.6 elevated error rate",
+            "code": "0xc7ybw5wd3x"
+          },
+          {
+            "name": "Outage in usage reporting",
+            "code": "9s03yn69ky6m"
+          }
+        ]
+      },
+      {
+        "date": "2026-02-28",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "pmx7385vm0z1"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-02",
+        "outages": {
+          "p": 4411
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "5zg05jnrqmzg"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "0j8dkb38jymf"
+          },
+          {
+            "name": "Elevated errors on claude.ai, console, and claude code",
+            "code": "0ghc53zpsfmt"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "vqnfq1179169"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-03",
+        "outages": {
+          "p": 28724
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "kyj825w6vxr8"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "s0pmy4yywshv"
+          },
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "v3j5tpfcr3dn"
+          },
+          {
+            "name": "Outage in Usage Reporting",
+            "code": "p7nq2jdg4zwj"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-04",
+        "outages": {
+          "p": 3500
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "cvh0kqnmzjks"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "4xx67ythzxg5"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "5dbf8slk8mhr"
+          },
+          {
+            "name": "Outage in Usage Reporting",
+            "code": "p7nq2jdg4zwj"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-07",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "qy1zsq4wwp1q"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-08",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-12",
+        "outages": {
+          "p": 5160
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Sonnet 4.6",
+            "code": "gtj167mtk9pg"
+          },
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "tdp33ycsk4rb"
+          },
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6 and on Claude.ai",
+            "code": "28hx7gp8hnzw"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-13",
+        "outages": {
+          "p": 10218
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6 and Sonnet 4.6",
+            "code": "q58b2gkv64pw"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-16",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "0266tzhrb7rn"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-17",
+        "outages": {
+          "p": 14940
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "h04m7sftmtk5"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "mhnzmndv58bt"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-18",
+        "outages": {
+          "p": 2939
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "s914kvccjthq"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "mhnzmndv58bt"
+          },
+          {
+            "name": "Increased errors on Opus 4.6",
+            "code": "0dvq4gvy5f5f"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-19",
+        "outages": {
+          "p": 4310,
+          "m": 1008
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors across surfaces",
+            "code": "6wlrxz9pqz8f"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "bf1hsq5gbm9b"
+          },
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "mfhmykgrbzt5"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-21",
+        "outages": {
+          "p": 5714
+        },
+        "related_events": [
+          {
+            "name": "Elevated error rates on Claude Opus and Sonnet 4.6",
+            "code": "tj7zxr47cfx6"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-25",
+        "outages": {
+          "p": 32160
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "yvb76l3ryzpb"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "9qwph3lqc885"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-26",
+        "outages": {
+          "p": 5095
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6 and Sonnet 4.6",
+            "code": "vcp3jwhttwrg"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "9qwph3lqc885"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-27",
+        "outages": {
+          "p": 16920,
+          "m": 2520
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6 and Sonnet 4.6",
+            "code": "vcp3jwhttwrg"
+          },
+          {
+            "name": "Elevated error rates on Opus 4.6",
+            "code": "b9802k1zb5l2"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-28",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Opus 4.6 Fast Mode",
+            "code": "pgxwhv06t0y8"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-30",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-31",
+        "outages": {
+          "p": 4060
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "k3z0fjwdjkzl"
+          },
+          {
+            "name": "Opus 4.6 and Sonnet 4.6 error rate elevated",
+            "code": "65w1yxq40m3l"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-01",
+        "outages": {
+          "p": 5660
+        },
+        "related_events": [
+          {
+            "name": "Elevated timeouts on requests to Claude Opus 4.6 and Sonnet 4.6",
+            "code": "fvj2fgqrchsj"
+          },
+          {
+            "name": "Elevated errors on requests to Claude Opus 4.6",
+            "code": "3bg93cy9bk1v"
+          },
+          {
+            "name": "Elevated errors and latency on Claude Haiku 4.5",
+            "code": "cbffv7jf2jck"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-03",
+        "outages": {
+          "p": 4103
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on requests to Claude Sonnet 4.6",
+            "code": "fznql3y9tpn7"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-06",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Sonnet 4.6 elevated rate of errors",
+            "code": "xmqkb966qt1h"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-07",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude.ai",
+            "code": "124yr07585k9"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-08",
+        "outages": {
+          "p": 9460
+        },
+        "related_events": [
+          {
+            "name": "Sonnet 4.6 elevated rate of errors",
+            "code": "lhws0phdvzz3"
+          },
+          {
+            "name": "Elevated errors on Claude.ai, API, Claude Code",
+            "code": "5f418rpyb84x"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-09",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Sonnet 4.6 elevated rate of errors",
+            "code": "v0t3z924dbhg"
+          },
+          {
+            "name": "Elevated Connector Error Rates",
+            "code": "cb0h2zyzl0kd"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-10",
+        "outages": {
+          "p": 1266
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on requests to Claude models",
+            "code": "411xbc51v608"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-13",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Claude.ai down",
+            "code": "6jd2m42f8mld"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-14",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Degraded service on usage and analytics admin API endpoints",
+            "code": "w3389p5qg7kp"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-15",
+        "outages": {
+          "m": 484
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude.ai, API, Claude Code",
+            "code": "f00h6l76tsjs"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-16",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Opus 4.6 elevated rate of errors",
+            "code": "7jbzthbc1dwr"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-17",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Errors uploading documents to Google Drive in Claude.ai",
+            "code": "4t4qg3vkrz6z"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-19",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Opus 4.6",
+            "code": "34yy5hskyw2v"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-20",
+        "outages": {
+          "p": 1454
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for uploading files",
+            "code": "8482mmb5n1n1"
+          },
+          {
+            "name": "Elevated errors on Opus 4.6",
+            "code": "34yy5hskyw2v"
+          },
+          {
+            "name": "Claude Sonnet 4.5 error spike",
+            "code": "8rg3l7v56ngc"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-23",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "MCP apps unavailable on Claude.ai",
+            "code": "9tyl1z4b03cs"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "1gz3fcvd76fx"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-24",
+        "outages": {
+          "m": 2310
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "1mx31vhgl3ms"
+          },
+          {
+            "name": "Elevated errors on Sonnet 4.6",
+            "code": "wlysnq540b32"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-25",
+        "outages": {
+          "p": 3595
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "87m29x6sk78g"
+          },
+          {
+            "name": "Elevated error rates on Claude Opus 4.7",
+            "code": "q93x64nrhwnn"
+          },
+          {
+            "name": "Claude Code v2.1.120 Crashes on Startup",
+            "code": "zqsk02ryfmrd"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "29ryc4sj27jk"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-28",
+        "outages": {
+          "p": 4090
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "lryjwwy0q9pl"
+          },
+          {
+            "name": "Elevated errors on Claude Sonnet 4.5",
+            "code": "x1y91zcb2rp2"
+          },
+          {
+            "name": "Claude.ai unavailable and elevated errors on the API",
+            "code": "9l93x2ht4s5w"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "c20m4lbfd6pm"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-29",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "3yxsctr39y3j"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "lryjwwy0q9pl"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-30",
+        "outages": {
+          "m": 1850
+        },
+        "related_events": [
+          {
+            "name": "claude.ai and API unavailable",
+            "code": "2gf1jpyty350"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-04",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.5 and Sonnet 4.5",
+            "code": "77j6yv8kc0vn"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "89vbl7qk5dqp"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.5",
+            "code": "zxv1xv501678"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-06",
+        "outages": {
+          "p": 3813
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors across multiple models",
+            "code": "437swp24nrf4"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-07",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "9h32bh60z06w"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-08",
+        "outages": {
+          "p": 6213
+        },
+        "related_events": [
+          {
+            "name": "Elevated Errors on File Operations",
+            "code": "vtt35dc73941"
+          },
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "fv8psq0wdpkn"
+          },
+          {
+            "name": "Elevated errors across Claude Models",
+            "code": "378dqscjgghp"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "5p98r08qfvwl"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-09",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.1",
+            "code": "1m6xs1xcw9kk"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-12",
+        "outages": {
+          "p": 3332
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "3kkmgccb9z85"
+          },
+          {
+            "name": "Elevated errors for Claude Sonnet 4.6 and Haiku 4.5",
+            "code": "c2hjyfpgsprx"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-14",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "6f1wzlw5cjqx"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-15",
+        "outages": {
+          "p": 5288
+        },
+        "related_events": [
+          {
+            "name": "Elevated error rates on requests to some models",
+            "code": "8z7l5zcy0v3b"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-16",
+        "outages": {
+          "p": 957
+        },
+        "related_events": [
+          {
+            "name": "Elevated error rates on requests to multiple models",
+            "code": "v9s6d0jt84hj"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-18",
+        "outages": {
+          "p": 525
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "fvddmdx8z6y7"
+          },
+          {
+            "name": "Elevated errors for Claude Opus 4.7",
+            "code": "6qbg6ft2r9j4"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-19",
+        "outages": {
+          "p": 4566
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "0y2vzr60dktt"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "f9yk8lqw384x"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "qkwdrjxvkb9s"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-20",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "4znk51f63g93"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "vpwz6hxsvgs3"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-22",
+        "outages": {
+          "p": 6733
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "r1prbh7v5gcn"
+          },
+          {
+            "name": "Elevated error rate on multiple models",
+            "code": "p0mgnjv3bj97"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-25",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated error rates on Opus 4.7",
+            "code": "44pgyz54d48z"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-26",
+        "outages": {},
+        "related_events": []
+      }
+    ]
+  },
+  "yyzkbfz2thpt": {
+    "component": {
+      "code": "yyzkbfz2thpt",
+      "name": "Claude Code",
+      "startDate": "2025-02-06"
+    },
+    "days": [
+      {
+        "date": "2026-02-26",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Claude Code showing \"JSON Parse error: Unexpected EOF\" and writing excessive files on Windows",
+            "code": "3kjy2zn2w2bj"
+          }
+        ]
+      },
+      {
+        "date": "2026-02-27",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Sonnet 4.6 elevated error rate",
+            "code": "0xc7ybw5wd3x"
+          }
+        ]
+      },
+      {
+        "date": "2026-02-28",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "pmx7385vm0z1"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-02",
+        "outages": {
+          "p": 8948
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "5zg05jnrqmzg"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "0j8dkb38jymf"
+          },
+          {
+            "name": "Elevated errors on claude.ai, console, and claude code",
+            "code": "0ghc53zpsfmt"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "vqnfq1179169"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-03",
+        "outages": {
+          "p": 2914
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors in claude.ai, cowork, platform, claude code",
+            "code": "yf48hzysrvl5"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "kyj825w6vxr8"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "s0pmy4yywshv"
+          },
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "v3j5tpfcr3dn"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-04",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "cvh0kqnmzjks"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "4xx67ythzxg5"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "5dbf8slk8mhr"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-07",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "qy1zsq4wwp1q"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-08",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-11",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude.ai (including login issues for Claude Code)",
+            "code": "jm3b4jjy2jrt"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-12",
+        "outages": {
+          "p": 5160
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Sonnet 4.6",
+            "code": "gtj167mtk9pg"
+          },
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "tdp33ycsk4rb"
+          },
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6 and on Claude.ai",
+            "code": "28hx7gp8hnzw"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-13",
+        "outages": {
+          "p": 10218
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6 and Sonnet 4.6",
+            "code": "q58b2gkv64pw"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-16",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "0266tzhrb7rn"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-17",
+        "outages": {
+          "p": 14940
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "h04m7sftmtk5"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "mhnzmndv58bt"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-18",
+        "outages": {
+          "p": 5681
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude.ai",
+            "code": "p88wl8gmb05c"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "s914kvccjthq"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "mhnzmndv58bt"
+          },
+          {
+            "name": "Increased errors on Opus 4.6",
+            "code": "0dvq4gvy5f5f"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-19",
+        "outages": {
+          "p": 4310,
+          "m": 1008
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors across surfaces",
+            "code": "6wlrxz9pqz8f"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "bf1hsq5gbm9b"
+          },
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "mfhmykgrbzt5"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-21",
+        "outages": {
+          "p": 5714
+        },
+        "related_events": [
+          {
+            "name": "Elevated error rates on Claude Opus and Sonnet 4.6",
+            "code": "tj7zxr47cfx6"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-25",
+        "outages": {
+          "p": 32160
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "yvb76l3ryzpb"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "9qwph3lqc885"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-26",
+        "outages": {
+          "p": 5095
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6 and Sonnet 4.6",
+            "code": "vcp3jwhttwrg"
+          },
+          {
+            "name": "Elevated errors for MCP calls",
+            "code": "zq248kgmyyyk"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "9qwph3lqc885"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-27",
+        "outages": {
+          "p": 16920,
+          "m": 2520
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6 and Sonnet 4.6",
+            "code": "vcp3jwhttwrg"
+          },
+          {
+            "name": "Elevated error rates on Opus 4.6",
+            "code": "b9802k1zb5l2"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-28",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Opus 4.6 Fast Mode",
+            "code": "pgxwhv06t0y8"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-30",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-31",
+        "outages": {
+          "p": 4060
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "k3z0fjwdjkzl"
+          },
+          {
+            "name": "Opus 4.6 and Sonnet 4.6 error rate elevated",
+            "code": "65w1yxq40m3l"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-01",
+        "outages": {
+          "p": 5660
+        },
+        "related_events": [
+          {
+            "name": "Elevated timeouts on requests to Claude Opus 4.6 and Sonnet 4.6",
+            "code": "fvj2fgqrchsj"
+          },
+          {
+            "name": "Elevated errors on requests to Claude Opus 4.6",
+            "code": "3bg93cy9bk1v"
+          },
+          {
+            "name": "Elevated errors and latency on Claude Haiku 4.5",
+            "code": "cbffv7jf2jck"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-03",
+        "outages": {
+          "p": 4103
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on requests to Claude Sonnet 4.6",
+            "code": "fznql3y9tpn7"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-06",
+        "outages": {
+          "p": 4954
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude.ai",
+            "code": "vfjv5x6qkd4j"
+          },
+          {
+            "name": "Sonnet 4.6 elevated rate of errors",
+            "code": "xmqkb966qt1h"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-07",
+        "outages": {
+          "m": 3846
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude.ai",
+            "code": "124yr07585k9"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-08",
+        "outages": {
+          "p": 9460
+        },
+        "related_events": [
+          {
+            "name": "Sonnet 4.6 elevated rate of errors",
+            "code": "lhws0phdvzz3"
+          },
+          {
+            "name": "Elevated errors on Claude.ai, API, Claude Code",
+            "code": "5f418rpyb84x"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-09",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Sonnet 4.6 elevated rate of errors",
+            "code": "v0t3z924dbhg"
+          },
+          {
+            "name": "Elevated Connector Error Rates",
+            "code": "cb0h2zyzl0kd"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-10",
+        "outages": {
+          "p": 1266
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on requests to Claude models",
+            "code": "411xbc51v608"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-13",
+        "outages": {
+          "p": 1144
+        },
+        "related_events": [
+          {
+            "name": "Claude.ai down",
+            "code": "6jd2m42f8mld"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-14",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Degraded service on usage and analytics admin API endpoints",
+            "code": "w3389p5qg7kp"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-15",
+        "outages": {
+          "m": 484
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude.ai, API, Claude Code",
+            "code": "f00h6l76tsjs"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-16",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Opus 4.6 elevated rate of errors",
+            "code": "7jbzthbc1dwr"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-17",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Errors uploading documents to Google Drive in Claude.ai",
+            "code": "4t4qg3vkrz6z"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-19",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Opus 4.6",
+            "code": "34yy5hskyw2v"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-20",
+        "outages": {
+          "p": 1454
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Opus 4.6",
+            "code": "34yy5hskyw2v"
+          },
+          {
+            "name": "Claude Sonnet 4.5 error spike",
+            "code": "8rg3l7v56ngc"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-23",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "MCP apps unavailable on Claude.ai",
+            "code": "9tyl1z4b03cs"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "1gz3fcvd76fx"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-24",
+        "outages": {
+          "m": 2310
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "1mx31vhgl3ms"
+          },
+          {
+            "name": "Elevated errors on Sonnet 4.6",
+            "code": "wlysnq540b32"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-25",
+        "outages": {
+          "p": 3595
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "87m29x6sk78g"
+          },
+          {
+            "name": "Elevated error rates on Claude Opus 4.7",
+            "code": "q93x64nrhwnn"
+          },
+          {
+            "name": "Claude Code v2.1.120 Crashes on Startup",
+            "code": "zqsk02ryfmrd"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "29ryc4sj27jk"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-28",
+        "outages": {
+          "p": 4672
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "lryjwwy0q9pl"
+          },
+          {
+            "name": "Claude.ai unavailable and elevated errors on the API",
+            "code": "9l93x2ht4s5w"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-29",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "lryjwwy0q9pl"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-30",
+        "outages": {
+          "m": 1850
+        },
+        "related_events": [
+          {
+            "name": "claude.ai and API unavailable",
+            "code": "2gf1jpyty350"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-04",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.5 and Sonnet 4.5",
+            "code": "77j6yv8kc0vn"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "89vbl7qk5dqp"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.5",
+            "code": "zxv1xv501678"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-06",
+        "outages": {
+          "p": 3600
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors across multiple models",
+            "code": "437swp24nrf4"
+          },
+          {
+            "name": "Connection failures for organizations restricting GitHub access by IP address",
+            "code": "snxm62gpxfc9"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-07",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "9h32bh60z06w"
+          },
+          {
+            "name": "Connection failures for organizations restricting GitHub access by IP address",
+            "code": "snxm62gpxfc9"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-08",
+        "outages": {
+          "p": 6180
+        },
+        "related_events": [
+          {
+            "name": "Claude Code IDE extension unable to load on Windows",
+            "code": "w5cw47ytckzx"
+          },
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "fv8psq0wdpkn"
+          },
+          {
+            "name": "Elevated errors across Claude Models",
+            "code": "378dqscjgghp"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "5p98r08qfvwl"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-09",
+        "outages": {
+          "p": 1481
+        },
+        "related_events": [
+          {
+            "name": "Claude Code IDE extension unable to load on Windows",
+            "code": "w5cw47ytckzx"
+          },
+          {
+            "name": "Claude Code on the Web Partial Outage",
+            "code": "4b7cjct792q2"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.1",
+            "code": "1m6xs1xcw9kk"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-12",
+        "outages": {
+          "p": 3332
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "3kkmgccb9z85"
+          },
+          {
+            "name": "Elevated errors for Claude Sonnet 4.6 and Haiku 4.5",
+            "code": "c2hjyfpgsprx"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-13",
+        "outages": {
+          "p": 3666
+        },
+        "related_events": [
+          {
+            "name": "Claude.ai is experiencing elevated error rates",
+            "code": "yn24rtdnf77b"
+          },
+          {
+            "name": "Claude.ai is experiencing elevated error rates",
+            "code": "sb7byp4h7yp8"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-14",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "6f1wzlw5cjqx"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-15",
+        "outages": {
+          "p": 5288
+        },
+        "related_events": [
+          {
+            "name": "Elevated error rates on requests to some models",
+            "code": "8z7l5zcy0v3b"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-16",
+        "outages": {
+          "p": 957
+        },
+        "related_events": [
+          {
+            "name": "Elevated error rates on requests to multiple models",
+            "code": "v9s6d0jt84hj"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-18",
+        "outages": {
+          "p": 525
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "fvddmdx8z6y7"
+          },
+          {
+            "name": "Elevated errors for Claude Opus 4.7",
+            "code": "6qbg6ft2r9j4"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-19",
+        "outages": {
+          "p": 4566
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "0y2vzr60dktt"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "f9yk8lqw384x"
+          },
+          {
+            "name": "Elevated errors on Claude.ai and Claude Code login",
+            "code": "cgwwyh79gpm3"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "qkwdrjxvkb9s"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-20",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "4znk51f63g93"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "vpwz6hxsvgs3"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-22",
+        "outages": {
+          "p": 6733
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "r1prbh7v5gcn"
+          },
+          {
+            "name": "Elevated error rate on multiple models",
+            "code": "p0mgnjv3bj97"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-25",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated error rates on Opus 4.7",
+            "code": "44pgyz54d48z"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-26",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors for Claude Code in Slack",
+            "code": "fl8sx824x72r"
+          }
+        ]
+      }
+    ]
+  },
+  "bpp5gb3hpjcl": {
+    "component": {
+      "code": "bpp5gb3hpjcl",
+      "name": "Claude Cowork",
+      "startDate": "2026-04-01"
+    },
+    "days": [
+      {
+        "date": "2026-02-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-02-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-02-28",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-07",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-08",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-16",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-19",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-25",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-28",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-30",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-31",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-03",
+        "outages": {
+          "p": 4103
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on requests to Claude Sonnet 4.6",
+            "code": "fznql3y9tpn7"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-06",
+        "outages": {
+          "p": 3549
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude.ai",
+            "code": "vfjv5x6qkd4j"
+          },
+          {
+            "name": "Sonnet 4.6 elevated rate of errors",
+            "code": "xmqkb966qt1h"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-07",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude.ai",
+            "code": "124yr07585k9"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-08",
+        "outages": {
+          "p": 9460
+        },
+        "related_events": [
+          {
+            "name": "Sonnet 4.6 elevated rate of errors",
+            "code": "lhws0phdvzz3"
+          },
+          {
+            "name": "Elevated errors on Claude.ai, API, Claude Code",
+            "code": "5f418rpyb84x"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-09",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Sonnet 4.6 elevated rate of errors",
+            "code": "v0t3z924dbhg"
+          },
+          {
+            "name": "Elevated Connector Error Rates",
+            "code": "cb0h2zyzl0kd"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-10",
+        "outages": {
+          "p": 1266
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on requests to Claude models",
+            "code": "411xbc51v608"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-13",
+        "outages": {
+          "p": 1144
+        },
+        "related_events": [
+          {
+            "name": "Claude.ai down",
+            "code": "6jd2m42f8mld"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-14",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Degraded service on usage and analytics admin API endpoints",
+            "code": "w3389p5qg7kp"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-16",
+        "outages": {
+          "p": 7463
+        },
+        "related_events": [
+          {
+            "name": "Claude Cowork not starting for some users",
+            "code": "qj05p69fff9h"
+          },
+          {
+            "name": "Opus 4.6 elevated rate of errors",
+            "code": "7jbzthbc1dwr"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-17",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Errors uploading documents to Google Drive in Claude.ai",
+            "code": "4t4qg3vkrz6z"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-19",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Opus 4.6",
+            "code": "34yy5hskyw2v"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-20",
+        "outages": {
+          "p": 1454
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Opus 4.6",
+            "code": "34yy5hskyw2v"
+          },
+          {
+            "name": "Claude Sonnet 4.5 error spike",
+            "code": "8rg3l7v56ngc"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-23",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "MCP apps unavailable on Claude.ai",
+            "code": "9tyl1z4b03cs"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "1gz3fcvd76fx"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-24",
+        "outages": {
+          "m": 2310
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "1mx31vhgl3ms"
+          },
+          {
+            "name": "Elevated errors on Sonnet 4.6",
+            "code": "wlysnq540b32"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-25",
+        "outages": {
+          "p": 3595
+        },
+        "related_events": [
+          {
+            "name": "Elevated error rates on Claude Opus 4.7",
+            "code": "q93x64nrhwnn"
+          },
+          {
+            "name": "Claude Code v2.1.120 Crashes on Startup",
+            "code": "zqsk02ryfmrd"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "29ryc4sj27jk"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-28",
+        "outages": {
+          "m": 4672
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "lryjwwy0q9pl"
+          },
+          {
+            "name": "Claude.ai unavailable and elevated errors on the API",
+            "code": "9l93x2ht4s5w"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-29",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "lryjwwy0q9pl"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-30",
+        "outages": {
+          "m": 1850
+        },
+        "related_events": [
+          {
+            "name": "claude.ai and API unavailable",
+            "code": "2gf1jpyty350"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-04",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "89vbl7qk5dqp"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-06",
+        "outages": {
+          "p": 3814
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors across multiple models",
+            "code": "437swp24nrf4"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-07",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "9h32bh60z06w"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-08",
+        "outages": {
+          "p": 6213
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "fv8psq0wdpkn"
+          },
+          {
+            "name": "Elevated errors across Claude Models",
+            "code": "378dqscjgghp"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "5p98r08qfvwl"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-12",
+        "outages": {
+          "p": 3332
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "3kkmgccb9z85"
+          },
+          {
+            "name": "Elevated errors for Claude Sonnet 4.6 and Haiku 4.5",
+            "code": "c2hjyfpgsprx"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-14",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "6f1wzlw5cjqx"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-16",
+        "outages": {
+          "p": 957
+        },
+        "related_events": [
+          {
+            "name": "Elevated error rates on requests to multiple models",
+            "code": "v9s6d0jt84hj"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-18",
+        "outages": {
+          "p": 525
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "fvddmdx8z6y7"
+          },
+          {
+            "name": "Elevated errors for Claude Opus 4.7",
+            "code": "6qbg6ft2r9j4"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-19",
+        "outages": {
+          "p": 4566
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "0y2vzr60dktt"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "f9yk8lqw384x"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "qkwdrjxvkb9s"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-20",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "4znk51f63g93"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "vpwz6hxsvgs3"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-22",
+        "outages": {
+          "p": 6733
+        },
+        "related_events": [
+          {
+            "name": "Elevated error rate on multiple models",
+            "code": "p0mgnjv3bj97"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "r1prbh7v5gcn"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-25",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated error rates on Opus 4.7",
+            "code": "44pgyz54d48z"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-26",
+        "outages": {},
+        "related_events": []
+      }
+    ]
+  },
+  "0scnb50nvy53": {
+    "component": {
+      "code": "0scnb50nvy53",
+      "name": "Claude for Government",
+      "startDate": "2026-02-17"
+    },
+    "days": [
+      {
+        "date": "2026-02-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-02-27",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Sonnet 4.6 elevated error rate",
+            "code": "0xc7ybw5wd3x"
+          }
+        ]
+      },
+      {
+        "date": "2026-02-28",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-02",
+        "outages": {
+          "p": 913
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on claude.ai, console, and claude code",
+            "code": "0ghc53zpsfmt"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-07",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-08",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-12",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Sonnet 4.6",
+            "code": "gtj167mtk9pg"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-16",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "0266tzhrb7rn"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-18",
+        "outages": {
+          "p": 2939
+        },
+        "related_events": [
+          {
+            "name": "Increased errors on Opus 4.6",
+            "code": "0dvq4gvy5f5f"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-19",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-25",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-27",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated error rates on Opus 4.6",
+            "code": "b9802k1zb5l2"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-28",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-30",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-03-31",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-07",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-08",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-10",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on requests to Claude models",
+            "code": "411xbc51v608"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-13",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Claude.ai down",
+            "code": "6jd2m42f8mld"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-14",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Degraded service on usage and analytics admin API endpoints",
+            "code": "w3389p5qg7kp"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-16",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-17",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Errors uploading documents to Google Drive in Claude.ai",
+            "code": "4t4qg3vkrz6z"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-19",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-20",
+        "outages": {
+          "p": 1454
+        },
+        "related_events": [
+          {
+            "name": "Claude Sonnet 4.5 error spike",
+            "code": "8rg3l7v56ngc"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-23",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "MCP apps unavailable on Claude.ai",
+            "code": "9tyl1z4b03cs"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-24",
+        "outages": {
+          "m": 2310
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on Sonnet 4.6",
+            "code": "wlysnq540b32"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-25",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated error rates on Claude Opus 4.7",
+            "code": "q93x64nrhwnn"
+          },
+          {
+            "name": "Claude Code v2.1.120 Crashes on Startup",
+            "code": "zqsk02ryfmrd"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-28",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Claude.ai unavailable and elevated errors on the API",
+            "code": "9l93x2ht4s5w"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-04-30",
+        "outages": {
+          "m": 1850
+        },
+        "related_events": [
+          {
+            "name": "claude.ai and API unavailable",
+            "code": "2gf1jpyty350"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-07",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-08",
+        "outages": {
+          "p": 2252
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors across Claude Models",
+            "code": "378dqscjgghp"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-16",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-19",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-25",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-05-26",
+        "outages": {},
+        "related_events": []
+      }
+    ]
+  }
+}

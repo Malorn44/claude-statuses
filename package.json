@@ -1,0 +1,17 @@
+{
+  "name": "claude-statuses",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Aggregate Claude status archive — the 'is any part of Claude down?' view that status.claude.com hides.",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch.mjs",
+    "backfill": "node scripts/backfill.mjs",
+    "derive": "node scripts/derive.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

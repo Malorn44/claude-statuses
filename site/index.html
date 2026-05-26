@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Missing Claude Status Page</title>
+    <meta
+      name="description"
+      content="The 'is any part of Claude down right now?' view that status.claude.com hides. Aggregate uptime across all Claude components."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="wrap masthead-inner">
+        <h1>The Missing Claude Status Page</h1>
+        <nav class="masthead-nav" aria-label="Site">
+          <a href="#about">About this mirror</a>
+          <a href="https://github.com/Malorn44/claude-statuses" target="_blank" rel="noopener">
+            <svg class="icon" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
+            </svg>
+            <span>GitHub</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="hero-panel" id="hero-panel" aria-live="polite">
+        <div class="hero-panel-header">
+          <h2 class="hero-panel-title" id="hero-panel-title">Last 90 days uptime</h2>
+          <div class="hero-panel-meta">
+            <span id="hero-panel-updated">Last updated —</span>
+            <span class="hero-panel-divider" aria-hidden="true">|</span>
+            <span id="hero-panel-incident-count">— incidents</span>
+          </div>
+        </div>
+        <div class="hero-panel-row">
+          <div class="hero-panel-row-header">
+            <span class="hero-panel-row-label">Claude Platform</span>
+            <span class="hero-panel-row-pct" id="hero-panel-pct">—% uptime</span>
+          </div>
+          <div class="hero-panel-bars" id="hero-panel-bars"></div>
+          <div class="hero-panel-axis">
+            <span id="hero-panel-axis-start"></span>
+            <span id="hero-panel-axis-end"></span>
+          </div>
+        </div>
+        <div class="hero-panel-legend">
+          <span><i class="sev-ok"></i> operational</span>
+          <span><i class="sev-maintenance"></i> maintenance</span>
+          <span><i class="sev-major"></i> major</span>
+          <span><i class="sev-critical"></i> critical</span>
+        </div>
+        <div class="hero-panel-footer">
+          <div class="hero-panel-attribution">
+            by <a href="https://github.com/Malorn44" target="_blank" rel="noopener">Mara Schwartz</a>
+          </div>
+          <button type="button" class="hero-panel-copy" id="hero-panel-copy" aria-live="polite">
+            <svg class="icon" width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+              <path d="M5 2.75C5 1.78 5.78 1 6.75 1h5.5C13.22 1 14 1.78 14 2.75v6.5c0 .97-.78 1.75-1.75 1.75h-5.5C5.78 11 5 10.22 5 9.25v-6.5Zm1.75-.25a.25.25 0 0 0-.25.25v6.5c0 .14.11.25.25.25h5.5a.25.25 0 0 0 .25-.25v-6.5a.25.25 0 0 0-.25-.25h-5.5ZM3.75 5A.75.75 0 0 1 4.5 5.75v6c0 .41.34.75.75.75h5a.75.75 0 0 1 0 1.5h-5A2.25 2.25 0 0 1 3 11.75v-6A.75.75 0 0 1 3.75 5Z"/>
+            </svg>
+            <span id="hero-panel-copy-label">Copy card</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="chart-section" aria-label="Per-component daily status">
+        <div class="chart-axis">
+          <span id="chart-axis-start"></span>
+          <span id="chart-axis-end"></span>
+        </div>
+        <div class="chart" id="chart" role="table" aria-label="Per-day impact for each component"></div>
+      </section>
+
+      <section class="history-section" aria-label="Historical uptime by month">
+        <div class="history-header">
+          <h2>Historical uptime</h2>
+          <div class="history-controls">
+            <button type="button" id="history-prev" class="history-nav" aria-label="Previous months">
+              <svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <span class="history-range" id="history-range"></span>
+            <button type="button" id="history-next" class="history-nav" aria-label="Next months">
+              <svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="history-months" id="history-months"></div>
+        <p class="history-hint">Aggregate "any part of Claude" across all components. Use ← / → keys to page.</p>
+      </section>
+
+      <section class="incidents-section">
+        <h2>Incidents</h2>
+        <div class="incident-filters">
+          <select id="filter-component">
+            <option value="">all components</option>
+          </select>
+          <select id="filter-impact">
+            <option value="">all impacts</option>
+            <option value="critical">critical</option>
+            <option value="major">major</option>
+            <option value="minor">minor</option>
+            <option value="maintenance">maintenance</option>
+          </select>
+        </div>
+        <ol class="incidents" id="incidents"></ol>
+        <button type="button" id="incidents-toggle" class="incidents-toggle" hidden>Show More</button>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">
+        <h3 class="footer-heading" id="about">About this mirror</h3>
+        <p>
+          <a href="https://status.claude.com" rel="noopener">status.claude.com</a>
+          publishes uptime per component but no single "any part of Claude is down"
+          view. This site is that aggregate.
+        </p>
+        <p>
+          We poll the public Statuspage, archive each incident timeline as JSON
+          (in this repo's
+          <a
+            href="https://github.com/Malorn44/claude-statuses/tree/main/data"
+            rel="noopener"
+            >data/</a
+          >), and compute a single uptime number that treats <em>any</em>
+          component being degraded as downtime.
+        </p>
+        <p class="footer-meta">
+          Not affiliated with Anthropic. Inspired by
+          <a href="https://mrshu.github.io/github-statuses/" rel="noopener"
+            >mrshu/github-statuses</a
+          >. <span id="generated-at"></span>
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

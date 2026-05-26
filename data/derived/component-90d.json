@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-05-26T15:05:21.029Z",
+  "components": {
+    "rwppv331jlwc": {
+      "id": "rwppv331jlwc",
+      "name": "claude.ai",
+      "uptime_pct": 98.5908,
+      "downtime_seconds": 109126,
+      "incident_count": 107
+    },
+    "0qbwn08sd68x": {
+      "id": "0qbwn08sd68x",
+      "name": "Claude Console (platform.claude.com)",
+      "uptime_pct": 99.1341,
+      "downtime_seconds": 67052,
+      "incident_count": 61
+    },
+    "k8w3r06qmzrp": {
+      "id": "k8w3r06qmzrp",
+      "name": "Claude API (api.anthropic.com)",
+      "uptime_pct": 98.8787,
+      "downtime_seconds": 86830,
+      "incident_count": 85
+    },
+    "l4qnxj13zyr3": {
+      "id": "l4qnxj13zyr3",
+      "name": "anthropic.com",
+      "uptime_pct": 100,
+      "downtime_seconds": 0,
+      "incident_count": 0
+    },
+    "4wvcg41w1htx": {
+      "id": "4wvcg41w1htx",
+      "name": "Claude on Vertex AI",
+      "uptime_pct": 100,
+      "downtime_seconds": 0,
+      "incident_count": 0
+    },
+    "8k65tzbkxl8r": {
+      "id": "8k65tzbkxl8r",
+      "name": "Claude on AWS Bedrock",
+      "uptime_pct": 100,
+      "downtime_seconds": 0,
+      "incident_count": 0
+    },
+    "vy0zz4d9qxr9": {
+      "id": "vy0zz4d9qxr9",
+      "name": "api.anthropic.com - Beta Features",
+      "uptime_pct": 100,
+      "downtime_seconds": 0,
+      "incident_count": 0
+    },
+    "yyzkbfz2thpt": {
+      "id": "yyzkbfz2thpt",
+      "name": "Claude Code",
+      "uptime_pct": 98.9854,
+      "downtime_seconds": 78567,
+      "incident_count": 92
+    },
+    "0scnb50nvy53": {
+      "id": "0scnb50nvy53",
+      "name": "Claude for Government",
+      "uptime_pct": 99.917,
+      "downtime_seconds": 6427,
+      "incident_count": 10
+    },
+    "bpp5gb3hpjcl": {
+      "id": "bpp5gb3hpjcl",
+      "name": "Claude Cowork",
+      "uptime_pct": 99.6606,
+      "downtime_seconds": 26283,
+      "incident_count": 41
+    }
+  }
+}

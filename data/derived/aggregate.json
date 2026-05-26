@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-05-26T15:05:21.029Z",
+  "windows": {
+    "24h": {
+      "window": "1d",
+      "start": "2026-05-26T00:00:00.000Z",
+      "end": "2026-05-26T15:05:21.029Z",
+      "uptime_pct": 100,
+      "downtime_seconds": 0,
+      "downtime_seconds_raw": 0,
+      "maintenance_seconds": 0,
+      "total_seconds": 86400,
+      "major_seconds": 0,
+      "critical_seconds": 0,
+      "segments": [],
+      "stats": {
+        "incident_count": 1,
+        "longest_outage_seconds": 0
+      }
+    },
+    "7d": {
+      "window": "7d",
+      "start": "2026-05-20T00:00:00.000Z",
+      "end": "2026-05-26T15:05:21.029Z",
+      "uptime_pct": 99.666,
+      "downtime_seconds": 2020,
+      "downtime_seconds_raw": 6733,
+      "maintenance_seconds": 0,
+      "total_seconds": 604800,
+      "major_seconds": 6733,
+      "critical_seconds": 0,
+      "segments": [],
+      "stats": {
+        "incident_count": 7,
+        "longest_outage_seconds": 6733
+      }
+    },
+    "30d": {
+      "window": "30d",
+      "start": "2026-04-27T00:00:00.000Z",
+      "end": "2026-05-26T15:05:21.029Z",
+      "uptime_pct": 99.2092,
+      "downtime_seconds": 20498,
+      "downtime_seconds_raw": 53109,
+      "maintenance_seconds": 0,
+      "total_seconds": 2592000,
+      "major_seconds": 46587,
+      "critical_seconds": 6522,
+      "segments": [],
+      "stats": {
+        "incident_count": 43,
+        "longest_outage_seconds": 9344
+      }
+    },
+    "90d": {
+      "window": "90d",
+      "start": "2026-02-26T00:00:00.000Z",
+      "end": "2026-05-26T15:05:21.029Z",
+      "uptime_pct": 98.4434,
+      "downtime_seconds": 121041,
+      "downtime_seconds_raw": 339569,
+      "maintenance_seconds": 0,
+      "total_seconds": 7776000,
+      "major_seconds": 312183,
+      "critical_seconds": 27386,
+      "segments": [],
+      "stats": {
+        "incident_count": 142,
+        "longest_outage_seconds": 36666
+      }
+    }
+  }
+}
