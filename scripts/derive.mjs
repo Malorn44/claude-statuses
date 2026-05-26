@@ -1,22 +1,11 @@
 #!/usr/bin/env node
-import { writeFile, mkdir, readFile } from "node:fs/promises";
+import { writeFile, mkdir } from "node:fs/promises";
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { loadAllIncidents, DATA_DIR } from "./lib/incident.mjs";
-import {
-  computeComponentBreakdown,
-} from "./lib/aggregate.mjs";
 
 const DAY_MS = 86_400_000;
 const DAY_SEC = 86400;
-
-// Empirical match to status.claude.com: partial @ 30%, major @ 100%.
-const PARTIAL_WEIGHT = 0.30;
-const MAJOR_WEIGHT = 1.0;
-
-function weightedDowntime(major, critical) {
-  return Math.round(major * PARTIAL_WEIGHT + critical * MAJOR_WEIGHT);
-}
 
 function impactFromSeconds(major, critical) {
   if (critical > 0) return "critical";
@@ -84,20 +73,13 @@ function buildRow({ id, name, isAggregate, days, startDate }) {
     ? days.filter((d) => d.date >= startDate && d.impact !== "no_data").length
     : days.length;
   const rowWindowSec = inWindowDays * DAY_SEC;
-  const weighted = weightedDowntime(major_seconds, critical_seconds);
-  const uptime_pct = rowWindowSec > 0
-    ? Number(((1 - weighted / rowWindowSec) * 100).toFixed(4))
-    : 100;
   return {
     id,
     name,
     is_aggregate: isAggregate,
-    uptime_pct,
     window_seconds: rowWindowSec,
     major_seconds,
     critical_seconds,
-    maintenance_seconds: 0,
-    start_date: startDate || null,
     days,
   };
 }
@@ -107,13 +89,10 @@ function buildComponentDay(date, compData, incidentsByDate, componentsById, comp
     return {
       date,
       impact: "no_data",
-      downtime_s: 0,
-      downtime_s_raw: 0,
       major_s: 0,
       critical_s: 0,
       maintenance_s: 0,
       incident_ids: [],
-      incident_names: [],
     };
   }
   const rec = compData.byDate.get(date) || { p: 0, m: 0, events: [] };
@@ -127,13 +106,10 @@ function buildComponentDay(date, compData, incidentsByDate, componentsById, comp
   return {
     date,
     impact: impactFromSeconds(major_s, critical_s),
-    downtime_s: weightedDowntime(major_s, critical_s),
-    downtime_s_raw: major_s + critical_s,
     major_s,
     critical_s,
     maintenance_s: 0,
     incident_ids: [...incidentIdSet],
-    incident_names: rec.events.map((e) => e.name).filter(Boolean),
   };
 }
 
@@ -155,8 +131,6 @@ function buildAggregateDay(date, componentList, perComponent, incidentsByDate) {
   return {
     date,
     impact: impactFromSeconds(major_s, critical_s),
-    downtime_s: weightedDowntime(major_s, critical_s),
-    downtime_s_raw: major_s + critical_s,
     major_s,
     critical_s,
     maintenance_s: 0,
@@ -164,30 +138,17 @@ function buildAggregateDay(date, componentList, perComponent, incidentsByDate) {
   };
 }
 
-function aggregateWindow(aggregateRow, daysCount, todayStartMs, nowMs) {
+function aggregateWindow(aggregateRow, daysCount) {
   const sliced = aggregateRow.days.slice(-daysCount);
   const major = sliced.reduce((s, d) => s + d.major_s, 0);
   const critical = sliced.reduce((s, d) => s + d.critical_s, 0);
   const totalSec = sliced.length * DAY_SEC;
-  const weighted = weightedDowntime(major, critical);
-  const uptime_pct = totalSec > 0
-    ? Number(((1 - weighted / totalSec) * 100).toFixed(4))
-    : 100;
   return {
-    window: `${daysCount}d`,
-    start: new Date(todayStartMs - (daysCount - 1) * DAY_SEC * 1000).toISOString(),
-    end: new Date(nowMs).toISOString(),
-    uptime_pct,
-    downtime_seconds: weighted,
-    downtime_seconds_raw: major + critical,
-    maintenance_seconds: 0,
     total_seconds: totalSec,
     major_seconds: major,
     critical_seconds: critical,
-    segments: [],
     stats: {
       incident_count: new Set(sliced.flatMap((d) => d.incident_ids)).size,
-      longest_outage_seconds: Math.max(0, ...sliced.map((d) => d.downtime_s_raw)),
     },
   };
 }
@@ -201,7 +162,6 @@ function buildHistoryMonths(history, earliestStart) {
           key: mo.key,
           year: mo.year,
           month: mo.month,
-          name: mo.name,
           dayMap: new Map(),
           hasRealData: false,
         });
@@ -233,7 +193,6 @@ function buildHistoryMonths(history, earliestStart) {
       key: mo.key,
       year: mo.year,
       month: mo.month,
-      name: mo.name,
       days: [...mo.dayMap.entries()]
         .sort(([a], [b]) => a.localeCompare(b))
         .map(([date, cell]) => {
@@ -259,7 +218,6 @@ async function main() {
   const now = new Date();
   const nowMs = now.getTime();
   const todayStartMs = Math.floor(nowMs / (DAY_SEC * 1000)) * DAY_SEC * 1000;
-  const todayStart = Math.floor(nowMs / DAY_MS) * DAY_MS;
 
   const incidents = await loadAllIncidents();
   const derivedDir = join(DATA_DIR, "derived");
@@ -267,20 +225,6 @@ async function main() {
 
   const comps = loadJsonIfExists(join(DATA_DIR, "components.json"));
   const componentList = comps?.components || [];
-  const componentNames = Object.fromEntries(componentList.map((c) => [c.id, c.name]));
-
-  const componentBreakdown = computeComponentBreakdown(incidents, {
-    start: todayStart + DAY_MS - 90 * DAY_MS,
-    end: nowMs,
-    now,
-  });
-  for (const id of Object.keys(componentBreakdown)) {
-    componentBreakdown[id].name = componentNames[id] || componentBreakdown[id].name;
-  }
-  await writeFile(
-    join(derivedDir, "component-90d.json"),
-    JSON.stringify({ generated_at: now.toISOString(), components: componentBreakdown }, null, 2) + "\n",
-  );
 
   const uptimeData = loadJsonIfExists(join(DATA_DIR, "uptime-data.json")) || {};
   const dateKeys = getDateKeys(uptimeData, todayStartMs);
@@ -315,17 +259,17 @@ async function main() {
   await writeFile(
     join(derivedDir, "daily-90d.json"),
     JSON.stringify(
-      { generated_at: now.toISOString(), days: 90, rows: [aggregateRow, ...componentRows] },
+      { generated_at: now.toISOString(), rows: [aggregateRow, ...componentRows] },
       null,
       2,
     ) + "\n",
   );
 
   const aggregateByWindow = {
-    "24h": aggregateWindow(aggregateRow, 1, todayStartMs, nowMs),
-    "7d": aggregateWindow(aggregateRow, 7, todayStartMs, nowMs),
-    "30d": aggregateWindow(aggregateRow, 30, todayStartMs, nowMs),
-    "90d": aggregateWindow(aggregateRow, 90, todayStartMs, nowMs),
+    "24h": aggregateWindow(aggregateRow, 1),
+    "7d": aggregateWindow(aggregateRow, 7),
+    "30d": aggregateWindow(aggregateRow, 30),
+    "90d": aggregateWindow(aggregateRow, 90),
   };
   await writeFile(
     join(derivedDir, "aggregate.json"),
@@ -351,12 +295,10 @@ async function main() {
       id: i.id,
       name: i.name,
       impact: i.impact,
-      status: i.status,
       created_at: i.created_at,
       started_at: i.started_at,
       resolved_at: i.resolved_at,
       components: (i.components || []).map((c) => ({ id: c.id, name: c.name })),
-      update_count: (i.incident_updates || []).length,
     }))
     .sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
   await writeFile(
@@ -365,8 +307,10 @@ async function main() {
   );
 
   const a90 = aggregateByWindow["90d"];
+  const down90 = a90.major_seconds * 0.30 + a90.critical_seconds * 1.0;
+  const uptime90 = a90.total_seconds > 0 ? (1 - down90 / a90.total_seconds) * 100 : 100;
   console.log(
-    `derive ok: 90d uptime ${a90.uptime_pct.toFixed(3)}%, ${a90.segments.length} segments, ${incidents.length} incidents indexed`,
+    `derive ok: 90d uptime ${uptime90.toFixed(3)}%, ${incidents.length} incidents indexed`,
   );
 }
 

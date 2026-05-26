@@ -20,8 +20,12 @@ const ICON_EXTERNAL = `<svg class="icon" width="11" height="11" viewBox="0 0 24 
 const ICON_EXTERNAL_LG = `<svg class="icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="9 7 17 7 17 15"/></svg>`;
 
 // Empirical match to status.claude.com: partial @ 30%, major @ 100%.
-const UPTIME_W_PARTIAL = 0.30;
-const UPTIME_W_MAJOR = 1.0;
+const IMPACT_WEIGHTS = {
+  minor: 0,
+  major: 0.30,
+  critical: 1.0,
+  maintenance: 0,
+};
 
 const VISIBLE_DAYS = 7;
 
@@ -41,7 +45,7 @@ function uptimeFromImpactSeconds(row) {
   if (!denom) return 100;
   const major = row.major_seconds || 0;
   const critical = row.critical_seconds || 0;
-  const down = major * UPTIME_W_PARTIAL + critical * UPTIME_W_MAJOR;
+  const down = major * IMPACT_WEIGHTS.major + critical * IMPACT_WEIGHTS.critical;
   return Math.max(0, Math.min(100, (1 - down / denom) * 100));
 }
 
@@ -315,11 +319,12 @@ function renderPopoverContent(day, row) {
   `;
 }
 
-function populateComponentFilter(componentBreakdown) {
+function populateComponentFilter(components) {
   const filter = document.getElementById("filter-component");
   if (filter.children.length !== 1) return;
-  const items = Object.values(componentBreakdown.components || {})
-    .sort((a, b) => a.name.localeCompare(b.name));
+  const items = (components?.components || [])
+    .slice()
+    .sort((a, b) => (a.position ?? 0) - (b.position ?? 0));
   for (const c of items) {
     const opt = document.createElement("option");
     opt.value = c.id;
@@ -495,7 +500,7 @@ function renderHistory() {
       const startWeekday = firstOfMonth.getUTCDay();
       const monthSeconds = lastDay * 86400;
       const weighted = mo.days.reduce(
-        (s, d) => s + (d.major_s || 0) * UPTIME_W_PARTIAL + (d.critical_s || 0) * UPTIME_W_MAJOR,
+        (s, d) => s + (d.major_s || 0) * IMPACT_WEIGHTS.major + (d.critical_s || 0) * IMPACT_WEIGHTS.critical,
         0,
       );
       const uptimePct = monthSeconds > 0 ? (1 - weighted / monthSeconds) * 100 : 100;
@@ -814,7 +819,7 @@ async function init() {
     const [aggregate, daily, components, incidents, history] = await Promise.all([
       loadJson("./data/derived/aggregate.json"),
       loadJson("./data/derived/daily-90d.json"),
-      loadJson("./data/derived/component-90d.json"),
+      loadJson("./data/components.json"),
       loadJson("./data/derived/incidents-index.json"),
       loadJson("./data/derived/aggregate-history.json").catch(() => null),
     ]);

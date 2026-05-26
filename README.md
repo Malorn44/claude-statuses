@@ -25,7 +25,7 @@ All upstream sources live under `https://status.claude.com`. Nothing is authenti
 
 | File | Upstream source | How we get it | Cadence |
 |---|---|---|---|
-| `data/components.json` | `/api/v2/components.json` | Direct JSON fetch. | Every poll. |
+| `data/components.json` | `/api/v2/components.json` | Direct JSON fetch. Also read directly by the site to populate the component filter `<select>`. | Every poll. |
 | `data/incidents.jsonl` | `/api/v2/incidents.json` (recent ~50) and `/incidents/<slug>.json` for backfilled history. | `fetch.mjs` merges `/api/v2/incidents.json` every poll. `backfill.mjs` paginates `/history?page=N` HTML for every historical slug (the public API caps at 50), then fetches `/incidents/<slug>.json` for each. Merge is idempotent on `id` + `incident_updates[].id`. | Every poll (incremental); `backfill.mjs` one-shot for history. |
 | `data/uptime-data.json` | `https://status.claude.com/` homepage HTML | The page embeds `var uptimeData = { <componentId>: { days: [{date, outages:{p,m}, related_events}] } }` — the exact per-day partial / major outage seconds Statuspage itself renders, for all 6 components × 90 days in a single response. `fetch.mjs` greps for `var uptimeData` and brace-matches the JS object back out. | Every poll. |
 | `data/uptime-history.json` | `/uptime/<componentId>.json?page=N` | Per-component, paginated 3 months at a time back to 2023. `fetch.mjs` walks pages until empty, for each of the 6 components. | At most once per 24 h (older months are static). |
@@ -34,9 +34,8 @@ All upstream sources live under `https://status.claude.com`. Nothing is authenti
 
 | File | Built from | Contents |
 |---|---|---|
-| `data/derived/aggregate.json` | `incidents.jsonl` | Per-window (`24h`, `7d`, `30d`, `90d`) sweep-line union of component impact intervals: `incident_count`, downtime seconds, longest outage, hero uptime %. |
+| `data/derived/aggregate.json` | `daily-90d.json` aggregate row | Per-window (`24h`, `7d`, `30d`, `90d`) raw `major_seconds` / `critical_seconds` / `total_seconds` plus `stats.incident_count`. The client computes the displayed uptime % from these (weights live in `site/app.js`). |
 | `data/derived/daily-90d.json` | `uptime-data.json` (authoritative per-day `{p, m}` seconds) + `incidents.jsonl` (for the `incident_ids` per day) | 90-day daily bucket grid: one row per component + a synthetic `is_aggregate: true` "All Claude" row. Drives both the hero panel bars and the per-component chart. |
-| `data/derived/component-90d.json` | `incidents.jsonl` filtered to last 90 days + `components.json` for names | Per-component 90-day stats keyed by component id. Populates the incident-filter `<select>` and component-name lookups in the UI. |
 | `data/derived/incidents-index.json` | `incidents.jsonl` | Slim per-incident metadata (`id, name, started_at, resolved_at, impact, components`). Initial payload for the incident list view; full update bodies are pulled lazily from `data/incidents/<id>.json` on card expand (per-id files are emitted by `scripts/split-incidents.mjs` at deploy time, or served JIT by `scripts/serve.mjs` locally). |
 | `data/derived/aggregate-history.json` | `uptime-history.json` | Multi-year monthly calendar, union-merged across components (max `p` and `m` per day, union of related events). Drives the historical uptime section. |
 
@@ -56,7 +55,7 @@ node scripts/fetch.mjs           # idempotent; no-ops if nothing changed
 
 ## Deploy
 
-Fork, enable GitHub Pages (source: GitHub Actions), and the `fetch.yml` cron + `pages.yml` deploy take over.
+Fork, enable GitHub Pages (source: GitHub Actions), and the `fetch.yml` cron + `deploy.yml` deploy take over.
 
 ## License
 
