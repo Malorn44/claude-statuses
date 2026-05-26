@@ -306,7 +306,7 @@ async function main() {
   );
   const aggregateRow = buildRow({
     id: "__aggregate__",
-    name: "All Claude (aggregate)",
+    name: "Claude Platform",
     isAggregate: true,
     startDate: dateKeys[0],
     days: aggregateDays,

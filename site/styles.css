@@ -541,17 +541,22 @@ main {
 .history-month.is-empty {
   min-height: 1px;
 }
+.history-month-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
 .history-month-title {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
-  text-align: center;
   color: var(--fg);
 }
 .history-month-uptime {
-  font-size: 11px;
+  font-size: 14px;
   color: var(--muted);
-  text-align: center;
   font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
 }
 .history-weekdays {
   display: grid;
@@ -581,13 +586,17 @@ main {
   background: transparent;
   cursor: default;
 }
+.history-day.is-future {
+  background: var(--line);
+  cursor: default;
+}
 .history-day.impact-none { background: var(--sev-ok); }
 .history-day.impact-minor { background: var(--sev-minor); }
 .history-day.impact-major { background: var(--sev-major); }
 .history-day.impact-critical { background: var(--sev-critical); }
 .history-day.impact-maintenance { background: var(--sev-maintenance); }
 .history-day.impact-no_data { background: var(--line); }
-.history-day:not(.is-empty):hover {
+.history-day:not(.is-empty):not(.is-future):hover {
   transform: scale(1.15);
   filter: brightness(1.12);
   z-index: 1;
@@ -822,3 +831,4 @@ main {
   color: var(--fg);
 }
 .footer-meta { margin-top: 16px; color: var(--muted); }
+.footer-generated { margin-top: 4px; font-variant-numeric: tabular-nums; }

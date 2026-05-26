@@ -277,11 +277,9 @@ function renderPopoverContent(day, row) {
   const impact = day.impact || "none";
   if (impact === "no_data") {
     return `
-      <div class="bar-popover-head">
-        <span class="impact-pill impact-no_data">${escapeHtml(IMPACT_LABEL.no_data)}</span>
-      </div>
       <div class="bar-popover-date">${escapeHtml(fmtDateLabel(day.date))}</div>
-      <div class="bar-popover-empty">${escapeHtml(row.name)} didn't exist on this day.</div>
+      <div class="bar-popover-lines">${impactPillLine("no_data", null)}</div>
+      <div class="bar-popover-empty">No data for ${escapeHtml(row.name)} on this day.</div>
     `;
   }
 
@@ -486,6 +484,8 @@ function renderHistory() {
     return;
   }
 
+  const todayStr = new Date().toISOString().slice(0, 10);
+
   container.innerHTML = months
     .map((mo) => {
       if (!mo) return `<div class="history-month is-empty"></div>`;
@@ -506,9 +506,13 @@ function renderHistory() {
       }
       for (let d = 1; d <= lastDay; d++) {
         const dateStr = `${mo.year}-${String(mo.month).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
+        if (dateStr > todayStr) {
+          cells.push(`<div class="history-day is-future" data-date="${dateStr}"></div>`);
+          continue;
+        }
         const dayData = dayByDate.get(dateStr) || { impact: "none", major_s: 0, critical_s: 0, maintenance_s: 0, incident_ids: [] };
         cells.push(
-          `<div class="history-day impact-${dayData.impact}" data-month-key="${mo.key}" data-date="${dateStr}" title="${dateStr}"></div>`,
+          `<div class="history-day impact-${dayData.impact}" data-month-key="${mo.key}" data-date="${dateStr}"></div>`,
         );
       }
       return `
@@ -536,22 +540,27 @@ function renderHistory() {
 
 function attachHistoryPopover() {
   const section = document.querySelector(".history-section");
-  const aggRow = { id: "__aggregate__", name: "All Claude (aggregate)", is_aggregate: true };
+  const aggRow = { id: "__aggregate__", name: "Claude Platform", is_aggregate: true };
   const dayMap = new Map();
   for (const mo of state.history?.months || []) {
     for (const d of mo.days) dayMap.set(d.date, d);
   }
-  for (const cell of section.querySelectorAll(".history-day:not(.is-empty)")) {
+  for (const cell of section.querySelectorAll(".history-day:not(.is-empty):not(.is-future)")) {
+    let openTimer;
     const buildContent = () => {
       const day = dayMap.get(cell.dataset.date);
       return day ? renderPopoverContent(day, aggRow) : null;
     };
     cell.addEventListener("pointerenter", () => {
       const html = buildContent();
-      if (html != null) Popover.showAt(cell, html);
+      if (html != null) openTimer = setTimeout(() => Popover.showAt(cell, html), 90);
     });
-    cell.addEventListener("pointerleave", () => Popover.scheduleHide());
+    cell.addEventListener("pointerleave", () => {
+      clearTimeout(openTimer);
+      Popover.scheduleHide();
+    });
     cell.addEventListener("click", (e) => {
+      clearTimeout(openTimer);
       e.stopPropagation();
       const html = buildContent();
       if (html != null) Popover.toggleSticky(cell, html);
