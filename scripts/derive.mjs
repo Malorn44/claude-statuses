@@ -7,10 +7,59 @@ import { loadAllIncidents, DATA_DIR } from "./lib/incident.mjs";
 const DAY_MS = 86_400_000;
 const DAY_SEC = 86400;
 
-function impactFromSeconds(major, critical) {
+function impactFromSeconds(major, critical, minor = 0) {
   if (critical > 0) return "critical";
   if (major > 0) return "major";
+  if (minor > 0) return "minor";
   return "none";
+}
+
+function unionIntervalsToDailySeconds(intervals) {
+  if (intervals.length === 0) return new Map();
+  const sorted = intervals.slice().sort((a, b) => a[0] - b[0]);
+  const merged = [[sorted[0][0], sorted[0][1]]];
+  for (let i = 1; i < sorted.length; i++) {
+    const last = merged[merged.length - 1];
+    if (sorted[i][0] <= last[1]) last[1] = Math.max(last[1], sorted[i][1]);
+    else merged.push([sorted[i][0], sorted[i][1]]);
+  }
+  const byDate = new Map();
+  for (const [start, end] of merged) {
+    const firstDayMs = Math.floor(start / (DAY_SEC * 1000)) * DAY_SEC * 1000;
+    const lastDayMs = Math.floor((end - 1) / (DAY_SEC * 1000)) * DAY_SEC * 1000;
+    for (let d = firstDayMs; d <= lastDayMs; d += DAY_SEC * 1000) {
+      const dateStr = new Date(d).toISOString().slice(0, 10);
+      const dayEnd = d + DAY_SEC * 1000;
+      const secs = Math.round((Math.min(end, dayEnd) - Math.max(start, d)) / 1000);
+      byDate.set(dateStr, (byDate.get(dateStr) || 0) + secs);
+    }
+  }
+  return byDate;
+}
+
+function buildMinorSecondsByComponent(incidents, nowMs) {
+  // Sweep minor-impact incidents into per-(component, date) and aggregate
+  // per-date second buckets, unioning overlapping intervals so concurrent
+  // incidents don't multi-count.
+  const intervalsByComponent = new Map();
+  const aggregateIntervals = [];
+  for (const inc of incidents) {
+    if (inc.impact !== "minor") continue;
+    const startMs = new Date(inc.started_at || inc.created_at).getTime();
+    if (!Number.isFinite(startMs)) continue;
+    const endMs = inc.resolved_at ? new Date(inc.resolved_at).getTime() : nowMs;
+    if (endMs <= startMs) continue;
+    aggregateIntervals.push([startMs, endMs]);
+    for (const c of inc.components || []) {
+      if (!intervalsByComponent.has(c.id)) intervalsByComponent.set(c.id, []);
+      intervalsByComponent.get(c.id).push([startMs, endMs]);
+    }
+  }
+  const perComponent = new Map();
+  for (const [cid, ivs] of intervalsByComponent) {
+    perComponent.set(cid, unionIntervalsToDailySeconds(ivs));
+  }
+  return { perComponent, aggregate: unionIntervalsToDailySeconds(aggregateIntervals) };
 }
 
 function loadJsonIfExists(path) {
@@ -69,6 +118,7 @@ function getDateKeys(uptimeData, todayStartMs) {
 function buildRow({ id, name, isAggregate, days, startDate }) {
   const major_seconds = days.reduce((s, d) => s + d.major_s, 0);
   const critical_seconds = days.reduce((s, d) => s + d.critical_s, 0);
+  const minor_seconds = days.reduce((s, d) => s + (d.minor_s || 0), 0);
   const inWindowDays = startDate
     ? days.filter((d) => d.date >= startDate && d.impact !== "no_data").length
     : days.length;
@@ -80,17 +130,19 @@ function buildRow({ id, name, isAggregate, days, startDate }) {
     window_seconds: rowWindowSec,
     major_seconds,
     critical_seconds,
+    minor_seconds,
     days,
   };
 }
 
-function buildComponentDay(date, compData, incidentsByDate, componentsById, componentId) {
+function buildComponentDay(date, compData, incidentsByDate, componentsById, componentId, minorByDate) {
   if (date < compData.startDate) {
     return {
       date,
       impact: "no_data",
       major_s: 0,
       critical_s: 0,
+      minor_s: 0,
       maintenance_s: 0,
       incident_ids: [],
     };
@@ -98,6 +150,7 @@ function buildComponentDay(date, compData, incidentsByDate, componentsById, comp
   const rec = compData.byDate.get(date) || { p: 0, m: 0, events: [] };
   const major_s = rec.p;
   const critical_s = rec.m;
+  const minor_s = minorByDate?.get(date) || 0;
   const incidentIdSet = new Set();
   for (const e of rec.events) if (e.code) incidentIdSet.add(e.code);
   for (const id of incidentsByDate.get(date) || []) {
@@ -105,15 +158,16 @@ function buildComponentDay(date, compData, incidentsByDate, componentsById, comp
   }
   return {
     date,
-    impact: impactFromSeconds(major_s, critical_s),
+    impact: impactFromSeconds(major_s, critical_s, minor_s),
     major_s,
     critical_s,
+    minor_s,
     maintenance_s: 0,
     incident_ids: [...incidentIdSet],
   };
 }
 
-function buildAggregateDay(date, componentList, perComponent, incidentsByDate) {
+function buildAggregateDay(date, componentList, perComponent, incidentsByDate, aggregateMinorByDate) {
   // Per-tier max across components: same incident often updates multiple
   // components concurrently, so summing would multi-count.
   let major_s = 0;
@@ -128,11 +182,13 @@ function buildAggregateDay(date, componentList, perComponent, incidentsByDate) {
     for (const e of rec.events) if (e.code) incidentSet.add(e.code);
   }
   for (const id of incidentsByDate.get(date) || []) incidentSet.add(id);
+  const minor_s = aggregateMinorByDate?.get(date) || 0;
   return {
     date,
-    impact: impactFromSeconds(major_s, critical_s),
+    impact: impactFromSeconds(major_s, critical_s, minor_s),
     major_s,
     critical_s,
+    minor_s,
     maintenance_s: 0,
     incident_ids: [...incidentSet],
   };
@@ -142,18 +198,20 @@ function aggregateWindow(aggregateRow, daysCount) {
   const sliced = aggregateRow.days.slice(-daysCount);
   const major = sliced.reduce((s, d) => s + d.major_s, 0);
   const critical = sliced.reduce((s, d) => s + d.critical_s, 0);
+  const minor = sliced.reduce((s, d) => s + (d.minor_s || 0), 0);
   const totalSec = sliced.length * DAY_SEC;
   return {
     total_seconds: totalSec,
     major_seconds: major,
     critical_seconds: critical,
+    minor_seconds: minor,
     stats: {
       incident_count: new Set(sliced.flatMap((d) => d.incident_ids)).size,
     },
   };
 }
 
-function buildHistoryMonths(history, earliestStart) {
+function buildHistoryMonths(history, earliestStart, aggregateMinorByDate) {
   const monthsByKey = new Map();
   for (const compEntry of Object.values(history.components || {})) {
     for (const mo of compEntry.months || []) {
@@ -197,16 +255,16 @@ function buildHistoryMonths(history, earliestStart) {
         .sort(([a], [b]) => a.localeCompare(b))
         .map(([date, cell]) => {
           const preExistence = earliestStart && date < earliestStart;
+          const minor_s = aggregateMinorByDate?.get(date) || 0;
           const impact = preExistence
             ? "no_data"
-            : cell.m > 0 ? "critical"
-            : cell.p > 0 ? "major"
-            : "none";
+            : impactFromSeconds(cell.p, cell.m, minor_s);
           return {
             date,
             impact,
             major_s: cell.p,
             critical_s: cell.m,
+            minor_s,
             maintenance_s: 0,
             incident_ids: cell.events.map((e) => e.code),
           };
@@ -230,11 +288,13 @@ async function main() {
   const dateKeys = getDateKeys(uptimeData, todayStartMs);
   const perComponent = buildPerComponent(componentList, uptimeData, dateKeys[0]);
   const { byDate: incidentsByDate, componentsById } = buildIncidentsByDate(incidents, nowMs);
+  const minorSeconds = buildMinorSecondsByComponent(incidents, nowMs);
 
   const componentRows = componentList.map((c) => {
     const compData = perComponent.get(c.id) || { byDate: new Map(), startDate: dateKeys[0] };
+    const minorByDate = minorSeconds.perComponent.get(c.id);
     const days = dateKeys.map((date) =>
-      buildComponentDay(date, compData, incidentsByDate, componentsById, c.id),
+      buildComponentDay(date, compData, incidentsByDate, componentsById, c.id, minorByDate),
     );
     return buildRow({
       id: c.id,
@@ -246,7 +306,7 @@ async function main() {
   });
 
   const aggregateDays = dateKeys.map((date) =>
-    buildAggregateDay(date, componentList, perComponent, incidentsByDate),
+    buildAggregateDay(date, componentList, perComponent, incidentsByDate, minorSeconds.aggregate),
   );
   const aggregateRow = buildRow({
     id: "__aggregate__",
@@ -283,7 +343,7 @@ async function main() {
       const s = e.component?.startDate;
       if (s && (earliestStart == null || s < earliestStart)) earliestStart = s;
     }
-    const months = buildHistoryMonths(history, earliestStart);
+    const months = buildHistoryMonths(history, earliestStart, minorSeconds.aggregate);
     await writeFile(
       join(derivedDir, "aggregate-history.json"),
       JSON.stringify({ generated_at: now.toISOString(), months }, null, 2) + "\n",

@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-05-26T20:20:36.729Z",
+  "generated_at": "2026-05-26T20:37:08.796Z",
   "windows": {
     "24h": {
       "total_seconds": 86400,
       "major_seconds": 0,
       "critical_seconds": 0,
+      "minor_seconds": 12183,
       "stats": {
         "incident_count": 1
       }
@@ -13,6 +14,7 @@
       "total_seconds": 604800,
       "major_seconds": 6733,
       "critical_seconds": 0,
+      "minor_seconds": 22666,
       "stats": {
         "incident_count": 7
       }
@@ -21,6 +23,7 @@
       "total_seconds": 2592000,
       "major_seconds": 46587,
       "critical_seconds": 6522,
+      "minor_seconds": 75593,
       "stats": {
         "incident_count": 43
       }
@@ -29,6 +32,7 @@
       "total_seconds": 7776000,
       "major_seconds": 312183,
       "critical_seconds": 27386,
+      "minor_seconds": 669773,
       "stats": {
         "incident_count": 142
       }

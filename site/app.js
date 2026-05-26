@@ -19,13 +19,19 @@ const STATUSPAGE_BASE = "https://status.claude.com";
 const ICON_EXTERNAL = `<svg class="icon" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="9 7 17 7 17 15"/></svg>`;
 const ICON_EXTERNAL_LG = `<svg class="icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="9 7 17 7 17 15"/></svg>`;
 
-// Empirical match to status.claude.com: partial @ 30%, major @ 100%.
-const IMPACT_WEIGHTS = {
-  minor: 0,
-  major: 0.30,
-  critical: 1.0,
-  maintenance: 0,
-};
+// Test toggle. false matches status.claude.com (minor invisible, partial @ 30%, major @ 100%).
+// true folds minor into the uptime number and shows it as a yellow bar.
+const STRICT_MODE = false;
+
+const IMPACT_WEIGHTS = STRICT_MODE
+  ? { minor: 1.0, major: 1.0, critical: 1.0, maintenance: 0 }
+  : { minor: 0, major: 0.30, critical: 1.0, maintenance: 0 };
+
+function effectiveImpact(day) {
+  const impact = day?.impact || "none";
+  if (!STRICT_MODE && impact === "minor") return "none";
+  return impact;
+}
 
 const VISIBLE_DAYS = 7;
 
@@ -45,7 +51,11 @@ function uptimeFromImpactSeconds(row) {
   if (!denom) return 100;
   const major = row.major_seconds || 0;
   const critical = row.critical_seconds || 0;
-  const down = major * IMPACT_WEIGHTS.major + critical * IMPACT_WEIGHTS.critical;
+  const minor = row.minor_seconds || 0;
+  const down =
+    major * IMPACT_WEIGHTS.major +
+    critical * IMPACT_WEIGHTS.critical +
+    minor * IMPACT_WEIGHTS.minor;
   return Math.max(0, Math.min(100, (1 - down / denom) * 100));
 }
 
@@ -147,7 +157,7 @@ function renderHeroPanelBars() {
   if (last) document.getElementById("hero-panel-axis-end").textContent = fmtDateLabel(last);
   el.innerHTML = aggRow.days
     .map((d, dayIdx) =>
-      `<div class="chart-bar impact-${d.impact}" data-row="${rowIdx}" data-day="${dayIdx}"></div>`,
+      `<div class="chart-bar impact-${effectiveImpact(d)}" data-row="${rowIdx}" data-day="${dayIdx}"></div>`,
     )
     .join("");
   attachBarPopover(state.daily, el);
@@ -166,7 +176,7 @@ function renderChart(daily) {
     if (row.is_aggregate) return "";
     const bars = row.days
       .map((d, dayIdx) =>
-        `<div class="chart-bar impact-${d.impact}" data-row="${rowIdx}" data-day="${dayIdx}"></div>`,
+        `<div class="chart-bar impact-${effectiveImpact(d)}" data-row="${rowIdx}" data-day="${dayIdx}"></div>`,
       )
       .join("");
     return `
@@ -278,7 +288,7 @@ function impactPillLine(impact, durationSec) {
 }
 
 function renderPopoverContent(day, row) {
-  const impact = day.impact || "none";
+  const impact = effectiveImpact(day);
   if (impact === "no_data") {
     return `
       <div class="bar-popover-date">${escapeHtml(fmtDateLabel(day.date))}</div>
@@ -289,15 +299,15 @@ function renderPopoverContent(day, row) {
 
   const partialS = day.major_s || 0;
   const criticalS = day.critical_s || 0;
+  const minorS = day.minor_s || 0;
   const maintS = day.maintenance_s || 0;
 
   const lines = [];
   if (criticalS > 0) lines.push(impactPillLine("critical", criticalS));
   if (partialS > 0) lines.push(impactPillLine("major", partialS));
+  if (STRICT_MODE && minorS > 0) lines.push(impactPillLine("minor", minorS));
   if (maintS > 0) lines.push(impactPillLine("maintenance", maintS));
-  if (lines.length === 0) {
-    lines.push(impactPillLine(impact === "minor" ? "minor" : "none", null));
-  }
+  if (lines.length === 0) lines.push(impactPillLine("none", null));
 
   const uniqIds = [...new Set(day.incident_ids || [])];
   const incidentsList = uniqIds.length
@@ -500,7 +510,11 @@ function renderHistory() {
       const startWeekday = firstOfMonth.getUTCDay();
       const monthSeconds = lastDay * 86400;
       const weighted = mo.days.reduce(
-        (s, d) => s + (d.major_s || 0) * IMPACT_WEIGHTS.major + (d.critical_s || 0) * IMPACT_WEIGHTS.critical,
+        (s, d) =>
+          s +
+          (d.major_s || 0) * IMPACT_WEIGHTS.major +
+          (d.critical_s || 0) * IMPACT_WEIGHTS.critical +
+          (d.minor_s || 0) * IMPACT_WEIGHTS.minor,
         0,
       );
       const uptimePct = monthSeconds > 0 ? (1 - weighted / monthSeconds) * 100 : 100;
@@ -515,9 +529,9 @@ function renderHistory() {
           cells.push(`<div class="history-day is-future" data-date="${dateStr}"></div>`);
           continue;
         }
-        const dayData = dayByDate.get(dateStr) || { impact: "none", major_s: 0, critical_s: 0, maintenance_s: 0, incident_ids: [] };
+        const dayData = dayByDate.get(dateStr) || { impact: "none", major_s: 0, critical_s: 0, minor_s: 0, maintenance_s: 0, incident_ids: [] };
         cells.push(
-          `<div class="history-day impact-${dayData.impact}" data-month-key="${mo.key}" data-date="${dateStr}"></div>`,
+          `<div class="history-day impact-${effectiveImpact(dayData)}" data-month-key="${mo.key}" data-date="${dateStr}"></div>`,
         );
       }
       return `
@@ -650,7 +664,7 @@ function drawCardBars(ctx, days, PAD_X, W) {
   const barsWidth = W - PAD_X * 2;
   const barWidth = (barsWidth - gap * (days.length - 1)) / days.length;
   for (let i = 0; i < days.length; i++) {
-    ctx.fillStyle = impactColor(days[i].impact || "none");
+    ctx.fillStyle = impactColor(effectiveImpact(days[i]));
     const x = PAD_X + i * (barWidth + gap);
     if (ctx.roundRect) {
       ctx.beginPath();
@@ -672,6 +686,7 @@ function drawCardFooter(ctx, W, PAD_X) {
   const legendItems = [
     ["operational", p.ok],
     ["maintenance", p.maintenance],
+    ...(STRICT_MODE ? [["minor", p.minor]] : []),
     ["major", p.major],
     ["critical", p.critical],
   ];
@@ -792,6 +807,7 @@ function pageHistory(delta) {
 }
 
 async function init() {
+  if (STRICT_MODE) document.body.classList.add("is-strict");
   document.getElementById("filter-component").addEventListener("change", renderIncidents);
   document.getElementById("filter-impact").addEventListener("change", renderIncidents);
   document.getElementById("hero-panel-copy").addEventListener("click", copyHeroPanel);
