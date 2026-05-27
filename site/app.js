@@ -810,6 +810,51 @@ function pageHistory(delta) {
   renderHistory();
 }
 
+function patchDailyToToday(daily, aggregate) {
+  const todayStr = new Date().toISOString().slice(0, 10);
+  const shiftedByRow = new Map();
+  for (const row of daily.rows) {
+    const shifted = [];
+    while (row.days[row.days.length - 1]?.date !== todayStr) {
+      const next = new Date(row.days[row.days.length - 1].date);
+      next.setUTCDate(next.getUTCDate() + 1);
+      row.days.push({ date: next.toISOString().slice(0, 10) });
+      shifted.push(row.days.shift());
+    }
+    shiftedByRow.set(row, shifted);
+  }
+  for (const [row, shifted] of shiftedByRow) {
+    for (const d of shifted) {
+      row.window_seconds   -= 86400;
+      row.major_seconds    -= d.major_s || 0;
+      row.critical_seconds -= d.critical_s || 0;
+      row.minor_seconds    -= d.minor_s || 0;
+    }
+  }
+  const agg90d = aggregate?.windows?.["90d"];
+  const aggRow = daily.rows.find((r) => r.is_aggregate);
+  if (agg90d && aggRow) {
+    for (const d of shiftedByRow.get(aggRow) || []) {
+      agg90d.total_seconds    -= 86400;
+      agg90d.major_seconds    -= d.major_s || 0;
+      agg90d.critical_seconds -= d.critical_s || 0;
+      agg90d.minor_seconds -= d.minor_s || 0;
+      agg90d.stats.incident_count -= d.incident_ids.length;
+    }
+  }
+}
+
+function patchHistoryToToday(history) {
+  const todayStr = new Date().toISOString().slice(0, 10);
+  const lastMonth = history.months[history.months.length - 1];
+  if (!lastMonth) return;
+  const next = new Date(lastMonth.days[lastMonth.days.length - 1].date);
+  while (next.toISOString().slice(0, 10) !== todayStr) {
+    next.setUTCDate(next.getUTCDate() + 1);
+    lastMonth.days.push({ date: next.toISOString().slice(0, 10) });
+  }
+}
+
 async function init() {
   if (STRICT_MODE) document.body.classList.add("is-strict");
   document.getElementById("filter-component").addEventListener("change", renderIncidents);
@@ -851,6 +896,9 @@ async function init() {
     state.incidentById = new Map(
       (incidents.incidents || []).map((i) => [i.id, i]),
     );
+
+    patchDailyToToday(state.daily, state.aggregate);
+    if (state.history) patchHistoryToToday(state.history);
 
     renderChart(daily);
     populateComponentFilter(components);
