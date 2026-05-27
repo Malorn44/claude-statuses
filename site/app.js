@@ -46,6 +46,10 @@ const state = {
   historyPage: 0,
 };
 
+function cssVar(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(`--${name}`).trim();
+}
+
 function uptimeFromImpactSeconds(row) {
   const denom = row?.window_seconds ?? row?.total_seconds ?? 0;
   if (!denom) return 100;
@@ -594,16 +598,16 @@ function renderActiveWindow() {
 }
 
 const PANEL_PNG_PALETTE = {
-  bg: "#ffffff",
-  fg: "#1c1917",
-  muted: "#78716c",
-  line: "#e7e5e4",
-  ok: "#16a34a",
-  minor: "#faa72a",
-  major: "#e86235",
-  critical: "#e04343",
-  maintenance: "#2c84db",
-  none: "#d6d3d1",
+  bg: cssVar('card'),
+  fg: cssVar('fg'),
+  muted: cssVar('muted'),
+  line: cssVar('line'),
+  ok: cssVar('sev-ok'),
+  minor: cssVar('sev-minor'),
+  major: cssVar('sev-major'),
+  critical: cssVar('sev-critical'),
+  maintenance: cssVar('sev-maintenance'),
+  none: cssVar('sev-none'),
 };
 
 const PANEL_FONT = `system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif`;
