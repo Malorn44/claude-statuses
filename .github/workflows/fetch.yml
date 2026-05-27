@@ -2,7 +2,7 @@ name: fetch
 
 on:
   schedule:
-    - cron: "0 4 * * *" # Daily at 04:00 UTC
+    - cron: "17 4 * * *" # Daily at 04:17 UTC
   workflow_dispatch:
 
 permissions:
@@ -17,6 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
