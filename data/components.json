@@ -4,15 +4,15 @@
     "name": "Claude",
     "url": "https://status.claude.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-05-27T05:43:07.543Z"
+    "updated_at": "2026-05-27T12:38:51.102Z"
   },
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2023-07-11T17:52:24.275Z",
-      "updated_at": "2026-05-27T05:43:07.448Z",
+      "updated_at": "2026-05-27T09:11:35.868Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -40,9 +40,9 @@
     {
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2023-07-11T17:53:10.880Z",
-      "updated_at": "2026-05-27T05:43:07.466Z",
+      "updated_at": "2026-05-27T09:11:35.904Z",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -55,9 +55,9 @@
     {
       "id": "yyzkbfz2thpt",
       "name": "Claude Code",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-05-22T21:35:29.822Z",
-      "updated_at": "2026-05-27T05:43:07.482Z",
+      "updated_at": "2026-05-27T09:11:35.922Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -70,9 +70,9 @@
     {
       "id": "bpp5gb3hpjcl",
       "name": "Claude Cowork",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2026-04-01T17:39:47.692Z",
-      "updated_at": "2026-05-27T05:43:07.498Z",
+      "updated_at": "2026-05-27T09:11:35.940Z",
       "position": 5,
       "description": null,
       "showcase": true,

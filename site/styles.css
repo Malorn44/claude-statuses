@@ -10,7 +10,7 @@
   --sev-ok: #009e73;
   --sev-minor: #e69f00;
   --sev-major: #d55e00;
-  --sev-critical: #9e1515;
+  --sev-critical: #b52020;
   --sev-maintenance: #2c84db;
 
   --shadow-card: 0 1px 2px rgba(28, 25, 23, 0.04), 0 8px 24px rgba(28, 25, 23, 0.05);
@@ -574,12 +574,12 @@ body.is-strict .strict-only { display: revert; }
 .history-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 3px;
+  gap: 6px;
 }
 .history-day {
-  aspect-ratio: 1;
+  aspect-ratio: 2;
   background: var(--sev-ok);
-  border-radius: 2px;
+  border-radius: 5px;
   cursor: pointer;
   transition: transform 0.1s, filter 0.1s;
   position: relative;

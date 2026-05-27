@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { writeFile, mkdir, stat } from "node:fs/promises";
+import { writeFile, mkdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
 import {
   fetchPath,
@@ -15,101 +15,113 @@ const MONTH_NUMS = {
   July: 7, August: 8, September: 9, October: 10, November: 11, December: 12,
 };
 
-const DAY_MS = 24 * 60 * 60 * 1000;
 const MAX_HISTORY_PAGES = 20;
 
-async function collectAllUptimePages(componentId) {
+function normalizeMonths(months) {
+  return (months || [])
+    .filter((m) => MONTH_NUMS[m.name])
+    .map((m) => ({
+      key: `${m.year}-${String(MONTH_NUMS[m.name]).padStart(2, "0")}`,
+      year: m.year,
+      month: MONTH_NUMS[m.name],
+      name: m.name,
+      uptime_percentage: m.uptime_percentage,
+      days: (m.days || []).map((d) => ({
+        date: d.date,
+        p: d.p || 0,
+        m: d.m || 0,
+        events: d.events || [],
+      })),
+    }));
+}
+
+// Walks pages 1..maxPages of /uptime/<id>.json, deduping by month key.
+// Stops early on error, empty response, or a page with no new months.
+async function walkUptimePages(componentId, maxPages) {
   const seen = new Map();
-  for (let page = 1; page <= MAX_HISTORY_PAGES; page++) {
-    let data;
+  for (let page = 1; page <= maxPages; page++) {
+    let months;
     try {
-      data = await fetchPath(uptimeJsonPath(componentId, page));
+      const data = await fetchPath(uptimeJsonPath(componentId, page));
+      months = normalizeMonths(data.months);
     } catch {
       break;
     }
-    const months = data.months || [];
     if (!months.length) break;
-    let anyNew = false;
-    for (const m of months) {
-      const mnum = MONTH_NUMS[m.name];
-      if (!mnum) continue;
-      const key = `${m.year}-${String(mnum).padStart(2, "0")}`;
-      if (seen.has(key)) continue;
-      anyNew = true;
-      seen.set(key, {
-        key,
-        year: m.year,
-        month: mnum,
-        name: m.name,
-        uptime_percentage: m.uptime_percentage,
-        days: (m.days || []).map((d) => ({
-          date: d.date,
-          p: d.p || 0,
-          m: d.m || 0,
-          events: d.events || [],
-        })),
-      });
-    }
-    if (!anyNew) break;
+    const fresh = months.filter((m) => !seen.has(m.key));
+    if (!fresh.length) break;
+    for (const m of fresh) seen.set(m.key, m);
   }
   return [...seen.values()].sort((a, b) => a.key.localeCompare(b.key));
 }
 
-async function isStale(path, maxAgeMs) {
+// Union merge by month key. Fresh entries overwrite existing ones for the
+// same month; months only on one side are preserved.
+function mergeMonths(existing, fresh) {
+  const byKey = new Map((existing || []).map((m) => [m.key, m]));
+  for (const m of fresh) byKey.set(m.key, m);
+  return [...byKey.values()].sort((a, b) => a.key.localeCompare(b.key));
+}
+
+async function readJsonOrNull(path) {
   try {
-    const s = await stat(path);
-    return Date.now() - s.mtimeMs > maxAgeMs;
+    return JSON.parse(await readFile(path, "utf8"));
   } catch {
-    return true;
+    return null;
   }
 }
 
+function writeJson(path, obj) {
+  return writeFile(path, JSON.stringify(obj, null, 2) + "\n");
+}
+
+async function refreshUptimeHistory(components, { full }) {
+  const path = join(DATA_DIR, "uptime-history.json");
+  const existing = await readJsonOrNull(path);
+  const maxPages = full ? MAX_HISTORY_PAGES : 1;
+  const out = { generated_at: new Date().toISOString(), components: {} };
+  for (const c of components) {
+    const existingMonths = existing?.components?.[c.id]?.months;
+    const fresh = await walkUptimePages(c.id, maxPages);
+    out.components[c.id] = {
+      id: c.id,
+      name: c.name,
+      months: mergeMonths(existingMonths, fresh),
+    };
+  }
+  await writeJson(path, out);
+  console.log(
+    `uptime-history refreshed (${full ? "full back-walk" : "page 1 only"}) for ${components.length} components`,
+  );
+}
+
+async function refreshIncidents(incidents) {
+  let changed = 0;
+  for (const inc of incidents) {
+    if ((await mergeIncident(inc)).changed) changed++;
+  }
+  const total = await flushIncidents();
+  console.log(
+    `fetch ok: ${incidents.length} incidents seen, ${changed} changed, ${total} total on disk`,
+  );
+}
+
 async function main() {
-  const now = new Date();
   await mkdir(DATA_DIR, { recursive: true });
 
   const [incidents, components] = await Promise.all([
     fetchPath(INCIDENTS),
     fetchPath(COMPONENTS),
   ]);
-
-  await writeFile(
-    join(DATA_DIR, "components.json"),
-    JSON.stringify(components, null, 2) + "\n",
-  );
+  await writeJson(join(DATA_DIR, "components.json"), components);
 
   const uptimeData = await fetchHomepageUptimeData();
-  if (uptimeData) {
-    await writeFile(
-      join(DATA_DIR, "uptime-data.json"),
-      JSON.stringify(uptimeData, null, 2) + "\n",
-    );
-  }
+  if (uptimeData) await writeJson(join(DATA_DIR, "uptime-data.json"), uptimeData);
 
-  const historyPath = join(DATA_DIR, "uptime-history.json");
-  if (await isStale(historyPath, DAY_MS)) {
-    const history = { generated_at: now.toISOString(), components: {} };
-    for (const c of components.components || []) {
-      history.components[c.id] = {
-        id: c.id,
-        name: c.name,
-        months: await collectAllUptimePages(c.id),
-      };
-    }
-    await writeFile(historyPath, JSON.stringify(history, null, 2) + "\n");
-    console.log(`uptime-history refreshed for ${Object.keys(history.components).length} components`);
-  }
-
-  const merged = [];
-  for (const inc of incidents.incidents || []) {
-    merged.push(await mergeIncident(inc));
-  }
-
-  const changed = merged.filter((r) => r.changed).length;
-  const total = await flushIncidents();
-  console.log(
-    `fetch ok: ${merged.length} incidents seen, ${changed} changed, ${total} total on disk`,
-  );
+  await refreshUptimeHistory(components.components || [], {
+    full: process.env.FULL_HISTORY === "1",
+  });
+  await refreshIncidents(incidents.incidents || []);
 }
 
 main().catch((e) => {

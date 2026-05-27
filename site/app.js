@@ -540,8 +540,10 @@ function renderHistory() {
       }
       return `
         <div class="history-month">
-          <div class="history-month-title">${escapeHtml(MONTH_FULL_NAME[mo.month])} ${mo.year}</div>
-          <div class="history-month-uptime">${fmtPct(uptimePct)}% uptime</div>
+          <div class="history-header">
+            <div class="history-month-title">${escapeHtml(MONTH_FULL_NAME[mo.month])} ${mo.year}</div>
+            <div class="history-month-uptime">${fmtPct(uptimePct)}% uptime</div>
+          </div>
           <div class="history-weekdays">${WEEKDAYS.map((w) => `<span>${w}</span>`).join("")}</div>
           <div class="history-grid">${cells.join("")}</div>
         </div>

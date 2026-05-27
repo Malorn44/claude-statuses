@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T12:12:52.583Z",
+  "generated_at": "2026-05-27T12:47:08.381Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -14266,7 +14266,7 @@
           "year": 2026,
           "month": 5,
           "name": "May",
-          "uptime_percentage": 0.9953063568376069,
+          "uptime_percentage": 0.9948137860082304,
           "days": [
             {
               "date": "2026-05-01T00:00:00.000Z",
@@ -14555,9 +14555,19 @@
               "events": []
             },
             {
-              "p": 0,
+              "date": "2026-05-27T00:00:00.000Z",
+              "p": 5182,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "fw96fnc5bw45"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "rtr7z82cqmp9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -27955,7 +27965,7 @@
           "year": 2026,
           "month": 5,
           "name": "May",
-          "uptime_percentage": 0.996662126068376,
+          "uptime_percentage": 0.9967857510288065,
           "days": [
             {
               "date": "2026-05-01T00:00:00.000Z",
@@ -28198,6 +28208,7 @@
               "events": []
             },
             {
+              "date": "2026-05-27T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -42028,7 +42039,7 @@
           "year": 2026,
           "month": 5,
           "name": "May",
-          "uptime_percentage": 0.9958030181623931,
+          "uptime_percentage": 0.9952920524691358,
           "days": [
             {
               "date": "2026-05-01T00:00:00.000Z",
@@ -42301,9 +42312,19 @@
               "events": []
             },
             {
-              "p": 0,
+              "date": "2026-05-27T00:00:00.000Z",
+              "p": 5182,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "fw96fnc5bw45"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "rtr7z82cqmp9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -54783,7 +54804,7 @@
           "year": 2026,
           "month": 5,
           "name": "May",
-          "uptime_percentage": 0.9951485042735043,
+          "uptime_percentage": 0.9946617798353908,
           "days": [
             {
               "date": "2026-05-01T00:00:00.000Z",
@@ -55090,9 +55111,19 @@
               ]
             },
             {
-              "p": 0,
+              "date": "2026-05-27T00:00:00.000Z",
+              "p": 5182,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "fw96fnc5bw45"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "rtr7z82cqmp9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -66558,7 +66589,7 @@
           "year": 2026,
           "month": 5,
           "name": "May",
-          "uptime_percentage": 0.9965090811965811,
+          "uptime_percentage": 0.9959719650205762,
           "days": [
             {
               "date": "2026-05-01T00:00:00.000Z",
@@ -66809,9 +66840,19 @@
               "events": []
             },
             {
-              "p": 0,
+              "date": "2026-05-27T00:00:00.000Z",
+              "p": 5182,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "fw96fnc5bw45"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "rtr7z82cqmp9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -78250,7 +78291,7 @@
           "year": 2026,
           "month": 5,
           "name": "May",
-          "uptime_percentage": 0.9996992521367521,
+          "uptime_percentage": 0.999710390946502,
           "days": [
             {
               "date": "2026-05-01T00:00:00.000Z",
@@ -78414,6 +78455,7 @@
               "events": []
             },
             {
+              "date": "2026-05-27T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []

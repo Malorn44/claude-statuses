@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T05:50:35.558Z",
+  "generated_at": "2026-05-27T12:12:42.708Z",
   "months": [
     {
       "key": "2023-07",
@@ -11017,6 +11017,18 @@
           "maintenance_s": 0,
           "incident_ids": [
             "fl8sx824x72r"
+          ]
+        },
+        {
+          "date": "2026-05-27",
+          "impact": "major",
+          "major_s": 5182,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": [
+            "fw96fnc5bw45",
+            "rtr7z82cqmp9"
           ]
         }
       ]
