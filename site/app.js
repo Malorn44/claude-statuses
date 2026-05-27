@@ -450,6 +450,19 @@ async function onToggleIncident(li) {
   if (!wasOpen) return;
   const updatesEl = li.querySelector(".incident-updates");
   if (updatesEl.dataset.loaded === "true") return;
+
+  // skeleton
+  updatesEl.innerHTML = `
+    <div class="update skeleton-update">
+      <div class="skeleton skeleton-meta"></div>
+      <div class="skeleton skeleton-body"></div>
+    </div>
+    <div class="update skeleton-update">
+      <div class="skeleton skeleton-meta"></div>
+      <div class="skeleton skeleton-body skeleton-body--short"></div>
+    </div>
+  `;
+
   try {
     const full = await loadJson(`./data/incidents/${li.dataset.id}.json`);
     const chronological = (full.incident_updates || [])

@@ -55,6 +55,33 @@ a:hover {
   text-decoration: underline;
 }
 
+.skeleton {
+  background: linear-gradient(90deg, var(--line) 25%, var(--card) 50%, var(--line) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 4s infinite;
+  border-radius: 4px;
+}
+
+.skeleton-meta {
+  height: 12px;
+  width: 140px;
+  margin-bottom: 8px;
+}
+
+.skeleton-body {
+  height: 12px;
+  width: 90%;
+}
+
+.skeleton-body--short {
+  width: 60%;
+}
+
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
 .wrap {
   max-width: 1080px;
   margin: 0 auto;
