@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T08:11:25.093Z",
+  "generated_at": "2026-05-29T08:08:45.458Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -14266,7 +14266,7 @@
           "year": 2026,
           "month": 5,
           "name": "May",
-          "uptime_percentage": 0.994999007936508,
+          "uptime_percentage": 0.9947939415708812,
           "days": [
             {
               "date": "2026-05-01T00:00:00.000Z",
@@ -14571,11 +14571,17 @@
             },
             {
               "date": "2026-05-28T00:00:00.000Z",
-              "p": 0,
+              "p": 3153,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "0w1bqsc12lt8"
+                }
+              ]
             },
             {
+              "date": "2026-05-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -27966,7 +27972,7 @@
           "year": 2026,
           "month": 5,
           "name": "May",
-          "uptime_percentage": 0.9969005456349206,
+          "uptime_percentage": 0.996910320881226,
           "days": [
             {
               "date": "2026-05-01T00:00:00.000Z",
@@ -28216,11 +28222,12 @@
             },
             {
               "date": "2026-05-28T00:00:00.000Z",
-              "p": 0,
+              "p": 811,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-05-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -42041,7 +42048,7 @@
           "year": 2026,
           "month": 5,
           "name": "May",
-          "uptime_percentage": 0.9954601934523809,
+          "uptime_percentage": 0.9953363266283525,
           "days": [
             {
               "date": "2026-05-01T00:00:00.000Z",
@@ -42330,11 +42337,17 @@
             },
             {
               "date": "2026-05-28T00:00:00.000Z",
-              "p": 0,
+              "p": 2342,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "0w1bqsc12lt8"
+                }
+              ]
             },
             {
+              "date": "2026-05-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -54807,7 +54820,7 @@
           "year": 2026,
           "month": 5,
           "name": "May",
-          "uptime_percentage": 0.9948524305555555,
+          "uptime_percentage": 0.9947495210727969,
           "days": [
             {
               "date": "2026-05-01T00:00:00.000Z",
@@ -55130,11 +55143,17 @@
             },
             {
               "date": "2026-05-28T00:00:00.000Z",
-              "p": 0,
+              "p": 2342,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "0w1bqsc12lt8"
+                }
+              ]
             },
             {
+              "date": "2026-05-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -66593,7 +66612,7 @@
           "year": 2026,
           "month": 5,
           "name": "May",
-          "uptime_percentage": 0.9961158234126984,
+          "uptime_percentage": 0.9959693486590039,
           "days": [
             {
               "date": "2026-05-01T00:00:00.000Z",
@@ -66860,11 +66879,17 @@
             },
             {
               "date": "2026-05-28T00:00:00.000Z",
-              "p": 0,
+              "p": 2342,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "0w1bqsc12lt8"
+                }
+              ]
             },
             {
+              "date": "2026-05-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -78296,7 +78321,7 @@
           "year": 2026,
           "month": 5,
           "name": "May",
-          "uptime_percentage": 0.9997207341269841,
+          "uptime_percentage": 0.9997303639846744,
           "days": [
             {
               "date": "2026-05-01T00:00:00.000Z",
@@ -78472,6 +78497,7 @@
               "events": []
             },
             {
+              "date": "2026-05-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []

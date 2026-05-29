@@ -1,6 +1,41 @@
 {
-  "generated_at": "2026-05-28T08:11:26.994Z",
+  "generated_at": "2026-05-29T08:08:47.109Z",
   "incidents": [
+    {
+      "id": "8q00jfj4yfv6",
+      "name": "Billing and subscription management issues",
+      "impact": "minor",
+      "created_at": "2026-05-28T19:04:04.091Z",
+      "started_at": "2026-05-28T19:04:04.082Z",
+      "resolved_at": "2026-05-28T19:23:57.798Z",
+      "components": []
+    },
+    {
+      "id": "0w1bqsc12lt8",
+      "name": "Elevated errors on Claude Opus 4.7",
+      "impact": "major",
+      "created_at": "2026-05-28T08:38:05.067Z",
+      "started_at": "2026-05-28T08:38:05.057Z",
+      "resolved_at": "2026-05-28T09:17:07.377Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "rtr7z82cqmp9",
       "name": "Elevated errors on Claude Opus 4.7",
