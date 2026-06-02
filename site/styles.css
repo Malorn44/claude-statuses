@@ -570,6 +570,10 @@ body.is-strict .strict-only { display: revert; }
 .history-month.is-empty {
   min-height: 1px;
 }
+.history-month > * {
+  display: flex;
+  flex-direction: row;
+}
 .history-month-header {
   display: flex;
   align-items: baseline;

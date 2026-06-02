@@ -516,7 +516,7 @@ function renderHistory() {
     return;
   }
 
-  const todayStr = new Date().toISOString().slice(0, 10);
+  const todayStr = localDateKey(new Date());
 
   container.innerHTML = months
     .map((mo) => {
@@ -826,7 +826,7 @@ function pageHistory(delta) {
 }
 
 function patchDailyToToday(daily, aggregate) {
-  const todayStr = new Date().toISOString().slice(0, 10);
+  const todayStr = localDateKey(new Date());
   const shiftedByRow = new Map();
   for (const row of daily.rows) {
     const shifted = [];
@@ -860,7 +860,7 @@ function patchDailyToToday(daily, aggregate) {
 }
 
 function patchHistoryToToday(history) {
-  const todayStr = new Date().toISOString().slice(0, 10);
+  const todayStr = localDateKey(new Date());
   const lastMonth = history.months[history.months.length - 1];
   if (!lastMonth) return;
   const next = new Date(lastMonth.days[lastMonth.days.length - 1].date);
