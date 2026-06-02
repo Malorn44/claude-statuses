@@ -612,6 +612,36 @@ function renderActiveWindow() {
   renderHeroPanel(agg);
 }
 
+function setupScrollButton() {
+  const btn = document.getElementById("scroll-to-bottom");
+  if (!btn) return;
+
+  function isAtBottom() {
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    const viewport = window.innerHeight;
+    const fullHeight = document.documentElement.scrollHeight;
+    return scrollTop + viewport >= fullHeight - 50;
+  }
+
+  function updateButton() {
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    const show = scrollTop > 200 && !isAtBottom();
+    btn.style.display = show ? "flex" : "none";
+  }
+
+  window.addEventListener("scroll", updateButton, { passive: true });
+  window.addEventListener("resize", updateButton);
+
+  btn.addEventListener("click", () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
+  });
+
+  updateButton();
+}
+
 const PANEL_PNG_PALETTE = {
   bg: cssVar('card'),
   fg: cssVar('fg'),
@@ -923,6 +953,8 @@ async function init() {
 
     document.getElementById("generated-at").textContent =
       `Last updated ${new Date(aggregate.generated_at).toLocaleString()}.`;
+
+    setupScrollButton();
   } catch (e) {
     console.error(e);
     document.getElementById("hero-panel-title").textContent = "Data not yet available";
