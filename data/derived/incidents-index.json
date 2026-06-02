@@ -1,6 +1,118 @@
 {
-  "generated_at": "2026-06-01T09:34:57.605Z",
+  "generated_at": "2026-06-02T08:45:50.353Z",
   "incidents": [
+    {
+      "id": "zkr25thltwc9",
+      "name": "Elevated errors across multiple models",
+      "impact": "major",
+      "created_at": "2026-06-02T06:04:59.243Z",
+      "started_at": "2026-06-02T06:04:59.234Z",
+      "resolved_at": null,
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        }
+      ]
+    },
+    {
+      "id": "vxp8fdrckj7q",
+      "name": "Degraded performance for Claude Sonnet 4.6",
+      "impact": "minor",
+      "created_at": "2026-06-01T18:28:42.394Z",
+      "started_at": "2026-06-01T18:28:42.370Z",
+      "resolved_at": "2026-06-01T19:06:53.632Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "8p6f4r16xxmp",
+      "name": "Elevated errors on Claude Sonnet 4.6",
+      "impact": "minor",
+      "created_at": "2026-06-01T14:40:22.947Z",
+      "started_at": "2026-06-01T14:40:22.935Z",
+      "resolved_at": "2026-06-01T15:41:10.741Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "qc88nvqjv99m",
+      "name": "Elevated errors for Claude Opus 4.7",
+      "impact": "minor",
+      "created_at": "2026-06-01T12:15:34.802Z",
+      "started_at": "2026-06-01T12:15:34.793Z",
+      "resolved_at": "2026-06-01T13:33:56.047Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "z4pz8z34hr4x",
       "name": "Sonnet 4.5 elevated errors",

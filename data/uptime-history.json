@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T09:34:55.530Z",
+  "generated_at": "2026-06-02T08:45:48.613Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -14620,7 +14620,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.9867986111111111,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -14634,13 +14634,31 @@
                 {
                   "name": "Opus 4.7 elevated errors",
                   "code": "rk70zc69m54p"
+                },
+                {
+                  "name": "Elevated errors on Claude Sonnet 4.6",
+                  "code": "8p6f4r16xxmp"
+                },
+                {
+                  "name": "Degraded performance for Claude Sonnet 4.6",
+                  "code": "vxp8fdrckj7q"
+                },
+                {
+                  "name": "Elevated errors for Claude Opus 4.7",
+                  "code": "qc88nvqjv99m"
                 }
               ]
             },
             {
-              "p": 0,
+              "date": "2026-06-02T00:00:00.000Z",
+              "p": 7604,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors across multiple models",
+                  "code": "zkr25thltwc9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -28452,7 +28470,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.9867986111111111,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -28466,13 +28484,27 @@
                 {
                   "name": "Opus 4.7 elevated errors",
                   "code": "rk70zc69m54p"
+                },
+                {
+                  "name": "Elevated errors on Claude Sonnet 4.6",
+                  "code": "8p6f4r16xxmp"
+                },
+                {
+                  "name": "Degraded performance for Claude Sonnet 4.6",
+                  "code": "vxp8fdrckj7q"
                 }
               ]
             },
             {
-              "p": 0,
+              "date": "2026-06-02T00:00:00.000Z",
+              "p": 7604,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors across multiple models",
+                  "code": "zkr25thltwc9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -42748,7 +42780,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.9867986111111111,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -42762,13 +42794,31 @@
                 {
                   "name": "Opus 4.7 elevated errors",
                   "code": "rk70zc69m54p"
+                },
+                {
+                  "name": "Elevated errors on Claude Sonnet 4.6",
+                  "code": "8p6f4r16xxmp"
+                },
+                {
+                  "name": "Degraded performance for Claude Sonnet 4.6",
+                  "code": "vxp8fdrckj7q"
+                },
+                {
+                  "name": "Elevated errors for Claude Opus 4.7",
+                  "code": "qc88nvqjv99m"
                 }
               ]
             },
             {
-              "p": 0,
+              "date": "2026-06-02T00:00:00.000Z",
+              "p": 7604,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors across multiple models",
+                  "code": "zkr25thltwc9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -55730,7 +55780,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.986796875,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -55744,13 +55794,31 @@
                 {
                   "name": "Opus 4.7 elevated errors",
                   "code": "rk70zc69m54p"
+                },
+                {
+                  "name": "Elevated errors on Claude Sonnet 4.6",
+                  "code": "8p6f4r16xxmp"
+                },
+                {
+                  "name": "Degraded performance for Claude Sonnet 4.6",
+                  "code": "vxp8fdrckj7q"
+                },
+                {
+                  "name": "Elevated errors for Claude Opus 4.7",
+                  "code": "qc88nvqjv99m"
                 }
               ]
             },
             {
-              "p": 0,
+              "date": "2026-06-02T00:00:00.000Z",
+              "p": 7605,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors across multiple models",
+                  "code": "zkr25thltwc9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -67648,9 +67716,23 @@
               "date": "2026-06-01T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Sonnet 4.6",
+                  "code": "8p6f4r16xxmp"
+                },
+                {
+                  "name": "Degraded performance for Claude Sonnet 4.6",
+                  "code": "vxp8fdrckj7q"
+                },
+                {
+                  "name": "Elevated errors for Claude Opus 4.7",
+                  "code": "qc88nvqjv99m"
+                }
+              ]
             },
             {
+              "date": "2026-06-02T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -79421,6 +79503,7 @@
               "events": []
             },
             {
+              "date": "2026-06-02T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
