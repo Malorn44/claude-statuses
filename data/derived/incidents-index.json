@@ -1,13 +1,53 @@
 {
-  "generated_at": "2026-06-02T08:45:50.353Z",
+  "generated_at": "2026-06-03T09:03:35.408Z",
   "incidents": [
     {
+      "id": "thp2kyjx60qn",
+      "name": "Elevated errors on Opus 4.7",
+      "impact": "minor",
+      "created_at": "2026-06-03T07:10:01.269Z",
+      "started_at": "2026-06-03T07:10:01.257Z",
+      "resolved_at": "2026-06-03T07:38:04.935Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        }
+      ]
+    },
+    {
+      "id": "0w1blp7cngrr",
+      "name": "Issue affecting some Claude Code services",
+      "impact": "major",
+      "created_at": "2026-06-03T04:17:04.989Z",
+      "started_at": "2026-06-03T04:17:04.977Z",
+      "resolved_at": "2026-06-03T07:36:48.555Z",
+      "components": [
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        }
+      ]
+    },
+    {
       "id": "zkr25thltwc9",
-      "name": "Elevated errors across multiple models",
+      "name": "Elevated errors on multiple models",
       "impact": "major",
       "created_at": "2026-06-02T06:04:59.243Z",
       "started_at": "2026-06-02T06:04:59.234Z",
-      "resolved_at": null,
+      "resolved_at": "2026-06-02T11:49:06.139Z",
       "components": [
         {
           "id": "rwppv331jlwc",

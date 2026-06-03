@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T08:45:48.613Z",
+  "generated_at": "2026-06-03T09:03:33.592Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -14620,7 +14620,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9867986111111111,
+          "uptime_percentage": 0.9831076388888889,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -14651,19 +14651,25 @@
             },
             {
               "date": "2026-06-02T00:00:00.000Z",
-              "p": 7604,
+              "p": 14595,
               "m": 0,
               "events": [
                 {
-                  "name": "Elevated errors across multiple models",
+                  "name": "Elevated errors on multiple models",
                   "code": "zkr25thltwc9"
                 }
               ]
             },
             {
+              "date": "2026-06-03T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Opus 4.7",
+                  "code": "thp2kyjx60qn"
+                }
+              ]
             },
             {
               "p": 0,
@@ -28470,7 +28476,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9867986111111111,
+          "uptime_percentage": 0.9831076388888889,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -28497,19 +28503,25 @@
             },
             {
               "date": "2026-06-02T00:00:00.000Z",
-              "p": 7604,
+              "p": 14595,
               "m": 0,
               "events": [
                 {
-                  "name": "Elevated errors across multiple models",
+                  "name": "Elevated errors on multiple models",
                   "code": "zkr25thltwc9"
                 }
               ]
             },
             {
+              "date": "2026-06-03T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Opus 4.7",
+                  "code": "thp2kyjx60qn"
+                }
+              ]
             },
             {
               "p": 0,
@@ -42780,7 +42792,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9867986111111111,
+          "uptime_percentage": 0.9831076388888889,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -42811,19 +42823,25 @@
             },
             {
               "date": "2026-06-02T00:00:00.000Z",
-              "p": 7604,
+              "p": 14595,
               "m": 0,
               "events": [
                 {
-                  "name": "Elevated errors across multiple models",
+                  "name": "Elevated errors on multiple models",
                   "code": "zkr25thltwc9"
                 }
               ]
             },
             {
+              "date": "2026-06-03T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Opus 4.7",
+                  "code": "thp2kyjx60qn"
+                }
+              ]
             },
             {
               "p": 0,
@@ -55780,7 +55798,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.986796875,
+          "uptime_percentage": 0.9710983796296296,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -55811,19 +55829,29 @@
             },
             {
               "date": "2026-06-02T00:00:00.000Z",
-              "p": 7605,
+              "p": 14595,
               "m": 0,
               "events": [
                 {
-                  "name": "Elevated errors across multiple models",
+                  "name": "Elevated errors on multiple models",
                   "code": "zkr25thltwc9"
                 }
               ]
             },
             {
-              "p": 0,
+              "date": "2026-06-03T00:00:00.000Z",
+              "p": 10376,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Issue affecting some Claude Code services",
+                  "code": "0w1blp7cngrr"
+                },
+                {
+                  "name": "Elevated errors on Opus 4.7",
+                  "code": "thp2kyjx60qn"
+                }
+              ]
             },
             {
               "p": 0,
@@ -67738,6 +67766,7 @@
               "events": []
             },
             {
+              "date": "2026-06-03T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -79509,6 +79538,7 @@
               "events": []
             },
             {
+              "date": "2026-06-03T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
