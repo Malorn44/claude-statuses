@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T07:24:26.202Z",
+  "generated_at": "2026-06-07T07:14:19.800Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -14620,7 +14620,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9875920138888888,
+          "uptime_percentage": 0.9893645833333332,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -14687,12 +14687,27 @@
               "date": "2026-06-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Opus 4.8 degraded service",
+                  "code": "b1gzqlnpxxxk"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 4.8",
+                  "code": "6ptd5skgmy3v"
+                }
+              ]
             },
             {
+              "date": "2026-06-07T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for multiple models",
+                  "code": "s4pq658bt69h"
+                }
+              ]
             },
             {
               "p": 0,
@@ -28479,7 +28494,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9915538194444444,
+          "uptime_percentage": 0.9927604166666667,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -28542,9 +28557,15 @@
               "date": "2026-06-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Opus 4.8 degraded service",
+                  "code": "b1gzqlnpxxxk"
+                }
+              ]
             },
             {
+              "date": "2026-06-07T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -42798,7 +42819,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9875920138888888,
+          "uptime_percentage": 0.9893645833333332,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -42865,12 +42886,27 @@
               "date": "2026-06-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Opus 4.8 degraded service",
+                  "code": "b1gzqlnpxxxk"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 4.8",
+                  "code": "6ptd5skgmy3v"
+                }
+              ]
             },
             {
+              "date": "2026-06-07T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for multiple models",
+                  "code": "s4pq658bt69h"
+                }
+              ]
             },
             {
               "p": 0,
@@ -55807,7 +55843,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9815873842592593,
+          "uptime_percentage": 0.984217757936508,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -55878,12 +55914,27 @@
               "date": "2026-06-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Opus 4.8 degraded service",
+                  "code": "b1gzqlnpxxxk"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 4.8",
+                  "code": "6ptd5skgmy3v"
+                }
+              ]
             },
             {
+              "date": "2026-06-07T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for multiple models",
+                  "code": "s4pq658bt69h"
+                }
+              ]
             },
             {
               "p": 0,
@@ -67750,7 +67801,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9960381944444444,
+          "uptime_percentage": 0.9966041666666666,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -67799,12 +67850,23 @@
               "date": "2026-06-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.8",
+                  "code": "6ptd5skgmy3v"
+                }
+              ]
             },
             {
+              "date": "2026-06-07T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for multiple models",
+                  "code": "s4pq658bt69h"
+                }
+              ]
             },
             {
               "p": 0,
@@ -79577,6 +79639,7 @@
               "events": []
             },
             {
+              "date": "2026-06-07T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
