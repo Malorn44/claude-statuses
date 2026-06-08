@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T08:01:23.950Z",
+  "generated_at": "2026-06-08T09:02:26.085Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -14620,7 +14620,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9893645833333332,
+          "uptime_percentage": 0.9906940104166666,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -14704,12 +14704,17 @@
               "m": 0,
               "events": [
                 {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "1h2k3ryt64wl"
+                },
+                {
                   "name": "Degraded performance for multiple models",
                   "code": "s4pq658bt69h"
                 }
               ]
             },
             {
+              "date": "2026-06-08T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -28494,7 +28499,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9927604166666667,
+          "uptime_percentage": 0.9936653645833333,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -28568,9 +28573,15 @@
               "date": "2026-06-07T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "1h2k3ryt64wl"
+                }
+              ]
             },
             {
+              "date": "2026-06-08T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -42819,7 +42830,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9893645833333332,
+          "uptime_percentage": 0.9906940104166666,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -42903,12 +42914,17 @@
               "m": 0,
               "events": [
                 {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "1h2k3ryt64wl"
+                },
+                {
                   "name": "Degraded performance for multiple models",
                   "code": "s4pq658bt69h"
                 }
               ]
             },
             {
+              "date": "2026-06-08T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -55843,7 +55859,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.984217757936508,
+          "uptime_percentage": 0.9861905381944445,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -55931,12 +55947,17 @@
               "m": 0,
               "events": [
                 {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "1h2k3ryt64wl"
+                },
+                {
                   "name": "Degraded performance for multiple models",
                   "code": "s4pq658bt69h"
                 }
               ]
             },
             {
+              "date": "2026-06-08T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -67801,7 +67822,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9966041666666666,
+          "uptime_percentage": 0.9970286458333333,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -67869,6 +67890,7 @@
               ]
             },
             {
+              "date": "2026-06-08T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -79645,6 +79667,7 @@
               "events": []
             },
             {
+              "date": "2026-06-08T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
