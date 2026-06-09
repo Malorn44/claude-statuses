@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T09:02:26.085Z",
+  "generated_at": "2026-06-09T08:00:28.275Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -14620,7 +14620,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9906940104166666,
+          "uptime_percentage": 0.9917280092592592,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -14717,12 +14717,35 @@
               "date": "2026-06-08T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "3n1flr3mnpgl"
+                },
+                {
+                  "name": "Elevated errors on Claude Haiku 4.5",
+                  "code": "829kf0y1f7pn"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "8b7xx9g8rkhm"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 4.8",
+                  "code": "1gjynxqv85rk"
+                }
+              ]
             },
             {
+              "date": "2026-06-09T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.8 (Fast Mode)",
+                  "code": "cmsxwks3fzd9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -28499,7 +28522,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9936653645833333,
+          "uptime_percentage": 0.994369212962963,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -28584,9 +28607,15 @@
               "date": "2026-06-08T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.8",
+                  "code": "1gjynxqv85rk"
+                }
+              ]
             },
             {
+              "date": "2026-06-09T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -42830,7 +42859,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9906940104166666,
+          "uptime_percentage": 0.9917280092592592,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -42927,12 +42956,31 @@
               "date": "2026-06-08T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "3n1flr3mnpgl"
+                },
+                {
+                  "name": "Elevated errors on Claude Haiku 4.5",
+                  "code": "829kf0y1f7pn"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "8b7xx9g8rkhm"
+                }
+              ]
             },
             {
+              "date": "2026-06-09T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.8 (Fast Mode)",
+                  "code": "cmsxwks3fzd9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -55859,7 +55907,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9861905381944445,
+          "uptime_percentage": 0.9877249228395062,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -55960,12 +56008,35 @@
               "date": "2026-06-08T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "3n1flr3mnpgl"
+                },
+                {
+                  "name": "Elevated errors on Claude Haiku 4.5",
+                  "code": "829kf0y1f7pn"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "8b7xx9g8rkhm"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 4.8",
+                  "code": "1gjynxqv85rk"
+                }
+              ]
             },
             {
+              "date": "2026-06-09T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.8 (Fast Mode)",
+                  "code": "cmsxwks3fzd9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -67822,7 +67893,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9970286458333333,
+          "uptime_percentage": 0.9973587962962962,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -67893,12 +67964,35 @@
               "date": "2026-06-08T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "3n1flr3mnpgl"
+                },
+                {
+                  "name": "Elevated errors on Claude Haiku 4.5",
+                  "code": "829kf0y1f7pn"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 4.7",
+                  "code": "8b7xx9g8rkhm"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 4.8",
+                  "code": "1gjynxqv85rk"
+                }
+              ]
             },
             {
+              "date": "2026-06-09T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.8 (Fast Mode)",
+                  "code": "cmsxwks3fzd9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -79673,6 +79767,7 @@
               "events": []
             },
             {
+              "date": "2026-06-09T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
