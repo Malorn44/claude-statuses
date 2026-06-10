@@ -7,26 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-03-12",
-        "outages": {
-          "p": 5160
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Sonnet 4.6",
-            "code": "gtj167mtk9pg"
-          },
-          {
-            "name": "Elevated errors on Claude Sonnet 4.6",
-            "code": "tdp33ycsk4rb"
-          },
-          {
-            "name": "Elevated errors on Claude Sonnet 4.6 and on Claude.ai",
-            "code": "28hx7gp8hnzw"
-          }
-        ]
-      },
-      {
         "date": "2026-03-13",
         "outages": {
           "p": 10218
@@ -57,12 +37,12 @@
             "code": "t2m389x6k1tq"
           },
           {
-            "name": "Elevated errors on Claude Sonnet 4.6",
-            "code": "0266tzhrb7rn"
-          },
-          {
             "name": "Elevated errors on Claude.ai",
             "code": "81m3f5p97qkk"
+          },
+          {
+            "name": "Elevated errors on Claude Sonnet 4.6",
+            "code": "0266tzhrb7rn"
           }
         ]
       },
@@ -74,10 +54,6 @@
         "related_events": [
           {
             "name": "Elevated errors on Claude Opus 4.6",
-            "code": "h04m7sftmtk5"
-          },
-          {
-            "name": "Elevated errors on Claude Opus 4.6",
             "code": "mhnzmndv58bt"
           },
           {
@@ -87,6 +63,10 @@
           {
             "name": "Elevated errors on Claude Sonnet 4.6",
             "code": "66wxjy8wc8fx"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "h04m7sftmtk5"
           }
         ]
       },
@@ -97,20 +77,20 @@
         },
         "related_events": [
           {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "mhnzmndv58bt"
+          },
+          {
             "name": "Elevated errors on Claude.ai",
             "code": "p88wl8gmb05c"
           },
           {
             "name": "Elevated errors on Claude Opus 4.6",
-            "code": "mhnzmndv58bt"
+            "code": "s914kvccjthq"
           },
           {
             "name": "Increased errors on Opus 4.6",
             "code": "0dvq4gvy5f5f"
-          },
-          {
-            "name": "Elevated errors on Claude Opus 4.6",
-            "code": "s914kvccjthq"
           }
         ]
       },
@@ -122,16 +102,16 @@
         },
         "related_events": [
           {
-            "name": "Elevated errors across surfaces",
-            "code": "6wlrxz9pqz8f"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.6",
             "code": "bf1hsq5gbm9b"
           },
           {
             "name": "Elevated errors on Claude Sonnet 4.6",
             "code": "mfhmykgrbzt5"
+          },
+          {
+            "name": "Elevated errors across surfaces",
+            "code": "6wlrxz9pqz8f"
           }
         ]
       },
@@ -191,16 +171,16 @@
         },
         "related_events": [
           {
+            "name": "Elevated Errors on claude.ai",
+            "code": "9rt6y2y4gkh1"
+          },
+          {
             "name": "Elevated errors on Claude Opus 4.6",
             "code": "9qwph3lqc885"
           },
           {
             "name": "Elevated errors on Claude Opus 4.6",
             "code": "yvb76l3ryzpb"
-          },
-          {
-            "name": "Elevated Errors on claude.ai",
-            "code": "9rt6y2y4gkh1"
           }
         ]
       },
@@ -270,16 +250,16 @@
         },
         "related_events": [
           {
-            "name": "Opus 4.6 and Sonnet 4.6 error rate elevated",
-            "code": "65w1yxq40m3l"
+            "name": "Unavailable connectors in Claude.ai desktop applications",
+            "code": "z5scppyhphjk"
           },
           {
             "name": "Elevated errors on Claude Opus 4.6",
             "code": "k3z0fjwdjkzl"
           },
           {
-            "name": "Unavailable connectors in Claude.ai desktop applications",
-            "code": "z5scppyhphjk"
+            "name": "Opus 4.6 and Sonnet 4.6 error rate elevated",
+            "code": "65w1yxq40m3l"
           }
         ]
       },
@@ -290,12 +270,12 @@
         },
         "related_events": [
           {
-            "name": "Elevated timeouts on requests to Claude Opus 4.6 and Sonnet 4.6",
-            "code": "fvj2fgqrchsj"
-          },
-          {
             "name": "Elevated errors on requests to Claude Opus 4.6",
             "code": "3bg93cy9bk1v"
+          },
+          {
+            "name": "Elevated timeouts on requests to Claude Opus 4.6 and Sonnet 4.6",
+            "code": "fvj2fgqrchsj"
           },
           {
             "name": "Errors on the Claude.ai desktop application",
@@ -341,12 +321,12 @@
         },
         "related_events": [
           {
-            "name": "Sonnet 4.6 elevated rate of errors",
-            "code": "xmqkb966qt1h"
-          },
-          {
             "name": "Elevated errors on Claude.ai",
             "code": "vfjv5x6qkd4j"
+          },
+          {
+            "name": "Sonnet 4.6 elevated rate of errors",
+            "code": "xmqkb966qt1h"
           }
         ]
       },
@@ -521,12 +501,12 @@
         },
         "related_events": [
           {
-            "name": "MCP apps unavailable on Claude.ai",
-            "code": "9tyl1z4b03cs"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.7",
             "code": "1gz3fcvd76fx"
+          },
+          {
+            "name": "MCP apps unavailable on Claude.ai",
+            "code": "9tyl1z4b03cs"
           }
         ]
       },
@@ -537,12 +517,12 @@
         },
         "related_events": [
           {
-            "name": "Elevated errors on Sonnet 4.6",
-            "code": "wlysnq540b32"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.7",
             "code": "1mx31vhgl3ms"
+          },
+          {
+            "name": "Elevated errors on Sonnet 4.6",
+            "code": "wlysnq540b32"
           }
         ]
       },
@@ -553,16 +533,16 @@
         },
         "related_events": [
           {
-            "name": "Investigated elevated errors and slower responses on claude.ai",
-            "code": "c3km369dp85h"
+            "name": "Elevated error rates on Claude Opus 4.7",
+            "code": "q93x64nrhwnn"
           },
           {
             "name": "Claude Code v2.1.120 Crashes on Startup",
             "code": "zqsk02ryfmrd"
           },
           {
-            "name": "Elevated error rates on Claude Opus 4.7",
-            "code": "q93x64nrhwnn"
+            "name": "Investigated elevated errors and slower responses on claude.ai",
+            "code": "c3km369dp85h"
           },
           {
             "name": "Elevated errors on Claude Opus 4.7",
@@ -596,12 +576,12 @@
         },
         "related_events": [
           {
-            "name": "Claude.ai unavailable and elevated errors on the API",
-            "code": "9l93x2ht4s5w"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.7",
             "code": "lryjwwy0q9pl"
+          },
+          {
+            "name": "Claude.ai unavailable and elevated errors on the API",
+            "code": "9l93x2ht4s5w"
           },
           {
             "name": "Elevated errors on Claude Haiku 4.5",
@@ -655,12 +635,12 @@
         "outages": {},
         "related_events": [
           {
-            "name": "Elevated errors on Claude Opus 4.7",
-            "code": "89vbl7qk5dqp"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.5 and Sonnet 4.5",
             "code": "77j6yv8kc0vn"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "89vbl7qk5dqp"
           },
           {
             "name": "Elevated errors on Claude Opus 4.5",
@@ -680,12 +660,12 @@
         },
         "related_events": [
           {
-            "name": "Elevated errors across multiple models",
-            "code": "437swp24nrf4"
-          },
-          {
             "name": "Connection failures for organizations restricting GitHub access by IP address",
             "code": "snxm62gpxfc9"
+          },
+          {
+            "name": "Elevated errors across multiple models",
+            "code": "437swp24nrf4"
           }
         ]
       },
@@ -694,12 +674,12 @@
         "outages": {},
         "related_events": [
           {
-            "name": "Connection failures for organizations restricting GitHub access by IP address",
-            "code": "snxm62gpxfc9"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.7",
             "code": "9h32bh60z06w"
+          },
+          {
+            "name": "Connection failures for organizations restricting GitHub access by IP address",
+            "code": "snxm62gpxfc9"
           }
         ]
       },
@@ -919,11 +899,11 @@
         "related_events": [
           {
             "name": "Elevated errors on Claude Opus 4.7",
-            "code": "rtr7z82cqmp9"
+            "code": "fw96fnc5bw45"
           },
           {
             "name": "Elevated errors on Claude Opus 4.7",
-            "code": "fw96fnc5bw45"
+            "code": "rtr7z82cqmp9"
           }
         ]
       },
@@ -1036,12 +1016,12 @@
         "outages": {},
         "related_events": [
           {
-            "name": "Elevated errors on Claude Opus 4.8",
-            "code": "6ptd5skgmy3v"
-          },
-          {
             "name": "Opus 4.8 degraded service",
             "code": "b1gzqlnpxxxk"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.8",
+            "code": "6ptd5skgmy3v"
           }
         ]
       },
@@ -1064,16 +1044,16 @@
         "outages": {},
         "related_events": [
           {
-            "name": "Elevated errors on Claude Haiku 4.5",
-            "code": "829kf0y1f7pn"
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "3n1flr3mnpgl"
           },
           {
             "name": "Elevated errors on Claude Opus 4.8",
             "code": "1gjynxqv85rk"
           },
           {
-            "name": "Elevated errors on Claude Opus 4.7",
-            "code": "3n1flr3mnpgl"
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "829kf0y1f7pn"
           },
           {
             "name": "Elevated errors on Claude Opus 4.7",
@@ -1086,10 +1066,19 @@
         "outages": {},
         "related_events": [
           {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "xwrtmlm3tnxf"
+          },
+          {
             "name": "Elevated errors on Claude Opus 4.8 (Fast Mode)",
             "code": "cmsxwks3fzd9"
           }
         ]
+      },
+      {
+        "date": "2026-06-10",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1100,16 +1089,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-03-12",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Sonnet 4.6",
-            "code": "gtj167mtk9pg"
-          }
-        ]
-      },
       {
         "date": "2026-03-13",
         "outages": {},
@@ -1143,11 +1122,11 @@
         "related_events": [
           {
             "name": "Elevated errors on Claude Opus 4.6",
-            "code": "h04m7sftmtk5"
+            "code": "mhnzmndv58bt"
           },
           {
             "name": "Elevated errors on Claude Opus 4.6",
-            "code": "mhnzmndv58bt"
+            "code": "h04m7sftmtk5"
           }
         ]
       },
@@ -1162,12 +1141,12 @@
             "code": "mhnzmndv58bt"
           },
           {
-            "name": "Elevated errors on Claude Opus 4.6",
-            "code": "s914kvccjthq"
-          },
-          {
             "name": "Increased errors on Opus 4.6",
             "code": "0dvq4gvy5f5f"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "s914kvccjthq"
           }
         ]
       },
@@ -1351,12 +1330,12 @@
         },
         "related_events": [
           {
-            "name": "Sonnet 4.6 elevated rate of errors",
-            "code": "xmqkb966qt1h"
-          },
-          {
             "name": "Elevated errors on Claude.ai",
             "code": "vfjv5x6qkd4j"
+          },
+          {
+            "name": "Sonnet 4.6 elevated rate of errors",
+            "code": "xmqkb966qt1h"
           }
         ]
       },
@@ -1549,12 +1528,12 @@
         },
         "related_events": [
           {
-            "name": "Claude Code v2.1.120 Crashes on Startup",
-            "code": "zqsk02ryfmrd"
-          },
-          {
             "name": "Elevated error rates on Claude Opus 4.7",
             "code": "q93x64nrhwnn"
+          },
+          {
+            "name": "Claude Code v2.1.120 Crashes on Startup",
+            "code": "zqsk02ryfmrd"
           },
           {
             "name": "Elevated errors on Claude Opus 4.7",
@@ -1959,6 +1938,11 @@
         "date": "2026-06-09",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-06-10",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1969,26 +1953,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-03-12",
-        "outages": {
-          "p": 5160
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Sonnet 4.6",
-            "code": "gtj167mtk9pg"
-          },
-          {
-            "name": "Elevated errors on Claude Sonnet 4.6",
-            "code": "tdp33ycsk4rb"
-          },
-          {
-            "name": "Elevated errors on Claude Sonnet 4.6 and on Claude.ai",
-            "code": "28hx7gp8hnzw"
-          }
-        ]
-      },
       {
         "date": "2026-03-13",
         "outages": {
@@ -2029,11 +1993,11 @@
         "related_events": [
           {
             "name": "Elevated errors on Claude Opus 4.6",
-            "code": "h04m7sftmtk5"
+            "code": "mhnzmndv58bt"
           },
           {
             "name": "Elevated errors on Claude Opus 4.6",
-            "code": "mhnzmndv58bt"
+            "code": "h04m7sftmtk5"
           }
         ]
       },
@@ -2048,12 +2012,12 @@
             "code": "mhnzmndv58bt"
           },
           {
-            "name": "Elevated errors on Claude Opus 4.6",
-            "code": "s914kvccjthq"
-          },
-          {
             "name": "Increased errors on Opus 4.6",
             "code": "0dvq4gvy5f5f"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "s914kvccjthq"
           }
         ]
       },
@@ -2065,16 +2029,16 @@
         },
         "related_events": [
           {
-            "name": "Elevated errors across surfaces",
-            "code": "6wlrxz9pqz8f"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.6",
             "code": "bf1hsq5gbm9b"
           },
           {
             "name": "Elevated errors on Claude Sonnet 4.6",
             "code": "mfhmykgrbzt5"
+          },
+          {
+            "name": "Elevated errors across surfaces",
+            "code": "6wlrxz9pqz8f"
           }
         ]
       },
@@ -2186,12 +2150,12 @@
         },
         "related_events": [
           {
-            "name": "Opus 4.6 and Sonnet 4.6 error rate elevated",
-            "code": "65w1yxq40m3l"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.6",
             "code": "k3z0fjwdjkzl"
+          },
+          {
+            "name": "Opus 4.6 and Sonnet 4.6 error rate elevated",
+            "code": "65w1yxq40m3l"
           }
         ]
       },
@@ -2202,12 +2166,12 @@
         },
         "related_events": [
           {
-            "name": "Elevated timeouts on requests to Claude Opus 4.6 and Sonnet 4.6",
-            "code": "fvj2fgqrchsj"
-          },
-          {
             "name": "Elevated errors on requests to Claude Opus 4.6",
             "code": "3bg93cy9bk1v"
+          },
+          {
+            "name": "Elevated timeouts on requests to Claude Opus 4.6 and Sonnet 4.6",
+            "code": "fvj2fgqrchsj"
           },
           {
             "name": "Elevated errors and latency on Claude Haiku 4.5",
@@ -2416,12 +2380,12 @@
         "outages": {},
         "related_events": [
           {
-            "name": "MCP apps unavailable on Claude.ai",
-            "code": "9tyl1z4b03cs"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.7",
             "code": "1gz3fcvd76fx"
+          },
+          {
+            "name": "MCP apps unavailable on Claude.ai",
+            "code": "9tyl1z4b03cs"
           }
         ]
       },
@@ -2432,12 +2396,12 @@
         },
         "related_events": [
           {
-            "name": "Elevated errors on Sonnet 4.6",
-            "code": "wlysnq540b32"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.7",
             "code": "1mx31vhgl3ms"
+          },
+          {
+            "name": "Elevated errors on Sonnet 4.6",
+            "code": "wlysnq540b32"
           }
         ]
       },
@@ -2448,12 +2412,12 @@
         },
         "related_events": [
           {
-            "name": "Claude Code v2.1.120 Crashes on Startup",
-            "code": "zqsk02ryfmrd"
-          },
-          {
             "name": "Elevated error rates on Claude Opus 4.7",
             "code": "q93x64nrhwnn"
+          },
+          {
+            "name": "Claude Code v2.1.120 Crashes on Startup",
+            "code": "zqsk02ryfmrd"
           },
           {
             "name": "Elevated errors on Claude Opus 4.7",
@@ -2482,12 +2446,12 @@
         },
         "related_events": [
           {
-            "name": "Claude.ai unavailable and elevated errors on the API",
-            "code": "9l93x2ht4s5w"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.7",
             "code": "lryjwwy0q9pl"
+          },
+          {
+            "name": "Claude.ai unavailable and elevated errors on the API",
+            "code": "9l93x2ht4s5w"
           },
           {
             "name": "Elevated errors on Claude Haiku 4.5",
@@ -2545,12 +2509,12 @@
         "outages": {},
         "related_events": [
           {
-            "name": "Elevated errors on Claude Opus 4.7",
-            "code": "89vbl7qk5dqp"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.5 and Sonnet 4.5",
             "code": "77j6yv8kc0vn"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "89vbl7qk5dqp"
           },
           {
             "name": "Elevated errors on Claude Opus 4.5",
@@ -2793,11 +2757,11 @@
         "related_events": [
           {
             "name": "Elevated errors on Claude Opus 4.7",
-            "code": "rtr7z82cqmp9"
+            "code": "fw96fnc5bw45"
           },
           {
             "name": "Elevated errors on Claude Opus 4.7",
-            "code": "fw96fnc5bw45"
+            "code": "rtr7z82cqmp9"
           }
         ]
       },
@@ -2900,12 +2864,12 @@
         "outages": {},
         "related_events": [
           {
-            "name": "Elevated errors on Claude Opus 4.8",
-            "code": "6ptd5skgmy3v"
-          },
-          {
             "name": "Opus 4.8 degraded service",
             "code": "b1gzqlnpxxxk"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.8",
+            "code": "6ptd5skgmy3v"
           }
         ]
       },
@@ -2928,12 +2892,12 @@
         "outages": {},
         "related_events": [
           {
-            "name": "Elevated errors on Claude Haiku 4.5",
-            "code": "829kf0y1f7pn"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.7",
             "code": "3n1flr3mnpgl"
+          },
+          {
+            "name": "Elevated errors on Claude Haiku 4.5",
+            "code": "829kf0y1f7pn"
           },
           {
             "name": "Elevated errors on Claude Opus 4.7",
@@ -2948,8 +2912,17 @@
           {
             "name": "Elevated errors on Claude Opus 4.8 (Fast Mode)",
             "code": "cmsxwks3fzd9"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "xwrtmlm3tnxf"
           }
         ]
+      },
+      {
+        "date": "2026-06-10",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2960,26 +2933,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-03-12",
-        "outages": {
-          "p": 5160
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Sonnet 4.6",
-            "code": "gtj167mtk9pg"
-          },
-          {
-            "name": "Elevated errors on Claude Sonnet 4.6",
-            "code": "tdp33ycsk4rb"
-          },
-          {
-            "name": "Elevated errors on Claude Sonnet 4.6 and on Claude.ai",
-            "code": "28hx7gp8hnzw"
-          }
-        ]
-      },
       {
         "date": "2026-03-13",
         "outages": {
@@ -3020,11 +2973,11 @@
         "related_events": [
           {
             "name": "Elevated errors on Claude Opus 4.6",
-            "code": "h04m7sftmtk5"
+            "code": "mhnzmndv58bt"
           },
           {
             "name": "Elevated errors on Claude Opus 4.6",
-            "code": "mhnzmndv58bt"
+            "code": "h04m7sftmtk5"
           }
         ]
       },
@@ -3035,20 +2988,20 @@
         },
         "related_events": [
           {
-            "name": "Elevated errors on Claude Opus 4.6",
-            "code": "mhnzmndv58bt"
-          },
-          {
             "name": "Elevated errors on Claude.ai",
             "code": "p88wl8gmb05c"
           },
           {
             "name": "Elevated errors on Claude Opus 4.6",
-            "code": "s914kvccjthq"
+            "code": "mhnzmndv58bt"
           },
           {
             "name": "Increased errors on Opus 4.6",
             "code": "0dvq4gvy5f5f"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "s914kvccjthq"
           }
         ]
       },
@@ -3060,16 +3013,16 @@
         },
         "related_events": [
           {
-            "name": "Elevated errors across surfaces",
-            "code": "6wlrxz9pqz8f"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.6",
             "code": "bf1hsq5gbm9b"
           },
           {
             "name": "Elevated errors on Claude Sonnet 4.6",
             "code": "mfhmykgrbzt5"
+          },
+          {
+            "name": "Elevated errors across surfaces",
+            "code": "6wlrxz9pqz8f"
           }
         ]
       },
@@ -3185,12 +3138,12 @@
         },
         "related_events": [
           {
-            "name": "Opus 4.6 and Sonnet 4.6 error rate elevated",
-            "code": "65w1yxq40m3l"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.6",
             "code": "k3z0fjwdjkzl"
+          },
+          {
+            "name": "Opus 4.6 and Sonnet 4.6 error rate elevated",
+            "code": "65w1yxq40m3l"
           }
         ]
       },
@@ -3201,12 +3154,12 @@
         },
         "related_events": [
           {
-            "name": "Elevated timeouts on requests to Claude Opus 4.6 and Sonnet 4.6",
-            "code": "fvj2fgqrchsj"
-          },
-          {
             "name": "Elevated errors on requests to Claude Opus 4.6",
             "code": "3bg93cy9bk1v"
+          },
+          {
+            "name": "Elevated timeouts on requests to Claude Opus 4.6 and Sonnet 4.6",
+            "code": "fvj2fgqrchsj"
           },
           {
             "name": "Elevated errors and latency on Claude Haiku 4.5",
@@ -3248,12 +3201,12 @@
         },
         "related_events": [
           {
-            "name": "Sonnet 4.6 elevated rate of errors",
-            "code": "xmqkb966qt1h"
-          },
-          {
             "name": "Elevated errors on Claude.ai",
             "code": "vfjv5x6qkd4j"
+          },
+          {
+            "name": "Sonnet 4.6 elevated rate of errors",
+            "code": "xmqkb966qt1h"
           }
         ]
       },
@@ -3421,12 +3374,12 @@
         "outages": {},
         "related_events": [
           {
-            "name": "MCP apps unavailable on Claude.ai",
-            "code": "9tyl1z4b03cs"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.7",
             "code": "1gz3fcvd76fx"
+          },
+          {
+            "name": "MCP apps unavailable on Claude.ai",
+            "code": "9tyl1z4b03cs"
           }
         ]
       },
@@ -3437,12 +3390,12 @@
         },
         "related_events": [
           {
-            "name": "Elevated errors on Sonnet 4.6",
-            "code": "wlysnq540b32"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.7",
             "code": "1mx31vhgl3ms"
+          },
+          {
+            "name": "Elevated errors on Sonnet 4.6",
+            "code": "wlysnq540b32"
           }
         ]
       },
@@ -3453,12 +3406,12 @@
         },
         "related_events": [
           {
-            "name": "Claude Code v2.1.120 Crashes on Startup",
-            "code": "zqsk02ryfmrd"
-          },
-          {
             "name": "Elevated error rates on Claude Opus 4.7",
             "code": "q93x64nrhwnn"
+          },
+          {
+            "name": "Claude Code v2.1.120 Crashes on Startup",
+            "code": "zqsk02ryfmrd"
           },
           {
             "name": "Elevated errors on Claude Opus 4.7",
@@ -3487,12 +3440,12 @@
         },
         "related_events": [
           {
-            "name": "Claude.ai unavailable and elevated errors on the API",
-            "code": "9l93x2ht4s5w"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.7",
             "code": "lryjwwy0q9pl"
+          },
+          {
+            "name": "Claude.ai unavailable and elevated errors on the API",
+            "code": "9l93x2ht4s5w"
           }
         ]
       },
@@ -3538,12 +3491,12 @@
         "outages": {},
         "related_events": [
           {
-            "name": "Elevated errors on Claude Opus 4.7",
-            "code": "89vbl7qk5dqp"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.5 and Sonnet 4.5",
             "code": "77j6yv8kc0vn"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "89vbl7qk5dqp"
           },
           {
             "name": "Elevated errors on Claude Opus 4.5",
@@ -3563,12 +3516,12 @@
         },
         "related_events": [
           {
-            "name": "Elevated errors across multiple models",
-            "code": "437swp24nrf4"
-          },
-          {
             "name": "Connection failures for organizations restricting GitHub access by IP address",
             "code": "snxm62gpxfc9"
+          },
+          {
+            "name": "Elevated errors across multiple models",
+            "code": "437swp24nrf4"
           }
         ]
       },
@@ -3577,12 +3530,12 @@
         "outages": {},
         "related_events": [
           {
-            "name": "Connection failures for organizations restricting GitHub access by IP address",
-            "code": "snxm62gpxfc9"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.7",
             "code": "9h32bh60z06w"
+          },
+          {
+            "name": "Connection failures for organizations restricting GitHub access by IP address",
+            "code": "snxm62gpxfc9"
           }
         ]
       },
@@ -3601,12 +3554,12 @@
             "code": "5p98r08qfvwl"
           },
           {
-            "name": "Elevated errors across Claude Models",
-            "code": "378dqscjgghp"
-          },
-          {
             "name": "Claude Code IDE extension unable to load on Windows",
             "code": "w5cw47ytckzx"
+          },
+          {
+            "name": "Elevated errors across Claude Models",
+            "code": "378dqscjgghp"
           }
         ]
       },
@@ -3824,11 +3777,11 @@
         "related_events": [
           {
             "name": "Elevated errors on Claude Opus 4.7",
-            "code": "rtr7z82cqmp9"
+            "code": "fw96fnc5bw45"
           },
           {
             "name": "Elevated errors on Claude Opus 4.7",
-            "code": "fw96fnc5bw45"
+            "code": "rtr7z82cqmp9"
           }
         ]
       },
@@ -3937,12 +3890,12 @@
         "outages": {},
         "related_events": [
           {
-            "name": "Elevated errors on Claude Opus 4.8",
-            "code": "6ptd5skgmy3v"
-          },
-          {
             "name": "Opus 4.8 degraded service",
             "code": "b1gzqlnpxxxk"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.8",
+            "code": "6ptd5skgmy3v"
           }
         ]
       },
@@ -3965,20 +3918,20 @@
         "outages": {},
         "related_events": [
           {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "3n1flr3mnpgl"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.8",
+            "code": "1gjynxqv85rk"
+          },
+          {
             "name": "Elevated errors on Claude Haiku 4.5",
             "code": "829kf0y1f7pn"
           },
           {
             "name": "Elevated errors on Claude Opus 4.7",
-            "code": "3n1flr3mnpgl"
-          },
-          {
-            "name": "Elevated errors on Claude Opus 4.7",
             "code": "8b7xx9g8rkhm"
-          },
-          {
-            "name": "Elevated errors on Claude Opus 4.8",
-            "code": "1gjynxqv85rk"
           }
         ]
       },
@@ -3987,10 +3940,23 @@
         "outages": {},
         "related_events": [
           {
+            "name": "Fable not available in the model picker in Claude Code Desktop",
+            "code": "wtcn4knnnfzc"
+          },
+          {
             "name": "Elevated errors on Claude Opus 4.8 (Fast Mode)",
             "code": "cmsxwks3fzd9"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "xwrtmlm3tnxf"
           }
         ]
+      },
+      {
+        "date": "2026-06-10",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -4001,11 +3967,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-03-12",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-03-13",
         "outages": {},
@@ -4140,12 +4101,12 @@
         },
         "related_events": [
           {
-            "name": "Sonnet 4.6 elevated rate of errors",
-            "code": "xmqkb966qt1h"
-          },
-          {
             "name": "Elevated errors on Claude.ai",
             "code": "vfjv5x6qkd4j"
+          },
+          {
+            "name": "Sonnet 4.6 elevated rate of errors",
+            "code": "xmqkb966qt1h"
           }
         ]
       },
@@ -4310,12 +4271,12 @@
         "outages": {},
         "related_events": [
           {
-            "name": "MCP apps unavailable on Claude.ai",
-            "code": "9tyl1z4b03cs"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.7",
             "code": "1gz3fcvd76fx"
+          },
+          {
+            "name": "MCP apps unavailable on Claude.ai",
+            "code": "9tyl1z4b03cs"
           }
         ]
       },
@@ -4326,12 +4287,12 @@
         },
         "related_events": [
           {
-            "name": "Elevated errors on Sonnet 4.6",
-            "code": "wlysnq540b32"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.7",
             "code": "1mx31vhgl3ms"
+          },
+          {
+            "name": "Elevated errors on Sonnet 4.6",
+            "code": "wlysnq540b32"
           }
         ]
       },
@@ -4342,12 +4303,12 @@
         },
         "related_events": [
           {
-            "name": "Claude Code v2.1.120 Crashes on Startup",
-            "code": "zqsk02ryfmrd"
-          },
-          {
             "name": "Elevated error rates on Claude Opus 4.7",
             "code": "q93x64nrhwnn"
+          },
+          {
+            "name": "Claude Code v2.1.120 Crashes on Startup",
+            "code": "zqsk02ryfmrd"
           },
           {
             "name": "Elevated errors on Claude Opus 4.7",
@@ -4372,12 +4333,12 @@
         },
         "related_events": [
           {
-            "name": "Claude.ai unavailable and elevated errors on the API",
-            "code": "9l93x2ht4s5w"
-          },
-          {
             "name": "Elevated errors on Claude Opus 4.7",
             "code": "lryjwwy0q9pl"
+          },
+          {
+            "name": "Claude.ai unavailable and elevated errors on the API",
+            "code": "9l93x2ht4s5w"
           }
         ]
       },
@@ -4550,12 +4511,12 @@
         },
         "related_events": [
           {
-            "name": "Elevated errors for Claude Opus 4.7",
-            "code": "6qbg6ft2r9j4"
-          },
-          {
             "name": "Elevated errors on Claude Haiku 4.5",
             "code": "fvddmdx8z6y7"
+          },
+          {
+            "name": "Elevated errors for Claude Opus 4.7",
+            "code": "6qbg6ft2r9j4"
           }
         ]
       },
@@ -4647,11 +4608,11 @@
         "related_events": [
           {
             "name": "Elevated errors on Claude Opus 4.7",
-            "code": "rtr7z82cqmp9"
+            "code": "fw96fnc5bw45"
           },
           {
             "name": "Elevated errors on Claude Opus 4.7",
-            "code": "fw96fnc5bw45"
+            "code": "rtr7z82cqmp9"
           }
         ]
       },
@@ -4754,20 +4715,20 @@
         "outages": {},
         "related_events": [
           {
+            "name": "Elevated errors on Claude Opus 4.7",
+            "code": "3n1flr3mnpgl"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.8",
+            "code": "1gjynxqv85rk"
+          },
+          {
             "name": "Elevated errors on Claude Haiku 4.5",
             "code": "829kf0y1f7pn"
           },
           {
             "name": "Elevated errors on Claude Opus 4.7",
-            "code": "3n1flr3mnpgl"
-          },
-          {
-            "name": "Elevated errors on Claude Opus 4.7",
             "code": "8b7xx9g8rkhm"
-          },
-          {
-            "name": "Elevated errors on Claude Opus 4.8",
-            "code": "1gjynxqv85rk"
           }
         ]
       },
@@ -4778,8 +4739,17 @@
           {
             "name": "Elevated errors on Claude Opus 4.8 (Fast Mode)",
             "code": "cmsxwks3fzd9"
+          },
+          {
+            "name": "Elevated errors on Claude Opus 4.6",
+            "code": "xwrtmlm3tnxf"
           }
         ]
+      },
+      {
+        "date": "2026-06-10",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -4790,16 +4760,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-03-12",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Sonnet 4.6",
-            "code": "gtj167mtk9pg"
-          }
-        ]
-      },
       {
         "date": "2026-03-13",
         "outages": {},
@@ -5076,12 +5036,12 @@
         "outages": {},
         "related_events": [
           {
-            "name": "Claude Code v2.1.120 Crashes on Startup",
-            "code": "zqsk02ryfmrd"
-          },
-          {
             "name": "Elevated error rates on Claude Opus 4.7",
             "code": "q93x64nrhwnn"
+          },
+          {
+            "name": "Claude Code v2.1.120 Crashes on Startup",
+            "code": "zqsk02ryfmrd"
           }
         ]
       },
@@ -5326,6 +5286,11 @@
       },
       {
         "date": "2026-06-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-06-10",
         "outages": {},
         "related_events": []
       }

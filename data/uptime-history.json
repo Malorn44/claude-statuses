@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T08:00:28.275Z",
+  "generated_at": "2026-06-10T08:16:36.896Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -14620,7 +14620,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9917280092592592,
+          "uptime_percentage": 0.9925552083333333,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -14744,10 +14744,15 @@
                 {
                   "name": "Elevated errors on Claude Opus 4.8 (Fast Mode)",
                   "code": "cmsxwks3fzd9"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 4.6",
+                  "code": "xwrtmlm3tnxf"
                 }
               ]
             },
             {
+              "date": "2026-06-10T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -28522,7 +28527,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.994369212962963,
+          "uptime_percentage": 0.9949322916666666,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -28621,6 +28626,7 @@
               "events": []
             },
             {
+              "date": "2026-06-10T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -42859,7 +42865,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9917280092592592,
+          "uptime_percentage": 0.9925552083333333,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -42979,10 +42985,15 @@
                 {
                   "name": "Elevated errors on Claude Opus 4.8 (Fast Mode)",
                   "code": "cmsxwks3fzd9"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 4.6",
+                  "code": "xwrtmlm3tnxf"
                 }
               ]
             },
             {
+              "date": "2026-06-10T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -55907,7 +55918,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9877249228395062,
+          "uptime_percentage": 0.9889524305555556,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -56035,10 +56046,19 @@
                 {
                   "name": "Elevated errors on Claude Opus 4.8 (Fast Mode)",
                   "code": "cmsxwks3fzd9"
+                },
+                {
+                  "name": "Fable not available in the model picker in Claude Code Desktop",
+                  "code": "wtcn4knnnfzc"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 4.6",
+                  "code": "xwrtmlm3tnxf"
                 }
               ]
             },
             {
+              "date": "2026-06-10T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -67893,7 +67913,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9973587962962962,
+          "uptime_percentage": 0.9976229166666666,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -67991,10 +68011,15 @@
                 {
                   "name": "Elevated errors on Claude Opus 4.8 (Fast Mode)",
                   "code": "cmsxwks3fzd9"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 4.6",
+                  "code": "xwrtmlm3tnxf"
                 }
               ]
             },
             {
+              "date": "2026-06-10T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -79773,6 +79798,7 @@
               "events": []
             },
             {
+              "date": "2026-06-10T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
