@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T08:16:36.896Z",
+  "generated_at": "2026-06-11T08:54:19.914Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -14620,7 +14620,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9925552083333333,
+          "uptime_percentage": 0.9932320075757576,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -14755,9 +14755,15 @@
               "date": "2026-06-10T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Haiku 4.5",
+                  "code": "32lyxmplb5wz"
+                }
+              ]
             },
             {
+              "date": "2026-06-11T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -28527,7 +28533,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9949322916666666,
+          "uptime_percentage": 0.9953929924242424,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -28632,6 +28638,7 @@
               "events": []
             },
             {
+              "date": "2026-06-11T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -42865,7 +42872,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9925552083333333,
+          "uptime_percentage": 0.9932320075757576,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -42996,9 +43003,15 @@
               "date": "2026-06-10T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Haiku 4.5",
+                  "code": "32lyxmplb5wz"
+                }
+              ]
             },
             {
+              "date": "2026-06-11T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -55918,7 +55931,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9889524305555556,
+          "uptime_percentage": 0.9899567550505051,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -56061,9 +56074,15 @@
               "date": "2026-06-10T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Haiku 4.5",
+                  "code": "32lyxmplb5wz"
+                }
+              ]
             },
             {
+              "date": "2026-06-11T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -67913,7 +67932,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9976229166666666,
+          "uptime_percentage": 0.9978390151515151,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -68022,9 +68041,15 @@
               "date": "2026-06-10T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Haiku 4.5",
+                  "code": "32lyxmplb5wz"
+                }
+              ]
             },
             {
+              "date": "2026-06-11T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -79804,6 +79829,7 @@
               "events": []
             },
             {
+              "date": "2026-06-11T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []

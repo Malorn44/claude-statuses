@@ -1,6 +1,32 @@
 {
-  "generated_at": "2026-06-10T08:16:38.937Z",
+  "generated_at": "2026-06-11T08:54:21.469Z",
   "incidents": [
+    {
+      "id": "32lyxmplb5wz",
+      "name": "Elevated errors on Claude Haiku 4.5",
+      "impact": "minor",
+      "created_at": "2026-06-10T13:06:47.552Z",
+      "started_at": "2026-06-10T13:06:47.542Z",
+      "resolved_at": "2026-06-10T17:21:33.620Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "xwrtmlm3tnxf",
       "name": "Elevated errors on Claude Opus 4.6",
