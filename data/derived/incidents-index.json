@@ -1,6 +1,166 @@
 {
-  "generated_at": "2026-06-16T09:34:41.732Z",
+  "generated_at": "2026-06-17T09:10:44.493Z",
   "incidents": [
+    {
+      "id": "k8563n9wd0r8",
+      "name": "Elevated errors for Claude Opus 4.8",
+      "impact": "minor",
+      "created_at": "2026-06-17T08:24:34.955Z",
+      "started_at": "2026-06-17T08:24:34.946Z",
+      "resolved_at": null,
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "zw75lhl39skc",
+      "name": "Elevated errors for Claude Opus 4.8",
+      "impact": "minor",
+      "created_at": "2026-06-17T05:08:19.998Z",
+      "started_at": "2026-06-17T05:08:19.986Z",
+      "resolved_at": "2026-06-17T06:37:45.424Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "8chgzf3fs27n",
+      "name": "Elevated errors on Claude Sonnet 4.6 and Opus 4.8",
+      "impact": "minor",
+      "created_at": "2026-06-17T00:47:11.160Z",
+      "started_at": "2026-06-17T00:47:11.147Z",
+      "resolved_at": "2026-06-17T02:50:39.111Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "41395mspl1rf",
+      "name": "Elevated errors for Claude Opus 4.8",
+      "impact": "major",
+      "created_at": "2026-06-16T20:50:01.946Z",
+      "started_at": "2026-06-16T20:50:01.923Z",
+      "resolved_at": "2026-06-16T22:02:34.876Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "8q88rrz9rjd0",
+      "name": "Opus 4.8 errors",
+      "impact": "none",
+      "created_at": "2026-06-16T19:59:26.511Z",
+      "started_at": "2026-06-16T19:59:26.501Z",
+      "resolved_at": "2026-06-16T20:16:07.194Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        }
+      ]
+    },
+    {
+      "id": "xmhsglsz3h3w",
+      "name": "Elevated errors across many models",
+      "impact": "minor",
+      "created_at": "2026-06-16T17:29:52.486Z",
+      "started_at": "2026-06-16T17:29:52.477Z",
+      "resolved_at": "2026-06-16T19:32:23.759Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "slm0mhv6r1pf",
       "name": "Elevated errors on Claude Opus 4.8",
@@ -60,7 +220,7 @@
     {
       "id": "s9w82lp9dcn9",
       "name": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
-      "impact": "minor",
+      "impact": "major",
       "created_at": "2026-06-13T00:50:43.835Z",
       "started_at": "2026-06-13T00:50:43.823Z",
       "resolved_at": null,
