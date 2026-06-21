@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-06-20T07:57:16.055Z",
+  "generated_at": "2026-06-21T08:12:06.566Z",
   "incidents": [
+    {
+      "id": "nbp7j8k3kgw2",
+      "name": "Opus 4.8 errors",
+      "impact": "minor",
+      "created_at": "2026-06-20T17:07:13.906Z",
+      "started_at": "2026-06-20T17:07:13.895Z",
+      "resolved_at": "2026-06-20T18:02:23.277Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "1p98mj17s1z2",
       "name": "Elevated error rates on the Claude API",
