@@ -1,13 +1,69 @@
 {
-  "generated_at": "2026-06-22T10:14:06.114Z",
+  "generated_at": "2026-06-23T07:57:24.946Z",
   "incidents": [
+    {
+      "id": "2stpj60m2fr9",
+      "name": "Elevated errors for Claude Opus 4.8",
+      "impact": "minor",
+      "created_at": "2026-06-23T06:28:56.197Z",
+      "started_at": "2026-06-23T06:28:56.188Z",
+      "resolved_at": null,
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "bbcpk0t2cj4p",
+      "name": "Elevated errors across many models",
+      "impact": "minor",
+      "created_at": "2026-06-22T19:14:18.940Z",
+      "started_at": "2026-06-22T19:14:18.930Z",
+      "resolved_at": "2026-06-22T19:45:45.449Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "dymmnf6xk0mg",
       "name": "Elevated errors for Claude Opus 4.8",
       "impact": "minor",
       "created_at": "2026-06-22T08:11:50.416Z",
       "started_at": "2026-06-22T08:11:50.406Z",
-      "resolved_at": null,
+      "resolved_at": "2026-06-22T14:44:16.735Z",
       "components": [
         {
           "id": "rwppv331jlwc",

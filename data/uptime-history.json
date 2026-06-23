@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T10:14:04.313Z",
+  "generated_at": "2026-06-23T07:57:23.244Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -14620,7 +14620,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9945350378787878,
+          "uptime_percentage": 0.9947726449275361,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -14940,6 +14940,10 @@
                   "code": "lv35v0q9nsj2"
                 },
                 {
+                  "name": "Elevated errors across many models",
+                  "code": "bbcpk0t2cj4p"
+                },
+                {
                   "name": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
                   "code": "s9w82lp9dcn9"
                 },
@@ -14950,9 +14954,19 @@
               ]
             },
             {
+              "date": "2026-06-23T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
+                  "code": "s9w82lp9dcn9"
+                },
+                {
+                  "name": "Elevated errors for Claude Opus 4.8",
+                  "code": "2stpj60m2fr9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -28659,7 +28673,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9976964962121212,
+          "uptime_percentage": 0.9977966485507246,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -28872,9 +28886,15 @@
               "events": []
             },
             {
+              "date": "2026-06-23T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Opus 4.8",
+                  "code": "2stpj60m2fr9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -43045,7 +43065,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9950214646464647,
+          "uptime_percentage": 0.995237922705314,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -43353,6 +43373,10 @@
                   "code": "lv35v0q9nsj2"
                 },
                 {
+                  "name": "Elevated errors across many models",
+                  "code": "bbcpk0t2cj4p"
+                },
+                {
                   "name": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
                   "code": "s9w82lp9dcn9"
                 },
@@ -43363,9 +43387,19 @@
               ]
             },
             {
+              "date": "2026-06-23T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
+                  "code": "s9w82lp9dcn9"
+                },
+                {
+                  "name": "Elevated errors for Claude Opus 4.8",
+                  "code": "2stpj60m2fr9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -56222,7 +56256,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9933808396464646,
+          "uptime_percentage": 0.9936686292270531,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -56546,6 +56580,10 @@
                   "code": "lv35v0q9nsj2"
                 },
                 {
+                  "name": "Elevated errors across many models",
+                  "code": "bbcpk0t2cj4p"
+                },
+                {
                   "name": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
                   "code": "s9w82lp9dcn9"
                 },
@@ -56556,9 +56594,19 @@
               ]
             },
             {
+              "date": "2026-06-23T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
+                  "code": "s9w82lp9dcn9"
+                },
+                {
+                  "name": "Elevated errors for Claude Opus 4.8",
+                  "code": "2stpj60m2fr9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -68345,7 +68393,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.997323547979798,
+          "uptime_percentage": 0.9974399154589372,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -68631,6 +68679,10 @@
                   "code": "lv35v0q9nsj2"
                 },
                 {
+                  "name": "Elevated errors across many models",
+                  "code": "bbcpk0t2cj4p"
+                },
+                {
                   "name": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
                   "code": "s9w82lp9dcn9"
                 },
@@ -68641,9 +68693,19 @@
               ]
             },
             {
+              "date": "2026-06-23T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
+                  "code": "s9w82lp9dcn9"
+                },
+                {
+                  "name": "Elevated errors for Claude Opus 4.8",
+                  "code": "2stpj60m2fr9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -80432,6 +80494,7 @@
               "events": []
             },
             {
+              "date": "2026-06-23T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
