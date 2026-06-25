@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T07:52:35.644Z",
+  "generated_at": "2026-06-25T07:53:53.003Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -14620,7 +14620,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9942526041666667,
+          "uptime_percentage": 0.9944825,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -14984,13 +14984,23 @@
                 {
                   "name": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
                   "code": "s9w82lp9dcn9"
+                },
+                {
+                  "name": "Elevated error rate on Claude Opus 4.8",
+                  "code": "8b0rggdfh1hv"
                 }
               ]
             },
             {
+              "date": "2026-06-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
+                  "code": "s9w82lp9dcn9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -28687,7 +28697,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.997150607638889,
+          "uptime_percentage": 0.9972645833333335,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -28918,9 +28928,15 @@
               "date": "2026-06-24T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated error rate on Claude Opus 4.8",
+                  "code": "8b0rggdfh1hv"
+                }
+              ]
             },
             {
+              "date": "2026-06-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -43084,7 +43100,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9946984953703705,
+          "uptime_percentage": 0.9949105555555556,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -43432,13 +43448,23 @@
                 {
                   "name": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
                   "code": "s9w82lp9dcn9"
+                },
+                {
+                  "name": "Elevated error rate on Claude Opus 4.8",
+                  "code": "8b0rggdfh1hv"
                 }
               ]
             },
             {
+              "date": "2026-06-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
+                  "code": "s9w82lp9dcn9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -56285,7 +56311,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9931945891203703,
+          "uptime_percentage": 0.9934668055555556,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -56649,13 +56675,23 @@
                 {
                   "name": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
                   "code": "s9w82lp9dcn9"
+                },
+                {
+                  "name": "Elevated error rate on Claude Opus 4.8",
+                  "code": "8b0rggdfh1hv"
                 }
               ]
             },
             {
+              "date": "2026-06-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
+                  "code": "s9w82lp9dcn9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -68432,7 +68468,7 @@
           "year": 2026,
           "month": 6,
           "name": "June",
-          "uptime_percentage": 0.9968087384259259,
+          "uptime_percentage": 0.9969363888888888,
           "days": [
             {
               "date": "2026-06-01T00:00:00.000Z",
@@ -68758,13 +68794,23 @@
                 {
                   "name": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
                   "code": "s9w82lp9dcn9"
+                },
+                {
+                  "name": "Elevated error rate on Claude Opus 4.8",
+                  "code": "8b0rggdfh1hv"
                 }
               ]
             },
             {
+              "date": "2026-06-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "We’ve suspended access to Claude Mythos 5 and Claude Fable 5",
+                  "code": "s9w82lp9dcn9"
+                }
+              ]
             },
             {
               "p": 0,
@@ -80555,6 +80601,7 @@
               "events": []
             },
             {
+              "date": "2026-06-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
