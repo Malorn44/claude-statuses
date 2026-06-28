@@ -1,6 +1,15 @@
 {
-  "generated_at": "2026-06-27T07:26:16.185Z",
+  "generated_at": "2026-06-28T07:11:29.488Z",
   "incidents": [
+    {
+      "id": "9284yk6xxd0h",
+      "name": "elevated errors on Opus 48",
+      "impact": "none",
+      "created_at": "2026-06-27T18:00:00.000Z",
+      "started_at": "2026-06-27T18:23:19.659Z",
+      "resolved_at": "2026-06-27T18:00:00.000Z",
+      "components": []
+    },
     {
       "id": "wkzf38t1yh8z",
       "name": "Elevated errors on Opus 4.8 Fast",
