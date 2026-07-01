@@ -1,6 +1,40 @@
 {
-  "generated_at": "2026-06-30T08:00:48.747Z",
+  "generated_at": "2026-07-01T08:20:34.241Z",
   "incidents": [
+    {
+      "id": "7ykkywg6yln4",
+      "name": "Elevated error rates on Opus 4.8",
+      "impact": "minor",
+      "created_at": "2026-06-30T14:31:04.516Z",
+      "started_at": "2026-06-30T14:31:04.499Z",
+      "resolved_at": "2026-06-30T15:28:26.509Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        },
+        {
+          "id": "0scnb50nvy53",
+          "name": "Claude for Government"
+        }
+      ]
+    },
     {
       "id": "lxpx271gkx7p",
       "name": "Elevated errors on Opus 4.5",
