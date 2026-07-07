@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T08:20:33.717Z",
+  "generated_at": "2026-07-07T12:24:36.455Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15068,7 +15068,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.9972999338624339,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -15082,34 +15082,69 @@
               ]
             },
             {
+              "date": "2026-07-02T00:00:00.000Z",
+              "p": 0,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.8",
+                  "code": "lcccgkzvj2yx"
+                }
+              ]
+            },
+            {
+              "date": "2026-07-03T00:00:00.000Z",
+              "p": 0,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Fable 5 and Claude Mythos 5",
+                  "code": "mphfs246cjg1"
+                },
+                {
+                  "name": "Elevated errors across many models",
+                  "code": "c0052w6jxl47"
+                }
+              ]
+            },
+            {
+              "date": "2026-07-04T00:00:00.000Z",
+              "p": 0,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Elevated errors across many models",
+                  "code": "c0052w6jxl47"
+                }
+              ]
+            },
+            {
+              "date": "2026-07-05T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-07-06T00:00:00.000Z",
               "p": 0,
-              "m": 0,
-              "events": []
+              "m": 1633,
+              "events": [
+                {
+                  "name": "Elevated errors on several models",
+                  "code": "tl8x3p1msff2"
+                }
+              ]
             },
             {
+              "date": "2026-07-07T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Sonnet 5",
+                  "code": "hh9hj15mxkrx"
+                }
+              ]
             },
             {
               "p": 0,
@@ -29196,31 +29231,42 @@
               "events": []
             },
             {
+              "date": "2026-07-02T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-07-03T00:00:00.000Z",
+              "p": 0,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Fable 5 and Claude Mythos 5",
+                  "code": "mphfs246cjg1"
+                }
+              ]
+            },
+            {
+              "date": "2026-07-04T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-07-05T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-07-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
+              "date": "2026-07-07T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -43929,34 +43975,69 @@
               ]
             },
             {
+              "date": "2026-07-02T00:00:00.000Z",
+              "p": 0,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.8",
+                  "code": "lcccgkzvj2yx"
+                }
+              ]
+            },
+            {
+              "date": "2026-07-03T00:00:00.000Z",
+              "p": 0,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Fable 5 and Claude Mythos 5",
+                  "code": "mphfs246cjg1"
+                },
+                {
+                  "name": "Elevated errors across many models",
+                  "code": "c0052w6jxl47"
+                }
+              ]
+            },
+            {
+              "date": "2026-07-04T00:00:00.000Z",
+              "p": 0,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Elevated errors across many models",
+                  "code": "c0052w6jxl47"
+                }
+              ]
+            },
+            {
+              "date": "2026-07-05T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-07-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on several models",
+                  "code": "tl8x3p1msff2"
+                }
+              ]
             },
             {
+              "date": "2026-07-07T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Sonnet 5",
+                  "code": "hh9hj15mxkrx"
+                }
+              ]
             },
             {
               "p": 0,
@@ -57360,34 +57441,77 @@
               ]
             },
             {
+              "date": "2026-07-02T00:00:00.000Z",
+              "p": 0,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.8",
+                  "code": "lcccgkzvj2yx"
+                }
+              ]
+            },
+            {
+              "date": "2026-07-03T00:00:00.000Z",
+              "p": 0,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Fable 5 and Claude Mythos 5",
+                  "code": "mphfs246cjg1"
+                },
+                {
+                  "name": "Elevated errors across many models",
+                  "code": "c0052w6jxl47"
+                }
+              ]
+            },
+            {
+              "date": "2026-07-04T00:00:00.000Z",
+              "p": 0,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Elevated errors across many models",
+                  "code": "c0052w6jxl47"
+                }
+              ]
+            },
+            {
+              "date": "2026-07-05T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-07-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Claude Tag seeing elevated GitHub operation failures",
+                  "code": "d23j8s7t8rx2"
+                },
+                {
+                  "name": "Elevated errors on several models",
+                  "code": "tl8x3p1msff2"
+                }
+              ]
             },
             {
+              "date": "2026-07-07T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Claude Tag seeing elevated GitHub operation failures",
+                  "code": "d23j8s7t8rx2"
+                },
+                {
+                  "name": "Elevated errors on Claude Sonnet 5",
+                  "code": "hh9hj15mxkrx"
+                }
+              ]
             },
             {
               "p": 0,
@@ -69683,34 +69807,69 @@
               ]
             },
             {
+              "date": "2026-07-02T00:00:00.000Z",
+              "p": 0,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 4.8",
+                  "code": "lcccgkzvj2yx"
+                }
+              ]
+            },
+            {
+              "date": "2026-07-03T00:00:00.000Z",
+              "p": 0,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Fable 5 and Claude Mythos 5",
+                  "code": "mphfs246cjg1"
+                },
+                {
+                  "name": "Elevated errors across many models",
+                  "code": "c0052w6jxl47"
+                }
+              ]
+            },
+            {
+              "date": "2026-07-04T00:00:00.000Z",
+              "p": 0,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Elevated errors across many models",
+                  "code": "c0052w6jxl47"
+                }
+              ]
+            },
+            {
+              "date": "2026-07-05T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-07-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on several models",
+                  "code": "tl8x3p1msff2"
+                }
+              ]
             },
             {
+              "date": "2026-07-07T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Sonnet 5",
+                  "code": "hh9hj15mxkrx"
+                }
+              ]
             },
             {
               "p": 0,
@@ -81652,31 +81811,37 @@
               "events": []
             },
             {
+              "date": "2026-07-02T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-07-03T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-07-04T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-07-05T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-07-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-07-07T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
