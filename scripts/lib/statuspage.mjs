@@ -8,6 +8,50 @@ function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
+function findMatchingBrace(str, openIdx) {
+  let depth = 0;
+  let inString = false;
+  let quoteChar = null;
+  let escaped = false;
+
+  for (let i = openIdx; i < str.length; i++) {
+    const c = str[i];
+
+    if (escaped) {
+      escaped = false;
+      continue;
+    }
+
+    if (inString) {
+      if (c == "\\") escaped = true;
+      else if (c === quoteChar) inString = false;
+      continue;
+    }
+
+    if (c === '"' || c === "'" || c === "`") {
+      inString = true;
+      quoteChar = c;
+      continue;
+    }
+
+    if (c === "{") {
+      depth++;
+    } else if (c === "}") {
+      depth --;
+      if (depth === 0) return i + 1;
+    }
+  }
+  return -1; // unbalanced
+}
+
+export class UptimeParseError extends Error {
+  constructor(message, extracted) {
+    super(message);
+    this.name = "UptimeParseError";
+    this.extracted = extracted;
+  }
+}
+
 export async function fetchPath(path, { accept = "application/json", browser = false } = {}) {
   const url = path.startsWith("http") ? path : `${BASE}${path}`;
   for (let attempt = 1; ; attempt++) {
@@ -61,32 +105,24 @@ export async function fetchHomepageUptimeData() {
     accept: "text/html,application/xhtml+xml",
     browser: true,
   });
-  const idx = html.indexOf("var uptimeData");
-  if (idx < 0) return null;
-  const eqIdx = html.indexOf("=", idx);
-  let depth = 0;
-  let start = -1;
-  let end = -1;
-  for (let i = eqIdx + 1; i < html.length; i++) {
-    const c = html[i];
-    if (c === "{") {
-      if (depth === 0) start = i;
-      depth++;
-    } else if (c === "}") {
-      depth--;
-      if (depth === 0) {
-        end = i + 1;
-        break;
-      }
-    }
+
+  const assignRe = /uptimeData\s*=\s*{/;
+  const m = assignRe.exec(html);
+  if (!m) {
+    throw new UptimeParseError("Could not find 'uptimeData = {' in homepage HTML");
   }
-  if (start < 0 || end < 0) return null;
+
+  const start = m.index + m[0].length - 1;
+  const end = findMatchingBrace(html, start);
+  if (end < 0) {
+    throw new UptimeParseError("Unbalanced braces while scanning for uptimeData object");
+  }
+
+  const raw = html.slice(start, end);
   try {
-    return JSON.parse(html.slice(start, end));
+    return JSON.parse(raw);
   } catch (e) {
-    console.warn(`Failed to parse uptimeData: ${e.message}`);
-    console.warn(`Extracted string: ${html.slice(start, Math.min(end, start + 200))}`);
-    return null;
+    throw new UptimeParseError(`Failed to parse uptimeData: ${e.message}`, raw.slice(0, 200));
   }
 }
 
