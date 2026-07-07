@@ -81,7 +81,13 @@ export async function fetchHomepageUptimeData() {
     }
   }
   if (start < 0 || end < 0) return null;
-  return JSON.parse(html.slice(start, end));
+  try {
+    return JSON.parse(html.slice(start, end));
+  } catch (e) {
+    console.warn(`Failed to parse uptimeData: ${e.message}`);
+    console.warn(`Extracted string: ${html.slice(start, Math.min(end, start + 200))}`);
+    return null;
+  }
 }
 
 export async function fetchHistoryProps(page) {
