@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T12:40:48.246Z",
+  "generated_at": "2026-07-08T06:37:25.104Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15068,7 +15068,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9972999338624339,
+          "uptime_percentage": 0.9945636574074074,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -15137,19 +15137,29 @@
             },
             {
               "date": "2026-07-07T00:00:00.000Z",
-              "p": 0,
+              "p": 7082,
               "m": 0,
               "events": [
                 {
                   "name": "Elevated errors on Claude Sonnet 5",
                   "code": "hh9hj15mxkrx"
+                },
+                {
+                  "name": "Elevated errors for some models",
+                  "code": "l9zyw879cyd6"
                 }
               ]
             },
             {
+              "date": "2026-07-08T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Sonnet 5",
+                  "code": "n3v83qmtlbqm"
+                }
+              ]
             },
             {
               "p": 0,
@@ -29272,6 +29282,7 @@
               "events": []
             },
             {
+              "date": "2026-07-08T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -43961,7 +43972,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.9969262152777778,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -44030,19 +44041,29 @@
             },
             {
               "date": "2026-07-07T00:00:00.000Z",
-              "p": 0,
+              "p": 7082,
               "m": 0,
               "events": [
                 {
                   "name": "Elevated errors on Claude Sonnet 5",
                   "code": "hh9hj15mxkrx"
+                },
+                {
+                  "name": "Elevated errors for some models",
+                  "code": "l9zyw879cyd6"
                 }
               ]
             },
             {
+              "date": "2026-07-08T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Sonnet 5",
+                  "code": "n3v83qmtlbqm"
+                }
+              ]
             },
             {
               "p": 0,
@@ -57427,7 +57448,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.99692578125,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -57500,7 +57521,7 @@
             },
             {
               "date": "2026-07-07T00:00:00.000Z",
-              "p": 0,
+              "p": 7083,
               "m": 0,
               "events": [
                 {
@@ -57510,13 +57531,23 @@
                 {
                   "name": "Elevated errors on Claude Sonnet 5",
                   "code": "hh9hj15mxkrx"
+                },
+                {
+                  "name": "Elevated errors for some models",
+                  "code": "l9zyw879cyd6"
                 }
               ]
             },
             {
+              "date": "2026-07-08T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Sonnet 5",
+                  "code": "n3v83qmtlbqm"
+                }
+              ]
             },
             {
               "p": 0,
@@ -69793,7 +69824,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.99692578125,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -69862,19 +69893,29 @@
             },
             {
               "date": "2026-07-07T00:00:00.000Z",
-              "p": 0,
+              "p": 7083,
               "m": 0,
               "events": [
                 {
                   "name": "Elevated errors on Claude Sonnet 5",
                   "code": "hh9hj15mxkrx"
+                },
+                {
+                  "name": "Elevated errors for some models",
+                  "code": "l9zyw879cyd6"
                 }
               ]
             },
             {
+              "date": "2026-07-08T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Sonnet 5",
+                  "code": "n3v83qmtlbqm"
+                }
+              ]
             },
             {
               "p": 0,
@@ -81847,6 +81888,7 @@
               "events": []
             },
             {
+              "date": "2026-07-08T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
