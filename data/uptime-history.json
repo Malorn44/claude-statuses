@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T06:37:25.104Z",
+  "generated_at": "2026-07-09T07:58:15.195Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15068,7 +15068,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9945636574074074,
+          "uptime_percentage": 0.9946526491769547,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -15158,13 +15158,23 @@
                 {
                   "name": "Elevated errors on Claude Sonnet 5",
                   "code": "n3v83qmtlbqm"
+                },
+                {
+                  "name": "Elevated errors on multiple models",
+                  "code": "dcxc66flmxbd"
                 }
               ]
             },
             {
-              "p": 0,
+              "date": "2026-07-09T00:00:00.000Z",
+              "p": 1335,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Opus 4.8",
+                  "code": "t5kjpnysf4vp"
+                }
+              ]
             },
             {
               "p": 0,
@@ -29288,6 +29298,7 @@
               "events": []
             },
             {
+              "date": "2026-07-09T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -43972,7 +43983,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9969262152777778,
+          "uptime_percentage": 0.9967527006172838,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -44062,13 +44073,23 @@
                 {
                   "name": "Elevated errors on Claude Sonnet 5",
                   "code": "n3v83qmtlbqm"
+                },
+                {
+                  "name": "Elevated errors on multiple models",
+                  "code": "dcxc66flmxbd"
                 }
               ]
             },
             {
-              "p": 0,
+              "date": "2026-07-09T00:00:00.000Z",
+              "p": 1335,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Opus 4.8",
+                  "code": "t5kjpnysf4vp"
+                }
+              ]
             },
             {
               "p": 0,
@@ -57448,7 +57469,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.99692578125,
+          "uptime_percentage": 0.9967523148148147,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -57546,13 +57567,27 @@
                 {
                   "name": "Elevated errors on Claude Sonnet 5",
                   "code": "n3v83qmtlbqm"
+                },
+                {
+                  "name": "Elevated errors on multiple models",
+                  "code": "dcxc66flmxbd"
+                },
+                {
+                  "name": "Degraded performance for Claude Code on the web, Cowork Remote, Claude Tag, and Claude Code Review sessions",
+                  "code": "rvb96c56gn6k"
                 }
               ]
             },
             {
-              "p": 0,
+              "date": "2026-07-09T00:00:00.000Z",
+              "p": 1335,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Opus 4.8",
+                  "code": "t5kjpnysf4vp"
+                }
+              ]
             },
             {
               "p": 0,
@@ -69824,7 +69859,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.99692578125,
+          "uptime_percentage": 0.9967519290123457,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -69914,13 +69949,23 @@
                 {
                   "name": "Elevated errors on Claude Sonnet 5",
                   "code": "n3v83qmtlbqm"
+                },
+                {
+                  "name": "Elevated errors on multiple models",
+                  "code": "dcxc66flmxbd"
                 }
               ]
             },
             {
-              "p": 0,
+              "date": "2026-07-09T00:00:00.000Z",
+              "p": 1336,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Opus 4.8",
+                  "code": "t5kjpnysf4vp"
+                }
+              ]
             },
             {
               "p": 0,
@@ -81894,6 +81939,7 @@
               "events": []
             },
             {
+              "date": "2026-07-09T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
