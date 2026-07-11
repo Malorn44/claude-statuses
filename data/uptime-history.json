@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T07:49:58.792Z",
+  "generated_at": "2026-07-11T06:24:45.438Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15068,7 +15068,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9951873842592592,
+          "uptime_percentage": 0.9956248947811447,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -15180,9 +15180,15 @@
               "date": "2026-07-10T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Opus 4.8",
+                  "code": "mpn4d4xt44dm"
+                }
+              ]
             },
             {
+              "date": "2026-07-11T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -29308,9 +29314,15 @@
               "date": "2026-07-10T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Opus 4.8",
+                  "code": "mpn4d4xt44dm"
+                }
+              ]
             },
             {
+              "date": "2026-07-11T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -43985,7 +43997,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9970774305555554,
+          "uptime_percentage": 0.9973431186868686,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -44097,9 +44109,15 @@
               "date": "2026-07-10T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Opus 4.8",
+                  "code": "mpn4d4xt44dm"
+                }
+              ]
             },
             {
+              "date": "2026-07-11T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -57472,7 +57490,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9970770833333333,
+          "uptime_percentage": 0.997342803030303,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -57596,9 +57614,15 @@
               "date": "2026-07-10T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Opus 4.8",
+                  "code": "mpn4d4xt44dm"
+                }
+              ]
             },
             {
+              "date": "2026-07-11T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -69863,7 +69887,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9970767361111111,
+          "uptime_percentage": 0.9973424873737374,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -69975,9 +69999,15 @@
               "date": "2026-07-10T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Opus 4.8",
+                  "code": "mpn4d4xt44dm"
+                }
+              ]
             },
             {
+              "date": "2026-07-11T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -81956,6 +81986,7 @@
               "events": []
             },
             {
+              "date": "2026-07-11T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
