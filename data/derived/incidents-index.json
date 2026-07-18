@@ -1,6 +1,118 @@
 {
-  "generated_at": "2026-07-17T06:25:43.416Z",
+  "generated_at": "2026-07-18T06:16:19.925Z",
   "incidents": [
+    {
+      "id": "g613ntyj2pwf",
+      "name": "Elevated errors across Fable 5",
+      "impact": "major",
+      "created_at": "2026-07-17T18:32:32.629Z",
+      "started_at": "2026-07-17T18:32:32.619Z",
+      "resolved_at": "2026-07-17T19:43:35.467Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "lj0khk5vd7v7",
+      "name": "Elevated error rates for Sonnet 5",
+      "impact": "major",
+      "created_at": "2026-07-17T18:12:57.891Z",
+      "started_at": "2026-07-17T18:12:57.879Z",
+      "resolved_at": "2026-07-17T18:27:33.486Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "bwz7ld34gcxt",
+      "name": "Elevated errors for Claude Opus 4.8",
+      "impact": "minor",
+      "created_at": "2026-07-17T14:57:42.454Z",
+      "started_at": "2026-07-17T14:57:42.434Z",
+      "resolved_at": "2026-07-17T15:33:15.604Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "7gpjd8n56rlq",
+      "name": "Elevated errors on Sonnet 5 and Haiku 4.5",
+      "impact": "minor",
+      "created_at": "2026-07-17T06:47:54.909Z",
+      "started_at": "2026-07-17T06:47:54.866Z",
+      "resolved_at": "2026-07-17T12:21:30.321Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "kqbd7wm6hnnr",
       "name": "Elevated errors for multiple models",
