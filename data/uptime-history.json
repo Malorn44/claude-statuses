@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T06:41:31.963Z",
+  "generated_at": "2026-07-20T07:26:44.933Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15068,7 +15068,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9937504873294347,
+          "uptime_percentage": 0.9940629629629629,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -15287,6 +15287,7 @@
               "events": []
             },
             {
+              "date": "2026-07-20T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -29302,7 +29303,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9991971856725146,
+          "uptime_percentage": 0.9992373263888888,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -29461,9 +29462,15 @@
               "events": []
             },
             {
+              "date": "2026-07-20T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated error rates for Opus 4.5",
+                  "code": "hlt0yqp4lkww"
+                }
+              ]
             },
             {
               "p": 0,
@@ -44090,7 +44097,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9959429824561403,
+          "uptime_percentage": 0.9961458333333333,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -44300,9 +44307,15 @@
               "events": []
             },
             {
+              "date": "2026-07-20T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated error rates for Opus 4.5",
+                  "code": "hlt0yqp4lkww"
+                }
+              ]
             },
             {
               "p": 0,
@@ -57627,7 +57640,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9959427997076024,
+          "uptime_percentage": 0.9961456597222222,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -57849,9 +57862,15 @@
               "events": []
             },
             {
+              "date": "2026-07-20T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated error rates for Opus 4.5",
+                  "code": "hlt0yqp4lkww"
+                }
+              ]
             },
             {
               "p": 0,
@@ -70068,7 +70087,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9959426169590643,
+          "uptime_percentage": 0.9961454861111111,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -70278,9 +70297,15 @@
               "events": []
             },
             {
+              "date": "2026-07-20T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated error rates for Opus 4.5",
+                  "code": "hlt0yqp4lkww"
+                }
+              ]
             },
             {
               "p": 0,
@@ -82265,6 +82290,7 @@
               "events": []
             },
             {
+              "date": "2026-07-20T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
