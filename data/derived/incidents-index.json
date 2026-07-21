@@ -1,13 +1,87 @@
 {
-  "generated_at": "2026-07-20T07:26:46.604Z",
+  "generated_at": "2026-07-21T06:39:43.857Z",
   "incidents": [
+    {
+      "id": "4n0mmv2v41rf",
+      "name": "Elevated errors for Claude Opus 4.8",
+      "impact": "minor",
+      "created_at": "2026-07-20T14:41:12.517Z",
+      "started_at": "2026-07-20T14:41:12.509Z",
+      "resolved_at": "2026-07-20T16:16:00.095Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "s39rkbp2xhpd",
+      "name": "Elevated errors on Haiku 4.5",
+      "impact": "minor",
+      "created_at": "2026-07-20T13:20:48.492Z",
+      "started_at": "2026-07-20T13:20:48.478Z",
+      "resolved_at": "2026-07-20T15:41:03.604Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "tnypgb2jbqnq",
+      "name": "Fable 5 requiring usage credits on Max plans",
+      "impact": "minor",
+      "created_at": "2026-07-20T07:35:29.166Z",
+      "started_at": "2026-07-20T07:35:29.147Z",
+      "resolved_at": "2026-07-20T15:35:33.021Z",
+      "components": [
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        }
+      ]
+    },
     {
       "id": "hlt0yqp4lkww",
       "name": "Elevated error rates for Opus 4.5",
       "impact": "minor",
       "created_at": "2026-07-20T07:03:46.113Z",
       "started_at": "2026-07-20T07:03:46.105Z",
-      "resolved_at": null,
+      "resolved_at": "2026-07-20T12:48:06.788Z",
       "components": [
         {
           "id": "0qbwn08sd68x",

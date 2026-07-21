@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T07:26:44.933Z",
+  "generated_at": "2026-07-21T06:39:42.079Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15068,7 +15068,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9940629629629629,
+          "uptime_percentage": 0.9943456790123457,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -15290,9 +15290,19 @@
               "date": "2026-07-20T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Haiku 4.5",
+                  "code": "s39rkbp2xhpd"
+                },
+                {
+                  "name": "Elevated errors for Claude Opus 4.8",
+                  "code": "4n0mmv2v41rf"
+                }
+              ]
             },
             {
+              "date": "2026-07-21T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -29303,7 +29313,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9992373263888888,
+          "uptime_percentage": 0.9992736441798942,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -29469,10 +29479,19 @@
                 {
                   "name": "Elevated error rates for Opus 4.5",
                   "code": "hlt0yqp4lkww"
+                },
+                {
+                  "name": "Elevated errors on Haiku 4.5",
+                  "code": "s39rkbp2xhpd"
+                },
+                {
+                  "name": "Elevated errors for Claude Opus 4.8",
+                  "code": "4n0mmv2v41rf"
                 }
               ]
             },
             {
+              "date": "2026-07-21T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -44097,7 +44116,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9961458333333333,
+          "uptime_percentage": 0.996329365079365,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -44314,10 +44333,19 @@
                 {
                   "name": "Elevated error rates for Opus 4.5",
                   "code": "hlt0yqp4lkww"
+                },
+                {
+                  "name": "Elevated errors on Haiku 4.5",
+                  "code": "s39rkbp2xhpd"
+                },
+                {
+                  "name": "Elevated errors for Claude Opus 4.8",
+                  "code": "4n0mmv2v41rf"
                 }
               ]
             },
             {
+              "date": "2026-07-21T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -57640,7 +57668,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9961456597222222,
+          "uptime_percentage": 0.9963291997354498,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -57869,10 +57897,23 @@
                 {
                   "name": "Elevated error rates for Opus 4.5",
                   "code": "hlt0yqp4lkww"
+                },
+                {
+                  "name": "Fable 5 requiring usage credits on Max plans",
+                  "code": "tnypgb2jbqnq"
+                },
+                {
+                  "name": "Elevated errors on Haiku 4.5",
+                  "code": "s39rkbp2xhpd"
+                },
+                {
+                  "name": "Elevated errors for Claude Opus 4.8",
+                  "code": "4n0mmv2v41rf"
                 }
               ]
             },
             {
+              "date": "2026-07-21T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -70087,7 +70128,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9961454861111111,
+          "uptime_percentage": 0.9963290343915344,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -70304,10 +70345,19 @@
                 {
                   "name": "Elevated error rates for Opus 4.5",
                   "code": "hlt0yqp4lkww"
+                },
+                {
+                  "name": "Elevated errors on Haiku 4.5",
+                  "code": "s39rkbp2xhpd"
+                },
+                {
+                  "name": "Elevated errors for Claude Opus 4.8",
+                  "code": "4n0mmv2v41rf"
                 }
               ]
             },
             {
+              "date": "2026-07-21T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -82296,6 +82346,7 @@
               "events": []
             },
             {
+              "date": "2026-07-21T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
