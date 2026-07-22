@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T06:39:43.857Z",
+  "generated_at": "2026-07-22T06:40:47.933Z",
   "windows": {
     "24h": {
       "total_seconds": 86400,
@@ -12,29 +12,29 @@
     },
     "7d": {
       "total_seconds": 604800,
-      "major_seconds": 17617,
-      "critical_seconds": 0,
-      "minor_seconds": 76560,
+      "major_seconds": 22154,
+      "critical_seconds": 2696,
+      "minor_seconds": 85550,
       "stats": {
-        "incident_count": 13
+        "incident_count": 18
       }
     },
     "30d": {
       "total_seconds": 2592000,
-      "major_seconds": 39214,
-      "critical_seconds": 1633,
-      "minor_seconds": 237047,
+      "major_seconds": 38393,
+      "critical_seconds": 4329,
+      "minor_seconds": 224634,
       "stats": {
-        "incident_count": 42
+        "incident_count": 45
       }
     },
     "90d": {
       "total_seconds": 7776000,
-      "major_seconds": 141293,
-      "critical_seconds": 10465,
-      "minor_seconds": 461455,
+      "major_seconds": 144854,
+      "critical_seconds": 13161,
+      "minor_seconds": 467420,
       "stats": {
-        "incident_count": 139
+        "incident_count": 142
       }
     }
   }

@@ -1,6 +1,166 @@
 {
-  "generated_at": "2026-07-21T06:39:43.857Z",
+  "generated_at": "2026-07-22T06:40:47.933Z",
   "incidents": [
+    {
+      "id": "4qsb0fp16tpb",
+      "name": "Service disruption on Claude services",
+      "impact": "critical",
+      "created_at": "2026-07-21T17:40:25.000Z",
+      "started_at": "2026-07-21T17:40:25.000Z",
+      "resolved_at": "2026-07-21T18:03:47.003Z",
+      "components": [
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "vcynh9cf33xp",
+      "name": "Elevated errors on several models",
+      "impact": "critical",
+      "created_at": "2026-07-21T15:35:03.996Z",
+      "started_at": "2026-07-21T15:35:03.985Z",
+      "resolved_at": "2026-07-21T18:18:55.036Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "j0y67nj6w93z",
+      "name": "Elevated errors on Haiku 4.5",
+      "impact": "major",
+      "created_at": "2026-07-21T13:04:35.885Z",
+      "started_at": "2026-07-21T13:04:35.874Z",
+      "resolved_at": "2026-07-21T16:38:26.703Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "lw0sb1srtznh",
+      "name": "Elevated errors across Fable 5",
+      "impact": "minor",
+      "created_at": "2026-07-21T11:19:33.003Z",
+      "started_at": "2026-07-21T11:19:32.993Z",
+      "resolved_at": "2026-07-21T12:07:32.039Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "y65gwqbztbsp",
+      "name": "Elevated errors across models",
+      "impact": "minor",
+      "created_at": "2026-07-21T10:11:10.777Z",
+      "started_at": "2026-07-21T10:11:10.767Z",
+      "resolved_at": "2026-07-21T11:18:50.485Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "v35b71rthzhp",
+      "name": "Elevated errors on Haiku 4.5",
+      "impact": "minor",
+      "created_at": "2026-07-21T07:11:52.679Z",
+      "started_at": "2026-07-21T07:11:52.667Z",
+      "resolved_at": "2026-07-21T08:53:13.684Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "4n0mmv2v41rf",
       "name": "Elevated errors for Claude Opus 4.8",

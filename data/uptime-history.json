@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T06:39:42.079Z",
+  "generated_at": "2026-07-22T06:40:45.662Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15068,7 +15068,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9943456790123457,
+          "uptime_percentage": 0.9932053345959595,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -15303,11 +15303,33 @@
             },
             {
               "date": "2026-07-21T00:00:00.000Z",
-              "p": 0,
-              "m": 0,
-              "events": []
+              "p": 4537,
+              "m": 1295,
+              "events": [
+                {
+                  "name": "Elevated errors across models",
+                  "code": "y65gwqbztbsp"
+                },
+                {
+                  "name": "Elevated errors on several models",
+                  "code": "vcynh9cf33xp"
+                },
+                {
+                  "name": "Elevated errors across Fable 5",
+                  "code": "lw0sb1srtznh"
+                },
+                {
+                  "name": "Elevated errors on Haiku 4.5",
+                  "code": "v35b71rthzhp"
+                },
+                {
+                  "name": "Elevated errors on Haiku 4.5",
+                  "code": "j0y67nj6w93z"
+                }
+              ]
             },
             {
+              "date": "2026-07-22T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -29313,7 +29335,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9992736441798942,
+          "uptime_percentage": 0.9991583017676767,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -29493,10 +29515,24 @@
             {
               "date": "2026-07-21T00:00:00.000Z",
               "p": 0,
-              "m": 0,
-              "events": []
+              "m": 282,
+              "events": [
+                {
+                  "name": "Elevated errors across Fable 5",
+                  "code": "lw0sb1srtznh"
+                },
+                {
+                  "name": "Elevated errors on Haiku 4.5",
+                  "code": "v35b71rthzhp"
+                },
+                {
+                  "name": "Elevated errors on Haiku 4.5",
+                  "code": "j0y67nj6w93z"
+                }
+              ]
             },
             {
+              "date": "2026-07-22T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -44116,7 +44152,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.996329365079365,
+          "uptime_percentage": 0.9950988531144781,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -44346,11 +44382,33 @@
             },
             {
               "date": "2026-07-21T00:00:00.000Z",
-              "p": 0,
-              "m": 0,
-              "events": []
+              "p": 4537,
+              "m": 1295,
+              "events": [
+                {
+                  "name": "Elevated errors across models",
+                  "code": "y65gwqbztbsp"
+                },
+                {
+                  "name": "Elevated errors on several models",
+                  "code": "vcynh9cf33xp"
+                },
+                {
+                  "name": "Elevated errors across Fable 5",
+                  "code": "lw0sb1srtznh"
+                },
+                {
+                  "name": "Elevated errors on Haiku 4.5",
+                  "code": "v35b71rthzhp"
+                },
+                {
+                  "name": "Elevated errors on Haiku 4.5",
+                  "code": "j0y67nj6w93z"
+                }
+              ]
             },
             {
+              "date": "2026-07-22T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -57668,7 +57726,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9963291997354498,
+          "uptime_percentage": 0.9943616372053872,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -57914,11 +57972,37 @@
             },
             {
               "date": "2026-07-21T00:00:00.000Z",
-              "p": 0,
-              "m": 0,
-              "events": []
+              "p": 4537,
+              "m": 2696,
+              "events": [
+                {
+                  "name": "Service disruption on Claude services",
+                  "code": "4qsb0fp16tpb"
+                },
+                {
+                  "name": "Elevated errors across models",
+                  "code": "y65gwqbztbsp"
+                },
+                {
+                  "name": "Elevated errors on several models",
+                  "code": "vcynh9cf33xp"
+                },
+                {
+                  "name": "Elevated errors across Fable 5",
+                  "code": "lw0sb1srtznh"
+                },
+                {
+                  "name": "Elevated errors on Haiku 4.5",
+                  "code": "v35b71rthzhp"
+                },
+                {
+                  "name": "Elevated errors on Haiku 4.5",
+                  "code": "j0y67nj6w93z"
+                }
+              ]
             },
             {
+              "date": "2026-07-22T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -70128,7 +70212,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9963290343915344,
+          "uptime_percentage": 0.9943614793771044,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -70358,11 +70442,37 @@
             },
             {
               "date": "2026-07-21T00:00:00.000Z",
-              "p": 0,
-              "m": 0,
-              "events": []
+              "p": 4537,
+              "m": 2696,
+              "events": [
+                {
+                  "name": "Service disruption on Claude services",
+                  "code": "4qsb0fp16tpb"
+                },
+                {
+                  "name": "Elevated errors across models",
+                  "code": "y65gwqbztbsp"
+                },
+                {
+                  "name": "Elevated errors on several models",
+                  "code": "vcynh9cf33xp"
+                },
+                {
+                  "name": "Elevated errors across Fable 5",
+                  "code": "lw0sb1srtznh"
+                },
+                {
+                  "name": "Elevated errors on Haiku 4.5",
+                  "code": "v35b71rthzhp"
+                },
+                {
+                  "name": "Elevated errors on Haiku 4.5",
+                  "code": "j0y67nj6w93z"
+                }
+              ]
             },
             {
+              "date": "2026-07-22T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -82352,6 +82462,7 @@
               "events": []
             },
             {
+              "date": "2026-07-22T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []

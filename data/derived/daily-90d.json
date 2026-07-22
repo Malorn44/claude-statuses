@@ -1,28 +1,15 @@
 {
-  "generated_at": "2026-07-21T06:39:43.857Z",
+  "generated_at": "2026-07-22T06:40:47.933Z",
   "rows": [
     {
       "id": "__aggregate__",
       "name": "Claude Platform",
       "is_aggregate": true,
       "window_seconds": 7776000,
-      "major_seconds": 141293,
-      "critical_seconds": 10465,
-      "minor_seconds": 461455,
+      "major_seconds": 144854,
+      "critical_seconds": 13161,
+      "minor_seconds": 467420,
       "days": [
-        {
-          "date": "2026-04-23",
-          "impact": "major",
-          "major_s": 976,
-          "critical_s": 0,
-          "minor_s": 7055,
-          "maintenance_s": 0,
-          "incident_ids": [
-            "9tyl1z4b03cs",
-            "1gz3fcvd76fx",
-            "t6v0k97s0802"
-          ]
-        },
         {
           "date": "2026-04-24",
           "impact": "critical",
@@ -44,11 +31,11 @@
           "minor_s": 18200,
           "maintenance_s": 0,
           "incident_ids": [
-            "q93x64nrhwnn",
-            "87m29x6sk78g",
             "c3km369dp85h",
+            "29ryc4sj27jk",
+            "q93x64nrhwnn",
             "zqsk02ryfmrd",
-            "29ryc4sj27jk"
+            "87m29x6sk78g"
           ]
         },
         {
@@ -80,8 +67,8 @@
           "maintenance_s": 0,
           "incident_ids": [
             "9l93x2ht4s5w",
-            "lryjwwy0q9pl",
             "c20m4lbfd6pm",
+            "lryjwwy0q9pl",
             "x1y91zcb2rp2",
             "7bk0ftl0mpny"
           ]
@@ -106,8 +93,8 @@
           "minor_s": 3092,
           "maintenance_s": 0,
           "incident_ids": [
-            "dv9r688vqt8s",
-            "2gf1jpyty350"
+            "2gf1jpyty350",
+            "dv9r688vqt8s"
           ]
         },
         {
@@ -145,9 +132,9 @@
           "minor_s": 8793,
           "maintenance_s": 0,
           "incident_ids": [
-            "89vbl7qk5dqp",
+            "zxv1xv501678",
             "77j6yv8kc0vn",
-            "zxv1xv501678"
+            "89vbl7qk5dqp"
           ]
         },
         {
@@ -167,8 +154,8 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": [
-            "snxm62gpxfc9",
-            "437swp24nrf4"
+            "437swp24nrf4",
+            "snxm62gpxfc9"
           ]
         },
         {
@@ -179,8 +166,8 @@
           "minor_s": 2133,
           "maintenance_s": 0,
           "incident_ids": [
-            "snxm62gpxfc9",
-            "9h32bh60z06w"
+            "9h32bh60z06w",
+            "snxm62gpxfc9"
           ]
         },
         {
@@ -191,10 +178,10 @@
           "minor_s": 5347,
           "maintenance_s": 0,
           "incident_ids": [
-            "378dqscjgghp",
             "fv8psq0wdpkn",
-            "vtt35dc73941",
+            "378dqscjgghp",
             "5p98r08qfvwl",
+            "vtt35dc73941",
             "w5cw47ytckzx"
           ]
         },
@@ -207,8 +194,8 @@
           "maintenance_s": 0,
           "incident_ids": [
             "1m6xs1xcw9kk",
-            "4b7cjct792q2",
-            "w5cw47ytckzx"
+            "w5cw47ytckzx",
+            "4b7cjct792q2"
           ]
         },
         {
@@ -237,8 +224,8 @@
           "minor_s": 656,
           "maintenance_s": 0,
           "incident_ids": [
-            "3kkmgccb9z85",
             "c2hjyfpgsprx",
+            "3kkmgccb9z85",
             "n0c72xml12l4"
           ]
         },
@@ -250,8 +237,8 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": [
-            "yn24rtdnf77b",
-            "sb7byp4h7yp8"
+            "sb7byp4h7yp8",
+            "yn24rtdnf77b"
           ]
         },
         {
@@ -316,10 +303,10 @@
           "minor_s": 10954,
           "maintenance_s": 0,
           "incident_ids": [
-            "cgwwyh79gpm3",
-            "f9yk8lqw384x",
             "0y2vzr60dktt",
-            "qkwdrjxvkb9s"
+            "qkwdrjxvkb9s",
+            "f9yk8lqw384x",
+            "cgwwyh79gpm3"
           ]
         },
         {
@@ -533,8 +520,8 @@
           "minor_s": 7369,
           "maintenance_s": 0,
           "incident_ids": [
-            "1h2k3ryt64wl",
-            "s4pq658bt69h"
+            "s4pq658bt69h",
+            "1h2k3ryt64wl"
           ]
         },
         {
@@ -639,10 +626,10 @@
           "minor_s": 7351,
           "maintenance_s": 0,
           "incident_ids": [
-            "8q88rrz9rjd0",
             "s9w82lp9dcn9",
+            "41395mspl1rf",
             "xmhsglsz3h3w",
-            "41395mspl1rf"
+            "8q88rrz9rjd0"
           ]
         },
         {
@@ -656,8 +643,8 @@
             "8chgzf3fs27n",
             "zw75lhl39skc",
             "s9w82lp9dcn9",
-            "k8563n9wd0r8",
-            "s107yx224p9r"
+            "s107yx224p9r",
+            "k8563n9wd0r8"
           ]
         },
         {
@@ -668,8 +655,8 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": [
-            "jlbvcpfwwq8z",
-            "s9w82lp9dcn9"
+            "s9w82lp9dcn9",
+            "jlbvcpfwwq8z"
           ]
         },
         {
@@ -731,8 +718,8 @@
           "maintenance_s": 0,
           "incident_ids": [
             "jbhf20wjmzrf",
-            "2stpj60m2fr9",
             "s9w82lp9dcn9",
+            "2stpj60m2fr9",
             "18bq2kw867g5"
           ]
         },
@@ -893,8 +880,8 @@
           "minor_s": 57121,
           "maintenance_s": 0,
           "incident_ids": [
-            "hh9hj15mxkrx",
             "l9zyw879cyd6",
+            "hh9hj15mxkrx",
             "d23j8s7t8rx2"
           ]
         },
@@ -994,8 +981,8 @@
           "minor_s": 17248,
           "maintenance_s": 0,
           "incident_ids": [
-            "30x7lsq713tl",
             "vjfp60ngq2zj",
+            "30x7lsq713tl",
             "0hzwq1ylg80g",
             "kqbd7wm6hnnr"
           ]
@@ -1008,10 +995,10 @@
           "minor_s": 22148,
           "maintenance_s": 0,
           "incident_ids": [
-            "g613ntyj2pwf",
             "lj0khk5vd7v7",
-            "bwz7ld34gcxt",
-            "7gpjd8n56rlq"
+            "g613ntyj2pwf",
+            "7gpjd8n56rlq",
+            "bwz7ld34gcxt"
           ]
         },
         {
@@ -1048,6 +1035,22 @@
         },
         {
           "date": "2026-07-21",
+          "impact": "critical",
+          "major_s": 4537,
+          "critical_s": 2696,
+          "minor_s": 13020,
+          "maintenance_s": 0,
+          "incident_ids": [
+            "y65gwqbztbsp",
+            "vcynh9cf33xp",
+            "lw0sb1srtznh",
+            "v35b71rthzhp",
+            "j0y67nj6w93z",
+            "4qsb0fp16tpb"
+          ]
+        },
+        {
+          "date": "2026-07-22",
           "impact": "none",
           "major_s": 0,
           "critical_s": 0,
@@ -1062,22 +1065,10 @@
       "name": "claude.ai",
       "is_aggregate": false,
       "window_seconds": 7776000,
-      "major_seconds": 117715,
-      "critical_seconds": 10463,
-      "minor_seconds": 330863,
+      "major_seconds": 121276,
+      "critical_seconds": 11758,
+      "minor_seconds": 336828,
       "days": [
-        {
-          "date": "2026-04-23",
-          "impact": "major",
-          "major_s": 976,
-          "critical_s": 0,
-          "minor_s": 7055,
-          "maintenance_s": 0,
-          "incident_ids": [
-            "9tyl1z4b03cs",
-            "1gz3fcvd76fx"
-          ]
-        },
         {
           "date": "2026-04-24",
           "impact": "critical",
@@ -1098,11 +1089,11 @@
           "minor_s": 18200,
           "maintenance_s": 0,
           "incident_ids": [
-            "q93x64nrhwnn",
-            "87m29x6sk78g",
             "c3km369dp85h",
+            "29ryc4sj27jk",
+            "q93x64nrhwnn",
             "zqsk02ryfmrd",
-            "29ryc4sj27jk"
+            "87m29x6sk78g"
           ]
         },
         {
@@ -1134,8 +1125,8 @@
           "maintenance_s": 0,
           "incident_ids": [
             "9l93x2ht4s5w",
-            "lryjwwy0q9pl",
-            "c20m4lbfd6pm"
+            "c20m4lbfd6pm",
+            "lryjwwy0q9pl"
           ]
         },
         {
@@ -1157,8 +1148,8 @@
           "minor_s": 3092,
           "maintenance_s": 0,
           "incident_ids": [
-            "dv9r688vqt8s",
-            "2gf1jpyty350"
+            "2gf1jpyty350",
+            "dv9r688vqt8s"
           ]
         },
         {
@@ -1196,9 +1187,9 @@
           "minor_s": 8793,
           "maintenance_s": 0,
           "incident_ids": [
-            "89vbl7qk5dqp",
+            "zxv1xv501678",
             "77j6yv8kc0vn",
-            "zxv1xv501678"
+            "89vbl7qk5dqp"
           ]
         },
         {
@@ -1218,8 +1209,8 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": [
-            "snxm62gpxfc9",
-            "437swp24nrf4"
+            "437swp24nrf4",
+            "snxm62gpxfc9"
           ]
         },
         {
@@ -1230,8 +1221,8 @@
           "minor_s": 2133,
           "maintenance_s": 0,
           "incident_ids": [
-            "snxm62gpxfc9",
-            "9h32bh60z06w"
+            "9h32bh60z06w",
+            "snxm62gpxfc9"
           ]
         },
         {
@@ -1242,10 +1233,10 @@
           "minor_s": 5347,
           "maintenance_s": 0,
           "incident_ids": [
-            "378dqscjgghp",
             "fv8psq0wdpkn",
-            "vtt35dc73941",
-            "5p98r08qfvwl"
+            "378dqscjgghp",
+            "5p98r08qfvwl",
+            "vtt35dc73941"
           ]
         },
         {
@@ -1285,8 +1276,8 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": [
-            "3kkmgccb9z85",
-            "c2hjyfpgsprx"
+            "c2hjyfpgsprx",
+            "3kkmgccb9z85"
           ]
         },
         {
@@ -1297,8 +1288,8 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": [
-            "yn24rtdnf77b",
-            "sb7byp4h7yp8"
+            "sb7byp4h7yp8",
+            "yn24rtdnf77b"
           ]
         },
         {
@@ -1361,10 +1352,10 @@
           "minor_s": 10954,
           "maintenance_s": 0,
           "incident_ids": [
-            "cgwwyh79gpm3",
-            "f9yk8lqw384x",
             "0y2vzr60dktt",
-            "qkwdrjxvkb9s"
+            "qkwdrjxvkb9s",
+            "f9yk8lqw384x",
+            "cgwwyh79gpm3"
           ]
         },
         {
@@ -1569,8 +1560,8 @@
           "minor_s": 7369,
           "maintenance_s": 0,
           "incident_ids": [
-            "1h2k3ryt64wl",
-            "s4pq658bt69h"
+            "s4pq658bt69h",
+            "1h2k3ryt64wl"
           ]
         },
         {
@@ -1673,10 +1664,10 @@
           "minor_s": 7351,
           "maintenance_s": 0,
           "incident_ids": [
-            "8q88rrz9rjd0",
             "s9w82lp9dcn9",
+            "41395mspl1rf",
             "xmhsglsz3h3w",
-            "41395mspl1rf"
+            "8q88rrz9rjd0"
           ]
         },
         {
@@ -1690,8 +1681,8 @@
             "8chgzf3fs27n",
             "zw75lhl39skc",
             "s9w82lp9dcn9",
-            "k8563n9wd0r8",
-            "s107yx224p9r"
+            "s107yx224p9r",
+            "k8563n9wd0r8"
           ]
         },
         {
@@ -1702,8 +1693,8 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": [
-            "jlbvcpfwwq8z",
-            "s9w82lp9dcn9"
+            "s9w82lp9dcn9",
+            "jlbvcpfwwq8z"
           ]
         },
         {
@@ -1765,8 +1756,8 @@
           "maintenance_s": 0,
           "incident_ids": [
             "jbhf20wjmzrf",
-            "2stpj60m2fr9",
             "s9w82lp9dcn9",
+            "2stpj60m2fr9",
             "18bq2kw867g5"
           ]
         },
@@ -1922,8 +1913,8 @@
           "minor_s": 2323,
           "maintenance_s": 0,
           "incident_ids": [
-            "hh9hj15mxkrx",
-            "l9zyw879cyd6"
+            "l9zyw879cyd6",
+            "hh9hj15mxkrx"
           ]
         },
         {
@@ -2019,8 +2010,8 @@
           "minor_s": 17248,
           "maintenance_s": 0,
           "incident_ids": [
-            "30x7lsq713tl",
             "vjfp60ngq2zj",
+            "30x7lsq713tl",
             "0hzwq1ylg80g"
           ]
         },
@@ -2032,10 +2023,10 @@
           "minor_s": 22148,
           "maintenance_s": 0,
           "incident_ids": [
-            "g613ntyj2pwf",
             "lj0khk5vd7v7",
-            "bwz7ld34gcxt",
-            "7gpjd8n56rlq"
+            "g613ntyj2pwf",
+            "7gpjd8n56rlq",
+            "bwz7ld34gcxt"
           ]
         },
         {
@@ -2070,6 +2061,21 @@
         },
         {
           "date": "2026-07-21",
+          "impact": "critical",
+          "major_s": 4537,
+          "critical_s": 1295,
+          "minor_s": 13020,
+          "maintenance_s": 0,
+          "incident_ids": [
+            "y65gwqbztbsp",
+            "vcynh9cf33xp",
+            "lw0sb1srtznh",
+            "v35b71rthzhp",
+            "j0y67nj6w93z"
+          ]
+        },
+        {
+          "date": "2026-07-22",
           "impact": "none",
           "major_s": 0,
           "critical_s": 0,
@@ -2085,20 +2091,9 @@
       "is_aggregate": false,
       "window_seconds": 7776000,
       "major_seconds": 56373,
-      "critical_seconds": 4159,
-      "minor_seconds": 188790,
+      "critical_seconds": 4441,
+      "minor_seconds": 192513,
       "days": [
-        {
-          "date": "2026-04-23",
-          "impact": "minor",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 5237,
-          "maintenance_s": 0,
-          "incident_ids": [
-            "9tyl1z4b03cs"
-          ]
-        },
         {
           "date": "2026-04-24",
           "impact": "critical",
@@ -2120,8 +2115,8 @@
           "maintenance_s": 0,
           "incident_ids": [
             "q93x64nrhwnn",
-            "87m29x6sk78g",
-            "zqsk02ryfmrd"
+            "zqsk02ryfmrd",
+            "87m29x6sk78g"
           ]
         },
         {
@@ -2250,8 +2245,8 @@
           "minor_s": 434,
           "maintenance_s": 0,
           "incident_ids": [
-            "378dqscjgghp",
-            "fv8psq0wdpkn"
+            "fv8psq0wdpkn",
+            "378dqscjgghp"
           ]
         },
         {
@@ -2291,8 +2286,8 @@
           "minor_s": 656,
           "maintenance_s": 0,
           "incident_ids": [
-            "n0c72xml12l4",
-            "c2hjyfpgsprx"
+            "c2hjyfpgsprx",
+            "n0c72xml12l4"
           ]
         },
         {
@@ -2362,9 +2357,9 @@
           "minor_s": 10652,
           "maintenance_s": 0,
           "incident_ids": [
-            "f9yk8lqw384x",
+            "0y2vzr60dktt",
             "qkwdrjxvkb9s",
-            "0y2vzr60dktt"
+            "f9yk8lqw384x"
           ]
         },
         {
@@ -2659,8 +2654,8 @@
           "incident_ids": [
             "8chgzf3fs27n",
             "zw75lhl39skc",
-            "k8563n9wd0r8",
-            "s107yx224p9r"
+            "s107yx224p9r",
+            "k8563n9wd0r8"
           ]
         },
         {
@@ -2943,8 +2938,8 @@
           "minor_s": 17248,
           "maintenance_s": 0,
           "incident_ids": [
-            "30x7lsq713tl",
             "vjfp60ngq2zj",
+            "30x7lsq713tl",
             "0hzwq1ylg80g"
           ]
         },
@@ -2993,6 +2988,19 @@
         },
         {
           "date": "2026-07-21",
+          "impact": "critical",
+          "major_s": 0,
+          "critical_s": 282,
+          "minor_s": 8960,
+          "maintenance_s": 0,
+          "incident_ids": [
+            "lw0sb1srtznh",
+            "v35b71rthzhp",
+            "j0y67nj6w93z"
+          ]
+        },
+        {
+          "date": "2026-07-22",
           "impact": "none",
           "major_s": 0,
           "critical_s": 0,
@@ -3007,22 +3015,10 @@
       "name": "Claude API (api.anthropic.com)",
       "is_aggregate": false,
       "window_seconds": 7776000,
-      "major_seconds": 106663,
-      "critical_seconds": 4160,
-      "minor_seconds": 347907,
+      "major_seconds": 111200,
+      "critical_seconds": 5455,
+      "minor_seconds": 353872,
       "days": [
-        {
-          "date": "2026-04-23",
-          "impact": "minor",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 7055,
-          "maintenance_s": 0,
-          "incident_ids": [
-            "9tyl1z4b03cs",
-            "1gz3fcvd76fx"
-          ]
-        },
         {
           "date": "2026-04-24",
           "impact": "critical",
@@ -3043,10 +3039,10 @@
           "minor_s": 18200,
           "maintenance_s": 0,
           "incident_ids": [
+            "29ryc4sj27jk",
             "q93x64nrhwnn",
-            "87m29x6sk78g",
             "zqsk02ryfmrd",
-            "29ryc4sj27jk"
+            "87m29x6sk78g"
           ]
         },
         {
@@ -3076,9 +3072,9 @@
           "maintenance_s": 0,
           "incident_ids": [
             "9l93x2ht4s5w",
-            "lryjwwy0q9pl",
             "c20m4lbfd6pm",
-            "x1y91zcb2rp2"
+            "x1y91zcb2rp2",
+            "lryjwwy0q9pl"
           ]
         },
         {
@@ -3139,9 +3135,9 @@
           "minor_s": 8793,
           "maintenance_s": 0,
           "incident_ids": [
-            "89vbl7qk5dqp",
+            "zxv1xv501678",
             "77j6yv8kc0vn",
-            "zxv1xv501678"
+            "89vbl7qk5dqp"
           ]
         },
         {
@@ -3183,10 +3179,10 @@
           "minor_s": 5347,
           "maintenance_s": 0,
           "incident_ids": [
-            "378dqscjgghp",
             "fv8psq0wdpkn",
-            "vtt35dc73941",
-            "5p98r08qfvwl"
+            "378dqscjgghp",
+            "5p98r08qfvwl",
+            "vtt35dc73941"
           ]
         },
         {
@@ -3226,8 +3222,8 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": [
-            "3kkmgccb9z85",
-            "c2hjyfpgsprx"
+            "c2hjyfpgsprx",
+            "3kkmgccb9z85"
           ]
         },
         {
@@ -3301,9 +3297,9 @@
           "minor_s": 10652,
           "maintenance_s": 0,
           "incident_ids": [
-            "f9yk8lqw384x",
+            "0y2vzr60dktt",
             "qkwdrjxvkb9s",
-            "0y2vzr60dktt"
+            "f9yk8lqw384x"
           ]
         },
         {
@@ -3504,8 +3500,8 @@
           "minor_s": 7369,
           "maintenance_s": 0,
           "incident_ids": [
-            "1h2k3ryt64wl",
-            "s4pq658bt69h"
+            "s4pq658bt69h",
+            "1h2k3ryt64wl"
           ]
         },
         {
@@ -3608,8 +3604,8 @@
           "maintenance_s": 0,
           "incident_ids": [
             "s9w82lp9dcn9",
-            "xmhsglsz3h3w",
-            "41395mspl1rf"
+            "41395mspl1rf",
+            "xmhsglsz3h3w"
           ]
         },
         {
@@ -3623,8 +3619,8 @@
             "8chgzf3fs27n",
             "zw75lhl39skc",
             "s9w82lp9dcn9",
-            "k8563n9wd0r8",
-            "s107yx224p9r"
+            "s107yx224p9r",
+            "k8563n9wd0r8"
           ]
         },
         {
@@ -3659,8 +3655,8 @@
           "minor_s": 3309,
           "maintenance_s": 0,
           "incident_ids": [
-            "nbp7j8k3kgw2",
-            "s9w82lp9dcn9"
+            "s9w82lp9dcn9",
+            "nbp7j8k3kgw2"
           ]
         },
         {
@@ -3697,8 +3693,8 @@
           "maintenance_s": 0,
           "incident_ids": [
             "jbhf20wjmzrf",
-            "2stpj60m2fr9",
-            "s9w82lp9dcn9"
+            "s9w82lp9dcn9",
+            "2stpj60m2fr9"
           ]
         },
         {
@@ -3854,8 +3850,8 @@
           "minor_s": 2323,
           "maintenance_s": 0,
           "incident_ids": [
-            "hh9hj15mxkrx",
-            "l9zyw879cyd6"
+            "l9zyw879cyd6",
+            "hh9hj15mxkrx"
           ]
         },
         {
@@ -3949,8 +3945,8 @@
           "minor_s": 17248,
           "maintenance_s": 0,
           "incident_ids": [
-            "30x7lsq713tl",
-            "vjfp60ngq2zj"
+            "vjfp60ngq2zj",
+            "30x7lsq713tl"
           ]
         },
         {
@@ -3962,9 +3958,9 @@
           "maintenance_s": 0,
           "incident_ids": [
             "lj0khk5vd7v7",
-            "bwz7ld34gcxt",
             "g613ntyj2pwf",
-            "7gpjd8n56rlq"
+            "7gpjd8n56rlq",
+            "bwz7ld34gcxt"
           ]
         },
         {
@@ -4000,6 +3996,21 @@
         },
         {
           "date": "2026-07-21",
+          "impact": "critical",
+          "major_s": 4537,
+          "critical_s": 1295,
+          "minor_s": 13020,
+          "maintenance_s": 0,
+          "incident_ids": [
+            "y65gwqbztbsp",
+            "vcynh9cf33xp",
+            "lw0sb1srtznh",
+            "v35b71rthzhp",
+            "j0y67nj6w93z"
+          ]
+        },
+        {
+          "date": "2026-07-22",
           "impact": "none",
           "major_s": 0,
           "critical_s": 0,
@@ -4014,22 +4025,10 @@
       "name": "Claude Code",
       "is_aggregate": false,
       "window_seconds": 7776000,
-      "major_seconds": 122541,
-      "critical_seconds": 4160,
-      "minor_seconds": 416367,
+      "major_seconds": 127078,
+      "critical_seconds": 6856,
+      "minor_seconds": 422332,
       "days": [
-        {
-          "date": "2026-04-23",
-          "impact": "minor",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 7055,
-          "maintenance_s": 0,
-          "incident_ids": [
-            "9tyl1z4b03cs",
-            "1gz3fcvd76fx"
-          ]
-        },
         {
           "date": "2026-04-24",
           "impact": "critical",
@@ -4050,10 +4049,10 @@
           "minor_s": 18200,
           "maintenance_s": 0,
           "incident_ids": [
+            "29ryc4sj27jk",
             "q93x64nrhwnn",
-            "87m29x6sk78g",
             "zqsk02ryfmrd",
-            "29ryc4sj27jk"
+            "87m29x6sk78g"
           ]
         },
         {
@@ -4143,9 +4142,9 @@
           "minor_s": 8793,
           "maintenance_s": 0,
           "incident_ids": [
-            "89vbl7qk5dqp",
+            "zxv1xv501678",
             "77j6yv8kc0vn",
-            "zxv1xv501678"
+            "89vbl7qk5dqp"
           ]
         },
         {
@@ -4165,8 +4164,8 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": [
-            "snxm62gpxfc9",
-            "437swp24nrf4"
+            "437swp24nrf4",
+            "snxm62gpxfc9"
           ]
         },
         {
@@ -4177,8 +4176,8 @@
           "minor_s": 2133,
           "maintenance_s": 0,
           "incident_ids": [
-            "snxm62gpxfc9",
-            "9h32bh60z06w"
+            "9h32bh60z06w",
+            "snxm62gpxfc9"
           ]
         },
         {
@@ -4189,8 +4188,8 @@
           "minor_s": 1906,
           "maintenance_s": 0,
           "incident_ids": [
-            "378dqscjgghp",
             "fv8psq0wdpkn",
+            "378dqscjgghp",
             "5p98r08qfvwl",
             "w5cw47ytckzx"
           ]
@@ -4203,9 +4202,9 @@
           "minor_s": 2570,
           "maintenance_s": 0,
           "incident_ids": [
-            "4b7cjct792q2",
             "w5cw47ytckzx",
-            "1m6xs1xcw9kk"
+            "1m6xs1xcw9kk",
+            "4b7cjct792q2"
           ]
         },
         {
@@ -4234,8 +4233,8 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": [
-            "3kkmgccb9z85",
-            "c2hjyfpgsprx"
+            "c2hjyfpgsprx",
+            "3kkmgccb9z85"
           ]
         },
         {
@@ -4312,10 +4311,10 @@
           "minor_s": 10954,
           "maintenance_s": 0,
           "incident_ids": [
-            "cgwwyh79gpm3",
-            "f9yk8lqw384x",
+            "0y2vzr60dktt",
             "qkwdrjxvkb9s",
-            "0y2vzr60dktt"
+            "f9yk8lqw384x",
+            "cgwwyh79gpm3"
           ]
         },
         {
@@ -4477,8 +4476,8 @@
           "minor_s": 1684,
           "maintenance_s": 0,
           "incident_ids": [
-            "thp2kyjx60qn",
-            "0w1blp7cngrr"
+            "0w1blp7cngrr",
+            "thp2kyjx60qn"
           ]
         },
         {
@@ -4519,8 +4518,8 @@
           "minor_s": 7369,
           "maintenance_s": 0,
           "incident_ids": [
-            "1h2k3ryt64wl",
-            "s4pq658bt69h"
+            "s4pq658bt69h",
+            "1h2k3ryt64wl"
           ]
         },
         {
@@ -4624,10 +4623,10 @@
           "minor_s": 7351,
           "maintenance_s": 0,
           "incident_ids": [
-            "8q88rrz9rjd0",
             "s9w82lp9dcn9",
+            "41395mspl1rf",
             "xmhsglsz3h3w",
-            "41395mspl1rf"
+            "8q88rrz9rjd0"
           ]
         },
         {
@@ -4641,8 +4640,8 @@
             "8chgzf3fs27n",
             "zw75lhl39skc",
             "s9w82lp9dcn9",
-            "k8563n9wd0r8",
-            "s107yx224p9r"
+            "s107yx224p9r",
+            "k8563n9wd0r8"
           ]
         },
         {
@@ -4715,8 +4714,8 @@
           "maintenance_s": 0,
           "incident_ids": [
             "jbhf20wjmzrf",
-            "2stpj60m2fr9",
-            "s9w82lp9dcn9"
+            "s9w82lp9dcn9",
+            "2stpj60m2fr9"
           ]
         },
         {
@@ -4860,8 +4859,8 @@
           "minor_s": 13680,
           "maintenance_s": 0,
           "incident_ids": [
-            "d23j8s7t8rx2",
-            "tl8x3p1msff2"
+            "tl8x3p1msff2",
+            "d23j8s7t8rx2"
           ]
         },
         {
@@ -4872,9 +4871,9 @@
           "minor_s": 57121,
           "maintenance_s": 0,
           "incident_ids": [
-            "hh9hj15mxkrx",
+            "l9zyw879cyd6",
             "d23j8s7t8rx2",
-            "l9zyw879cyd6"
+            "hh9hj15mxkrx"
           ]
         },
         {
@@ -4982,9 +4981,9 @@
           "maintenance_s": 0,
           "incident_ids": [
             "lj0khk5vd7v7",
-            "bwz7ld34gcxt",
             "g613ntyj2pwf",
-            "7gpjd8n56rlq"
+            "7gpjd8n56rlq",
+            "bwz7ld34gcxt"
           ]
         },
         {
@@ -5021,6 +5020,22 @@
         },
         {
           "date": "2026-07-21",
+          "impact": "critical",
+          "major_s": 4537,
+          "critical_s": 2696,
+          "minor_s": 13020,
+          "maintenance_s": 0,
+          "incident_ids": [
+            "4qsb0fp16tpb",
+            "y65gwqbztbsp",
+            "vcynh9cf33xp",
+            "lw0sb1srtznh",
+            "v35b71rthzhp",
+            "j0y67nj6w93z"
+          ]
+        },
+        {
+          "date": "2026-07-22",
           "impact": "none",
           "major_s": 0,
           "critical_s": 0,
@@ -5035,22 +5050,10 @@
       "name": "Claude Cowork",
       "is_aggregate": false,
       "window_seconds": 7776000,
-      "major_seconds": 82701,
-      "critical_seconds": 8832,
-      "minor_seconds": 306146,
+      "major_seconds": 87238,
+      "critical_seconds": 11528,
+      "minor_seconds": 312111,
       "days": [
-        {
-          "date": "2026-04-23",
-          "impact": "minor",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 7055,
-          "maintenance_s": 0,
-          "incident_ids": [
-            "9tyl1z4b03cs",
-            "1gz3fcvd76fx"
-          ]
-        },
         {
           "date": "2026-04-24",
           "impact": "critical",
@@ -5071,9 +5074,9 @@
           "minor_s": 6535,
           "maintenance_s": 0,
           "incident_ids": [
+            "29ryc4sj27jk",
             "q93x64nrhwnn",
-            "zqsk02ryfmrd",
-            "29ryc4sj27jk"
+            "zqsk02ryfmrd"
           ]
         },
         {
@@ -5205,8 +5208,8 @@
           "minor_s": 1906,
           "maintenance_s": 0,
           "incident_ids": [
-            "378dqscjgghp",
             "fv8psq0wdpkn",
+            "378dqscjgghp",
             "5p98r08qfvwl"
           ]
         },
@@ -5245,8 +5248,8 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": [
-            "3kkmgccb9z85",
-            "c2hjyfpgsprx"
+            "c2hjyfpgsprx",
+            "3kkmgccb9z85"
           ]
         },
         {
@@ -5318,9 +5321,9 @@
           "minor_s": 10652,
           "maintenance_s": 0,
           "incident_ids": [
-            "f9yk8lqw384x",
+            "0y2vzr60dktt",
             "qkwdrjxvkb9s",
-            "0y2vzr60dktt"
+            "f9yk8lqw384x"
           ]
         },
         {
@@ -5618,8 +5621,8 @@
           "maintenance_s": 0,
           "incident_ids": [
             "s9w82lp9dcn9",
-            "xmhsglsz3h3w",
-            "41395mspl1rf"
+            "41395mspl1rf",
+            "xmhsglsz3h3w"
           ]
         },
         {
@@ -5631,10 +5634,10 @@
           "maintenance_s": 0,
           "incident_ids": [
             "8chgzf3fs27n",
-            "zw75lhl39skc",
             "s9w82lp9dcn9",
-            "k8563n9wd0r8",
-            "s107yx224p9r"
+            "s107yx224p9r",
+            "zw75lhl39skc",
+            "k8563n9wd0r8"
           ]
         },
         {
@@ -5669,8 +5672,8 @@
           "minor_s": 3309,
           "maintenance_s": 0,
           "incident_ids": [
-            "nbp7j8k3kgw2",
-            "s9w82lp9dcn9"
+            "s9w82lp9dcn9",
+            "nbp7j8k3kgw2"
           ]
         },
         {
@@ -5707,8 +5710,8 @@
           "maintenance_s": 0,
           "incident_ids": [
             "jbhf20wjmzrf",
-            "2stpj60m2fr9",
-            "s9w82lp9dcn9"
+            "s9w82lp9dcn9",
+            "2stpj60m2fr9"
           ]
         },
         {
@@ -5863,8 +5866,8 @@
           "minor_s": 2323,
           "maintenance_s": 0,
           "incident_ids": [
-            "hh9hj15mxkrx",
-            "l9zyw879cyd6"
+            "l9zyw879cyd6",
+            "hh9hj15mxkrx"
           ]
         },
         {
@@ -5971,9 +5974,9 @@
           "maintenance_s": 0,
           "incident_ids": [
             "lj0khk5vd7v7",
+            "7gpjd8n56rlq",
             "bwz7ld34gcxt",
-            "g613ntyj2pwf",
-            "7gpjd8n56rlq"
+            "g613ntyj2pwf"
           ]
         },
         {
@@ -6009,6 +6012,22 @@
         },
         {
           "date": "2026-07-21",
+          "impact": "critical",
+          "major_s": 4537,
+          "critical_s": 2696,
+          "minor_s": 13020,
+          "maintenance_s": 0,
+          "incident_ids": [
+            "4qsb0fp16tpb",
+            "y65gwqbztbsp",
+            "vcynh9cf33xp",
+            "lw0sb1srtznh",
+            "v35b71rthzhp",
+            "j0y67nj6w93z"
+          ]
+        },
+        {
+          "date": "2026-07-22",
           "impact": "none",
           "major_s": 0,
           "critical_s": 0,
@@ -6025,19 +6044,8 @@
       "window_seconds": 7776000,
       "major_seconds": 2252,
       "critical_seconds": 4160,
-      "minor_seconds": 12274,
+      "minor_seconds": 7037,
       "days": [
-        {
-          "date": "2026-04-23",
-          "impact": "minor",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 5237,
-          "maintenance_s": 0,
-          "incident_ids": [
-            "9tyl1z4b03cs"
-          ]
-        },
         {
           "date": "2026-04-24",
           "impact": "critical",
@@ -6845,6 +6853,15 @@
         },
         {
           "date": "2026-07-21",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": []
+        },
+        {
+          "date": "2026-07-22",
           "impact": "none",
           "major_s": 0,
           "critical_s": 0,
