@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T06:40:45.662Z",
+  "generated_at": "2026-07-23T06:38:30.566Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15068,7 +15068,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9932053345959595,
+          "uptime_percentage": 0.9935007548309178,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -15332,12 +15332,35 @@
               "date": "2026-07-22T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Service disruption on Claude Services",
+                  "code": "ng5shnqxj1r7"
+                },
+                {
+                  "name": "Elevated errors on Opus 4.8 and Haiku 4.5",
+                  "code": "f7w8qkd8z57f"
+                },
+                {
+                  "name": "Elevated error rates for Sonnet 5",
+                  "code": "6h7589wl6l45"
+                },
+                {
+                  "name": "Elevated errors on Haiku 4.5",
+                  "code": "db1mh1r2zrn5"
+                }
+              ]
             },
             {
+              "date": "2026-07-23T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Haiku 4.5",
+                  "code": "db1mh1r2zrn5"
+                }
+              ]
             },
             {
               "p": 0,
@@ -29335,7 +29358,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9991583017676767,
+          "uptime_percentage": 0.9991948973429952,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -29535,9 +29558,19 @@
               "date": "2026-07-22T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Opus 4.8 and Haiku 4.5",
+                  "code": "f7w8qkd8z57f"
+                },
+                {
+                  "name": "Elevated error rates for Sonnet 5",
+                  "code": "6h7589wl6l45"
+                }
+              ]
             },
             {
+              "date": "2026-07-23T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -44152,7 +44185,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9950988531144781,
+          "uptime_percentage": 0.9953119464573269,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -44411,9 +44444,23 @@
               "date": "2026-07-22T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Opus 4.8 and Haiku 4.5",
+                  "code": "f7w8qkd8z57f"
+                },
+                {
+                  "name": "Elevated error rates for Sonnet 5",
+                  "code": "6h7589wl6l45"
+                },
+                {
+                  "name": "Elevated errors for Claude Opus 4.1",
+                  "code": "xvbzmkjbzh0x"
+                }
+              ]
             },
             {
+              "date": "2026-07-23T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -57726,7 +57773,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9943616372053872,
+          "uptime_percentage": 0.9946067834138487,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -58005,12 +58052,35 @@
               "date": "2026-07-22T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Opus 4.8 and Haiku 4.5",
+                  "code": "f7w8qkd8z57f"
+                },
+                {
+                  "name": "Elevated error rates for Sonnet 5",
+                  "code": "6h7589wl6l45"
+                },
+                {
+                  "name": "Elevated errors on Haiku 4.5",
+                  "code": "db1mh1r2zrn5"
+                },
+                {
+                  "name": "Elevated errors for Claude Opus 4.1",
+                  "code": "xvbzmkjbzh0x"
+                }
+              ]
             },
             {
+              "date": "2026-07-23T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Haiku 4.5",
+                  "code": "db1mh1r2zrn5"
+                }
+              ]
             },
             {
               "p": 0,
@@ -70212,7 +70282,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9943614793771044,
+          "uptime_percentage": 0.9946066324476651,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -70475,9 +70545,23 @@
               "date": "2026-07-22T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Service disruption on Claude Services",
+                  "code": "ng5shnqxj1r7"
+                },
+                {
+                  "name": "Elevated errors on Opus 4.8 and Haiku 4.5",
+                  "code": "f7w8qkd8z57f"
+                },
+                {
+                  "name": "Elevated error rates for Sonnet 5",
+                  "code": "6h7589wl6l45"
+                }
+              ]
             },
             {
+              "date": "2026-07-23T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -82468,6 +82552,7 @@
               "events": []
             },
             {
+              "date": "2026-07-23T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
