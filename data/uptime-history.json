@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T06:27:38.437Z",
+  "generated_at": "2026-07-26T06:15:18.223Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15068,7 +15068,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9940206944444444,
+          "uptime_percentage": 0.9934666132478631,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -15375,11 +15375,21 @@
             },
             {
               "date": "2026-07-25T00:00:00.000Z",
-              "p": 0,
+              "p": 5871,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
+                  "code": "f1q2wvw4qj4j"
+                },
+                {
+                  "name": "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
+                  "code": "j6gv862066n7"
+                }
+              ]
             },
             {
+              "date": "2026-07-26T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -29365,7 +29375,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9992593055555555,
+          "uptime_percentage": 0.9992877938034188,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -29600,6 +29610,7 @@
               "events": []
             },
             {
+              "date": "2026-07-26T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -44199,7 +44210,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9956869907407407,
+          "uptime_percentage": 0.9950688212250712,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -44492,11 +44503,21 @@
             },
             {
               "date": "2026-07-25T00:00:00.000Z",
-              "p": 0,
+              "p": 5871,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
+                  "code": "f1q2wvw4qj4j"
+                },
+                {
+                  "name": "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
+                  "code": "j6gv862066n7"
+                }
+              ]
             },
             {
+              "date": "2026-07-26T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -57794,7 +57815,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9950382407407408,
+          "uptime_percentage": 0.9944450231481482,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -58116,11 +58137,21 @@
             },
             {
               "date": "2026-07-25T00:00:00.000Z",
-              "p": 0,
+              "p": 5871,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
+                  "code": "f1q2wvw4qj4j"
+                },
+                {
+                  "name": "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
+                  "code": "j6gv862066n7"
+                }
+              ]
             },
             {
+              "date": "2026-07-26T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -70310,7 +70341,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9950381018518519,
+          "uptime_percentage": 0.9944448896011396,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -70607,11 +70638,21 @@
             },
             {
               "date": "2026-07-25T00:00:00.000Z",
-              "p": 0,
+              "p": 5871,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
+                  "code": "f1q2wvw4qj4j"
+                },
+                {
+                  "name": "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
+                  "code": "j6gv862066n7"
+                }
+              ]
             },
             {
+              "date": "2026-07-26T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -82605,6 +82646,7 @@
               "events": []
             },
             {
+              "date": "2026-07-26T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []

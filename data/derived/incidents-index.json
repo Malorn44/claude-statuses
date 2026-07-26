@@ -1,6 +1,67 @@
 {
-  "generated_at": "2026-07-25T06:27:40.222Z",
+  "generated_at": "2026-07-26T06:15:44.512Z",
   "incidents": [
+    {
+      "id": "j6gv862066n7",
+      "name": "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
+      "impact": "major",
+      "created_at": "2026-07-25T21:34:51.173Z",
+      "started_at": "2026-07-25T21:34:51.163Z",
+      "resolved_at": "2026-07-25T22:08:41.677Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "f1q2wvw4qj4j",
+      "name": "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
+      "impact": "major",
+      "created_at": "2026-07-25T18:40:31.869Z",
+      "started_at": "2026-07-25T18:40:31.858Z",
+      "resolved_at": "2026-07-25T19:44:32.851Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "1019wwb67615",
+      "name": "Sonnet 4.6 and Sonnet 5 errors elevated",
+      "impact": "none",
+      "created_at": "2026-07-25T18:13:01.000Z",
+      "started_at": "2026-07-25T18:14:56.438Z",
+      "resolved_at": "2026-07-25T18:13:01.000Z",
+      "components": []
+    },
     {
       "id": "0lbk5m7mbqk5",
       "name": "Elevated error rate on Opus 4.8",
