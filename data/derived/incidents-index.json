@@ -1,6 +1,84 @@
 {
-  "generated_at": "2026-07-27T07:47:38.293Z",
+  "generated_at": "2026-07-28T06:38:22.715Z",
   "incidents": [
+    {
+      "id": "rkk5x44tndw9",
+      "name": "Elevated errors on Claude Opus 5 and Haiku 4.5",
+      "impact": "minor",
+      "created_at": "2026-07-27T13:39:52.265Z",
+      "started_at": "2026-07-27T13:39:52.254Z",
+      "resolved_at": "2026-07-27T14:36:43.730Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "mfdtrknpxghq",
+      "name": "Elevated errors on Claude Opus 5",
+      "impact": "minor",
+      "created_at": "2026-07-27T11:27:38.071Z",
+      "started_at": "2026-07-27T11:27:38.060Z",
+      "resolved_at": "2026-07-27T12:30:22.946Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "lhqp09kxq7pb",
+      "name": "Elevated errors on Claude Opus 5",
+      "impact": "minor",
+      "created_at": "2026-07-27T08:16:57.590Z",
+      "started_at": "2026-07-27T08:16:57.579Z",
+      "resolved_at": "2026-07-27T09:05:24.911Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "zftg3gqkmv18",
       "name": "Elevated errors for Opus 5",

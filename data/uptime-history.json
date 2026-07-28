@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T07:47:36.563Z",
+  "generated_at": "2026-07-28T06:38:20.441Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15068,7 +15068,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9936644804526749,
+          "uptime_percentage": 0.9938821924603174,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -15401,11 +15401,25 @@
             },
             {
               "date": "2026-07-27T00:00:00.000Z",
-              "p": 0,
+              "p": 69,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 5",
+                  "code": "lhqp09kxq7pb"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 5",
+                  "code": "mfdtrknpxghq"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 5 and Haiku 4.5",
+                  "code": "rkk5x44tndw9"
+                }
+              ]
             },
             {
+              "date": "2026-07-28T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -29381,7 +29395,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.999270061728395,
+          "uptime_percentage": 0.9992961309523809,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -29633,6 +29647,7 @@
               "events": []
             },
             {
+              "date": "2026-07-28T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -44222,7 +44237,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.99520734739369,
+          "uptime_percentage": 0.9953699570105821,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -44541,11 +44556,25 @@
             },
             {
               "date": "2026-07-27T00:00:00.000Z",
-              "p": 0,
+              "p": 69,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 5",
+                  "code": "lhqp09kxq7pb"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 5",
+                  "code": "mfdtrknpxghq"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 5 and Haiku 4.5",
+                  "code": "rkk5x44tndw9"
+                }
+              ]
             },
             {
+              "date": "2026-07-28T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -57833,7 +57862,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9946066529492456,
+          "uptime_percentage": 0.9947907159391535,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -58181,11 +58210,25 @@
             },
             {
               "date": "2026-07-27T00:00:00.000Z",
-              "p": 0,
+              "p": 69,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 5",
+                  "code": "lhqp09kxq7pb"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 5",
+                  "code": "mfdtrknpxghq"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 5 and Haiku 4.5",
+                  "code": "rkk5x44tndw9"
+                }
+              ]
             },
             {
+              "date": "2026-07-28T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -70365,7 +70408,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9946065243484226,
+          "uptime_percentage": 0.994790591931217,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -70688,11 +70731,25 @@
             },
             {
               "date": "2026-07-27T00:00:00.000Z",
-              "p": 0,
+              "p": 69,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Opus 5",
+                  "code": "lhqp09kxq7pb"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 5",
+                  "code": "mfdtrknpxghq"
+                },
+                {
+                  "name": "Elevated errors on Claude Opus 5 and Haiku 4.5",
+                  "code": "rkk5x44tndw9"
+                }
+              ]
             },
             {
+              "date": "2026-07-28T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -82688,6 +82745,7 @@
               "events": []
             },
             {
+              "date": "2026-07-28T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
