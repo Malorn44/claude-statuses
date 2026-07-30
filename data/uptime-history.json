@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T06:43:03.964Z",
+  "generated_at": "2026-07-30T06:39:10.564Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15068,7 +15068,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9940931513409962,
+          "uptime_percentage": 0.9911935956790123,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -15426,14 +15426,20 @@
             },
             {
               "date": "2026-07-29T00:00:00.000Z",
-              "p": 0,
-              "m": 0,
+              "p": 2502,
+              "m": 6529,
               "events": []
             },
             {
-              "p": 0,
+              "date": "2026-07-30T00:00:00.000Z",
+              "p": 2488,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors across many models",
+                  "code": "fsh2zzzl2c4l"
+                }
+              ]
             },
             {
               "p": 0,
@@ -29396,7 +29402,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9993204022988506,
+          "uptime_percentage": 0.9993430555555556,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -29660,6 +29666,7 @@
               "events": []
             },
             {
+              "date": "2026-07-30T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -44239,7 +44246,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9955296136653896,
+          "uptime_percentage": 0.9925820601851852,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -44583,14 +44590,20 @@
             },
             {
               "date": "2026-07-29T00:00:00.000Z",
-              "p": 0,
-              "m": 0,
+              "p": 2502,
+              "m": 6529,
               "events": []
             },
             {
-              "p": 0,
+              "date": "2026-07-30T00:00:00.000Z",
+              "p": 2489,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors across many models",
+                  "code": "fsh2zzzl2c4l"
+                }
+              ]
             },
             {
               "p": 0,
@@ -57865,7 +57878,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9949703464240103,
+          "uptime_percentage": 0.9920414351851853,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -58238,14 +58251,20 @@
             },
             {
               "date": "2026-07-29T00:00:00.000Z",
-              "p": 0,
-              "m": 0,
+              "p": 2502,
+              "m": 6529,
               "events": []
             },
             {
-              "p": 0,
+              "date": "2026-07-30T00:00:00.000Z",
+              "p": 2489,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors across many models",
+                  "code": "fsh2zzzl2c4l"
+                }
+              ]
             },
             {
               "p": 0,
@@ -70412,7 +70431,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9949702266922095,
+          "uptime_percentage": 0.9920413194444444,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -70760,14 +70779,20 @@
             },
             {
               "date": "2026-07-29T00:00:00.000Z",
-              "p": 0,
-              "m": 0,
+              "p": 2502,
+              "m": 6529,
               "events": []
             },
             {
-              "p": 0,
+              "date": "2026-07-30T00:00:00.000Z",
+              "p": 2489,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors across many models",
+                  "code": "fsh2zzzl2c4l"
+                }
+              ]
             },
             {
               "p": 0,
@@ -82762,6 +82787,7 @@
               "events": []
             },
             {
+              "date": "2026-07-30T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
