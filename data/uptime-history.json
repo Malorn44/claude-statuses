@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T06:39:10.564Z",
+  "generated_at": "2026-07-31T07:11:55.182Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15068,7 +15068,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9911935956790123,
+          "uptime_percentage": 0.9901028972520908,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -15432,19 +15432,29 @@
             },
             {
               "date": "2026-07-30T00:00:00.000Z",
-              "p": 2488,
+              "p": 14762,
               "m": 0,
               "events": [
                 {
                   "name": "Elevated errors across many models",
                   "code": "fsh2zzzl2c4l"
+                },
+                {
+                  "name": "Degraded performance on Claude Opus 4.8",
+                  "code": "kqjy03gs895j"
                 }
               ]
             },
             {
+              "date": "2026-07-31T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance on Claude Sonnet 5",
+                  "code": "jq4x54h69z76"
+                }
+              ]
             }
           ]
         }
@@ -29402,7 +29412,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9993430555555556,
+          "uptime_percentage": 0.9993642473118279,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -29672,6 +29682,7 @@
               "events": []
             },
             {
+              "date": "2026-07-31T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -44246,7 +44257,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9925820601851852,
+          "uptime_percentage": 0.9914466845878136,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -44596,19 +44607,29 @@
             },
             {
               "date": "2026-07-30T00:00:00.000Z",
-              "p": 2489,
+              "p": 14762,
               "m": 0,
               "events": [
                 {
                   "name": "Elevated errors across many models",
                   "code": "fsh2zzzl2c4l"
+                },
+                {
+                  "name": "Degraded performance on Claude Opus 4.8",
+                  "code": "kqjy03gs895j"
                 }
               ]
             },
             {
+              "date": "2026-07-31T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance on Claude Sonnet 5",
+                  "code": "jq4x54h69z76"
+                }
+              ]
             }
           ]
         }
@@ -57878,7 +57899,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9920414351851853,
+          "uptime_percentage": 0.9909234991039426,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -58257,19 +58278,29 @@
             },
             {
               "date": "2026-07-30T00:00:00.000Z",
-              "p": 2489,
+              "p": 14762,
               "m": 0,
               "events": [
                 {
                   "name": "Elevated errors across many models",
                   "code": "fsh2zzzl2c4l"
+                },
+                {
+                  "name": "Degraded performance on Claude Opus 4.8",
+                  "code": "kqjy03gs895j"
                 }
               ]
             },
             {
+              "date": "2026-07-31T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance on Claude Sonnet 5",
+                  "code": "jq4x54h69z76"
+                }
+              ]
             }
           ]
         }
@@ -70431,7 +70462,7 @@
           "year": 2026,
           "month": 7,
           "name": "July",
-          "uptime_percentage": 0.9920413194444444,
+          "uptime_percentage": 0.9909233870967742,
           "days": [
             {
               "date": "2026-07-01T00:00:00.000Z",
@@ -70785,19 +70816,29 @@
             },
             {
               "date": "2026-07-30T00:00:00.000Z",
-              "p": 2489,
+              "p": 14762,
               "m": 0,
               "events": [
                 {
                   "name": "Elevated errors across many models",
                   "code": "fsh2zzzl2c4l"
+                },
+                {
+                  "name": "Degraded performance on Claude Opus 4.8",
+                  "code": "kqjy03gs895j"
                 }
               ]
             },
             {
+              "date": "2026-07-31T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance on Claude Sonnet 5",
+                  "code": "jq4x54h69z76"
+                }
+              ]
             }
           ]
         }
@@ -82793,6 +82834,7 @@
               "events": []
             },
             {
+              "date": "2026-07-31T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
