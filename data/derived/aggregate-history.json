@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T07:11:57.093Z",
+  "generated_at": "2026-08-01T06:39:19.959Z",
   "months": [
     {
       "key": "2023-07",
@@ -11800,6 +11800,22 @@
           "incident_ids": [
             "jq4x54h69z76"
           ]
+        }
+      ]
+    },
+    {
+      "key": "2026-08",
+      "year": 2026,
+      "month": 8,
+      "days": [
+        {
+          "date": "2026-08-01",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": []
         }
       ]
     }
