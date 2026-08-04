@@ -1,6 +1,88 @@
 {
-  "generated_at": "2026-08-03T07:43:43.521Z",
+  "generated_at": "2026-08-04T06:38:46.004Z",
   "incidents": [
+    {
+      "id": "8k9mjhq7wmv3",
+      "name": "Elevated errors on Claude Sonnet 5",
+      "impact": "minor",
+      "created_at": "2026-08-04T06:16:33.847Z",
+      "started_at": "2026-08-04T06:16:33.835Z",
+      "resolved_at": null,
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        }
+      ]
+    },
+    {
+      "id": "dnl3q35xkn3s",
+      "name": "Degraded performance on Claude Sonnet 5",
+      "impact": "minor",
+      "created_at": "2026-08-03T15:13:45.862Z",
+      "started_at": "2026-08-03T15:13:45.852Z",
+      "resolved_at": "2026-08-03T15:29:01.564Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "ch7k4vh9fr1y",
+      "name": "Error rates across multiple models",
+      "impact": "minor",
+      "created_at": "2026-08-03T12:52:52.852Z",
+      "started_at": "2026-08-03T12:52:52.841Z",
+      "resolved_at": "2026-08-03T14:17:14.797Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "jq4x54h69z76",
       "name": "Degraded performance on Claude Sonnet 5",

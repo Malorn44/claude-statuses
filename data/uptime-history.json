@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T07:43:41.920Z",
+  "generated_at": "2026-08-04T06:38:44.016Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15481,12 +15481,27 @@
               "date": "2026-08-03T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Error rates across multiple models",
+                  "code": "ch7k4vh9fr1y"
+                },
+                {
+                  "name": "Degraded performance on Claude Sonnet 5",
+                  "code": "dnl3q35xkn3s"
+                }
+              ]
             },
             {
+              "date": "2026-08-04T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Sonnet 5",
+                  "code": "8k9mjhq7wmv3"
+                }
+              ]
             },
             {
               "p": 0,
@@ -29879,12 +29894,23 @@
               "date": "2026-08-03T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Error rates across multiple models",
+                  "code": "ch7k4vh9fr1y"
+                }
+              ]
             },
             {
+              "date": "2026-08-04T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Sonnet 5",
+                  "code": "8k9mjhq7wmv3"
+                }
+              ]
             },
             {
               "p": 0,
@@ -44990,12 +45016,27 @@
               "date": "2026-08-03T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Error rates across multiple models",
+                  "code": "ch7k4vh9fr1y"
+                },
+                {
+                  "name": "Degraded performance on Claude Sonnet 5",
+                  "code": "dnl3q35xkn3s"
+                }
+              ]
             },
             {
+              "date": "2026-08-04T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Sonnet 5",
+                  "code": "8k9mjhq7wmv3"
+                }
+              ]
             },
             {
               "p": 0,
@@ -58828,12 +58869,27 @@
               "date": "2026-08-03T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Error rates across multiple models",
+                  "code": "ch7k4vh9fr1y"
+                },
+                {
+                  "name": "Degraded performance on Claude Sonnet 5",
+                  "code": "dnl3q35xkn3s"
+                }
+              ]
             },
             {
+              "date": "2026-08-04T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Sonnet 5",
+                  "code": "8k9mjhq7wmv3"
+                }
+              ]
             },
             {
               "p": 0,
@@ -71533,9 +71589,19 @@
               "date": "2026-08-03T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Error rates across multiple models",
+                  "code": "ch7k4vh9fr1y"
+                },
+                {
+                  "name": "Degraded performance on Claude Sonnet 5",
+                  "code": "dnl3q35xkn3s"
+                }
+              ]
             },
             {
+              "date": "2026-08-04T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -83702,6 +83768,7 @@
               "events": []
             },
             {
+              "date": "2026-08-04T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
