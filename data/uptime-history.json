@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T06:38:44.016Z",
+  "generated_at": "2026-08-05T06:39:46.662Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15463,7 +15463,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.999307638888889,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -15494,16 +15494,21 @@
             },
             {
               "date": "2026-08-04T00:00:00.000Z",
-              "p": 0,
+              "p": 997,
               "m": 0,
               "events": [
                 {
                   "name": "Elevated errors on Claude Sonnet 5",
                   "code": "8k9mjhq7wmv3"
+                },
+                {
+                  "name": "Elevated errors on Claude Sonnet 5",
+                  "code": "nlg5hjdfphmb"
                 }
               ]
             },
             {
+              "date": "2026-08-05T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -29909,10 +29914,15 @@
                 {
                   "name": "Elevated errors on Claude Sonnet 5",
                   "code": "8k9mjhq7wmv3"
+                },
+                {
+                  "name": "Elevated errors on Claude Sonnet 5",
+                  "code": "nlg5hjdfphmb"
                 }
               ]
             },
             {
+              "date": "2026-08-05T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -44998,7 +45008,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.999307638888889,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -45029,16 +45039,21 @@
             },
             {
               "date": "2026-08-04T00:00:00.000Z",
-              "p": 0,
+              "p": 997,
               "m": 0,
               "events": [
                 {
                   "name": "Elevated errors on Claude Sonnet 5",
                   "code": "8k9mjhq7wmv3"
+                },
+                {
+                  "name": "Elevated errors on Claude Sonnet 5",
+                  "code": "nlg5hjdfphmb"
                 }
               ]
             },
             {
+              "date": "2026-08-05T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -58851,7 +58866,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.999307638888889,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -58882,16 +58897,21 @@
             },
             {
               "date": "2026-08-04T00:00:00.000Z",
-              "p": 0,
+              "p": 997,
               "m": 0,
               "events": [
                 {
                   "name": "Elevated errors on Claude Sonnet 5",
                   "code": "8k9mjhq7wmv3"
+                },
+                {
+                  "name": "Elevated errors on Claude Sonnet 5",
+                  "code": "nlg5hjdfphmb"
                 }
               ]
             },
             {
+              "date": "2026-08-05T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -71571,7 +71591,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.999307638888889,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -71602,11 +71622,12 @@
             },
             {
               "date": "2026-08-04T00:00:00.000Z",
-              "p": 0,
+              "p": 997,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-08-05T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -83774,6 +83795,7 @@
               "events": []
             },
             {
+              "date": "2026-08-05T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []

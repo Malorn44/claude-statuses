@@ -1,13 +1,48 @@
 {
-  "generated_at": "2026-08-04T06:38:46.004Z",
+  "generated_at": "2026-08-05T06:39:48.728Z",
   "incidents": [
+    {
+      "id": "bdr3fq2rkchr",
+      "name": "Elevated errors across many models",
+      "impact": "major",
+      "created_at": "2026-08-04T20:48:20.773Z",
+      "started_at": "2026-08-04T20:48:20.764Z",
+      "resolved_at": "2026-08-04T21:59:29.385Z",
+      "components": []
+    },
+    {
+      "id": "nlg5hjdfphmb",
+      "name": "Elevated errors on Claude Sonnet 5",
+      "impact": "minor",
+      "created_at": "2026-08-04T11:27:20.691Z",
+      "started_at": "2026-08-04T11:27:20.681Z",
+      "resolved_at": "2026-08-04T11:52:10.820Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        }
+      ]
+    },
     {
       "id": "8k9mjhq7wmv3",
       "name": "Elevated errors on Claude Sonnet 5",
       "impact": "minor",
       "created_at": "2026-08-04T06:16:33.847Z",
       "started_at": "2026-08-04T06:16:33.835Z",
-      "resolved_at": null,
+      "resolved_at": "2026-08-04T06:55:43.194Z",
       "components": [
         {
           "id": "rwppv331jlwc",
