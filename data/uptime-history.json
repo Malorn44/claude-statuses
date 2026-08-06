@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T06:39:46.662Z",
+  "generated_at": "2026-08-06T06:43:11.737Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15463,7 +15463,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.999307638888889,
+          "uptime_percentage": 0.9994230324074075,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -15511,9 +15511,19 @@
               "date": "2026-08-05T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance of multiple models",
+                  "code": "f6gkkq6txl7z"
+                },
+                {
+                  "name": "Degraded performance for Claude Opus 5",
+                  "code": "mgp99sn4ynd4"
+                }
+              ]
             },
             {
+              "date": "2026-08-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -29928,6 +29938,7 @@
               "events": []
             },
             {
+              "date": "2026-08-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -45008,7 +45019,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.999307638888889,
+          "uptime_percentage": 0.9994230324074075,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -45056,9 +45067,19 @@
               "date": "2026-08-05T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance of multiple models",
+                  "code": "f6gkkq6txl7z"
+                },
+                {
+                  "name": "Degraded performance for Claude Opus 5",
+                  "code": "mgp99sn4ynd4"
+                }
+              ]
             },
             {
+              "date": "2026-08-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -58866,7 +58887,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.999307638888889,
+          "uptime_percentage": 0.9994230324074075,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -58914,9 +58935,19 @@
               "date": "2026-08-05T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance of multiple models",
+                  "code": "f6gkkq6txl7z"
+                },
+                {
+                  "name": "Degraded performance for Claude Opus 5",
+                  "code": "mgp99sn4ynd4"
+                }
+              ]
             },
             {
+              "date": "2026-08-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -71591,7 +71622,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.999307638888889,
+          "uptime_percentage": 0.9994230324074075,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -71630,9 +71661,19 @@
               "date": "2026-08-05T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance of multiple models",
+                  "code": "f6gkkq6txl7z"
+                },
+                {
+                  "name": "Degraded performance for Claude Opus 5",
+                  "code": "mgp99sn4ynd4"
+                }
+              ]
             },
             {
+              "date": "2026-08-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -83801,6 +83842,7 @@
               "events": []
             },
             {
+              "date": "2026-08-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
