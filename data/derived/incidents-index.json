@@ -1,6 +1,32 @@
 {
-  "generated_at": "2026-08-12T05:44:18.059Z",
+  "generated_at": "2026-08-13T05:46:58.564Z",
   "incidents": [
+    {
+      "id": "rk6gkg2gwfny",
+      "name": "Degraded performance for multiple models",
+      "impact": "minor",
+      "created_at": "2026-08-12T13:50:28.458Z",
+      "started_at": "2026-08-12T13:50:28.450Z",
+      "resolved_at": "2026-08-12T18:07:11.547Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "mgp99sn4ynd4",
       "name": "Degraded performance for Claude Opus 5",
