@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T05:46:56.499Z",
+  "generated_at": "2026-08-15T04:44:47.156Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15463,7 +15463,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9997337072649572,
+          "uptime_percentage": 0.9965842592592593,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -15571,19 +15571,36 @@
             },
             {
               "date": "2026-08-13T00:00:00.000Z",
-              "p": 0,
+              "p": 12315,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5",
+                  "code": "j160kkjmm2n1"
+                }
+              ]
             },
             {
-              "p": 0,
+              "date": "2026-08-14T00:00:00.000Z",
+              "p": 164,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Fable 5",
+                  "code": "hdynq1pc0fn8"
+                }
+              ]
             },
             {
-              "p": 0,
+              "date": "2026-08-15T00:00:00.000Z",
+              "p": 1280,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Fable 5",
+                  "code": "hdynq1pc0fn8"
+                }
+              ]
             },
             {
               "p": 0,
@@ -29998,11 +30015,13 @@
               "events": []
             },
             {
+              "date": "2026-08-14T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-08-15T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -45038,7 +45057,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9997337072649572,
+          "uptime_percentage": 0.9979775462962963,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -45146,16 +45165,28 @@
             },
             {
               "date": "2026-08-13T00:00:00.000Z",
-              "p": 0,
+              "p": 6300,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5",
+                  "code": "j160kkjmm2n1"
+                }
+              ]
             },
             {
-              "p": 0,
+              "date": "2026-08-14T00:00:00.000Z",
+              "p": 1440,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Service disruption on Claude services",
+                  "code": "005ym4vzrq2w"
+                }
+              ]
             },
             {
+              "date": "2026-08-15T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -58918,7 +58949,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9997337072649572,
+          "uptime_percentage": 0.9979775462962963,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -59026,16 +59057,28 @@
             },
             {
               "date": "2026-08-13T00:00:00.000Z",
-              "p": 0,
+              "p": 6300,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5",
+                  "code": "j160kkjmm2n1"
+                }
+              ]
             },
             {
-              "p": 0,
+              "date": "2026-08-14T00:00:00.000Z",
+              "p": 1440,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Service disruption on Claude services",
+                  "code": "005ym4vzrq2w"
+                }
+              ]
             },
             {
+              "date": "2026-08-15T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -71665,7 +71708,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9997337072649572,
+          "uptime_percentage": 0.9973247685185186,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -71764,16 +71807,32 @@
             },
             {
               "date": "2026-08-13T00:00:00.000Z",
-              "p": 0,
+              "p": 6300,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5",
+                  "code": "j160kkjmm2n1"
+                }
+              ]
             },
             {
-              "p": 0,
+              "date": "2026-08-14T00:00:00.000Z",
+              "p": 4260,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Service disruption on Claude Code on the web and related services",
+                  "code": "whnd2z49x3xf"
+                },
+                {
+                  "name": "Service disruption on Claude services",
+                  "code": "005ym4vzrq2w"
+                }
+              ]
             },
             {
+              "date": "2026-08-15T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -83945,11 +84004,13 @@
               "events": []
             },
             {
+              "date": "2026-08-14T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-08-15T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
