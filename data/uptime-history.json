@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T04:48:26.044Z",
+  "generated_at": "2026-08-17T04:55:30.710Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15463,7 +15463,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9967977430555556,
+          "uptime_percentage": 0.9955284586056646,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -15605,10 +15605,16 @@
             {
               "date": "2026-08-16T00:00:00.000Z",
               "p": 0,
-              "m": 0,
-              "events": []
+              "m": 2141,
+              "events": [
+                {
+                  "name": "Service disruption on Claude services",
+                  "code": "qt14v73myyy5"
+                }
+              ]
             },
             {
+              "date": "2026-08-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -29921,7 +29927,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.9986689814814814,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -30030,10 +30036,16 @@
             {
               "date": "2026-08-16T00:00:00.000Z",
               "p": 0,
-              "m": 0,
-              "events": []
+              "m": 1955,
+              "events": [
+                {
+                  "name": "Service disruption on Claude services",
+                  "code": "qt14v73myyy5"
+                }
+              ]
             },
             {
+              "date": "2026-08-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -45059,7 +45071,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9981039496527778,
+          "uptime_percentage": 0.9978161764705883,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -45195,11 +45207,17 @@
             },
             {
               "date": "2026-08-16T00:00:00.000Z",
-              "p": 0,
+              "p": 1955,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Service disruption on Claude services",
+                  "code": "qt14v73myyy5"
+                }
+              ]
             },
             {
+              "date": "2026-08-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -58952,7 +58970,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9981039496527778,
+          "uptime_percentage": 0.9967571486928105,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -59089,10 +59107,16 @@
             {
               "date": "2026-08-16T00:00:00.000Z",
               "p": 0,
-              "m": 0,
-              "events": []
+              "m": 2142,
+              "events": [
+                {
+                  "name": "Service disruption on Claude services",
+                  "code": "qt14v73myyy5"
+                }
+              ]
             },
             {
+              "date": "2026-08-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -71712,7 +71736,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9974919704861112,
+          "uptime_percentage": 0.9961811683006535,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -71844,10 +71868,16 @@
             {
               "date": "2026-08-16T00:00:00.000Z",
               "p": 0,
-              "m": 0,
-              "events": []
+              "m": 2142,
+              "events": [
+                {
+                  "name": "Service disruption on Claude services",
+                  "code": "qt14v73myyy5"
+                }
+              ]
             },
             {
+              "date": "2026-08-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -84027,6 +84057,7 @@
               "events": []
             },
             {
+              "date": "2026-08-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
