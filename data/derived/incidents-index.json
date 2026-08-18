@@ -1,6 +1,32 @@
 {
-  "generated_at": "2026-08-17T04:55:32.578Z",
+  "generated_at": "2026-08-18T04:49:11.463Z",
   "incidents": [
+    {
+      "id": "zhk4v3yv1lsf",
+      "name": "Degraded performance for Claude Opus 5, Claude Sonnet 5",
+      "impact": "minor",
+      "created_at": "2026-08-17T13:56:41.055Z",
+      "started_at": "2026-08-17T13:56:41.046Z",
+      "resolved_at": "2026-08-17T15:29:25.545Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "qt14v73myyy5",
       "name": "Service disruption on Claude services",

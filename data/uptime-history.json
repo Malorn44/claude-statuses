@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T04:55:30.710Z",
+  "generated_at": "2026-08-18T04:49:09.924Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15463,7 +15463,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9955284586056646,
+          "uptime_percentage": 0.9957768775720166,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -15617,9 +15617,15 @@
               "date": "2026-08-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for Claude Opus 5, Claude Sonnet 5",
+                  "code": "zhk4v3yv1lsf"
+                }
+              ]
             },
             {
+              "date": "2026-08-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -29927,7 +29933,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9986689814814814,
+          "uptime_percentage": 0.9987429269547324,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -30051,6 +30057,7 @@
               "events": []
             },
             {
+              "date": "2026-08-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -45071,7 +45078,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9978161764705883,
+          "uptime_percentage": 0.9979375,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -45220,9 +45227,15 @@
               "date": "2026-08-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for Claude Opus 5, Claude Sonnet 5",
+                  "code": "zhk4v3yv1lsf"
+                }
+              ]
             },
             {
+              "date": "2026-08-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -58970,7 +58983,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9967571486928105,
+          "uptime_percentage": 0.9969373070987655,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -59119,9 +59132,15 @@
               "date": "2026-08-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for Claude Opus 5, Claude Sonnet 5",
+                  "code": "zhk4v3yv1lsf"
+                }
+              ]
             },
             {
+              "date": "2026-08-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -71736,7 +71755,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9961811683006535,
+          "uptime_percentage": 0.9963933256172839,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -71880,9 +71899,15 @@
               "date": "2026-08-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for Claude Opus 5, Claude Sonnet 5",
+                  "code": "zhk4v3yv1lsf"
+                }
+              ]
             },
             {
+              "date": "2026-08-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -84063,6 +84088,7 @@
               "events": []
             },
             {
+              "date": "2026-08-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
