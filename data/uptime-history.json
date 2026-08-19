@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T04:49:09.924Z",
+  "generated_at": "2026-08-19T04:49:26.973Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15463,7 +15463,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9957768775720166,
+          "uptime_percentage": 0.9959991471734894,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -15628,9 +15628,15 @@
               "date": "2026-08-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for multiple models",
+                  "code": "q7txxvbsftgq"
+                }
+              ]
             },
             {
+              "date": "2026-08-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -29933,7 +29939,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9987429269547324,
+          "uptime_percentage": 0.998809088693957,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -30063,6 +30069,7 @@
               "events": []
             },
             {
+              "date": "2026-08-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -45078,7 +45085,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9979375,
+          "uptime_percentage": 0.998046052631579,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -45238,9 +45245,15 @@
               "date": "2026-08-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for multiple models",
+                  "code": "q7txxvbsftgq"
+                }
+              ]
             },
             {
+              "date": "2026-08-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -58983,7 +58996,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9969373070987655,
+          "uptime_percentage": 0.9970985014619883,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -59143,9 +59156,15 @@
               "date": "2026-08-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for multiple models",
+                  "code": "q7txxvbsftgq"
+                }
+              ]
             },
             {
+              "date": "2026-08-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -71755,7 +71774,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9963933256172839,
+          "uptime_percentage": 0.9965831505847952,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -71910,9 +71929,15 @@
               "date": "2026-08-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for multiple models",
+                  "code": "q7txxvbsftgq"
+                }
+              ]
             },
             {
+              "date": "2026-08-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -84094,6 +84119,7 @@
               "events": []
             },
             {
+              "date": "2026-08-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
