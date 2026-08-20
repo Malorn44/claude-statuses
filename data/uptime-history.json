@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T04:49:26.973Z",
+  "generated_at": "2026-08-20T04:50:51.390Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15463,7 +15463,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9959991471734894,
+          "uptime_percentage": 0.9961991898148149,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -15639,9 +15639,15 @@
               "date": "2026-08-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
+                  "code": "hkcw95k7r0f4"
+                }
+              ]
             },
             {
+              "date": "2026-08-20T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -29939,7 +29945,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.998809088693957,
+          "uptime_percentage": 0.9988686342592592,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -30075,6 +30081,7 @@
               "events": []
             },
             {
+              "date": "2026-08-20T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -45085,7 +45092,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.998046052631579,
+          "uptime_percentage": 0.99814375,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -45256,9 +45263,15 @@
               "date": "2026-08-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
+                  "code": "hkcw95k7r0f4"
+                }
+              ]
             },
             {
+              "date": "2026-08-20T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -58996,7 +59009,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9970985014619883,
+          "uptime_percentage": 0.9972435763888889,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -59167,9 +59180,15 @@
               "date": "2026-08-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
+                  "code": "hkcw95k7r0f4"
+                }
+              ]
             },
             {
+              "date": "2026-08-20T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -71774,7 +71793,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9965831505847952,
+          "uptime_percentage": 0.9967539930555555,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -71940,9 +71959,15 @@
               "date": "2026-08-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
+                  "code": "hkcw95k7r0f4"
+                }
+              ]
             },
             {
+              "date": "2026-08-20T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -84125,6 +84150,7 @@
               "events": []
             },
             {
+              "date": "2026-08-20T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
