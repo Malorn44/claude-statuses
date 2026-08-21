@@ -1,6 +1,58 @@
 {
-  "generated_at": "2026-08-20T04:51:10.845Z",
+  "generated_at": "2026-08-21T04:51:46.609Z",
   "incidents": [
+    {
+      "id": "c0ncxxm2wd9r",
+      "name": "Elevated errors on requests to multiple models",
+      "impact": "major",
+      "created_at": "2026-08-20T19:16:24.932Z",
+      "started_at": "2026-08-20T19:16:24.923Z",
+      "resolved_at": "2026-08-20T19:42:38.692Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "6xskhw7rn4tf",
+      "name": "Elevated errors on Google connectors",
+      "impact": "minor",
+      "created_at": "2026-08-20T18:32:13.296Z",
+      "started_at": "2026-08-20T18:32:13.285Z",
+      "resolved_at": "2026-08-20T19:01:03.844Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "hkcw95k7r0f4",
       "name": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",

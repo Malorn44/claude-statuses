@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T04:50:51.390Z",
+  "generated_at": "2026-08-21T04:51:44.460Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15463,7 +15463,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9961991898148149,
+          "uptime_percentage": 0.9961199294532628,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -15648,11 +15648,21 @@
             },
             {
               "date": "2026-08-20T00:00:00.000Z",
-              "p": 0,
+              "p": 1574,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Google connectors",
+                  "code": "6xskhw7rn4tf"
+                },
+                {
+                  "name": "Elevated errors on requests to multiple models",
+                  "code": "c0ncxxm2wd9r"
+                }
+              ]
             },
             {
+              "date": "2026-08-21T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -29945,7 +29955,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9988686342592592,
+          "uptime_percentage": 0.9989225088183421,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -30087,6 +30097,7 @@
               "events": []
             },
             {
+              "date": "2026-08-21T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -45092,7 +45103,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.99814375,
+          "uptime_percentage": 0.9979720568783069,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -45272,11 +45283,21 @@
             },
             {
               "date": "2026-08-20T00:00:00.000Z",
-              "p": 0,
+              "p": 1573,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Google connectors",
+                  "code": "6xskhw7rn4tf"
+                },
+                {
+                  "name": "Elevated errors on requests to multiple models",
+                  "code": "c0ncxxm2wd9r"
+                }
+              ]
             },
             {
+              "date": "2026-08-21T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -59009,7 +59030,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9972435763888889,
+          "uptime_percentage": 0.9971147486772487,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -59189,11 +59210,21 @@
             },
             {
               "date": "2026-08-20T00:00:00.000Z",
-              "p": 0,
+              "p": 1573,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Google connectors",
+                  "code": "6xskhw7rn4tf"
+                },
+                {
+                  "name": "Elevated errors on requests to multiple models",
+                  "code": "c0ncxxm2wd9r"
+                }
+              ]
             },
             {
+              "date": "2026-08-21T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -71793,7 +71824,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9967539930555555,
+          "uptime_percentage": 0.9966484788359787,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -71968,11 +71999,21 @@
             },
             {
               "date": "2026-08-20T00:00:00.000Z",
-              "p": 0,
+              "p": 1573,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Google connectors",
+                  "code": "6xskhw7rn4tf"
+                },
+                {
+                  "name": "Elevated errors on requests to multiple models",
+                  "code": "c0ncxxm2wd9r"
+                }
+              ]
             },
             {
+              "date": "2026-08-21T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -84156,6 +84197,7 @@
               "events": []
             },
             {
+              "date": "2026-08-21T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
