@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T04:58:53.130Z",
+  "generated_at": "2026-08-25T04:51:20.925Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15463,7 +15463,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9966049382716049,
+          "uptime_percentage": 0.9950396296296296,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -15681,11 +15681,25 @@
             },
             {
               "date": "2026-08-24T00:00:00.000Z",
-              "p": 0,
+              "p": 12248,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Issues logging into Claude.ai",
+                  "code": "n0rlp126qf8g"
+                },
+                {
+                  "name": "Errors logging into Claude.ai",
+                  "code": "w43j3xmngxgj"
+                },
+                {
+                  "name": "Elevated errors for multiple models",
+                  "code": "vgz5psbjmt1h"
+                }
+              ]
             },
             {
+              "date": "2026-08-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -29958,7 +29972,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9990571952160493,
+          "uptime_percentage": 0.9990949074074074,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -30124,6 +30138,7 @@
               "events": []
             },
             {
+              "date": "2026-08-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -45109,7 +45124,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9982255497685185,
+          "uptime_percentage": 0.9965954166666667,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -45322,11 +45337,17 @@
             },
             {
               "date": "2026-08-24T00:00:00.000Z",
-              "p": 0,
+              "p": 12248,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for multiple models",
+                  "code": "vgz5psbjmt1h"
+                }
+              ]
             },
             {
+              "date": "2026-08-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -59039,7 +59060,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9974754050925926,
+          "uptime_percentage": 0.9958752777777778,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -59252,11 +59273,21 @@
             },
             {
               "date": "2026-08-24T00:00:00.000Z",
-              "p": 0,
+              "p": 12248,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Issues logging into Claude.ai",
+                  "code": "n0rlp126qf8g"
+                },
+                {
+                  "name": "Elevated errors for multiple models",
+                  "code": "vgz5psbjmt1h"
+                }
+              ]
             },
             {
+              "date": "2026-08-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -71836,7 +71867,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9970674189814814,
+          "uptime_percentage": 0.995483611111111,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -72044,11 +72075,21 @@
             },
             {
               "date": "2026-08-24T00:00:00.000Z",
-              "p": 0,
+              "p": 12248,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Issues logging into Claude.ai",
+                  "code": "n0rlp126qf8g"
+                },
+                {
+                  "name": "Elevated errors for multiple models",
+                  "code": "vgz5psbjmt1h"
+                }
+              ]
             },
             {
+              "date": "2026-08-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -84236,6 +84277,7 @@
               "events": []
             },
             {
+              "date": "2026-08-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
