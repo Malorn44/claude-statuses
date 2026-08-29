@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-08-28T16:36:03.146Z",
+  "generated_at": "2026-08-29T11:02:58.157Z",
   "incidents": [
+    {
+      "id": "vr9tpk8w7zr8",
+      "name": "Elevated errors on Claude Code and Claude Cowork",
+      "impact": "major",
+      "created_at": "2026-08-28T17:22:02.377Z",
+      "started_at": "2026-08-28T17:22:02.368Z",
+      "resolved_at": "2026-08-28T20:21:18.448Z",
+      "components": [
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "n0rlp126qf8g",
       "name": "Issues logging into Claude.ai",

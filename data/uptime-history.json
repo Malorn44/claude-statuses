@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T16:36:00.114Z",
+  "generated_at": "2026-08-29T11:02:57.578Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15463,7 +15463,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9955710978835979,
+          "uptime_percentage": 0.9957238186462324,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -15723,6 +15723,7 @@
               "events": []
             },
             {
+              "date": "2026-08-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -29975,7 +29976,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9991918816137566,
+          "uptime_percentage": 0.9992197477650063,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -30165,6 +30166,7 @@
               "events": []
             },
             {
+              "date": "2026-08-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -45130,7 +45132,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.996960193452381,
+          "uptime_percentage": 0.9970650143678161,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -45377,6 +45379,7 @@
               "events": []
             },
             {
+              "date": "2026-08-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -59069,7 +59072,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9963172123015873,
+          "uptime_percentage": 0.9957114463601532,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -59315,11 +59318,17 @@
             },
             {
               "date": "2026-08-28T00:00:00.000Z",
-              "p": 0,
+              "p": 6120,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Code and Claude Cowork",
+                  "code": "vr9tpk8w7zr8"
+                }
+              ]
             },
             {
+              "date": "2026-08-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -71879,7 +71888,7 @@
           "year": 2026,
           "month": 8,
           "name": "August",
-          "uptime_percentage": 0.9959675099206349,
+          "uptime_percentage": 0.9953738026819924,
           "days": [
             {
               "date": "2026-08-01T00:00:00.000Z",
@@ -72120,11 +72129,17 @@
             },
             {
               "date": "2026-08-28T00:00:00.000Z",
-              "p": 0,
+              "p": 6120,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on Claude Code and Claude Cowork",
+                  "code": "vr9tpk8w7zr8"
+                }
+              ]
             },
             {
+              "date": "2026-08-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -84316,6 +84331,7 @@
               "events": []
             },
             {
+              "date": "2026-08-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
