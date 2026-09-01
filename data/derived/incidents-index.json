@@ -1,6 +1,38 @@
 {
-  "generated_at": "2026-08-31T10:49:04.009Z",
+  "generated_at": "2026-09-01T09:22:57.457Z",
   "incidents": [
+    {
+      "id": "r82kdk0m7vqh",
+      "name": "Degraded performance on claude.ai and Claude Code",
+      "impact": "minor",
+      "created_at": "2026-08-31T19:21:32.139Z",
+      "started_at": "2026-08-31T19:21:32.131Z",
+      "resolved_at": "2026-08-31T20:36:00.297Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        }
+      ]
+    },
+    {
+      "id": "9jrp5rtyzrf6",
+      "name": "Degraded performance on claude.ai",
+      "impact": "minor",
+      "created_at": "2026-08-31T17:23:06.241Z",
+      "started_at": "2026-08-31T17:23:06.231Z",
+      "resolved_at": "2026-08-31T17:52:26.026Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        }
+      ]
+    },
     {
       "id": "vr9tpk8w7zr8",
       "name": "Elevated errors on Claude Code and Claude Cowork",
