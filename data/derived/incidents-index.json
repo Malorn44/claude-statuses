@@ -1,6 +1,52 @@
 {
-  "generated_at": "2026-09-01T09:22:57.457Z",
+  "generated_at": "2026-09-02T08:45:15.537Z",
   "incidents": [
+    {
+      "id": "620swtqyn24k",
+      "name": "Delays in credit purchases",
+      "impact": "minor",
+      "created_at": "2026-09-01T23:26:48.992Z",
+      "started_at": "2026-09-01T23:26:48.984Z",
+      "resolved_at": "2026-09-02T01:24:22.251Z",
+      "components": [
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        }
+      ]
+    },
+    {
+      "id": "3g3d55q6vk3h",
+      "name": "Degraded performance on platform.claude.com and Claude for Microsoft Office 365",
+      "impact": "minor",
+      "created_at": "2026-09-01T17:05:11.462Z",
+      "started_at": "2026-09-01T17:05:11.451Z",
+      "resolved_at": "2026-09-01T18:07:03.372Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "0qbwn08sd68x",
+          "name": "Claude Console (platform.claude.com)"
+        }
+      ]
+    },
+    {
+      "id": "nr3h7bw8b3k3",
+      "name": "Degraded performance on Claude for Microsoft Office 365",
+      "impact": "minor",
+      "created_at": "2026-09-01T16:02:48.681Z",
+      "started_at": "2026-09-01T16:02:48.673Z",
+      "resolved_at": "2026-09-01T16:22:19.479Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        }
+      ]
+    },
     {
       "id": "r82kdk0m7vqh",
       "name": "Degraded performance on claude.ai and Claude Code",

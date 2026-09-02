@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T09:22:55.515Z",
+  "generated_at": "2026-09-02T08:45:12.622Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15762,9 +15762,19 @@
               "date": "2026-09-01T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance on Claude for Microsoft Office 365",
+                  "code": "nr3h7bw8b3k3"
+                },
+                {
+                  "name": "Degraded performance on platform.claude.com and Claude for Microsoft Office 365",
+                  "code": "3g3d55q6vk3h"
+                }
+              ]
             },
             {
+              "date": "2026-09-02T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -30367,12 +30377,27 @@
               "date": "2026-09-01T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Delays in credit purchases",
+                  "code": "620swtqyn24k"
+                },
+                {
+                  "name": "Degraded performance on platform.claude.com and Claude for Microsoft Office 365",
+                  "code": "3g3d55q6vk3h"
+                }
+              ]
             },
             {
+              "date": "2026-09-02T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Delays in credit purchases",
+                  "code": "620swtqyn24k"
+                }
+              ]
             },
             {
               "p": 0,
@@ -45745,6 +45770,7 @@
               "events": []
             },
             {
+              "date": "2026-09-02T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -59861,6 +59887,7 @@
               "events": []
             },
             {
+              "date": "2026-09-02T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -72834,6 +72861,7 @@
               "events": []
             },
             {
+              "date": "2026-09-02T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -85188,6 +85216,7 @@
               "events": []
             },
             {
+              "date": "2026-09-02T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
