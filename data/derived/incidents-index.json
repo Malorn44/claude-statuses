@@ -1,6 +1,32 @@
 {
-  "generated_at": "2026-09-02T08:45:15.537Z",
+  "generated_at": "2026-09-03T08:54:16.421Z",
   "incidents": [
+    {
+      "id": "ls6bn1x81m0w",
+      "name": "Elevated errors for Claude Sonnet 5",
+      "impact": "major",
+      "created_at": "2026-09-02T21:17:58.704Z",
+      "started_at": "2026-09-02T21:17:58.696Z",
+      "resolved_at": "2026-09-02T21:44:28.095Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "620swtqyn24k",
       "name": "Delays in credit purchases",

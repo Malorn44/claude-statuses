@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T08:45:12.622Z",
+  "generated_at": "2026-09-03T08:54:14.401Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15756,7 +15756,7 @@
           "year": 2026,
           "month": 9,
           "name": "September",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.9981597222222223,
           "days": [
             {
               "date": "2026-09-01T00:00:00.000Z",
@@ -15775,11 +15775,17 @@
             },
             {
               "date": "2026-09-02T00:00:00.000Z",
-              "p": 0,
+              "p": 1590,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Sonnet 5",
+                  "code": "ls6bn1x81m0w"
+                }
+              ]
             },
             {
+              "date": "2026-09-03T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -30400,6 +30406,7 @@
               ]
             },
             {
+              "date": "2026-09-03T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -45761,7 +45768,7 @@
           "year": 2026,
           "month": 9,
           "name": "September",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.9981597222222223,
           "days": [
             {
               "date": "2026-09-01T00:00:00.000Z",
@@ -45771,11 +45778,17 @@
             },
             {
               "date": "2026-09-02T00:00:00.000Z",
-              "p": 0,
+              "p": 1590,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Sonnet 5",
+                  "code": "ls6bn1x81m0w"
+                }
+              ]
             },
             {
+              "date": "2026-09-03T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -59878,7 +59891,7 @@
           "year": 2026,
           "month": 9,
           "name": "September",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.9981597222222223,
           "days": [
             {
               "date": "2026-09-01T00:00:00.000Z",
@@ -59888,11 +59901,17 @@
             },
             {
               "date": "2026-09-02T00:00:00.000Z",
-              "p": 0,
+              "p": 1590,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Sonnet 5",
+                  "code": "ls6bn1x81m0w"
+                }
+              ]
             },
             {
+              "date": "2026-09-03T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -72852,7 +72871,7 @@
           "year": 2026,
           "month": 9,
           "name": "September",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.9981597222222223,
           "days": [
             {
               "date": "2026-09-01T00:00:00.000Z",
@@ -72862,11 +72881,17 @@
             },
             {
               "date": "2026-09-02T00:00:00.000Z",
-              "p": 0,
+              "p": 1590,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Sonnet 5",
+                  "code": "ls6bn1x81m0w"
+                }
+              ]
             },
             {
+              "date": "2026-09-03T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -85222,6 +85247,7 @@
               "events": []
             },
             {
+              "date": "2026-09-03T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
