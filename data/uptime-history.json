@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T08:54:14.401Z",
+  "generated_at": "2026-09-04T08:49:19.868Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15756,7 +15756,7 @@
           "year": 2026,
           "month": 9,
           "name": "September",
-          "uptime_percentage": 0.9981597222222223,
+          "uptime_percentage": 0.9888880208333333,
           "days": [
             {
               "date": "2026-09-01T00:00:00.000Z",
@@ -15786,11 +15786,21 @@
             },
             {
               "date": "2026-09-03T00:00:00.000Z",
-              "p": 0,
+              "p": 11211,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Sonnet 5",
+                  "code": "288w7p4hk1l1"
+                },
+                {
+                  "name": "Elevated errors for multiple models",
+                  "code": "461yvfrzpwtt"
+                }
+              ]
             },
             {
+              "date": "2026-09-04T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -30412,6 +30422,7 @@
               "events": []
             },
             {
+              "date": "2026-09-04T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -45768,7 +45779,7 @@
           "year": 2026,
           "month": 9,
           "name": "September",
-          "uptime_percentage": 0.9981597222222223,
+          "uptime_percentage": 0.9888880208333333,
           "days": [
             {
               "date": "2026-09-01T00:00:00.000Z",
@@ -45789,11 +45800,21 @@
             },
             {
               "date": "2026-09-03T00:00:00.000Z",
-              "p": 0,
+              "p": 11211,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Sonnet 5",
+                  "code": "288w7p4hk1l1"
+                },
+                {
+                  "name": "Elevated errors for multiple models",
+                  "code": "461yvfrzpwtt"
+                }
+              ]
             },
             {
+              "date": "2026-09-04T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -59891,7 +59912,7 @@
           "year": 2026,
           "month": 9,
           "name": "September",
-          "uptime_percentage": 0.9981597222222223,
+          "uptime_percentage": 0.9888871527777778,
           "days": [
             {
               "date": "2026-09-01T00:00:00.000Z",
@@ -59912,11 +59933,21 @@
             },
             {
               "date": "2026-09-03T00:00:00.000Z",
-              "p": 0,
+              "p": 11212,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Sonnet 5",
+                  "code": "288w7p4hk1l1"
+                },
+                {
+                  "name": "Elevated errors for multiple models",
+                  "code": "461yvfrzpwtt"
+                }
+              ]
             },
             {
+              "date": "2026-09-04T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -72871,7 +72902,7 @@
           "year": 2026,
           "month": 9,
           "name": "September",
-          "uptime_percentage": 0.9981597222222223,
+          "uptime_percentage": 0.9888871527777778,
           "days": [
             {
               "date": "2026-09-01T00:00:00.000Z",
@@ -72892,11 +72923,21 @@
             },
             {
               "date": "2026-09-03T00:00:00.000Z",
-              "p": 0,
+              "p": 11212,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Sonnet 5",
+                  "code": "288w7p4hk1l1"
+                },
+                {
+                  "name": "Elevated errors for multiple models",
+                  "code": "461yvfrzpwtt"
+                }
+              ]
             },
             {
+              "date": "2026-09-04T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -85253,6 +85294,7 @@
               "events": []
             },
             {
+              "date": "2026-09-04T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []

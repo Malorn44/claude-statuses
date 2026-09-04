@@ -1,6 +1,58 @@
 {
-  "generated_at": "2026-09-03T08:54:16.421Z",
+  "generated_at": "2026-09-04T08:49:22.063Z",
   "incidents": [
+    {
+      "id": "461yvfrzpwtt",
+      "name": "Elevated errors for multiple models",
+      "impact": "major",
+      "created_at": "2026-09-03T13:26:04.201Z",
+      "started_at": "2026-09-03T13:26:04.191Z",
+      "resolved_at": "2026-09-03T16:23:12.052Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "288w7p4hk1l1",
+      "name": "Elevated errors for Claude Sonnet 5",
+      "impact": "major",
+      "created_at": "2026-09-03T12:37:31.766Z",
+      "started_at": "2026-09-03T12:37:31.757Z",
+      "resolved_at": "2026-09-03T12:56:26.632Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "ls6bn1x81m0w",
       "name": "Elevated errors for Claude Sonnet 5",
