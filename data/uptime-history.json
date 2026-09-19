@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T08:55:47.623Z",
+  "generated_at": "2026-09-19T13:53:17.266Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15756,7 +15756,7 @@
           "year": 2026,
           "month": 9,
           "name": "September",
-          "uptime_percentage": 0.9955552083333334,
+          "uptime_percentage": 0.9966195175438596,
           "days": [
             {
               "date": "2026-09-01T00:00:00.000Z",
@@ -15842,46 +15842,65 @@
               "events": []
             },
             {
+              "date": "2026-09-11T00:00:00.000Z",
+              "p": 516,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+                  "code": "t33dncr5ydvl"
+                }
+              ]
+            },
+            {
+              "date": "2026-09-12T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-13T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-14T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-15T00:00:00.000Z",
+              "p": 5181,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Intermittent error spikes for Claude Mythos 5.1 and Claude Fable 5.1",
+                  "code": "6304r9jjhj34"
+                }
+              ]
+            },
+            {
+              "date": "2026-09-16T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
+              "date": "2026-09-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -30470,46 +30489,55 @@
               "events": []
             },
             {
+              "date": "2026-09-11T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-12T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-13T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-14T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-15T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-16T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -45791,7 +45819,7 @@
           "year": 2026,
           "month": 9,
           "name": "September",
-          "uptime_percentage": 0.9955552083333334,
+          "uptime_percentage": 0.9966195175438596,
           "days": [
             {
               "date": "2026-09-01T00:00:00.000Z",
@@ -45865,49 +45893,73 @@
               "date": "2026-09-10T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated latency on the Claude API for some users",
+                  "code": "2pt83vlkk7x7"
+                }
+              ]
             },
             {
+              "date": "2026-09-11T00:00:00.000Z",
+              "p": 516,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+                  "code": "t33dncr5ydvl"
+                }
+              ]
+            },
+            {
+              "date": "2026-09-12T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-13T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-14T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-15T00:00:00.000Z",
+              "p": 5181,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Intermittent error spikes for Claude Mythos 5.1 and Claude Fable 5.1",
+                  "code": "6304r9jjhj34"
+                }
+              ]
+            },
+            {
+              "date": "2026-09-16T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
+              "date": "2026-09-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -59930,7 +59982,7 @@
           "year": 2026,
           "month": 9,
           "name": "September",
-          "uptime_percentage": 0.995554861111111,
+          "uptime_percentage": 0.9966193347953216,
           "days": [
             {
               "date": "2026-09-01T00:00:00.000Z",
@@ -60007,46 +60059,65 @@
               "events": []
             },
             {
+              "date": "2026-09-11T00:00:00.000Z",
+              "p": 516,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+                  "code": "t33dncr5ydvl"
+                }
+              ]
+            },
+            {
+              "date": "2026-09-12T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-13T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-14T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-15T00:00:00.000Z",
+              "p": 5181,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Intermittent error spikes for Claude Mythos 5.1 and Claude Fable 5.1",
+                  "code": "6304r9jjhj34"
+                }
+              ]
+            },
+            {
+              "date": "2026-09-16T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
+              "date": "2026-09-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -72926,7 +72997,7 @@
           "year": 2026,
           "month": 9,
           "name": "September",
-          "uptime_percentage": 0.995554861111111,
+          "uptime_percentage": 0.9967136330409356,
           "days": [
             {
               "date": "2026-09-01T00:00:00.000Z",
@@ -73000,49 +73071,96 @@
               "date": "2026-09-10T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded functionality for Claude Cowork on Windows",
+                  "code": "r1pqn1kb4hvk"
+                },
+                {
+                  "name": "Elevated latency on the Claude API for some users",
+                  "code": "2pt83vlkk7x7"
+                }
+              ]
             },
             {
+              "date": "2026-09-11T00:00:00.000Z",
+              "p": 0,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Degraded functionality for Claude Cowork on Windows",
+                  "code": "r1pqn1kb4hvk"
+                },
+                {
+                  "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+                  "code": "t33dncr5ydvl"
+                }
+              ]
+            },
+            {
+              "date": "2026-09-12T00:00:00.000Z",
+              "p": 0,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Degraded functionality for Claude Cowork on Windows",
+                  "code": "r1pqn1kb4hvk"
+                }
+              ]
+            },
+            {
+              "date": "2026-09-13T00:00:00.000Z",
+              "p": 0,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Degraded functionality for Claude Cowork on Windows",
+                  "code": "r1pqn1kb4hvk"
+                }
+              ]
+            },
+            {
+              "date": "2026-09-14T00:00:00.000Z",
+              "p": 0,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Degraded functionality for Claude Cowork on Windows",
+                  "code": "r1pqn1kb4hvk"
+                }
+              ]
+            },
+            {
+              "date": "2026-09-15T00:00:00.000Z",
+              "p": 5181,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Intermittent error spikes for Claude Mythos 5.1 and Claude Fable 5.1",
+                  "code": "6304r9jjhj34"
+                }
+              ]
+            },
+            {
+              "date": "2026-09-16T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
-            },
-            {
+              "date": "2026-09-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -85366,46 +85484,55 @@
               "events": []
             },
             {
+              "date": "2026-09-11T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-12T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-13T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-14T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-15T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-16T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
             },
             {
+              "date": "2026-09-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
