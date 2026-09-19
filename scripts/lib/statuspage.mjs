@@ -3,6 +3,8 @@ const UA = "claude-statuses (+https://github.com/Malorn44/claude-statuses)";
 const BROWSER_UA =
   "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36";
 const MAX_ATTEMPTS = 5;
+const UPTIME_SHOWCASE = "/uptime_showcase";
+const SHOWCASE_BATCH_LIMIT = 60; // matches the page's BATCH_LIMIT
 
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
@@ -16,30 +18,15 @@ function findMatchingBrace(str, openIdx) {
 
   for (let i = openIdx; i < str.length; i++) {
     const c = str[i];
-
-    if (escaped) {
-      escaped = false;
-      continue;
-    }
-
+    if (escaped) { escaped = false; continue; }
     if (inString) {
-      if (c == "\\") escaped = true;
+      if (c === "\\") escaped = true;
       else if (c === quoteChar) inString = false;
       continue;
     }
-
-    if (c === '"' || c === "'" || c === "`") {
-      inString = true;
-      quoteChar = c;
-      continue;
-    }
-
-    if (c === "{") {
-      depth++;
-    } else if (c === "}") {
-      depth --;
-      if (depth === 0) return i + 1;
-    }
+    if (c === '"' || c === "'" || c === "`") { inString = true; quoteChar = c; continue; }
+    if (c === "{") depth++;
+    else if (c === "}") { depth--; if (depth === 0) return i + 1; }
   }
   return -1; // unbalanced
 }
@@ -106,24 +93,45 @@ export async function fetchHomepageUptimeData() {
     browser: true,
   });
 
-  const assignRe = /uptimeData\s*=\s*{/;
-  const m = assignRe.exec(html);
-  if (!m) {
-    throw new UptimeParseError("Could not find 'uptimeData = {' in homepage HTML");
+  const codes = [...new Set(
+    [...html.matchAll(/data-uptime-lazy="([a-z0-9]+)"/g)].map((m) => m[1]),
+  )];
+
+  // Legacy path only when the page has no lazy placeholders at all.
+  if (!codes.length) {
+    const legacy = /var\s+uptimeData\s*=\s*{/.exec(html);
+    if (!legacy) {
+      throw new UptimeParseError(
+        "No data-uptime-lazy placeholders and no inline uptimeData",
+        html.slice(0, 500),
+      );
+    }
+    const start = legacy.index + legacy[0].length - 1;
+    const end = findMatchingBrace(html, start);
+    const raw = end < 0 ? "" : html.slice(start, end);
+    try {
+      return JSON.parse(raw);
+    } catch (e) {
+      throw new UptimeParseError(`Inline uptimeData not JSON: ${e.message}`, raw.slice(0, 200));
+    }
   }
 
-  const start = m.index + m[0].length - 1;
-  const end = findMatchingBrace(html, start);
-  if (end < 0) {
-    throw new UptimeParseError("Unbalanced braces while scanning for uptimeData object");
+  // Current path (STATUS-801): fetch timelines from /uptime_showcase.
+  const out = {};
+  for (let i = 0; i < codes.length; i += SHOWCASE_BATCH_LIMIT) {
+    const batch = codes.slice(i, i + SHOWCASE_BATCH_LIMIT);
+    const data = await fetchPath(
+      `${UPTIME_SHOWCASE}?components=${encodeURIComponent(batch.join(","))}`,
+      { accept: "application/json", browser: true },
+    );
+    Object.assign(out, data?.timelines || {});
   }
 
-  const raw = html.slice(start, end);
-  try {
-    return JSON.parse(raw);
-  } catch (e) {
-    throw new UptimeParseError(`Failed to parse uptimeData: ${e.message}`, raw.slice(0, 200));
+  const missing = codes.filter((c) => !out[c]);
+  if (missing.length) {
+    throw new UptimeParseError(`uptime_showcase returned no timeline for: ${missing.join(", ")}`);
   }
+  return out;
 }
 
 export async function fetchHistoryProps(page) {

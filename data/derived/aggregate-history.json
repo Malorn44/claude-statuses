@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T08:55:53.518Z",
+  "generated_at": "2026-09-19T13:50:32.945Z",
   "months": [
     {
       "key": "2023-07",
@@ -12226,6 +12226,101 @@
         },
         {
           "date": "2026-09-10",
+          "impact": "minor",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 6043,
+          "maintenance_s": 0,
+          "incident_ids": [
+            "2pt83vlkk7x7",
+            "r1pqn1kb4hvk"
+          ]
+        },
+        {
+          "date": "2026-09-11",
+          "impact": "major",
+          "major_s": 516,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": [
+            "t33dncr5ydvl",
+            "r1pqn1kb4hvk"
+          ]
+        },
+        {
+          "date": "2026-09-12",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": [
+            "r1pqn1kb4hvk"
+          ]
+        },
+        {
+          "date": "2026-09-13",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": [
+            "r1pqn1kb4hvk"
+          ]
+        },
+        {
+          "date": "2026-09-14",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": [
+            "r1pqn1kb4hvk"
+          ]
+        },
+        {
+          "date": "2026-09-15",
+          "impact": "major",
+          "major_s": 5181,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": [
+            "6304r9jjhj34"
+          ]
+        },
+        {
+          "date": "2026-09-16",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": []
+        },
+        {
+          "date": "2026-09-17",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": []
+        },
+        {
+          "date": "2026-09-18",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": []
+        },
+        {
+          "date": "2026-09-19",
           "impact": "none",
           "major_s": 0,
           "critical_s": 0,
