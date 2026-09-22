@@ -1,6 +1,32 @@
 {
-  "generated_at": "2026-09-21T09:53:29.184Z",
+  "generated_at": "2026-09-22T09:16:45.420Z",
   "incidents": [
+    {
+      "id": "7g1qpkyz5gxh",
+      "name": "Elevated errors for multiple models",
+      "impact": "major",
+      "created_at": "2026-09-22T00:57:26.126Z",
+      "started_at": "2026-09-22T00:57:26.117Z",
+      "resolved_at": "2026-09-22T02:35:23.836Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "t8fpw9vcshl9",
       "name": "Issues with Google Play subscriptions",
