@@ -7,16 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-07-02",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Opus 4.8",
-            "code": "lcccgkzvj2yx"
-          }
-        ]
-      },
-      {
         "date": "2026-07-03",
         "outages": {},
         "related_events": [
@@ -834,6 +824,18 @@
       },
       {
         "date": "2026-09-29",
+        "outages": {
+          "p": 2990
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
+            "code": "4xvtc2gnq73l"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-30",
         "outages": {},
         "related_events": []
       }
@@ -846,11 +848,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-02",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-03",
         "outages": {},
@@ -1424,6 +1421,16 @@
       {
         "date": "2026-09-29",
         "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
+            "code": "4xvtc2gnq73l"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-30",
+        "outages": {},
         "related_events": []
       }
     ]
@@ -1435,16 +1442,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-02",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Opus 4.8",
-            "code": "lcccgkzvj2yx"
-          }
-        ]
-      },
       {
         "date": "2026-07-03",
         "outages": {},
@@ -2218,6 +2215,16 @@
       {
         "date": "2026-09-29",
         "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
+            "code": "4xvtc2gnq73l"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-30",
+        "outages": {},
         "related_events": []
       }
     ]
@@ -2229,16 +2236,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-07-02",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Opus 4.8",
-            "code": "lcccgkzvj2yx"
-          }
-        ]
-      },
       {
         "date": "2026-07-03",
         "outages": {},
@@ -3051,6 +3048,18 @@
       },
       {
         "date": "2026-09-29",
+        "outages": {
+          "p": 2990
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
+            "code": "4xvtc2gnq73l"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-30",
         "outages": {},
         "related_events": []
       }
@@ -3063,16 +3072,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-07-02",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Opus 4.8",
-            "code": "lcccgkzvj2yx"
-          }
-        ]
-      },
       {
         "date": "2026-07-03",
         "outages": {},
@@ -3876,6 +3875,18 @@
       },
       {
         "date": "2026-09-29",
+        "outages": {
+          "p": 2990
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
+            "code": "4xvtc2gnq73l"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-30",
         "outages": {},
         "related_events": []
       }
@@ -3888,11 +3899,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-07-02",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-03",
         "outages": {},
@@ -4335,6 +4341,11 @@
       },
       {
         "date": "2026-09-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-30",
         "outages": {},
         "related_events": []
       }

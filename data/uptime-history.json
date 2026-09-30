@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T10:38:41.777Z",
+  "generated_at": "2026-09-30T10:28:06.884Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15756,7 +15756,7 @@
           "year": 2026,
           "month": 9,
           "name": "September",
-          "uptime_percentage": 0.99725155651341,
+          "uptime_percentage": 0.9969971064814815,
           "days": [
             {
               "date": "2026-09-01T00:00:00.000Z",
@@ -15966,11 +15966,17 @@
             },
             {
               "date": "2026-09-29T00:00:00.000Z",
-              "p": 0,
+              "p": 2990,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
+                  "code": "4xvtc2gnq73l"
+                }
+              ]
             },
             {
+              "date": "2026-09-30T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -30615,9 +30621,15 @@
               "date": "2026-09-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
+                  "code": "4xvtc2gnq73l"
+                }
+              ]
             },
             {
+              "date": "2026-09-30T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -45844,7 +45856,7 @@
           "year": 2026,
           "month": 9,
           "name": "September",
-          "uptime_percentage": 0.99725155651341,
+          "uptime_percentage": 0.9973431712962963,
           "days": [
             {
               "date": "2026-09-01T00:00:00.000Z",
@@ -46052,9 +46064,15 @@
               "date": "2026-09-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
+                  "code": "4xvtc2gnq73l"
+                }
+              ]
             },
             {
+              "date": "2026-09-30T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -60022,7 +60040,7 @@
           "year": 2026,
           "month": 9,
           "name": "September",
-          "uptime_percentage": 0.9972514367816092,
+          "uptime_percentage": 0.9969969907407407,
           "days": [
             {
               "date": "2026-09-01T00:00:00.000Z",
@@ -60223,11 +60241,17 @@
             },
             {
               "date": "2026-09-29T00:00:00.000Z",
-              "p": 0,
+              "p": 2990,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
+                  "code": "4xvtc2gnq73l"
+                }
+              ]
             },
             {
+              "date": "2026-09-30T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -73052,7 +73076,7 @@
           "year": 2026,
           "month": 9,
           "name": "September",
-          "uptime_percentage": 0.9973132183908046,
+          "uptime_percentage": 0.9970567129629629,
           "days": [
             {
               "date": "2026-09-01T00:00:00.000Z",
@@ -73281,11 +73305,17 @@
             },
             {
               "date": "2026-09-29T00:00:00.000Z",
-              "p": 0,
+              "p": 2990,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
+                  "code": "4xvtc2gnq73l"
+                }
+              ]
             },
             {
+              "date": "2026-09-30T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -85668,6 +85698,7 @@
               "events": []
             },
             {
+              "date": "2026-09-30T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
