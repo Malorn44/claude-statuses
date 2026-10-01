@@ -7,20 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-07-03",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Fable 5 and Claude Mythos 5",
-            "code": "mphfs246cjg1"
-          },
-          {
-            "name": "Elevated errors across many models",
-            "code": "c0052w6jxl47"
-          }
-        ]
-      },
-      {
         "date": "2026-07-04",
         "outages": {},
         "related_events": [
@@ -838,6 +824,11 @@
         "date": "2026-09-30",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-01",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -848,16 +839,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-03",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Fable 5 and Claude Mythos 5",
-            "code": "mphfs246cjg1"
-          }
-        ]
-      },
       {
         "date": "2026-07-04",
         "outages": {},
@@ -1432,6 +1413,11 @@
         "date": "2026-09-30",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-01",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1442,20 +1428,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-03",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Fable 5 and Claude Mythos 5",
-            "code": "mphfs246cjg1"
-          },
-          {
-            "name": "Elevated errors across many models",
-            "code": "c0052w6jxl47"
-          }
-        ]
-      },
       {
         "date": "2026-07-04",
         "outages": {},
@@ -2226,6 +2198,11 @@
         "date": "2026-09-30",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-01",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2236,20 +2213,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-07-03",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Fable 5 and Claude Mythos 5",
-            "code": "mphfs246cjg1"
-          },
-          {
-            "name": "Elevated errors across many models",
-            "code": "c0052w6jxl47"
-          }
-        ]
-      },
       {
         "date": "2026-07-04",
         "outages": {},
@@ -3062,6 +3025,11 @@
         "date": "2026-09-30",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-01",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3072,20 +3040,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-07-03",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Fable 5 and Claude Mythos 5",
-            "code": "mphfs246cjg1"
-          },
-          {
-            "name": "Elevated errors across many models",
-            "code": "c0052w6jxl47"
-          }
-        ]
-      },
       {
         "date": "2026-07-04",
         "outages": {},
@@ -3889,6 +3843,11 @@
         "date": "2026-09-30",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-01",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3899,11 +3858,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-07-03",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-04",
         "outages": {},
@@ -4346,6 +4300,11 @@
       },
       {
         "date": "2026-09-30",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-01",
         "outages": {},
         "related_events": []
       }
