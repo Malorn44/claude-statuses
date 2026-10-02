@@ -7,16 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-07-04",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors across many models",
-            "code": "c0052w6jxl47"
-          }
-        ]
-      },
-      {
         "date": "2026-07-05",
         "outages": {},
         "related_events": []
@@ -829,6 +819,11 @@
         "date": "2026-10-01",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-02",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -839,11 +834,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-04",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-05",
         "outages": {},
@@ -1417,6 +1407,16 @@
       {
         "date": "2026-10-01",
         "outages": {},
+        "related_events": [
+          {
+            "name": "Delayed credits on the Claude Platform",
+            "code": "k0h22tsvnydg"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-02",
+        "outages": {},
         "related_events": []
       }
     ]
@@ -1428,16 +1428,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-04",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors across many models",
-            "code": "c0052w6jxl47"
-          }
-        ]
-      },
       {
         "date": "2026-07-05",
         "outages": {},
@@ -2202,6 +2192,16 @@
       {
         "date": "2026-10-01",
         "outages": {},
+        "related_events": [
+          {
+            "name": "Delayed credits on the Claude Platform",
+            "code": "k0h22tsvnydg"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-02",
+        "outages": {},
         "related_events": []
       }
     ]
@@ -2213,16 +2213,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-07-04",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors across many models",
-            "code": "c0052w6jxl47"
-          }
-        ]
-      },
       {
         "date": "2026-07-05",
         "outages": {},
@@ -3030,6 +3020,11 @@
         "date": "2026-10-01",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-02",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3040,16 +3035,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-07-04",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors across many models",
-            "code": "c0052w6jxl47"
-          }
-        ]
-      },
       {
         "date": "2026-07-05",
         "outages": {},
@@ -3848,6 +3833,11 @@
         "date": "2026-10-01",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-02",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3858,11 +3848,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-07-04",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-05",
         "outages": {},
@@ -4305,6 +4290,11 @@
       },
       {
         "date": "2026-10-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-02",
         "outages": {},
         "related_events": []
       }
