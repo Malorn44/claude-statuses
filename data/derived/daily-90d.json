@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:28:32.529Z",
+  "generated_at": "2026-10-03T09:50:17.448Z",
   "rows": [
     {
       "id": "__aggregate__",
@@ -10,15 +10,6 @@
       "critical_seconds": 13000,
       "minor_seconds": 353068,
       "days": [
-        {
-          "date": "2026-07-05",
-          "impact": "none",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 0,
-          "maintenance_s": 0,
-          "incident_ids": []
-        },
         {
           "date": "2026-07-06",
           "impact": "critical",
@@ -968,6 +959,15 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": []
+        },
+        {
+          "date": "2026-10-03",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": []
         }
       ]
     },
@@ -980,15 +980,6 @@
       "critical_seconds": 11598,
       "minor_seconds": 208096,
       "days": [
-        {
-          "date": "2026-07-05",
-          "impact": "none",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 0,
-          "maintenance_s": 0,
-          "incident_ids": []
-        },
         {
           "date": "2026-07-06",
           "impact": "critical",
@@ -1899,6 +1890,15 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": []
+        },
+        {
+          "date": "2026-10-03",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": []
         }
       ]
     },
@@ -1911,15 +1911,6 @@
       "critical_seconds": 2237,
       "minor_seconds": 123291,
       "days": [
-        {
-          "date": "2026-07-05",
-          "impact": "none",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 0,
-          "maintenance_s": 0,
-          "incident_ids": []
-        },
         {
           "date": "2026-07-06",
           "impact": "none",
@@ -2764,6 +2755,15 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": []
+        },
+        {
+          "date": "2026-10-03",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": []
         }
       ]
     },
@@ -2776,15 +2776,6 @@
       "critical_seconds": 7824,
       "minor_seconds": 244566,
       "days": [
-        {
-          "date": "2026-07-05",
-          "impact": "none",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 0,
-          "maintenance_s": 0,
-          "incident_ids": []
-        },
         {
           "date": "2026-07-06",
           "impact": "minor",
@@ -3684,6 +3675,15 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": []
+        },
+        {
+          "date": "2026-10-03",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": []
         }
       ]
     },
@@ -3696,15 +3696,6 @@
       "critical_seconds": 11367,
       "minor_seconds": 287006,
       "days": [
-        {
-          "date": "2026-07-05",
-          "impact": "none",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 0,
-          "maintenance_s": 0,
-          "incident_ids": []
-        },
         {
           "date": "2026-07-06",
           "impact": "minor",
@@ -4613,6 +4604,15 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": []
+        },
+        {
+          "date": "2026-10-03",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": []
         }
       ]
     },
@@ -4625,15 +4625,6 @@
       "critical_seconds": 11367,
       "minor_seconds": 219494,
       "days": [
-        {
-          "date": "2026-07-05",
-          "impact": "none",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 0,
-          "maintenance_s": 0,
-          "incident_ids": []
-        },
         {
           "date": "2026-07-06",
           "impact": "minor",
@@ -5541,6 +5532,15 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": []
+        },
+        {
+          "date": "2026-10-03",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": []
         }
       ]
     },
@@ -5553,15 +5553,6 @@
       "critical_seconds": 0,
       "minor_seconds": 0,
       "days": [
-        {
-          "date": "2026-07-05",
-          "impact": "none",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 0,
-          "maintenance_s": 0,
-          "incident_ids": []
-        },
         {
           "date": "2026-07-06",
           "impact": "none",
@@ -6356,6 +6347,15 @@
         },
         {
           "date": "2026-10-02",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": []
+        },
+        {
+          "date": "2026-10-03",
           "impact": "none",
           "major_s": 0,
           "critical_s": 0,
