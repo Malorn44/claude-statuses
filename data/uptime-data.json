@@ -7,22 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-07-07",
-        "outages": {
-          "p": 7082
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "hh9hj15mxkrx"
-          },
-          {
-            "name": "Elevated errors for some models",
-            "code": "l9zyw879cyd6"
-          }
-        ]
-      },
-      {
         "date": "2026-07-08",
         "outages": {},
         "related_events": [
@@ -817,6 +801,11 @@
         "date": "2026-10-04",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-05",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -827,11 +816,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-07",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-08",
         "outages": {},
@@ -1411,6 +1395,11 @@
         "date": "2026-10-04",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-05",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1421,22 +1410,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-07",
-        "outages": {
-          "p": 7082
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "hh9hj15mxkrx"
-          },
-          {
-            "name": "Elevated errors for some models",
-            "code": "l9zyw879cyd6"
-          }
-        ]
-      },
       {
         "date": "2026-07-08",
         "outages": {},
@@ -2191,6 +2164,11 @@
         "date": "2026-10-04",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-05",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2201,26 +2179,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-07-07",
-        "outages": {
-          "p": 7083
-        },
-        "related_events": [
-          {
-            "name": "Claude Tag seeing elevated GitHub operation failures",
-            "code": "d23j8s7t8rx2"
-          },
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "hh9hj15mxkrx"
-          },
-          {
-            "name": "Elevated errors for some models",
-            "code": "l9zyw879cyd6"
-          }
-        ]
-      },
       {
         "date": "2026-07-08",
         "outages": {},
@@ -3004,6 +2962,11 @@
         "date": "2026-10-04",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-05",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3014,22 +2977,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-07-07",
-        "outages": {
-          "p": 7083
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "hh9hj15mxkrx"
-          },
-          {
-            "name": "Elevated errors for some models",
-            "code": "l9zyw879cyd6"
-          }
-        ]
-      },
       {
         "date": "2026-07-08",
         "outages": {},
@@ -3812,6 +3759,11 @@
         "date": "2026-10-04",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-05",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3822,11 +3774,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-07-07",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-08",
         "outages": {},
@@ -4269,6 +4216,11 @@
       },
       {
         "date": "2026-10-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-05",
         "outages": {},
         "related_events": []
       }
