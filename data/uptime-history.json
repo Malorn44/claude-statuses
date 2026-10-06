@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T11:24:57.789Z",
+  "generated_at": "2026-10-06T11:14:07.063Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15988,7 +15988,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.9994484953703703,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -16016,11 +16016,17 @@
             },
             {
               "date": "2026-10-05T00:00:00.000Z",
-              "p": 0,
+              "p": 953,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+                  "code": "bhphxz3vr58g"
+                }
+              ]
             },
             {
+              "date": "2026-10-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -30848,6 +30854,7 @@
               "events": []
             },
             {
+              "date": "2026-10-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -46427,7 +46434,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.9994484953703703,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -46460,11 +46467,17 @@
             },
             {
               "date": "2026-10-05T00:00:00.000Z",
-              "p": 0,
+              "p": 953,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+                  "code": "bhphxz3vr58g"
+                }
+              ]
             },
             {
+              "date": "2026-10-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -60780,7 +60793,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.9994484953703703,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -60808,11 +60821,17 @@
             },
             {
               "date": "2026-10-05T00:00:00.000Z",
-              "p": 0,
+              "p": 953,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+                  "code": "bhphxz3vr58g"
+                }
+              ]
             },
             {
+              "date": "2026-10-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -74013,7 +74032,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.9994484953703703,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -74041,11 +74060,17 @@
             },
             {
               "date": "2026-10-05T00:00:00.000Z",
-              "p": 0,
+              "p": 953,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+                  "code": "bhphxz3vr58g"
+                }
+              ]
             },
             {
+              "date": "2026-10-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -86598,6 +86623,7 @@
               "events": []
             },
             {
+              "date": "2026-10-06T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []

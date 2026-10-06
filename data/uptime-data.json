@@ -7,20 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-07-08",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "n3v83qmtlbqm"
-          },
-          {
-            "name": "Elevated errors on multiple models",
-            "code": "dcxc66flmxbd"
-          }
-        ]
-      },
-      {
         "date": "2026-07-09",
         "outages": {
           "p": 1335
@@ -804,6 +790,18 @@
       },
       {
         "date": "2026-10-05",
+        "outages": {
+          "p": 953
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+            "code": "bhphxz3vr58g"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-06",
         "outages": {},
         "related_events": []
       }
@@ -816,11 +814,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-08",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-09",
         "outages": {},
@@ -1400,6 +1393,11 @@
         "date": "2026-10-05",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-06",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1410,20 +1408,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-08",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "n3v83qmtlbqm"
-          },
-          {
-            "name": "Elevated errors on multiple models",
-            "code": "dcxc66flmxbd"
-          }
-        ]
-      },
       {
         "date": "2026-07-09",
         "outages": {
@@ -2167,6 +2151,18 @@
       },
       {
         "date": "2026-10-05",
+        "outages": {
+          "p": 953
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+            "code": "bhphxz3vr58g"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-06",
         "outages": {},
         "related_events": []
       }
@@ -2179,24 +2175,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-07-08",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "n3v83qmtlbqm"
-          },
-          {
-            "name": "Elevated errors on multiple models",
-            "code": "dcxc66flmxbd"
-          },
-          {
-            "name": "Degraded performance for Claude Code on the web, Cowork Remote, Claude Tag, and Claude Code Review sessions",
-            "code": "rvb96c56gn6k"
-          }
-        ]
-      },
       {
         "date": "2026-07-09",
         "outages": {
@@ -2965,6 +2943,18 @@
       },
       {
         "date": "2026-10-05",
+        "outages": {
+          "p": 953
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+            "code": "bhphxz3vr58g"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-06",
         "outages": {},
         "related_events": []
       }
@@ -2977,20 +2967,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-07-08",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "n3v83qmtlbqm"
-          },
-          {
-            "name": "Elevated errors on multiple models",
-            "code": "dcxc66flmxbd"
-          }
-        ]
-      },
       {
         "date": "2026-07-09",
         "outages": {
@@ -3762,6 +3738,18 @@
       },
       {
         "date": "2026-10-05",
+        "outages": {
+          "p": 953
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+            "code": "bhphxz3vr58g"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-06",
         "outages": {},
         "related_events": []
       }
@@ -3774,11 +3762,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-07-08",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-09",
         "outages": {},
@@ -4221,6 +4204,11 @@
       },
       {
         "date": "2026-10-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-06",
         "outages": {},
         "related_events": []
       }
