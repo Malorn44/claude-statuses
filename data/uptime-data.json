@@ -7,18 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-07-09",
-        "outages": {
-          "p": 1335
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors for Claude Opus 4.8",
-            "code": "t5kjpnysf4vp"
-          }
-        ]
-      },
-      {
         "date": "2026-07-10",
         "outages": {},
         "related_events": [
@@ -802,6 +790,18 @@
       },
       {
         "date": "2026-10-06",
+        "outages": {
+          "p": 1110
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for Claude Opus 5.5",
+            "code": "ch27pb90bn85"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-07",
         "outages": {},
         "related_events": []
       }
@@ -814,11 +814,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-09",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-10",
         "outages": {},
@@ -1398,6 +1393,18 @@
         "date": "2026-10-06",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-07",
+        "outages": {
+          "p": 4392
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors loading usage data on platform.claude.com",
+            "code": "wf2v8ms031sx"
+          }
+        ]
       }
     ]
   },
@@ -1408,18 +1415,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-09",
-        "outages": {
-          "p": 1335
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors for Claude Opus 4.8",
-            "code": "t5kjpnysf4vp"
-          }
-        ]
-      },
       {
         "date": "2026-07-10",
         "outages": {},
@@ -2163,6 +2158,18 @@
       },
       {
         "date": "2026-10-06",
+        "outages": {
+          "p": 1110
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for Claude Opus 5.5",
+            "code": "ch27pb90bn85"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-07",
         "outages": {},
         "related_events": []
       }
@@ -2175,18 +2182,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-07-09",
-        "outages": {
-          "p": 1335
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors for Claude Opus 4.8",
-            "code": "t5kjpnysf4vp"
-          }
-        ]
-      },
       {
         "date": "2026-07-10",
         "outages": {},
@@ -2955,6 +2950,18 @@
       },
       {
         "date": "2026-10-06",
+        "outages": {
+          "p": 1110
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for Claude Opus 5.5",
+            "code": "ch27pb90bn85"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-07",
         "outages": {},
         "related_events": []
       }
@@ -2967,18 +2974,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-07-09",
-        "outages": {
-          "p": 1336
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors for Claude Opus 4.8",
-            "code": "t5kjpnysf4vp"
-          }
-        ]
-      },
       {
         "date": "2026-07-10",
         "outages": {},
@@ -3750,6 +3745,18 @@
       },
       {
         "date": "2026-10-06",
+        "outages": {
+          "p": 1110
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for Claude Opus 5.5",
+            "code": "ch27pb90bn85"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-07",
         "outages": {},
         "related_events": []
       }
@@ -3762,11 +3769,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-07-09",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-10",
         "outages": {},
@@ -4209,6 +4211,11 @@
       },
       {
         "date": "2026-10-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-07",
         "outages": {},
         "related_events": []
       }

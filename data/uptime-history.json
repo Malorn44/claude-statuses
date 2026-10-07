@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T11:14:07.063Z",
+  "generated_at": "2026-10-07T11:02:01.986Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15988,7 +15988,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9994484953703703,
+          "uptime_percentage": 0.9989766865079365,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -16027,11 +16027,17 @@
             },
             {
               "date": "2026-10-06T00:00:00.000Z",
-              "p": 0,
+              "p": 1110,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Opus 5.5",
+                  "code": "ch27pb90bn85"
+                }
+              ]
             },
             {
+              "date": "2026-10-07T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -30816,7 +30822,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.9978214285714285,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -30860,9 +30866,15 @@
               "events": []
             },
             {
-              "p": 0,
+              "date": "2026-10-07T00:00:00.000Z",
+              "p": 4392,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors loading usage data on platform.claude.com",
+                  "code": "wf2v8ms031sx"
+                }
+              ]
             },
             {
               "p": 0,
@@ -46434,7 +46446,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9994484953703703,
+          "uptime_percentage": 0.9989766865079365,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -46478,11 +46490,17 @@
             },
             {
               "date": "2026-10-06T00:00:00.000Z",
-              "p": 0,
+              "p": 1110,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Opus 5.5",
+                  "code": "ch27pb90bn85"
+                }
+              ]
             },
             {
+              "date": "2026-10-07T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -60793,7 +60811,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9994484953703703,
+          "uptime_percentage": 0.9989766865079365,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -60832,11 +60850,17 @@
             },
             {
               "date": "2026-10-06T00:00:00.000Z",
-              "p": 0,
+              "p": 1110,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Opus 5.5",
+                  "code": "ch27pb90bn85"
+                }
+              ]
             },
             {
+              "date": "2026-10-07T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -74032,7 +74056,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9994484953703703,
+          "uptime_percentage": 0.9989766865079365,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -74071,11 +74095,17 @@
             },
             {
               "date": "2026-10-06T00:00:00.000Z",
-              "p": 0,
+              "p": 1110,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Opus 5.5",
+                  "code": "ch27pb90bn85"
+                }
+              ]
             },
             {
+              "date": "2026-10-07T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -86629,6 +86659,7 @@
               "events": []
             },
             {
+              "date": "2026-10-07T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
