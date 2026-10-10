@@ -7,11 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-07-12",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-07-13",
         "outages": {},
         "related_events": [
@@ -799,6 +794,11 @@
         "date": "2026-10-09",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-10",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -809,11 +809,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-12",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-13",
         "outages": {},
@@ -1409,6 +1404,16 @@
             "code": "978mjkgw6mh7"
           }
         ]
+      },
+      {
+        "date": "2026-10-10",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on platform.claude.com",
+            "code": "978mjkgw6mh7"
+          }
+        ]
       }
     ]
   },
@@ -1419,11 +1424,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-12",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-13",
         "outages": {},
@@ -2171,6 +2171,11 @@
         "date": "2026-10-09",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-10",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2181,11 +2186,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-07-12",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-13",
         "outages": {},
@@ -2958,6 +2958,11 @@
         "date": "2026-10-09",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-10",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2968,11 +2973,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-07-12",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-13",
         "outages": {},
@@ -3748,6 +3748,11 @@
         "date": "2026-10-09",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-10",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3758,11 +3763,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-07-12",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-13",
         "outages": {},
@@ -4205,6 +4205,11 @@
       },
       {
         "date": "2026-10-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-10",
         "outages": {},
         "related_events": []
       }
