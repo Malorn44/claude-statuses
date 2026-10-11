@@ -7,16 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-07-13",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Haiku 4.5",
-            "code": "pb6hndrzfhxn"
-          }
-        ]
-      },
-      {
         "date": "2026-07-14",
         "outages": {
           "p": 2720
@@ -799,6 +789,11 @@
         "date": "2026-10-10",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-11",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -809,16 +804,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-13",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Haiku 4.5",
-            "code": "pb6hndrzfhxn"
-          }
-        ]
-      },
       {
         "date": "2026-07-14",
         "outages": {},
@@ -1414,6 +1399,16 @@
             "code": "978mjkgw6mh7"
           }
         ]
+      },
+      {
+        "date": "2026-10-11",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors on platform.claude.com",
+            "code": "978mjkgw6mh7"
+          }
+        ]
       }
     ]
   },
@@ -1424,16 +1419,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-13",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Haiku 4.5",
-            "code": "pb6hndrzfhxn"
-          }
-        ]
-      },
       {
         "date": "2026-07-14",
         "outages": {},
@@ -2176,6 +2161,11 @@
         "date": "2026-10-10",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-11",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2186,16 +2176,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-07-13",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Haiku 4.5",
-            "code": "pb6hndrzfhxn"
-          }
-        ]
-      },
       {
         "date": "2026-07-14",
         "outages": {},
@@ -2963,6 +2943,11 @@
         "date": "2026-10-10",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-11",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2973,16 +2958,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-07-13",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Haiku 4.5",
-            "code": "pb6hndrzfhxn"
-          }
-        ]
-      },
       {
         "date": "2026-07-14",
         "outages": {},
@@ -3753,6 +3728,11 @@
         "date": "2026-10-10",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-11",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3763,11 +3743,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-07-13",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-14",
         "outages": {},
@@ -4210,6 +4185,11 @@
       },
       {
         "date": "2026-10-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-11",
         "outages": {},
         "related_events": []
       }
