@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T11:54:13.075Z",
+  "generated_at": "2026-10-13T11:43:18.629Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15988,7 +15988,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9994030671296296,
+          "uptime_percentage": 0.999448985042735,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -16073,6 +16073,7 @@
               "events": []
             },
             {
+              "date": "2026-10-13T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -30827,7 +30828,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9900552662037038,
+          "uptime_percentage": 0.9908202457264957,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -30941,9 +30942,15 @@
               ]
             },
             {
+              "date": "2026-10-13T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on platform.claude.com",
+                  "code": "978mjkgw6mh7"
+                }
+              ]
             },
             {
               "p": 0,
@@ -46485,7 +46492,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9994030671296296,
+          "uptime_percentage": 0.999448985042735,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -46575,6 +46582,7 @@
               "events": []
             },
             {
+              "date": "2026-10-13T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -60855,7 +60863,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9994030671296296,
+          "uptime_percentage": 0.999448985042735,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -60940,6 +60948,7 @@
               "events": []
             },
             {
+              "date": "2026-10-13T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -74105,7 +74114,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9994030671296296,
+          "uptime_percentage": 0.999448985042735,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -74190,6 +74199,7 @@
               "events": []
             },
             {
+              "date": "2026-10-13T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -86749,6 +86759,7 @@
               "events": []
             },
             {
+              "date": "2026-10-13T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
