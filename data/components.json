@@ -4,7 +4,7 @@
     "name": "Claude",
     "url": "https://status.claude.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-10-13T10:19:46.265Z"
+    "updated_at": "2026-10-14T08:10:20.063Z"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "0qbwn08sd68x",
       "name": "Claude Console (platform.claude.com)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-07-11T17:52:49.982Z",
-      "updated_at": "2026-10-07T21:44:41.416Z",
+      "updated_at": "2026-10-13T18:00:04.315Z",
       "position": 2,
       "description": null,
       "showcase": true,

@@ -7,26 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-07-16",
-        "outages": {
-          "p": 16107
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "30x7lsq713tl"
-          },
-          {
-            "name": "Elevated errors for Claude Opus 4.7",
-            "code": "vjfp60ngq2zj"
-          },
-          {
-            "name": "Enterprise SSO sign-in failures",
-            "code": "0hzwq1ylg80g"
-          }
-        ]
-      },
-      {
         "date": "2026-07-17",
         "outages": {
           "p": 1510
@@ -782,6 +762,11 @@
         "date": "2026-10-13",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-14",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -792,26 +777,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-16",
-        "outages": {
-          "p": 3834
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "30x7lsq713tl"
-          },
-          {
-            "name": "Elevated errors for Claude Opus 4.7",
-            "code": "vjfp60ngq2zj"
-          },
-          {
-            "name": "Enterprise SSO sign-in failures",
-            "code": "0hzwq1ylg80g"
-          }
-        ]
-      },
       {
         "date": "2026-07-17",
         "outages": {
@@ -1402,6 +1367,11 @@
             "code": "978mjkgw6mh7"
           }
         ]
+      },
+      {
+        "date": "2026-10-14",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1412,22 +1382,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-16",
-        "outages": {
-          "p": 12273
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "30x7lsq713tl"
-          },
-          {
-            "name": "Elevated errors for Claude Opus 4.7",
-            "code": "vjfp60ngq2zj"
-          }
-        ]
-      },
       {
         "date": "2026-07-17",
         "outages": {
@@ -2154,6 +2108,11 @@
         "date": "2026-10-13",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-14",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2164,22 +2123,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-07-16",
-        "outages": {
-          "p": 12273
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "30x7lsq713tl"
-          },
-          {
-            "name": "Elevated errors for Claude Opus 4.7",
-            "code": "vjfp60ngq2zj"
-          }
-        ]
-      },
       {
         "date": "2026-07-17",
         "outages": {
@@ -2931,6 +2874,11 @@
         "date": "2026-10-13",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-14",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2941,22 +2889,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-07-16",
-        "outages": {
-          "p": 12273
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "30x7lsq713tl"
-          },
-          {
-            "name": "Elevated errors for Claude Opus 4.7",
-            "code": "vjfp60ngq2zj"
-          }
-        ]
-      },
       {
         "date": "2026-07-17",
         "outages": {
@@ -3711,6 +3643,11 @@
         "date": "2026-10-13",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-14",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3721,11 +3658,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-07-16",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-17",
         "outages": {},
@@ -4168,6 +4100,11 @@
       },
       {
         "date": "2026-10-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-14",
         "outages": {},
         "related_events": []
       }
