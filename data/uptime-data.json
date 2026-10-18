@@ -7,20 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-07-20",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Haiku 4.5",
-            "code": "s39rkbp2xhpd"
-          },
-          {
-            "name": "Elevated errors for Claude Opus 4.8",
-            "code": "4n0mmv2v41rf"
-          }
-        ]
-      },
-      {
         "date": "2026-07-21",
         "outages": {
           "p": 4537,
@@ -748,6 +734,11 @@
         "date": "2026-10-17",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-18",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -758,24 +749,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-20",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated error rates for Opus 4.5",
-            "code": "hlt0yqp4lkww"
-          },
-          {
-            "name": "Elevated errors on Haiku 4.5",
-            "code": "s39rkbp2xhpd"
-          },
-          {
-            "name": "Elevated errors for Claude Opus 4.8",
-            "code": "4n0mmv2v41rf"
-          }
-        ]
-      },
       {
         "date": "2026-07-21",
         "outages": {
@@ -1342,6 +1315,11 @@
         "date": "2026-10-17",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-18",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1352,24 +1330,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-20",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated error rates for Opus 4.5",
-            "code": "hlt0yqp4lkww"
-          },
-          {
-            "name": "Elevated errors on Haiku 4.5",
-            "code": "s39rkbp2xhpd"
-          },
-          {
-            "name": "Elevated errors for Claude Opus 4.8",
-            "code": "4n0mmv2v41rf"
-          }
-        ]
-      },
       {
         "date": "2026-07-21",
         "outages": {
@@ -2064,6 +2024,11 @@
         "date": "2026-10-17",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-18",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2074,28 +2039,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-07-20",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated error rates for Opus 4.5",
-            "code": "hlt0yqp4lkww"
-          },
-          {
-            "name": "Fable 5 requiring usage credits on Max plans",
-            "code": "tnypgb2jbqnq"
-          },
-          {
-            "name": "Elevated errors on Haiku 4.5",
-            "code": "s39rkbp2xhpd"
-          },
-          {
-            "name": "Elevated errors for Claude Opus 4.8",
-            "code": "4n0mmv2v41rf"
-          }
-        ]
-      },
       {
         "date": "2026-07-21",
         "outages": {
@@ -2811,6 +2754,11 @@
         "date": "2026-10-17",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-18",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2821,24 +2769,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-07-20",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated error rates for Opus 4.5",
-            "code": "hlt0yqp4lkww"
-          },
-          {
-            "name": "Elevated errors on Haiku 4.5",
-            "code": "s39rkbp2xhpd"
-          },
-          {
-            "name": "Elevated errors for Claude Opus 4.8",
-            "code": "4n0mmv2v41rf"
-          }
-        ]
-      },
       {
         "date": "2026-07-21",
         "outages": {
@@ -3561,6 +3491,11 @@
         "date": "2026-10-17",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-18",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3571,11 +3506,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-07-20",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-21",
         "outages": {},
@@ -4018,6 +3948,11 @@
       },
       {
         "date": "2026-10-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-18",
         "outages": {},
         "related_events": []
       }
