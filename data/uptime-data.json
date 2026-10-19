@@ -7,35 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-07-21",
-        "outages": {
-          "p": 4537,
-          "m": 1295
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors across models",
-            "code": "y65gwqbztbsp"
-          },
-          {
-            "name": "Elevated errors on several models",
-            "code": "vcynh9cf33xp"
-          },
-          {
-            "name": "Elevated errors across Fable 5",
-            "code": "lw0sb1srtznh"
-          },
-          {
-            "name": "Elevated errors on Haiku 4.5",
-            "code": "v35b71rthzhp"
-          },
-          {
-            "name": "Elevated errors on Haiku 4.5",
-            "code": "j0y67nj6w93z"
-          }
-        ]
-      },
-      {
         "date": "2026-07-22",
         "outages": {},
         "related_events": [
@@ -739,6 +710,11 @@
         "date": "2026-10-18",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-19",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -749,26 +725,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-21",
-        "outages": {
-          "m": 282
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors across Fable 5",
-            "code": "lw0sb1srtznh"
-          },
-          {
-            "name": "Elevated errors on Haiku 4.5",
-            "code": "v35b71rthzhp"
-          },
-          {
-            "name": "Elevated errors on Haiku 4.5",
-            "code": "j0y67nj6w93z"
-          }
-        ]
-      },
       {
         "date": "2026-07-22",
         "outages": {},
@@ -1320,6 +1276,11 @@
         "date": "2026-10-18",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-19",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1330,35 +1291,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-21",
-        "outages": {
-          "p": 4537,
-          "m": 1295
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors across models",
-            "code": "y65gwqbztbsp"
-          },
-          {
-            "name": "Elevated errors on several models",
-            "code": "vcynh9cf33xp"
-          },
-          {
-            "name": "Elevated errors across Fable 5",
-            "code": "lw0sb1srtznh"
-          },
-          {
-            "name": "Elevated errors on Haiku 4.5",
-            "code": "v35b71rthzhp"
-          },
-          {
-            "name": "Elevated errors on Haiku 4.5",
-            "code": "j0y67nj6w93z"
-          }
-        ]
-      },
       {
         "date": "2026-07-22",
         "outages": {},
@@ -2029,6 +1961,11 @@
         "date": "2026-10-18",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-19",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2039,39 +1976,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-07-21",
-        "outages": {
-          "p": 4537,
-          "m": 2696
-        },
-        "related_events": [
-          {
-            "name": "Service disruption on Claude services",
-            "code": "4qsb0fp16tpb"
-          },
-          {
-            "name": "Elevated errors across models",
-            "code": "y65gwqbztbsp"
-          },
-          {
-            "name": "Elevated errors on several models",
-            "code": "vcynh9cf33xp"
-          },
-          {
-            "name": "Elevated errors across Fable 5",
-            "code": "lw0sb1srtznh"
-          },
-          {
-            "name": "Elevated errors on Haiku 4.5",
-            "code": "v35b71rthzhp"
-          },
-          {
-            "name": "Elevated errors on Haiku 4.5",
-            "code": "j0y67nj6w93z"
-          }
-        ]
-      },
       {
         "date": "2026-07-22",
         "outages": {},
@@ -2759,6 +2663,11 @@
         "date": "2026-10-18",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-19",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2769,39 +2678,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-07-21",
-        "outages": {
-          "p": 4537,
-          "m": 2696
-        },
-        "related_events": [
-          {
-            "name": "Service disruption on Claude services",
-            "code": "4qsb0fp16tpb"
-          },
-          {
-            "name": "Elevated errors across models",
-            "code": "y65gwqbztbsp"
-          },
-          {
-            "name": "Elevated errors on several models",
-            "code": "vcynh9cf33xp"
-          },
-          {
-            "name": "Elevated errors across Fable 5",
-            "code": "lw0sb1srtznh"
-          },
-          {
-            "name": "Elevated errors on Haiku 4.5",
-            "code": "v35b71rthzhp"
-          },
-          {
-            "name": "Elevated errors on Haiku 4.5",
-            "code": "j0y67nj6w93z"
-          }
-        ]
-      },
       {
         "date": "2026-07-22",
         "outages": {},
@@ -3496,6 +3372,11 @@
         "date": "2026-10-18",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-19",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3506,11 +3387,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-07-21",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-22",
         "outages": {},
@@ -3953,6 +3829,11 @@
       },
       {
         "date": "2026-10-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-19",
         "outages": {},
         "related_events": []
       }
