@@ -7,28 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-07-22",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Service disruption on Claude Services",
-            "code": "ng5shnqxj1r7"
-          },
-          {
-            "name": "Elevated errors on Opus 4.8 and Haiku 4.5",
-            "code": "f7w8qkd8z57f"
-          },
-          {
-            "name": "Elevated error rates for Sonnet 5",
-            "code": "6h7589wl6l45"
-          },
-          {
-            "name": "Elevated errors on Haiku 4.5",
-            "code": "db1mh1r2zrn5"
-          }
-        ]
-      },
-      {
         "date": "2026-07-23",
         "outages": {},
         "related_events": [
@@ -715,6 +693,11 @@
         "date": "2026-10-19",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-20",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -725,20 +708,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-22",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Opus 4.8 and Haiku 4.5",
-            "code": "f7w8qkd8z57f"
-          },
-          {
-            "name": "Elevated error rates for Sonnet 5",
-            "code": "6h7589wl6l45"
-          }
-        ]
-      },
       {
         "date": "2026-07-23",
         "outages": {},
@@ -1281,6 +1250,11 @@
         "date": "2026-10-19",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-20",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1291,24 +1265,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-22",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Opus 4.8 and Haiku 4.5",
-            "code": "f7w8qkd8z57f"
-          },
-          {
-            "name": "Elevated error rates for Sonnet 5",
-            "code": "6h7589wl6l45"
-          },
-          {
-            "name": "Elevated errors for Claude Opus 4.1",
-            "code": "xvbzmkjbzh0x"
-          }
-        ]
-      },
       {
         "date": "2026-07-23",
         "outages": {},
@@ -1966,6 +1922,11 @@
         "date": "2026-10-19",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-20",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1976,28 +1937,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-07-22",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Opus 4.8 and Haiku 4.5",
-            "code": "f7w8qkd8z57f"
-          },
-          {
-            "name": "Elevated error rates for Sonnet 5",
-            "code": "6h7589wl6l45"
-          },
-          {
-            "name": "Elevated errors on Haiku 4.5",
-            "code": "db1mh1r2zrn5"
-          },
-          {
-            "name": "Elevated errors for Claude Opus 4.1",
-            "code": "xvbzmkjbzh0x"
-          }
-        ]
-      },
       {
         "date": "2026-07-23",
         "outages": {},
@@ -2668,6 +2607,11 @@
         "date": "2026-10-19",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-20",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2678,24 +2622,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-07-22",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Service disruption on Claude Services",
-            "code": "ng5shnqxj1r7"
-          },
-          {
-            "name": "Elevated errors on Opus 4.8 and Haiku 4.5",
-            "code": "f7w8qkd8z57f"
-          },
-          {
-            "name": "Elevated error rates for Sonnet 5",
-            "code": "6h7589wl6l45"
-          }
-        ]
-      },
       {
         "date": "2026-07-23",
         "outages": {},
@@ -3377,6 +3303,11 @@
         "date": "2026-10-19",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-20",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3387,11 +3318,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-07-22",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-23",
         "outages": {},
@@ -3834,6 +3760,11 @@
       },
       {
         "date": "2026-10-19",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-20",
         "outages": {},
         "related_events": []
       }
