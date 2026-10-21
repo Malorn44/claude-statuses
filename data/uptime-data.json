@@ -7,16 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-07-23",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Haiku 4.5",
-            "code": "db1mh1r2zrn5"
-          }
-        ]
-      },
-      {
         "date": "2026-07-24",
         "outages": {},
         "related_events": [
@@ -698,6 +688,11 @@
         "date": "2026-10-20",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-21",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -708,11 +703,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-23",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-24",
         "outages": {},
@@ -1255,6 +1245,11 @@
         "date": "2026-10-20",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-21",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1265,11 +1260,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-23",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-24",
         "outages": {},
@@ -1927,6 +1917,11 @@
         "date": "2026-10-20",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-21",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1937,16 +1932,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-07-23",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Haiku 4.5",
-            "code": "db1mh1r2zrn5"
-          }
-        ]
-      },
       {
         "date": "2026-07-24",
         "outages": {},
@@ -2612,6 +2597,11 @@
         "date": "2026-10-20",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-21",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2622,11 +2612,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-07-23",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-24",
         "outages": {},
@@ -3308,6 +3293,11 @@
         "date": "2026-10-20",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-21",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3318,11 +3308,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-07-23",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-24",
         "outages": {},
@@ -3765,6 +3750,11 @@
       },
       {
         "date": "2026-10-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-21",
         "outages": {},
         "related_events": []
       }
