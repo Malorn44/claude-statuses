@@ -7,16 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-07-24",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated error rate on Opus 4.8",
-            "code": "0lbk5m7mbqk5"
-          }
-        ]
-      },
-      {
         "date": "2026-07-25",
         "outages": {
           "p": 5871
@@ -692,7 +682,22 @@
       {
         "date": "2026-10-21",
         "outages": {},
-        "related_events": []
+        "related_events": [
+          {
+            "name": "Degraded performance for Claude Fable 5",
+            "code": "njk29r81v3wg"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-22",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors affecting Connectors",
+            "code": "wj6r4t6mxq1r"
+          }
+        ]
       }
     ]
   },
@@ -703,16 +708,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-24",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated error rate on Opus 4.8",
-            "code": "0lbk5m7mbqk5"
-          }
-        ]
-      },
       {
         "date": "2026-07-25",
         "outages": {},
@@ -1250,6 +1245,11 @@
         "date": "2026-10-21",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-22",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1260,16 +1260,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-24",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated error rate on Opus 4.8",
-            "code": "0lbk5m7mbqk5"
-          }
-        ]
-      },
       {
         "date": "2026-07-25",
         "outages": {
@@ -1921,6 +1911,16 @@
       {
         "date": "2026-10-21",
         "outages": {},
+        "related_events": [
+          {
+            "name": "Degraded performance for Claude Fable 5",
+            "code": "njk29r81v3wg"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-22",
+        "outages": {},
         "related_events": []
       }
     ]
@@ -1932,16 +1932,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-07-24",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated error rate on Opus 4.8",
-            "code": "0lbk5m7mbqk5"
-          }
-        ]
-      },
       {
         "date": "2026-07-25",
         "outages": {
@@ -2601,6 +2591,16 @@
       {
         "date": "2026-10-21",
         "outages": {},
+        "related_events": [
+          {
+            "name": "Degraded performance for Claude Fable 5",
+            "code": "njk29r81v3wg"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-22",
+        "outages": {},
         "related_events": []
       }
     ]
@@ -2612,16 +2612,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-07-24",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated error rate on Opus 4.8",
-            "code": "0lbk5m7mbqk5"
-          }
-        ]
-      },
       {
         "date": "2026-07-25",
         "outages": {
@@ -3297,7 +3287,22 @@
       {
         "date": "2026-10-21",
         "outages": {},
-        "related_events": []
+        "related_events": [
+          {
+            "name": "Degraded performance for Claude Fable 5",
+            "code": "njk29r81v3wg"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-22",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors affecting Connectors",
+            "code": "wj6r4t6mxq1r"
+          }
+        ]
       }
     ]
   },
@@ -3308,11 +3313,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-07-24",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-25",
         "outages": {},
@@ -3755,6 +3755,11 @@
       },
       {
         "date": "2026-10-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-22",
         "outages": {},
         "related_events": []
       }

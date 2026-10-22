@@ -1,6 +1,50 @@
 {
-  "generated_at": "2026-10-21T09:19:58.158Z",
+  "generated_at": "2026-10-22T09:22:31.187Z",
   "incidents": [
+    {
+      "id": "wj6r4t6mxq1r",
+      "name": "Elevated errors affecting Connectors",
+      "impact": "minor",
+      "created_at": "2026-10-22T03:50:12.630Z",
+      "started_at": "2026-10-22T03:50:12.621Z",
+      "resolved_at": "2026-10-22T08:07:03.869Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "njk29r81v3wg",
+      "name": "Degraded performance for Claude Fable 5",
+      "impact": "minor",
+      "created_at": "2026-10-21T19:49:06.495Z",
+      "started_at": "2026-10-21T19:49:06.486Z",
+      "resolved_at": "2026-10-21T20:29:17.844Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "vmys9qn874h4",
       "name": "Issue with spend limits",

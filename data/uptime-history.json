@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T09:19:55.499Z",
+  "generated_at": "2026-10-22T09:22:29.219Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15988,7 +15988,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9996588955026455,
+          "uptime_percentage": 0.9996744002525252,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -16124,12 +16124,23 @@
               "date": "2026-10-21T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for Claude Fable 5",
+                  "code": "njk29r81v3wg"
+                }
+              ]
             },
             {
+              "date": "2026-10-22T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors affecting Connectors",
+                  "code": "wj6r4t6mxq1r"
+                }
+              ]
             },
             {
               "p": 0,
@@ -30836,7 +30847,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.994317294973545,
+          "uptime_percentage": 0.9945755997474748,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -31009,6 +31020,7 @@
               "events": []
             },
             {
+              "date": "2026-10-22T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -46508,7 +46520,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9996588955026455,
+          "uptime_percentage": 0.9996744002525252,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -46649,9 +46661,15 @@
               "date": "2026-10-21T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for Claude Fable 5",
+                  "code": "njk29r81v3wg"
+                }
+              ]
             },
             {
+              "date": "2026-10-22T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -60887,7 +60905,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9996588955026455,
+          "uptime_percentage": 0.9996744002525252,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -61023,9 +61041,15 @@
               "date": "2026-10-21T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for Claude Fable 5",
+                  "code": "njk29r81v3wg"
+                }
+              ]
             },
             {
+              "date": "2026-10-22T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -74146,7 +74170,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9996588955026455,
+          "uptime_percentage": 0.9996744002525252,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -74282,12 +74306,23 @@
               "date": "2026-10-21T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for Claude Fable 5",
+                  "code": "njk29r81v3wg"
+                }
+              ]
             },
             {
+              "date": "2026-10-22T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors affecting Connectors",
+                  "code": "wj6r4t6mxq1r"
+                }
+              ]
             },
             {
               "p": 0,
@@ -86853,6 +86888,7 @@
               "events": []
             },
             {
+              "date": "2026-10-22T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
