@@ -7,22 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-07-25",
-        "outages": {
-          "p": 5871
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
-            "code": "f1q2wvw4qj4j"
-          },
-          {
-            "name": "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
-            "code": "j6gv862066n7"
-          }
-        ]
-      },
-      {
         "date": "2026-07-26",
         "outages": {
           "p": 343
@@ -698,6 +682,11 @@
             "code": "wj6r4t6mxq1r"
           }
         ]
+      },
+      {
+        "date": "2026-10-23",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -708,11 +697,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-25",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-26",
         "outages": {
@@ -1250,6 +1234,11 @@
         "date": "2026-10-22",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-23",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1260,22 +1249,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-25",
-        "outages": {
-          "p": 5871
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
-            "code": "f1q2wvw4qj4j"
-          },
-          {
-            "name": "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
-            "code": "j6gv862066n7"
-          }
-        ]
-      },
       {
         "date": "2026-07-26",
         "outages": {
@@ -1922,6 +1895,11 @@
         "date": "2026-10-22",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-23",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1932,22 +1910,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-07-25",
-        "outages": {
-          "p": 5871
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
-            "code": "f1q2wvw4qj4j"
-          },
-          {
-            "name": "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
-            "code": "j6gv862066n7"
-          }
-        ]
-      },
       {
         "date": "2026-07-26",
         "outages": {
@@ -2602,6 +2564,11 @@
         "date": "2026-10-22",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-23",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2612,22 +2579,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-07-25",
-        "outages": {
-          "p": 5871
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5",
-            "code": "f1q2wvw4qj4j"
-          },
-          {
-            "name": "Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models",
-            "code": "j6gv862066n7"
-          }
-        ]
-      },
       {
         "date": "2026-07-26",
         "outages": {
@@ -3303,6 +3254,11 @@
             "code": "wj6r4t6mxq1r"
           }
         ]
+      },
+      {
+        "date": "2026-10-23",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3313,11 +3269,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-07-25",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-26",
         "outages": {},
@@ -3760,6 +3711,11 @@
       },
       {
         "date": "2026-10-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-23",
         "outages": {},
         "related_events": []
       }
