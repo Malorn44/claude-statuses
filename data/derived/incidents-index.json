@@ -1,6 +1,84 @@
 {
-  "generated_at": "2026-10-23T09:18:37.223Z",
+  "generated_at": "2026-10-24T08:50:48.292Z",
   "incidents": [
+    {
+      "id": "0ns5clsk8p2x",
+      "name": "Elevated errors for Claude Fable 5 and Claude Fable 5.1",
+      "impact": "major",
+      "created_at": "2026-10-24T05:16:50.587Z",
+      "started_at": "2026-10-24T05:16:50.579Z",
+      "resolved_at": "2026-10-24T05:53:30.600Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "3cqf3pmlnr96",
+      "name": "Elevated errors for Claude Opus 5.5",
+      "impact": "major",
+      "created_at": "2026-10-24T00:31:37.604Z",
+      "started_at": "2026-10-24T00:31:37.594Z",
+      "resolved_at": "2026-10-24T00:37:17.808Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
+    {
+      "id": "h101vcmhnfky",
+      "name": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
+      "impact": "critical",
+      "created_at": "2026-10-23T23:37:42.667Z",
+      "started_at": "2026-10-23T23:37:42.659Z",
+      "resolved_at": "2026-10-24T00:11:20.874Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "wj6r4t6mxq1r",
       "name": "Elevated errors affecting Connectors",

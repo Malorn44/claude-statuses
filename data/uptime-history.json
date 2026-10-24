@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T09:18:35.613Z",
+  "generated_at": "2026-10-24T08:50:46.079Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15988,7 +15988,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.999688556763285,
+          "uptime_percentage": 0.9989617091049383,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -16145,13 +16145,32 @@
             {
               "date": "2026-10-23T00:00:00.000Z",
               "p": 0,
-              "m": 0,
-              "events": []
+              "m": 992,
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
+                  "code": "h101vcmhnfky"
+                }
+              ]
             },
             {
-              "p": 0,
+              "date": "2026-10-24T00:00:00.000Z",
+              "p": 1807,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Fable 5 and Claude Fable 5.1",
+                  "code": "0ns5clsk8p2x"
+                },
+                {
+                  "name": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
+                  "code": "h101vcmhnfky"
+                },
+                {
+                  "name": "Elevated errors for Claude Opus 5.5",
+                  "code": "3cqf3pmlnr96"
+                }
+              ]
             },
             {
               "p": 0,
@@ -30848,7 +30867,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.994811443236715,
+          "uptime_percentage": 0.9950276331018518,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -31033,6 +31052,7 @@
               "events": []
             },
             {
+              "date": "2026-10-24T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -46522,7 +46542,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.999688556763285,
+          "uptime_percentage": 0.9991042148919753,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -46679,13 +46699,32 @@
             {
               "date": "2026-10-23T00:00:00.000Z",
               "p": 0,
-              "m": 0,
-              "events": []
+              "m": 992,
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
+                  "code": "h101vcmhnfky"
+                }
+              ]
             },
             {
-              "p": 0,
+              "date": "2026-10-24T00:00:00.000Z",
+              "p": 822,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Fable 5 and Claude Fable 5.1",
+                  "code": "0ns5clsk8p2x"
+                },
+                {
+                  "name": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
+                  "code": "h101vcmhnfky"
+                },
+                {
+                  "name": "Elevated errors for Claude Opus 5.5",
+                  "code": "3cqf3pmlnr96"
+                }
+              ]
             },
             {
               "p": 0,
@@ -60908,7 +60947,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.999688556763285,
+          "uptime_percentage": 0.9989617091049383,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -61060,13 +61099,32 @@
             {
               "date": "2026-10-23T00:00:00.000Z",
               "p": 0,
-              "m": 0,
-              "events": []
+              "m": 992,
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
+                  "code": "h101vcmhnfky"
+                }
+              ]
             },
             {
-              "p": 0,
+              "date": "2026-10-24T00:00:00.000Z",
+              "p": 1807,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Fable 5 and Claude Fable 5.1",
+                  "code": "0ns5clsk8p2x"
+                },
+                {
+                  "name": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
+                  "code": "h101vcmhnfky"
+                },
+                {
+                  "name": "Elevated errors for Claude Opus 5.5",
+                  "code": "3cqf3pmlnr96"
+                }
+              ]
             },
             {
               "p": 0,
@@ -74174,7 +74232,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.999688556763285,
+          "uptime_percentage": 0.9989617091049383,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -74331,13 +74389,32 @@
             {
               "date": "2026-10-23T00:00:00.000Z",
               "p": 0,
-              "m": 0,
-              "events": []
+              "m": 992,
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
+                  "code": "h101vcmhnfky"
+                }
+              ]
             },
             {
-              "p": 0,
+              "date": "2026-10-24T00:00:00.000Z",
+              "p": 1807,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Fable 5 and Claude Fable 5.1",
+                  "code": "0ns5clsk8p2x"
+                },
+                {
+                  "name": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
+                  "code": "h101vcmhnfky"
+                },
+                {
+                  "name": "Elevated errors for Claude Opus 5.5",
+                  "code": "3cqf3pmlnr96"
+                }
+              ]
             },
             {
               "p": 0,
@@ -86905,6 +86982,7 @@
               "events": []
             },
             {
+              "date": "2026-10-24T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
