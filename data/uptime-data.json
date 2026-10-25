@@ -7,26 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-07-27",
-        "outages": {
-          "p": 69
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Opus 5",
-            "code": "lhqp09kxq7pb"
-          },
-          {
-            "name": "Elevated errors on Claude Opus 5",
-            "code": "mfdtrknpxghq"
-          },
-          {
-            "name": "Elevated errors on Claude Opus 5 and Haiku 4.5",
-            "code": "rkk5x44tndw9"
-          }
-        ]
-      },
-      {
         "date": "2026-07-28",
         "outages": {},
         "related_events": []
@@ -702,6 +682,22 @@
             "code": "3cqf3pmlnr96"
           }
         ]
+      },
+      {
+        "date": "2026-10-25",
+        "outages": {
+          "p": 1937
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for Claude Sonnet 5.5 and other models",
+            "code": "334jvgbrc4ff"
+          },
+          {
+            "name": "Elevated errors for Claude Fable 5.1",
+            "code": "vx06kp8wfpq2"
+          }
+        ]
       }
     ]
   },
@@ -712,11 +708,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-27",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-28",
         "outages": {},
@@ -1247,6 +1238,11 @@
         "date": "2026-10-24",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-25",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1257,26 +1253,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-27",
-        "outages": {
-          "p": 69
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Opus 5",
-            "code": "lhqp09kxq7pb"
-          },
-          {
-            "name": "Elevated errors on Claude Opus 5",
-            "code": "mfdtrknpxghq"
-          },
-          {
-            "name": "Elevated errors on Claude Opus 5 and Haiku 4.5",
-            "code": "rkk5x44tndw9"
-          }
-        ]
-      },
       {
         "date": "2026-07-28",
         "outages": {},
@@ -1923,6 +1899,22 @@
             "code": "3cqf3pmlnr96"
           }
         ]
+      },
+      {
+        "date": "2026-10-25",
+        "outages": {
+          "p": 1937
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for Claude Sonnet 5.5 and other models",
+            "code": "334jvgbrc4ff"
+          },
+          {
+            "name": "Elevated errors for Claude Fable 5.1",
+            "code": "vx06kp8wfpq2"
+          }
+        ]
       }
     ]
   },
@@ -1933,26 +1925,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-07-27",
-        "outages": {
-          "p": 69
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Opus 5",
-            "code": "lhqp09kxq7pb"
-          },
-          {
-            "name": "Elevated errors on Claude Opus 5",
-            "code": "mfdtrknpxghq"
-          },
-          {
-            "name": "Elevated errors on Claude Opus 5 and Haiku 4.5",
-            "code": "rkk5x44tndw9"
-          }
-        ]
-      },
       {
         "date": "2026-07-28",
         "outages": {},
@@ -2607,6 +2579,22 @@
             "code": "3cqf3pmlnr96"
           }
         ]
+      },
+      {
+        "date": "2026-10-25",
+        "outages": {
+          "p": 1937
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for Claude Sonnet 5.5 and other models",
+            "code": "334jvgbrc4ff"
+          },
+          {
+            "name": "Elevated errors for Claude Fable 5.1",
+            "code": "vx06kp8wfpq2"
+          }
+        ]
       }
     ]
   },
@@ -2617,26 +2605,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-07-27",
-        "outages": {
-          "p": 69
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Opus 5",
-            "code": "lhqp09kxq7pb"
-          },
-          {
-            "name": "Elevated errors on Claude Opus 5",
-            "code": "mfdtrknpxghq"
-          },
-          {
-            "name": "Elevated errors on Claude Opus 5 and Haiku 4.5",
-            "code": "rkk5x44tndw9"
-          }
-        ]
-      },
       {
         "date": "2026-07-28",
         "outages": {},
@@ -3312,6 +3280,22 @@
             "code": "3cqf3pmlnr96"
           }
         ]
+      },
+      {
+        "date": "2026-10-25",
+        "outages": {
+          "p": 1937
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for Claude Sonnet 5.5 and other models",
+            "code": "334jvgbrc4ff"
+          },
+          {
+            "name": "Elevated errors for Claude Fable 5.1",
+            "code": "vx06kp8wfpq2"
+          }
+        ]
       }
     ]
   },
@@ -3322,11 +3306,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-07-27",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-28",
         "outages": {},
@@ -3769,6 +3748,11 @@
       },
       {
         "date": "2026-10-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-25",
         "outages": {},
         "related_events": []
       }

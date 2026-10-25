@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T08:50:46.079Z",
+  "generated_at": "2026-10-25T08:27:44.186Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15988,7 +15988,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9989617091049383,
+          "uptime_percentage": 0.998734212962963,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -16173,9 +16173,19 @@
               ]
             },
             {
-              "p": 0,
+              "date": "2026-10-25T00:00:00.000Z",
+              "p": 1937,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Sonnet 5.5 and other models",
+                  "code": "334jvgbrc4ff"
+                },
+                {
+                  "name": "Elevated errors for Claude Fable 5.1",
+                  "code": "vx06kp8wfpq2"
+                }
+              ]
             },
             {
               "p": 0,
@@ -30867,7 +30877,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9950276331018518,
+          "uptime_percentage": 0.9952265277777778,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -31058,6 +31068,7 @@
               "events": []
             },
             {
+              "date": "2026-10-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -46542,7 +46553,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9991042148919753,
+          "uptime_percentage": 0.9988692129629629,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -46727,9 +46738,19 @@
               ]
             },
             {
-              "p": 0,
+              "date": "2026-10-25T00:00:00.000Z",
+              "p": 1950,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Sonnet 5.5 and other models",
+                  "code": "334jvgbrc4ff"
+                },
+                {
+                  "name": "Elevated errors for Claude Fable 5.1",
+                  "code": "vx06kp8wfpq2"
+                }
+              ]
             },
             {
               "p": 0,
@@ -60947,7 +60968,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9989617091049383,
+          "uptime_percentage": 0.9987314351851851,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -61127,9 +61148,19 @@
               ]
             },
             {
-              "p": 0,
+              "date": "2026-10-25T00:00:00.000Z",
+              "p": 1957,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Sonnet 5.5 and other models",
+                  "code": "334jvgbrc4ff"
+                },
+                {
+                  "name": "Elevated errors for Claude Fable 5.1",
+                  "code": "vx06kp8wfpq2"
+                }
+              ]
             },
             {
               "p": 0,
@@ -74232,7 +74263,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9989617091049383,
+          "uptime_percentage": 0.9987306018518518,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -74417,9 +74448,19 @@
               ]
             },
             {
-              "p": 0,
+              "date": "2026-10-25T00:00:00.000Z",
+              "p": 1963,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Sonnet 5.5 and other models",
+                  "code": "334jvgbrc4ff"
+                },
+                {
+                  "name": "Elevated errors for Claude Fable 5.1",
+                  "code": "vx06kp8wfpq2"
+                }
+              ]
             },
             {
               "p": 0,
@@ -86988,6 +87029,7 @@
               "events": []
             },
             {
+              "date": "2026-10-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
