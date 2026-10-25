@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-25T08:28:21.496Z",
+  "generated_at": "2026-10-25T09:07:07.089Z",
   "rows": [
     {
       "id": "__aggregate__",
       "name": "Claude Platform",
       "is_aggregate": true,
       "window_seconds": 7776000,
-      "major_seconds": 124135,
+      "major_seconds": 124318,
       "critical_seconds": 9663,
       "minor_seconds": 145685,
       "days": [
@@ -924,7 +924,7 @@
         {
           "date": "2026-10-25",
           "impact": "major",
-          "major_s": 1937,
+          "major_s": 2120,
           "critical_s": 0,
           "minor_s": 0,
           "maintenance_s": 0,
@@ -940,7 +940,7 @@
       "name": "claude.ai",
       "is_aggregate": false,
       "window_seconds": 7776000,
-      "major_seconds": 77594,
+      "major_seconds": 77776,
       "critical_seconds": 9662,
       "minor_seconds": 109166,
       "days": [
@@ -1818,7 +1818,7 @@
         {
           "date": "2026-10-25",
           "impact": "major",
-          "major_s": 1937,
+          "major_s": 2119,
           "critical_s": 0,
           "minor_s": 0,
           "maintenance_s": 0,
@@ -2686,7 +2686,7 @@
       "name": "Claude API (api.anthropic.com)",
       "is_aggregate": false,
       "window_seconds": 7776000,
-      "major_seconds": 69554,
+      "major_seconds": 69736,
       "critical_seconds": 7521,
       "minor_seconds": 110129,
       "days": [
@@ -3556,7 +3556,7 @@
         {
           "date": "2026-10-25",
           "impact": "major",
-          "major_s": 1937,
+          "major_s": 2119,
           "critical_s": 0,
           "minor_s": 0,
           "maintenance_s": 0,
@@ -3572,7 +3572,7 @@
       "name": "Claude Code",
       "is_aggregate": false,
       "window_seconds": 7776000,
-      "major_seconds": 77695,
+      "major_seconds": 77878,
       "critical_seconds": 9663,
       "minor_seconds": 86911,
       "days": [
@@ -4443,7 +4443,7 @@
         {
           "date": "2026-10-25",
           "impact": "major",
-          "major_s": 1937,
+          "major_s": 2120,
           "critical_s": 0,
           "minor_s": 0,
           "maintenance_s": 0,
@@ -4459,7 +4459,7 @@
       "name": "Claude Cowork",
       "is_aggregate": false,
       "window_seconds": 7776000,
-      "major_seconds": 79999,
+      "major_seconds": 80182,
       "critical_seconds": 9663,
       "minor_seconds": 100940,
       "days": [
@@ -5338,7 +5338,7 @@
         {
           "date": "2026-10-25",
           "impact": "major",
-          "major_s": 1937,
+          "major_s": 2120,
           "critical_s": 0,
           "minor_s": 0,
           "maintenance_s": 0,
