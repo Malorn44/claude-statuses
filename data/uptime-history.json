@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T09:46:37.874Z",
+  "generated_at": "2026-10-28T10:31:42.001Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15988,7 +15988,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9986224708504801,
+          "uptime_percentage": 0.9983656167328042,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -16195,9 +16195,13 @@
             },
             {
               "date": "2026-10-27T00:00:00.000Z",
-              "p": 1416,
+              "p": 3884,
               "m": 0,
               "events": [
+                {
+                  "name": "Elevated errors for Claude Sonnet 5.5",
+                  "code": "lqhknfdjrcst"
+                },
                 {
                   "name": "Elevated errors for Claude Sonnet 5.5",
                   "code": "0q89dylg9vjk"
@@ -16205,9 +16209,15 @@
               ]
             },
             {
+              "date": "2026-10-28T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors affecting the Gmail connector",
+                  "code": "9ftx658xtd5z"
+                }
+              ]
             },
             {
               "p": 0,
@@ -30884,7 +30894,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9955801183127572,
+          "uptime_percentage": 0.9957379712301587,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -31093,6 +31103,7 @@
               "events": []
             },
             {
+              "date": "2026-10-28T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -46562,7 +46573,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9987491426611796,
+          "uptime_percentage": 0.9984877645502646,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -46769,9 +46780,13 @@
             },
             {
               "date": "2026-10-27T00:00:00.000Z",
-              "p": 1416,
+              "p": 3884,
               "m": 0,
               "events": [
+                {
+                  "name": "Elevated errors for Claude Sonnet 5.5",
+                  "code": "lqhknfdjrcst"
+                },
                 {
                   "name": "Elevated errors for Claude Sonnet 5.5",
                   "code": "0q89dylg9vjk"
@@ -46779,6 +46794,7 @@
               ]
             },
             {
+              "date": "2026-10-28T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -60984,7 +61000,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9986223422496571,
+          "uptime_percentage": 0.9983654927248677,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -61186,9 +61202,13 @@
             },
             {
               "date": "2026-10-27T00:00:00.000Z",
-              "p": 1416,
+              "p": 3884,
               "m": 0,
               "events": [
+                {
+                  "name": "Elevated errors for Claude Sonnet 5.5",
+                  "code": "lqhknfdjrcst"
+                },
                 {
                   "name": "Elevated errors for Claude Sonnet 5.5",
                   "code": "0q89dylg9vjk"
@@ -61196,9 +61216,15 @@
               ]
             },
             {
+              "date": "2026-10-28T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors affecting the Gmail connector",
+                  "code": "9ftx658xtd5z"
+                }
+              ]
             },
             {
               "p": 0,
@@ -74286,7 +74312,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9986223422496571,
+          "uptime_percentage": 0.9983654927248677,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -74493,9 +74519,13 @@
             },
             {
               "date": "2026-10-27T00:00:00.000Z",
-              "p": 1416,
+              "p": 3884,
               "m": 0,
               "events": [
+                {
+                  "name": "Elevated errors for Claude Sonnet 5.5",
+                  "code": "lqhknfdjrcst"
+                },
                 {
                   "name": "Elevated errors for Claude Sonnet 5.5",
                   "code": "0q89dylg9vjk"
@@ -74503,9 +74533,15 @@
               ]
             },
             {
+              "date": "2026-10-28T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors affecting the Gmail connector",
+                  "code": "9ftx658xtd5z"
+                }
+              ]
             },
             {
               "p": 0,
@@ -87077,6 +87113,7 @@
               "events": []
             },
             {
+              "date": "2026-10-28T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []

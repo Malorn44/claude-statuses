@@ -7,22 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-07-30",
-        "outages": {
-          "p": 14762
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors across many models",
-            "code": "fsh2zzzl2c4l"
-          },
-          {
-            "name": "Degraded performance on Claude Opus 4.8",
-            "code": "kqjy03gs895j"
-          }
-        ]
-      },
-      {
         "date": "2026-07-31",
         "outages": {},
         "related_events": [
@@ -694,12 +678,26 @@
       {
         "date": "2026-10-27",
         "outages": {
-          "p": 1416
+          "p": 3884
         },
         "related_events": [
           {
             "name": "Elevated errors for Claude Sonnet 5.5",
+            "code": "lqhknfdjrcst"
+          },
+          {
+            "name": "Elevated errors for Claude Sonnet 5.5",
             "code": "0q89dylg9vjk"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-28",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors affecting the Gmail connector",
+            "code": "9ftx658xtd5z"
           }
         ]
       }
@@ -712,11 +710,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-30",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-31",
         "outages": {},
@@ -1247,6 +1240,11 @@
         "date": "2026-10-27",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-28",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1257,22 +1255,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-30",
-        "outages": {
-          "p": 14762
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors across many models",
-            "code": "fsh2zzzl2c4l"
-          },
-          {
-            "name": "Degraded performance on Claude Opus 4.8",
-            "code": "kqjy03gs895j"
-          }
-        ]
-      },
       {
         "date": "2026-07-31",
         "outages": {},
@@ -1915,14 +1897,23 @@
       {
         "date": "2026-10-27",
         "outages": {
-          "p": 1416
+          "p": 3884
         },
         "related_events": [
+          {
+            "name": "Elevated errors for Claude Sonnet 5.5",
+            "code": "lqhknfdjrcst"
+          },
           {
             "name": "Elevated errors for Claude Sonnet 5.5",
             "code": "0q89dylg9vjk"
           }
         ]
+      },
+      {
+        "date": "2026-10-28",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1933,22 +1924,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-07-30",
-        "outages": {
-          "p": 14762
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors across many models",
-            "code": "fsh2zzzl2c4l"
-          },
-          {
-            "name": "Degraded performance on Claude Opus 4.8",
-            "code": "kqjy03gs895j"
-          }
-        ]
-      },
       {
         "date": "2026-07-31",
         "outages": {},
@@ -2599,12 +2574,26 @@
       {
         "date": "2026-10-27",
         "outages": {
-          "p": 1416
+          "p": 3884
         },
         "related_events": [
           {
             "name": "Elevated errors for Claude Sonnet 5.5",
+            "code": "lqhknfdjrcst"
+          },
+          {
+            "name": "Elevated errors for Claude Sonnet 5.5",
             "code": "0q89dylg9vjk"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-28",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors affecting the Gmail connector",
+            "code": "9ftx658xtd5z"
           }
         ]
       }
@@ -2617,22 +2606,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-07-30",
-        "outages": {
-          "p": 14762
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors across many models",
-            "code": "fsh2zzzl2c4l"
-          },
-          {
-            "name": "Degraded performance on Claude Opus 4.8",
-            "code": "kqjy03gs895j"
-          }
-        ]
-      },
       {
         "date": "2026-07-31",
         "outages": {},
@@ -3304,12 +3277,26 @@
       {
         "date": "2026-10-27",
         "outages": {
-          "p": 1416
+          "p": 3884
         },
         "related_events": [
           {
             "name": "Elevated errors for Claude Sonnet 5.5",
+            "code": "lqhknfdjrcst"
+          },
+          {
+            "name": "Elevated errors for Claude Sonnet 5.5",
             "code": "0q89dylg9vjk"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-28",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors affecting the Gmail connector",
+            "code": "9ftx658xtd5z"
           }
         ]
       }
@@ -3322,11 +3309,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-07-30",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-07-31",
         "outages": {},
@@ -3769,6 +3751,11 @@
       },
       {
         "date": "2026-10-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-28",
         "outages": {},
         "related_events": []
       }
