@@ -7,16 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-07-31",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance on Claude Sonnet 5",
-            "code": "jq4x54h69z76"
-          }
-        ]
-      },
-      {
         "date": "2026-08-01",
         "outages": {},
         "related_events": []
@@ -698,8 +688,17 @@
           {
             "name": "Elevated errors affecting the Gmail connector",
             "code": "9ftx658xtd5z"
+          },
+          {
+            "name": "Elevated errors affecting the Google Calendar connector",
+            "code": "phg1y2yh07n2"
           }
         ]
+      },
+      {
+        "date": "2026-10-29",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -710,11 +709,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-31",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-01",
         "outages": {},
@@ -1245,6 +1239,11 @@
         "date": "2026-10-28",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-29",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1255,16 +1254,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-07-31",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance on Claude Sonnet 5",
-            "code": "jq4x54h69z76"
-          }
-        ]
-      },
       {
         "date": "2026-08-01",
         "outages": {},
@@ -1914,6 +1903,11 @@
         "date": "2026-10-28",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-10-29",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1924,16 +1918,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-07-31",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance on Claude Sonnet 5",
-            "code": "jq4x54h69z76"
-          }
-        ]
-      },
       {
         "date": "2026-08-01",
         "outages": {},
@@ -2594,8 +2578,17 @@
           {
             "name": "Elevated errors affecting the Gmail connector",
             "code": "9ftx658xtd5z"
+          },
+          {
+            "name": "Elevated errors affecting the Google Calendar connector",
+            "code": "phg1y2yh07n2"
           }
         ]
+      },
+      {
+        "date": "2026-10-29",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2606,16 +2599,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-07-31",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance on Claude Sonnet 5",
-            "code": "jq4x54h69z76"
-          }
-        ]
-      },
       {
         "date": "2026-08-01",
         "outages": {},
@@ -3297,8 +3280,17 @@
           {
             "name": "Elevated errors affecting the Gmail connector",
             "code": "9ftx658xtd5z"
+          },
+          {
+            "name": "Elevated errors affecting the Google Calendar connector",
+            "code": "phg1y2yh07n2"
           }
         ]
+      },
+      {
+        "date": "2026-10-29",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3309,11 +3301,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-07-31",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-01",
         "outages": {},
@@ -3756,6 +3743,11 @@
       },
       {
         "date": "2026-10-28",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-29",
         "outages": {},
         "related_events": []
       }

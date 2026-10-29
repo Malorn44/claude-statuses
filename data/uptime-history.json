@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T10:31:42.001Z",
+  "generated_at": "2026-10-29T10:51:43.968Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -15988,7 +15988,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9983656167328042,
+          "uptime_percentage": 0.9984219747765006,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -16216,10 +16216,15 @@
                 {
                   "name": "Elevated errors affecting the Gmail connector",
                   "code": "9ftx658xtd5z"
+                },
+                {
+                  "name": "Elevated errors affecting the Google Calendar connector",
+                  "code": "phg1y2yh07n2"
                 }
               ]
             },
             {
+              "date": "2026-10-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -30894,7 +30899,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9957379712301587,
+          "uptime_percentage": 0.9958849377394636,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -31109,6 +31114,7 @@
               "events": []
             },
             {
+              "date": "2026-10-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -46573,7 +46579,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9984877645502646,
+          "uptime_percentage": 0.9985399106002554,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -46800,6 +46806,7 @@
               "events": []
             },
             {
+              "date": "2026-10-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -61000,7 +61007,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9983654927248677,
+          "uptime_percentage": 0.9984218550446999,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -61223,10 +61230,15 @@
                 {
                   "name": "Elevated errors affecting the Gmail connector",
                   "code": "9ftx658xtd5z"
+                },
+                {
+                  "name": "Elevated errors affecting the Google Calendar connector",
+                  "code": "phg1y2yh07n2"
                 }
               ]
             },
             {
+              "date": "2026-10-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -74312,7 +74324,7 @@
           "year": 2026,
           "month": 10,
           "name": "October",
-          "uptime_percentage": 0.9983654927248677,
+          "uptime_percentage": 0.9984218550446999,
           "days": [
             {
               "date": "2026-10-01T00:00:00.000Z",
@@ -74540,10 +74552,15 @@
                 {
                   "name": "Elevated errors affecting the Gmail connector",
                   "code": "9ftx658xtd5z"
+                },
+                {
+                  "name": "Elevated errors affecting the Google Calendar connector",
+                  "code": "phg1y2yh07n2"
                 }
               ]
             },
             {
+              "date": "2026-10-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -87119,6 +87136,7 @@
               "events": []
             },
             {
+              "date": "2026-10-29T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
