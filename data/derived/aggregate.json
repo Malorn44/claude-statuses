@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T10:51:46.004Z",
+  "generated_at": "2026-10-30T10:50:11.450Z",
   "windows": {
     "24h": {
       "total_seconds": 86400,
@@ -13,7 +13,7 @@
     "7d": {
       "total_seconds": 604800,
       "major_seconds": 7811,
-      "critical_seconds": 992,
+      "critical_seconds": 0,
       "minor_seconds": 20089,
       "stats": {
         "incident_count": 9
