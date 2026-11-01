@@ -7,20 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-08-03",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Error rates across multiple models",
-            "code": "ch7k4vh9fr1y"
-          },
-          {
-            "name": "Degraded performance on Claude Sonnet 5",
-            "code": "dnl3q35xkn3s"
-          }
-        ]
-      },
-      {
         "date": "2026-08-04",
         "outages": {
           "p": 997
@@ -699,6 +685,11 @@
         "date": "2026-10-31",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-01",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -709,16 +700,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-03",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Error rates across multiple models",
-            "code": "ch7k4vh9fr1y"
-          }
-        ]
-      },
       {
         "date": "2026-08-04",
         "outages": {},
@@ -1244,6 +1225,11 @@
         "date": "2026-10-31",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-01",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1254,20 +1240,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-03",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Error rates across multiple models",
-            "code": "ch7k4vh9fr1y"
-          },
-          {
-            "name": "Degraded performance on Claude Sonnet 5",
-            "code": "dnl3q35xkn3s"
-          }
-        ]
-      },
       {
         "date": "2026-08-04",
         "outages": {
@@ -1908,6 +1880,11 @@
         "date": "2026-10-31",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-01",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1918,20 +1895,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-08-03",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Error rates across multiple models",
-            "code": "ch7k4vh9fr1y"
-          },
-          {
-            "name": "Degraded performance on Claude Sonnet 5",
-            "code": "dnl3q35xkn3s"
-          }
-        ]
-      },
       {
         "date": "2026-08-04",
         "outages": {
@@ -2589,6 +2552,11 @@
         "date": "2026-10-31",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-01",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2599,20 +2567,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-08-03",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Error rates across multiple models",
-            "code": "ch7k4vh9fr1y"
-          },
-          {
-            "name": "Degraded performance on Claude Sonnet 5",
-            "code": "dnl3q35xkn3s"
-          }
-        ]
-      },
       {
         "date": "2026-08-04",
         "outages": {
@@ -3291,6 +3245,11 @@
         "date": "2026-10-31",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-01",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3301,11 +3260,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-08-03",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-04",
         "outages": {},
@@ -3748,6 +3702,11 @@
       },
       {
         "date": "2026-10-31",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-01",
         "outages": {},
         "related_events": []
       }
