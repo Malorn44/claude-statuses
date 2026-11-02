@@ -7,22 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-08-04",
-        "outages": {
-          "p": 997
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "8k9mjhq7wmv3"
-          },
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "nlg5hjdfphmb"
-          }
-        ]
-      },
-      {
         "date": "2026-08-05",
         "outages": {},
         "related_events": [
@@ -690,6 +674,11 @@
         "date": "2026-11-01",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-02",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -700,20 +689,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-04",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "8k9mjhq7wmv3"
-          },
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "nlg5hjdfphmb"
-          }
-        ]
-      },
       {
         "date": "2026-08-05",
         "outages": {},
@@ -1230,6 +1205,11 @@
         "date": "2026-11-01",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-02",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1240,22 +1220,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-04",
-        "outages": {
-          "p": 997
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "8k9mjhq7wmv3"
-          },
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "nlg5hjdfphmb"
-          }
-        ]
-      },
       {
         "date": "2026-08-05",
         "outages": {},
@@ -1885,6 +1849,11 @@
         "date": "2026-11-01",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-02",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1895,22 +1864,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-08-04",
-        "outages": {
-          "p": 997
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "8k9mjhq7wmv3"
-          },
-          {
-            "name": "Elevated errors on Claude Sonnet 5",
-            "code": "nlg5hjdfphmb"
-          }
-        ]
-      },
       {
         "date": "2026-08-05",
         "outages": {},
@@ -2557,6 +2510,11 @@
         "date": "2026-11-01",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-02",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2567,13 +2525,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-08-04",
-        "outages": {
-          "p": 997
-        },
-        "related_events": []
-      },
       {
         "date": "2026-08-05",
         "outages": {},
@@ -3250,6 +3201,11 @@
         "date": "2026-11-01",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-02",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3260,11 +3216,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-08-04",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-05",
         "outages": {},
@@ -3707,6 +3658,11 @@
       },
       {
         "date": "2026-11-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-02",
         "outages": {},
         "related_events": []
       }
