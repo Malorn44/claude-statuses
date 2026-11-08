@@ -7,11 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-08-10",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-11",
         "outages": {},
         "related_events": []
@@ -670,6 +665,16 @@
         "date": "2026-11-07",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-08",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Degraded performance for Claude Fable 5.1",
+            "code": "kw2lxj1th04c"
+          }
+        ]
       }
     ]
   },
@@ -680,11 +685,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-10",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-11",
         "outages": {},
@@ -1201,6 +1201,11 @@
         "date": "2026-11-07",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-08",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1211,11 +1216,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-10",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-11",
         "outages": {},
@@ -1836,6 +1836,16 @@
         "date": "2026-11-07",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-08",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Degraded performance for Claude Fable 5.1",
+            "code": "kw2lxj1th04c"
+          }
+        ]
       }
     ]
   },
@@ -1846,11 +1856,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-08-10",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-11",
         "outages": {},
@@ -2488,6 +2493,16 @@
         "date": "2026-11-07",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-08",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Degraded performance for Claude Fable 5.1",
+            "code": "kw2lxj1th04c"
+          }
+        ]
       }
     ]
   },
@@ -2498,11 +2513,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-08-10",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-11",
         "outages": {},
@@ -3170,6 +3180,16 @@
         "date": "2026-11-07",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-08",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Degraded performance for Claude Fable 5.1",
+            "code": "kw2lxj1th04c"
+          }
+        ]
       }
     ]
   },
@@ -3180,11 +3200,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-08-10",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-11",
         "outages": {},
@@ -3627,6 +3642,11 @@
       },
       {
         "date": "2026-11-07",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-08",
         "outages": {},
         "related_events": []
       }

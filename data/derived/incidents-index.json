@@ -1,6 +1,32 @@
 {
-  "generated_at": "2026-11-07T11:00:46.430Z",
+  "generated_at": "2026-11-08T10:26:55.044Z",
   "incidents": [
+    {
+      "id": "kw2lxj1th04c",
+      "name": "Degraded performance for Claude Fable 5.1",
+      "impact": "minor",
+      "created_at": "2026-11-08T08:28:32.818Z",
+      "started_at": "2026-11-08T08:28:32.806Z",
+      "resolved_at": "2026-11-08T08:54:43.667Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "phg1y2yh07n2",
       "name": "Elevated errors affecting the Google Calendar connector",
