@@ -4,7 +4,7 @@
     "name": "Claude",
     "url": "https://status.claude.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-11-09T12:25:13.775Z"
+    "updated_at": "2026-11-10T11:46:09.223Z"
   },
   "components": [
     {
@@ -18,6 +18,21 @@
       "showcase": true,
       "start_date": "2023-07-11",
       "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "w14q5j51spbm",
+      "name": "Claude Platform on AWS",
+      "status": "operational",
+      "created_at": "2026-11-09T18:33:14.695Z",
+      "updated_at": "2026-11-09T18:33:14.695Z",
+      "position": 1,
+      "description": "https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws",
+      "showcase": true,
+      "start_date": "2026-11-09",
+      "group_id": "60k546tlxqz7",
       "page_id": "tymt9n04zgry",
       "group": false,
       "only_show_if_degraded": false
@@ -38,6 +53,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "69zh8pryjjgp",
+      "name": "Claude in Microsoft Foundry",
+      "status": "operational",
+      "created_at": "2026-11-09T18:33:58.603Z",
+      "updated_at": "2026-11-09T18:33:58.603Z",
+      "position": 2,
+      "description": "https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry",
+      "showcase": true,
+      "start_date": "2026-11-09",
+      "group_id": "60k546tlxqz7",
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "k8w3r06qmzrp",
       "name": "Claude API (api.anthropic.com)",
       "status": "operational",
@@ -48,6 +78,21 @@
       "showcase": true,
       "start_date": "2023-07-11",
       "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "csth13wtqbd6",
+      "name": "Claude Models on Google Cloud (Anthropic managed)",
+      "status": "operational",
+      "created_at": "2026-11-09T18:34:46.597Z",
+      "updated_at": "2026-11-09T18:34:46.597Z",
+      "position": 3,
+      "description": "https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/anthropic-managed",
+      "showcase": true,
+      "start_date": "2026-11-09",
+      "group_id": "60k546tlxqz7",
       "page_id": "tymt9n04zgry",
       "group": false,
       "only_show_if_degraded": false
@@ -96,6 +141,26 @@
       "page_id": "tymt9n04zgry",
       "group": false,
       "only_show_if_degraded": false
+    },
+    {
+      "id": "60k546tlxqz7",
+      "name": "Claude on Cloud Platforms",
+      "status": "operational",
+      "created_at": "2026-11-09T18:33:14.270Z",
+      "updated_at": "2026-11-09T18:33:14.270Z",
+      "position": 7,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "tymt9n04zgry",
+      "group": true,
+      "only_show_if_degraded": false,
+      "components": [
+        "w14q5j51spbm",
+        "69zh8pryjjgp",
+        "csth13wtqbd6"
+      ]
     }
   ]
 }

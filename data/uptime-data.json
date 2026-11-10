@@ -7,16 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-08-12",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance for multiple models",
-            "code": "rk6gkg2gwfny"
-          }
-        ]
-      },
-      {
         "date": "2026-08-13",
         "outages": {
           "p": 12315
@@ -675,6 +665,11 @@
         "date": "2026-11-09",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-10",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -685,11 +680,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-12",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-13",
         "outages": {},
@@ -1206,6 +1196,11 @@
         "date": "2026-11-09",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-10",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1216,16 +1211,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-12",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance for multiple models",
-            "code": "rk6gkg2gwfny"
-          }
-        ]
-      },
       {
         "date": "2026-08-13",
         "outages": {
@@ -1846,6 +1831,11 @@
         "date": "2026-11-09",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-10",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1856,16 +1846,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-08-12",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance for multiple models",
-            "code": "rk6gkg2gwfny"
-          }
-        ]
-      },
       {
         "date": "2026-08-13",
         "outages": {
@@ -2503,6 +2483,11 @@
         "date": "2026-11-09",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-10",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2513,16 +2498,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-08-12",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance for multiple models",
-            "code": "rk6gkg2gwfny"
-          }
-        ]
-      },
       {
         "date": "2026-08-13",
         "outages": {
@@ -3190,6 +3165,11 @@
         "date": "2026-11-09",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-10",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3200,11 +3180,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-08-12",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-13",
         "outages": {},
@@ -3649,6 +3624,1850 @@
         "date": "2026-11-09",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-10",
+        "outages": {},
+        "related_events": []
+      }
+    ]
+  },
+  "w14q5j51spbm": {
+    "component": {
+      "code": "w14q5j51spbm",
+      "name": "Claude Platform on AWS",
+      "startDate": "2026-11-09"
+    },
+    "days": [
+      {
+        "date": "2026-08-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-16",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-19",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-25",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-28",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-30",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-31",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-07",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-08",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-16",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-19",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-25",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-28",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-30",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-07",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-08",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-16",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-19",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-25",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-28",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-30",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-31",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-07",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-08",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-10",
+        "outages": {},
+        "related_events": []
+      }
+    ]
+  },
+  "69zh8pryjjgp": {
+    "component": {
+      "code": "69zh8pryjjgp",
+      "name": "Claude in Microsoft Foundry",
+      "startDate": "2026-11-09"
+    },
+    "days": [
+      {
+        "date": "2026-08-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-16",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-19",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-25",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-28",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-30",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-31",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-07",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-08",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-16",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-19",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-25",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-28",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-30",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-07",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-08",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-16",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-19",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-25",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-28",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-30",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-31",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-07",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-08",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-10",
+        "outages": {},
+        "related_events": []
+      }
+    ]
+  },
+  "csth13wtqbd6": {
+    "component": {
+      "code": "csth13wtqbd6",
+      "name": "Claude Models on Google Cloud (Anthropic managed)",
+      "startDate": "2026-11-09"
+    },
+    "days": [
+      {
+        "date": "2026-08-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-16",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-19",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-25",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-28",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-30",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-31",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-07",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-08",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-16",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-19",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-25",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-28",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-30",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-07",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-08",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-16",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-19",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-25",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-28",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-30",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-31",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-07",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-08",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-10",
+        "outages": {},
+        "related_events": []
+      }
+    ]
+  },
+  "60k546tlxqz7": {
+    "component": {
+      "code": "60k546tlxqz7",
+      "name": "Claude on Cloud Platforms",
+      "isGroup": true,
+      "group": [
+        "w14q5j51spbm",
+        "69zh8pryjjgp",
+        "csth13wtqbd6"
+      ]
+    },
+    "days": [
+      {
+        "date": "2026-08-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-16",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-19",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-25",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-28",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-30",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-08-31",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-07",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-08",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-16",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-19",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-25",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-28",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-09-30",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-07",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-08",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-09",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-10",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-11",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-16",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-17",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-19",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-20",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-21",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-22",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-23",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-24",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-25",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-26",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-27",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-28",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-29",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-30",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-10-31",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-01",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-02",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-03",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-04",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-05",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-06",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-07",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-08",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-09",
+        "outages": {}
+      },
+      {
+        "date": "2026-11-10",
+        "outages": {}
       }
     ]
   }
