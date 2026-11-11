@@ -1,6 +1,15 @@
 {
-  "generated_at": "2026-11-10T12:34:01.041Z",
+  "generated_at": "2026-11-11T11:50:21.279Z",
   "incidents": [
+    {
+      "id": "pgz8r13pk4sm",
+      "name": "Elevated errors on Fable 52 and Mythos 52",
+      "impact": "none",
+      "created_at": "2026-11-10T21:47:48.748Z",
+      "started_at": "2026-11-10T21:47:48.739Z",
+      "resolved_at": "2026-11-10T21:47:48.885Z",
+      "components": []
+    },
     {
       "id": "kw2lxj1th04c",
       "name": "Degraded performance for Claude Fable 5.1",
