@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T12:37:54.216Z",
+  "generated_at": "2026-11-13T12:08:07.383Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -16248,7 +16248,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.9931000712250712,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -16325,12 +16325,27 @@
               "date": "2026-11-12T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors affecting the Microsoft 365 connector",
+                  "code": "sqn3fg1l96dl"
+                }
+              ]
             },
             {
+              "date": "2026-11-13T00:00:00.000Z",
               "p": 0,
-              "m": 0,
-              "events": []
+              "m": 7750,
+              "events": [
+                {
+                  "name": "Elevated errors affecting the Microsoft 365 connector",
+                  "code": "sqn3fg1l96dl"
+                },
+                {
+                  "name": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+                  "code": "nn11wk485zfn"
+                }
+              ]
             },
             {
               "p": 0,
@@ -16889,6 +16904,7 @@
               "events": []
             },
             {
+              "date": "2026-11-13T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -31877,7 +31893,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.9989356303418803,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -31952,9 +31968,15 @@
               "events": []
             },
             {
-              "p": 0,
+              "date": "2026-11-13T00:00:00.000Z",
+              "p": 3985,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+                  "code": "nn11wk485zfn"
+                }
+              ]
             },
             {
               "p": 0,
@@ -32513,6 +32535,7 @@
               "events": []
             },
             {
+              "date": "2026-11-13T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -48383,6 +48406,7 @@
               "events": []
             },
             {
+              "date": "2026-11-13T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -48944,6 +48968,7 @@
               "events": []
             },
             {
+              "date": "2026-11-13T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -63474,7 +63499,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.9989356303418803,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -63554,9 +63579,15 @@
               "events": []
             },
             {
-              "p": 0,
+              "date": "2026-11-13T00:00:00.000Z",
+              "p": 3985,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+                  "code": "nn11wk485zfn"
+                }
+              ]
             },
             {
               "p": 0,
@@ -77051,12 +77082,27 @@
               "date": "2026-11-12T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors affecting the Microsoft 365 connector",
+                  "code": "sqn3fg1l96dl"
+                }
+              ]
             },
             {
+              "date": "2026-11-13T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors affecting the Microsoft 365 connector",
+                  "code": "sqn3fg1l96dl"
+                },
+                {
+                  "name": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+                  "code": "nn11wk485zfn"
+                }
+              ]
             },
             {
               "p": 0,
@@ -89803,6 +89849,7 @@
               "events": []
             },
             {
+              "date": "2026-11-13T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -90364,6 +90411,7 @@
               "events": []
             },
             {
+              "date": "2026-11-13T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []

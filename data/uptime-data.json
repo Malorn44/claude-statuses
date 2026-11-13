@@ -7,18 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-08-15",
-        "outages": {
-          "p": 1280
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors for Claude Fable 5",
-            "code": "hdynq1pc0fn8"
-          }
-        ]
-      },
-      {
         "date": "2026-08-16",
         "outages": {
           "m": 2141
@@ -655,7 +643,28 @@
       {
         "date": "2026-11-12",
         "outages": {},
-        "related_events": []
+        "related_events": [
+          {
+            "name": "Elevated errors affecting the Microsoft 365 connector",
+            "code": "sqn3fg1l96dl"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-13",
+        "outages": {
+          "m": 7749
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors affecting the Microsoft 365 connector",
+            "code": "sqn3fg1l96dl"
+          },
+          {
+            "name": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+            "code": "nn11wk485zfn"
+          }
+        ]
       }
     ]
   },
@@ -666,11 +675,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-15",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-16",
         "outages": {
@@ -1187,6 +1191,18 @@
         "date": "2026-11-12",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-13",
+        "outages": {
+          "p": 3985
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+            "code": "nn11wk485zfn"
+          }
+        ]
       }
     ]
   },
@@ -1197,11 +1213,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-15",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-16",
         "outages": {
@@ -1808,6 +1819,11 @@
         "date": "2026-11-12",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-13",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1818,11 +1834,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-08-15",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-16",
         "outages": {
@@ -2446,6 +2457,18 @@
         "date": "2026-11-12",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-13",
+        "outages": {
+          "p": 3985
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+            "code": "nn11wk485zfn"
+          }
+        ]
       }
     ]
   },
@@ -2456,11 +2479,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-08-15",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-16",
         "outages": {
@@ -3109,7 +3127,26 @@
       {
         "date": "2026-11-12",
         "outages": {},
-        "related_events": []
+        "related_events": [
+          {
+            "name": "Elevated errors affecting the Microsoft 365 connector",
+            "code": "sqn3fg1l96dl"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-13",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated errors affecting the Microsoft 365 connector",
+            "code": "sqn3fg1l96dl"
+          },
+          {
+            "name": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+            "code": "nn11wk485zfn"
+          }
+        ]
       }
     ]
   },
@@ -3120,11 +3157,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-08-15",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-16",
         "outages": {},
@@ -3567,6 +3599,11 @@
       },
       {
         "date": "2026-11-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-13",
         "outages": {},
         "related_events": []
       }
@@ -3580,11 +3617,6 @@
     },
     "days": [
       {
-        "date": "2026-08-15",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-16",
         "outages": {},
         "related_events": []
@@ -4026,6 +4058,11 @@
       },
       {
         "date": "2026-11-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-13",
         "outages": {},
         "related_events": []
       }
@@ -4039,11 +4076,6 @@
     },
     "days": [
       {
-        "date": "2026-08-15",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-16",
         "outages": {},
         "related_events": []
@@ -4485,6 +4517,11 @@
       },
       {
         "date": "2026-11-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-13",
         "outages": {},
         "related_events": []
       }
@@ -4498,11 +4535,6 @@
     },
     "days": [
       {
-        "date": "2026-08-15",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-16",
         "outages": {},
         "related_events": []
@@ -4944,6 +4976,11 @@
       },
       {
         "date": "2026-11-12",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-13",
         "outages": {},
         "related_events": []
       }
@@ -4962,11 +4999,6 @@
     },
     "days": [
       {
-        "date": "2026-08-15",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-16",
         "outages": {},
         "related_events": []
@@ -5405,6 +5437,10 @@
       },
       {
         "date": "2026-11-12",
+        "outages": {}
+      },
+      {
+        "date": "2026-11-13",
         "outages": {}
       }
     ]
