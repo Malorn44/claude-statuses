@@ -7,18 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-08-16",
-        "outages": {
-          "m": 2141
-        },
-        "related_events": [
-          {
-            "name": "Service disruption on Claude services",
-            "code": "qt14v73myyy5"
-          }
-        ]
-      },
-      {
         "date": "2026-08-17",
         "outages": {},
         "related_events": [
@@ -653,7 +641,8 @@
       {
         "date": "2026-11-13",
         "outages": {
-          "m": 7749
+          "p": 3421,
+          "m": 16635
         },
         "related_events": [
           {
@@ -663,6 +652,24 @@
           {
             "name": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
             "code": "nn11wk485zfn"
+          },
+          {
+            "name": "Elevated errors on claude.ai, the Claude API, and Claude Code",
+            "code": "34wq7gxnxvvm"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-14",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Elevated purchasing errors on claude.ai",
+            "code": "qrpz8k79qm7x"
+          },
+          {
+            "name": "Some users unable to sign up with Apple on the Claude iOS app",
+            "code": "ct4c2pwf2xpj"
           }
         ]
       }
@@ -675,18 +682,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-16",
-        "outages": {
-          "m": 1955
-        },
-        "related_events": [
-          {
-            "name": "Service disruption on Claude services",
-            "code": "qt14v73myyy5"
-          }
-        ]
-      },
       {
         "date": "2026-08-17",
         "outages": {},
@@ -1203,6 +1198,11 @@
             "code": "nn11wk485zfn"
           }
         ]
+      },
+      {
+        "date": "2026-11-14",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1213,18 +1213,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-16",
-        "outages": {
-          "p": 1955
-        },
-        "related_events": [
-          {
-            "name": "Service disruption on Claude services",
-            "code": "qt14v73myyy5"
-          }
-        ]
-      },
       {
         "date": "2026-08-17",
         "outages": {},
@@ -1822,6 +1810,18 @@
       },
       {
         "date": "2026-11-13",
+        "outages": {
+          "p": 8604
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors on claude.ai, the Claude API, and Claude Code",
+            "code": "34wq7gxnxvvm"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-14",
         "outages": {},
         "related_events": []
       }
@@ -1834,18 +1834,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-08-16",
-        "outages": {
-          "m": 2142
-        },
-        "related_events": [
-          {
-            "name": "Service disruption on Claude services",
-            "code": "qt14v73myyy5"
-          }
-        ]
-      },
       {
         "date": "2026-08-17",
         "outages": {},
@@ -2461,14 +2449,23 @@
       {
         "date": "2026-11-13",
         "outages": {
-          "p": 3985
+          "p": 12589
         },
         "related_events": [
           {
             "name": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
             "code": "nn11wk485zfn"
+          },
+          {
+            "name": "Elevated errors on claude.ai, the Claude API, and Claude Code",
+            "code": "34wq7gxnxvvm"
           }
         ]
+      },
+      {
+        "date": "2026-11-14",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2479,18 +2476,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-08-16",
-        "outages": {
-          "m": 2142
-        },
-        "related_events": [
-          {
-            "name": "Service disruption on Claude services",
-            "code": "qt14v73myyy5"
-          }
-        ]
-      },
       {
         "date": "2026-08-17",
         "outages": {},
@@ -3145,8 +3130,17 @@
           {
             "name": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
             "code": "nn11wk485zfn"
+          },
+          {
+            "name": "Elevated errors on claude.ai, the Claude API, and Claude Code",
+            "code": "34wq7gxnxvvm"
           }
         ]
+      },
+      {
+        "date": "2026-11-14",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3157,11 +3151,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-08-16",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-17",
         "outages": {},
@@ -3604,6 +3593,11 @@
       },
       {
         "date": "2026-11-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-14",
         "outages": {},
         "related_events": []
       }
@@ -3617,11 +3611,6 @@
     },
     "days": [
       {
-        "date": "2026-08-16",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-17",
         "outages": {},
         "related_events": []
@@ -4063,6 +4052,11 @@
       },
       {
         "date": "2026-11-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-14",
         "outages": {},
         "related_events": []
       }
@@ -4076,11 +4070,6 @@
     },
     "days": [
       {
-        "date": "2026-08-16",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-17",
         "outages": {},
         "related_events": []
@@ -4522,6 +4511,11 @@
       },
       {
         "date": "2026-11-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-14",
         "outages": {},
         "related_events": []
       }
@@ -4535,11 +4529,6 @@
     },
     "days": [
       {
-        "date": "2026-08-16",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-17",
         "outages": {},
         "related_events": []
@@ -4981,6 +4970,11 @@
       },
       {
         "date": "2026-11-13",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-14",
         "outages": {},
         "related_events": []
       }
@@ -4999,11 +4993,6 @@
     },
     "days": [
       {
-        "date": "2026-08-16",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-17",
         "outages": {},
         "related_events": []
@@ -5441,6 +5430,10 @@
       },
       {
         "date": "2026-11-13",
+        "outages": {}
+      },
+      {
+        "date": "2026-11-14",
         "outages": {}
       }
     ]
