@@ -7,16 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-08-17",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance for Claude Opus 5, Claude Sonnet 5",
-            "code": "zhk4v3yv1lsf"
-          }
-        ]
-      },
-      {
         "date": "2026-08-18",
         "outages": {},
         "related_events": [
@@ -672,6 +662,16 @@
             "code": "ct4c2pwf2xpj"
           }
         ]
+      },
+      {
+        "date": "2026-11-15",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Some users unable to sign up with Apple on the Claude iOS app",
+            "code": "ct4c2pwf2xpj"
+          }
+        ]
       }
     ]
   },
@@ -682,11 +682,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-17",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-18",
         "outages": {},
@@ -1203,6 +1198,11 @@
         "date": "2026-11-14",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-15",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1213,16 +1213,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-17",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance for Claude Opus 5, Claude Sonnet 5",
-            "code": "zhk4v3yv1lsf"
-          }
-        ]
-      },
       {
         "date": "2026-08-18",
         "outages": {},
@@ -1824,6 +1814,11 @@
         "date": "2026-11-14",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-15",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1834,16 +1829,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-08-17",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance for Claude Opus 5, Claude Sonnet 5",
-            "code": "zhk4v3yv1lsf"
-          }
-        ]
-      },
       {
         "date": "2026-08-18",
         "outages": {},
@@ -2466,6 +2451,11 @@
         "date": "2026-11-14",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-15",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2476,16 +2466,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-08-17",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance for Claude Opus 5, Claude Sonnet 5",
-            "code": "zhk4v3yv1lsf"
-          }
-        ]
-      },
       {
         "date": "2026-08-18",
         "outages": {},
@@ -3141,6 +3121,11 @@
         "date": "2026-11-14",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-15",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3151,11 +3136,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-08-17",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-18",
         "outages": {},
@@ -3598,6 +3578,11 @@
       },
       {
         "date": "2026-11-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-15",
         "outages": {},
         "related_events": []
       }
@@ -3611,11 +3596,6 @@
     },
     "days": [
       {
-        "date": "2026-08-17",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-18",
         "outages": {},
         "related_events": []
@@ -4057,6 +4037,11 @@
       },
       {
         "date": "2026-11-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-15",
         "outages": {},
         "related_events": []
       }
@@ -4070,11 +4055,6 @@
     },
     "days": [
       {
-        "date": "2026-08-17",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-18",
         "outages": {},
         "related_events": []
@@ -4516,6 +4496,11 @@
       },
       {
         "date": "2026-11-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-15",
         "outages": {},
         "related_events": []
       }
@@ -4529,11 +4514,6 @@
     },
     "days": [
       {
-        "date": "2026-08-17",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-18",
         "outages": {},
         "related_events": []
@@ -4975,6 +4955,11 @@
       },
       {
         "date": "2026-11-14",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-15",
         "outages": {},
         "related_events": []
       }
@@ -4993,11 +4978,6 @@
     },
     "days": [
       {
-        "date": "2026-08-17",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-18",
         "outages": {},
         "related_events": []
@@ -5434,6 +5414,10 @@
       },
       {
         "date": "2026-11-14",
+        "outages": {}
+      },
+      {
+        "date": "2026-11-15",
         "outages": {}
       }
     ]
