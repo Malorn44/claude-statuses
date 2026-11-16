@@ -1,6 +1,32 @@
 {
-  "generated_at": "2026-11-15T11:54:52.840Z",
+  "generated_at": "2026-11-16T12:40:43.292Z",
   "incidents": [
+    {
+      "id": "r1b4f9bbnsx1",
+      "name": "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2",
+      "impact": "major",
+      "created_at": "2026-11-16T07:49:55.066Z",
+      "started_at": "2026-11-16T07:49:55.052Z",
+      "resolved_at": "2026-11-16T09:04:39.778Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "ct4c2pwf2xpj",
       "name": "Some users unable to sign up with Apple on the Claude iOS app",

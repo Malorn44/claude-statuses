@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T11:54:50.433Z",
+  "generated_at": "2026-11-16T12:40:39.649Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -16248,7 +16248,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9863724537037036,
+          "uptime_percentage": 0.9834383680555555,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -16378,9 +16378,19 @@
               ]
             },
             {
-              "p": 0,
+              "date": "2026-11-16T00:00:00.000Z",
+              "p": 17445,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Some users unable to sign up with Apple on the Claude iOS app",
+                  "code": "ct4c2pwf2xpj"
+                },
+                {
+                  "name": "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2",
+                  "code": "r1b4f9bbnsx1"
+                }
+              ]
             },
             {
               "p": 0,
@@ -27865,6 +27875,7 @@
               "events": []
             },
             {
+              "date": "2026-11-16T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -42838,7 +42849,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9990775462962963,
+          "uptime_percentage": 0.9991351996527778,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -42936,6 +42947,7 @@
               "events": []
             },
             {
+              "date": "2026-11-16T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -54423,6 +54435,7 @@
               "events": []
             },
             {
+              "date": "2026-11-16T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -70198,7 +70211,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9980083333333333,
+          "uptime_percentage": 0.9971597222222223,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -70301,9 +70314,15 @@
               "events": []
             },
             {
-              "p": 0,
+              "date": "2026-11-16T00:00:00.000Z",
+              "p": 4484,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2",
+                  "code": "r1b4f9bbnsx1"
+                }
+              ]
             },
             {
               "p": 0,
@@ -81788,6 +81807,7 @@
               "events": []
             },
             {
+              "date": "2026-11-16T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -96303,7 +96323,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9970858796296297,
+          "uptime_percentage": 0.996294921875,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -96410,9 +96430,15 @@
               "events": []
             },
             {
-              "p": 0,
+              "date": "2026-11-16T00:00:00.000Z",
+              "p": 4484,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2",
+                  "code": "r1b4f9bbnsx1"
+                }
+              ]
             },
             {
               "p": 0,
@@ -109815,7 +109841,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 1,
+          "uptime_percentage": 0.9990269097222222,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -109931,9 +109957,15 @@
               "events": []
             },
             {
-              "p": 0,
+              "date": "2026-11-16T00:00:00.000Z",
+              "p": 4484,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2",
+                  "code": "r1b4f9bbnsx1"
+                }
+              ]
             },
             {
               "p": 0,
@@ -122683,6 +122715,7 @@
               "events": []
             },
             {
+              "date": "2026-11-16T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -134170,6 +134203,7 @@
               "events": []
             },
             {
+              "date": "2026-11-16T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []

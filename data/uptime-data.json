@@ -7,16 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-08-18",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance for multiple models",
-            "code": "q7txxvbsftgq"
-          }
-        ]
-      },
-      {
         "date": "2026-08-19",
         "outages": {},
         "related_events": [
@@ -672,6 +662,22 @@
             "code": "ct4c2pwf2xpj"
           }
         ]
+      },
+      {
+        "date": "2026-11-16",
+        "outages": {
+          "p": 17444
+        },
+        "related_events": [
+          {
+            "name": "Some users unable to sign up with Apple on the Claude iOS app",
+            "code": "ct4c2pwf2xpj"
+          },
+          {
+            "name": "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2",
+            "code": "r1b4f9bbnsx1"
+          }
+        ]
       }
     ]
   },
@@ -682,11 +688,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-18",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-19",
         "outages": {},
@@ -1203,6 +1204,11 @@
         "date": "2026-11-15",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-16",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1213,16 +1219,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-18",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance for multiple models",
-            "code": "q7txxvbsftgq"
-          }
-        ]
-      },
       {
         "date": "2026-08-19",
         "outages": {},
@@ -1819,6 +1815,18 @@
         "date": "2026-11-15",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-16",
+        "outages": {
+          "p": 4484
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2",
+            "code": "r1b4f9bbnsx1"
+          }
+        ]
       }
     ]
   },
@@ -1829,16 +1837,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-08-18",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance for multiple models",
-            "code": "q7txxvbsftgq"
-          }
-        ]
-      },
       {
         "date": "2026-08-19",
         "outages": {},
@@ -2456,6 +2454,18 @@
         "date": "2026-11-15",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-16",
+        "outages": {
+          "p": 4484
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2",
+            "code": "r1b4f9bbnsx1"
+          }
+        ]
       }
     ]
   },
@@ -2466,16 +2476,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-08-18",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance for multiple models",
-            "code": "q7txxvbsftgq"
-          }
-        ]
-      },
       {
         "date": "2026-08-19",
         "outages": {},
@@ -3126,6 +3126,18 @@
         "date": "2026-11-15",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-16",
+        "outages": {
+          "p": 4484
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2",
+            "code": "r1b4f9bbnsx1"
+          }
+        ]
       }
     ]
   },
@@ -3136,11 +3148,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-08-18",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-19",
         "outages": {},
@@ -3583,6 +3590,11 @@
       },
       {
         "date": "2026-11-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-16",
         "outages": {},
         "related_events": []
       }
@@ -3596,11 +3608,6 @@
     },
     "days": [
       {
-        "date": "2026-08-18",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-19",
         "outages": {},
         "related_events": []
@@ -4042,6 +4049,11 @@
       },
       {
         "date": "2026-11-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-16",
         "outages": {},
         "related_events": []
       }
@@ -4055,11 +4067,6 @@
     },
     "days": [
       {
-        "date": "2026-08-18",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-19",
         "outages": {},
         "related_events": []
@@ -4501,6 +4508,11 @@
       },
       {
         "date": "2026-11-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-16",
         "outages": {},
         "related_events": []
       }
@@ -4514,11 +4526,6 @@
     },
     "days": [
       {
-        "date": "2026-08-18",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-19",
         "outages": {},
         "related_events": []
@@ -4960,6 +4967,11 @@
       },
       {
         "date": "2026-11-15",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-16",
         "outages": {},
         "related_events": []
       }
@@ -4978,11 +4990,6 @@
     },
     "days": [
       {
-        "date": "2026-08-18",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-19",
         "outages": {},
         "related_events": []
@@ -5418,6 +5425,10 @@
       },
       {
         "date": "2026-11-15",
+        "outages": {}
+      },
+      {
+        "date": "2026-11-16",
         "outages": {}
       }
     ]
