@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T12:40:39.649Z",
+  "generated_at": "2026-11-17T13:17:05.241Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -16248,7 +16248,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9834383680555555,
+          "uptime_percentage": 0.9879756944444444,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -16379,7 +16379,7 @@
             },
             {
               "date": "2026-11-16T00:00:00.000Z",
-              "p": 17445,
+              "p": 0,
               "m": 0,
               "events": [
                 {
@@ -16389,13 +16389,23 @@
                 {
                   "name": "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2",
                   "code": "r1b4f9bbnsx1"
+                },
+                {
+                  "name": "Claude unable to join meetings",
+                  "code": "b5cq662qf2wm"
                 }
               ]
             },
             {
+              "date": "2026-11-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Claude unable to join meetings",
+                  "code": "b5cq662qf2wm"
+                }
+              ]
             },
             {
               "p": 0,
@@ -27881,6 +27891,7 @@
               "events": []
             },
             {
+              "date": "2026-11-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -42849,7 +42860,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9991351996527778,
+          "uptime_percentage": 0.9991860702614379,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -42953,6 +42964,7 @@
               "events": []
             },
             {
+              "date": "2026-11-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -54441,6 +54453,7 @@
               "events": []
             },
             {
+              "date": "2026-11-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -70211,7 +70224,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9971597222222223,
+          "uptime_percentage": 0.9973267973856208,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -70325,6 +70338,7 @@
               ]
             },
             {
+              "date": "2026-11-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -81813,6 +81827,7 @@
               "events": []
             },
             {
+              "date": "2026-11-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -96323,7 +96338,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.996294921875,
+          "uptime_percentage": 0.9965128676470587,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -96441,6 +96456,7 @@
               ]
             },
             {
+              "date": "2026-11-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -109841,7 +109857,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9990269097222222,
+          "uptime_percentage": 0.9990841503267973,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -109968,6 +109984,7 @@
               ]
             },
             {
+              "date": "2026-11-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -122721,6 +122738,7 @@
               "events": []
             },
             {
+              "date": "2026-11-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -134209,6 +134227,7 @@
               "events": []
             },
             {
+              "date": "2026-11-17T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []

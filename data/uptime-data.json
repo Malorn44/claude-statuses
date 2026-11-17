@@ -7,16 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-08-19",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
-            "code": "hkcw95k7r0f4"
-          }
-        ]
-      },
-      {
         "date": "2026-08-20",
         "outages": {
           "p": 1574
@@ -665,9 +655,7 @@
       },
       {
         "date": "2026-11-16",
-        "outages": {
-          "p": 17444
-        },
+        "outages": {},
         "related_events": [
           {
             "name": "Some users unable to sign up with Apple on the Claude iOS app",
@@ -676,6 +664,20 @@
           {
             "name": "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2",
             "code": "r1b4f9bbnsx1"
+          },
+          {
+            "name": "Claude unable to join meetings",
+            "code": "b5cq662qf2wm"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-17",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Claude unable to join meetings",
+            "code": "b5cq662qf2wm"
           }
         ]
       }
@@ -688,11 +690,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-19",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-20",
         "outages": {},
@@ -1209,6 +1206,11 @@
         "date": "2026-11-16",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-17",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1219,16 +1221,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-19",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
-            "code": "hkcw95k7r0f4"
-          }
-        ]
-      },
       {
         "date": "2026-08-20",
         "outages": {
@@ -1827,6 +1819,11 @@
             "code": "r1b4f9bbnsx1"
           }
         ]
+      },
+      {
+        "date": "2026-11-17",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1837,16 +1834,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-08-19",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
-            "code": "hkcw95k7r0f4"
-          }
-        ]
-      },
       {
         "date": "2026-08-20",
         "outages": {
@@ -2466,6 +2453,11 @@
             "code": "r1b4f9bbnsx1"
           }
         ]
+      },
+      {
+        "date": "2026-11-17",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2476,16 +2468,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-08-19",
-        "outages": {},
-        "related_events": [
-          {
-            "name": "Degraded performance for Claude Opus 5 and Claude Haiku 4.5",
-            "code": "hkcw95k7r0f4"
-          }
-        ]
-      },
       {
         "date": "2026-08-20",
         "outages": {
@@ -3138,6 +3120,11 @@
             "code": "r1b4f9bbnsx1"
           }
         ]
+      },
+      {
+        "date": "2026-11-17",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3148,11 +3135,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-08-19",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-20",
         "outages": {},
@@ -3595,6 +3577,11 @@
       },
       {
         "date": "2026-11-16",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-17",
         "outages": {},
         "related_events": []
       }
@@ -3608,11 +3595,6 @@
     },
     "days": [
       {
-        "date": "2026-08-19",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-20",
         "outages": {},
         "related_events": []
@@ -4054,6 +4036,11 @@
       },
       {
         "date": "2026-11-16",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-17",
         "outages": {},
         "related_events": []
       }
@@ -4067,11 +4054,6 @@
     },
     "days": [
       {
-        "date": "2026-08-19",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-20",
         "outages": {},
         "related_events": []
@@ -4513,6 +4495,11 @@
       },
       {
         "date": "2026-11-16",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-17",
         "outages": {},
         "related_events": []
       }
@@ -4526,11 +4513,6 @@
     },
     "days": [
       {
-        "date": "2026-08-19",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-20",
         "outages": {},
         "related_events": []
@@ -4972,6 +4954,11 @@
       },
       {
         "date": "2026-11-16",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-17",
         "outages": {},
         "related_events": []
       }
@@ -4990,11 +4977,6 @@
     },
     "days": [
       {
-        "date": "2026-08-19",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-20",
         "outages": {},
         "related_events": []
@@ -5429,6 +5411,10 @@
       },
       {
         "date": "2026-11-16",
+        "outages": {}
+      },
+      {
+        "date": "2026-11-17",
         "outages": {}
       }
     ]
