@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T13:17:05.241Z",
+  "generated_at": "2026-11-18T12:59:16.620Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -16248,7 +16248,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9879756944444444,
+          "uptime_percentage": 0.9886412037037036,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -16398,9 +16398,13 @@
             },
             {
               "date": "2026-11-17T00:00:00.000Z",
-              "p": 0,
+              "p": 13,
               "m": 0,
               "events": [
+                {
+                  "name": "Some users unable to sign in with Apple on claude.ai and the Claude iOS app",
+                  "code": "1lglzf469c0z"
+                },
                 {
                   "name": "Claude unable to join meetings",
                   "code": "b5cq662qf2wm"
@@ -16408,9 +16412,19 @@
               ]
             },
             {
+              "date": "2026-11-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Claude unable to join meetings",
+                  "code": "b5cq662qf2wm"
+                },
+                {
+                  "name": "Elevated errors affecting the Google Docs connector",
+                  "code": "6prv10gjdpz1"
+                }
+              ]
             },
             {
               "p": 0,
@@ -27897,6 +27911,7 @@
               "events": []
             },
             {
+              "date": "2026-11-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -42860,7 +42875,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9991860702614379,
+          "uptime_percentage": 0.9992312885802469,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -42970,6 +42985,7 @@
               "events": []
             },
             {
+              "date": "2026-11-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -54459,6 +54475,7 @@
               "events": []
             },
             {
+              "date": "2026-11-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -70224,7 +70241,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9973267973856208,
+          "uptime_percentage": 0.9974753086419752,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -70344,6 +70361,7 @@
               "events": []
             },
             {
+              "date": "2026-11-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -81833,6 +81851,7 @@
               "events": []
             },
             {
+              "date": "2026-11-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -96338,7 +96357,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9965128676470587,
+          "uptime_percentage": 0.9967065972222221,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -96462,6 +96481,7 @@
               "events": []
             },
             {
+              "date": "2026-11-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -109857,7 +109877,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9990841503267973,
+          "uptime_percentage": 0.9991350308641975,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -109990,6 +110010,7 @@
               "events": []
             },
             {
+              "date": "2026-11-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -122744,6 +122765,7 @@
               "events": []
             },
             {
+              "date": "2026-11-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -134233,6 +134255,7 @@
               "events": []
             },
             {
+              "date": "2026-11-18T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
