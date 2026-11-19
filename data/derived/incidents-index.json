@@ -1,6 +1,32 @@
 {
-  "generated_at": "2026-11-18T12:59:20.033Z",
+  "generated_at": "2026-11-19T12:57:49.281Z",
   "incidents": [
+    {
+      "id": "c1kmrkmv5f3d",
+      "name": "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2",
+      "impact": "major",
+      "created_at": "2026-11-19T09:10:24.815Z",
+      "started_at": "2026-11-19T09:10:24.807Z",
+      "resolved_at": "2026-11-19T09:33:18.884Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "6prv10gjdpz1",
       "name": "Elevated errors affecting the Google Docs connector",
@@ -31,11 +57,11 @@
     },
     {
       "id": "b5cq662qf2wm",
-      "name": "Claude unable to join meetings",
+      "name": "Claude Meetings auto-join limited on the Team plan",
       "impact": "minor",
       "created_at": "2026-11-16T15:10:15.167Z",
       "started_at": "2026-11-16T15:10:15.160Z",
-      "resolved_at": null,
+      "resolved_at": "2026-11-19T02:15:05.834Z",
       "components": [
         {
           "id": "rwppv331jlwc",

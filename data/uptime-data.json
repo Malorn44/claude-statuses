@@ -7,11 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-08-21",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-22",
         "outages": {},
         "related_events": []
@@ -650,7 +645,7 @@
             "code": "r1b4f9bbnsx1"
           },
           {
-            "name": "Claude unable to join meetings",
+            "name": "Claude Meetings auto-join limited on the Team plan",
             "code": "b5cq662qf2wm"
           }
         ]
@@ -666,7 +661,7 @@
             "code": "1lglzf469c0z"
           },
           {
-            "name": "Claude unable to join meetings",
+            "name": "Claude Meetings auto-join limited on the Team plan",
             "code": "b5cq662qf2wm"
           }
         ]
@@ -676,12 +671,28 @@
         "outages": {},
         "related_events": [
           {
-            "name": "Claude unable to join meetings",
+            "name": "Claude Meetings auto-join limited on the Team plan",
             "code": "b5cq662qf2wm"
           },
           {
             "name": "Elevated errors affecting the Google Docs connector",
             "code": "6prv10gjdpz1"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-19",
+        "outages": {
+          "p": 1374
+        },
+        "related_events": [
+          {
+            "name": "Claude Meetings auto-join limited on the Team plan",
+            "code": "b5cq662qf2wm"
+          },
+          {
+            "name": "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2",
+            "code": "c1kmrkmv5f3d"
           }
         ]
       }
@@ -694,11 +705,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-21",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-22",
         "outages": {},
@@ -1215,6 +1221,11 @@
         "date": "2026-11-18",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-19",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1225,11 +1236,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-21",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-22",
         "outages": {},
@@ -1817,6 +1823,18 @@
         "date": "2026-11-18",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-19",
+        "outages": {
+          "p": 1374
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2",
+            "code": "c1kmrkmv5f3d"
+          }
+        ]
       }
     ]
   },
@@ -1827,11 +1845,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-08-21",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-22",
         "outages": {},
@@ -2440,6 +2453,18 @@
         "date": "2026-11-18",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-19",
+        "outages": {
+          "p": 1374
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2",
+            "code": "c1kmrkmv5f3d"
+          }
+        ]
       }
     ]
   },
@@ -2450,11 +2475,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-08-21",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-22",
         "outages": {},
@@ -3096,6 +3116,18 @@
         "date": "2026-11-18",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-19",
+        "outages": {
+          "p": 1374
+        },
+        "related_events": [
+          {
+            "name": "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2",
+            "code": "c1kmrkmv5f3d"
+          }
+        ]
       }
     ]
   },
@@ -3106,11 +3138,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-08-21",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-22",
         "outages": {},
@@ -3553,6 +3580,11 @@
       },
       {
         "date": "2026-11-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-19",
         "outages": {},
         "related_events": []
       }
@@ -3566,11 +3598,6 @@
     },
     "days": [
       {
-        "date": "2026-08-21",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-22",
         "outages": {},
         "related_events": []
@@ -4012,6 +4039,11 @@
       },
       {
         "date": "2026-11-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-19",
         "outages": {},
         "related_events": []
       }
@@ -4025,11 +4057,6 @@
     },
     "days": [
       {
-        "date": "2026-08-21",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-22",
         "outages": {},
         "related_events": []
@@ -4471,6 +4498,11 @@
       },
       {
         "date": "2026-11-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-19",
         "outages": {},
         "related_events": []
       }
@@ -4484,11 +4516,6 @@
     },
     "days": [
       {
-        "date": "2026-08-21",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-22",
         "outages": {},
         "related_events": []
@@ -4930,6 +4957,11 @@
       },
       {
         "date": "2026-11-18",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-19",
         "outages": {},
         "related_events": []
       }
@@ -4948,11 +4980,6 @@
     },
     "days": [
       {
-        "date": "2026-08-21",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-22",
         "outages": {},
         "related_events": []
@@ -5385,6 +5412,10 @@
       },
       {
         "date": "2026-11-18",
+        "outages": {}
+      },
+      {
+        "date": "2026-11-19",
         "outages": {}
       }
     ]

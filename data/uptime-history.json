@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T12:59:16.620Z",
+  "generated_at": "2026-11-19T12:57:46.070Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -16248,7 +16248,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9886412037037036,
+          "uptime_percentage": 0.9889879385964913,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -16391,7 +16391,7 @@
                   "code": "r1b4f9bbnsx1"
                 },
                 {
-                  "name": "Claude unable to join meetings",
+                  "name": "Claude Meetings auto-join limited on the Team plan",
                   "code": "b5cq662qf2wm"
                 }
               ]
@@ -16406,7 +16406,7 @@
                   "code": "1lglzf469c0z"
                 },
                 {
-                  "name": "Claude unable to join meetings",
+                  "name": "Claude Meetings auto-join limited on the Team plan",
                   "code": "b5cq662qf2wm"
                 }
               ]
@@ -16417,7 +16417,7 @@
               "m": 0,
               "events": [
                 {
-                  "name": "Claude unable to join meetings",
+                  "name": "Claude Meetings auto-join limited on the Team plan",
                   "code": "b5cq662qf2wm"
                 },
                 {
@@ -16427,9 +16427,19 @@
               ]
             },
             {
-              "p": 0,
+              "date": "2026-11-19T00:00:00.000Z",
+              "p": 1374,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Claude Meetings auto-join limited on the Team plan",
+                  "code": "b5cq662qf2wm"
+                },
+                {
+                  "name": "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2",
+                  "code": "c1kmrkmv5f3d"
+                }
+              ]
             },
             {
               "p": 0,
@@ -27917,6 +27927,7 @@
               "events": []
             },
             {
+              "date": "2026-11-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -42875,7 +42886,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9992312885802469,
+          "uptime_percentage": 0.9992717470760234,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -42991,6 +43002,7 @@
               "events": []
             },
             {
+              "date": "2026-11-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -54481,6 +54493,7 @@
               "events": []
             },
             {
+              "date": "2026-11-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -70241,7 +70254,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9974753086419752,
+          "uptime_percentage": 0.9973570906432748,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -70367,9 +70380,15 @@
               "events": []
             },
             {
-              "p": 0,
+              "date": "2026-11-19T00:00:00.000Z",
+              "p": 1374,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2",
+                  "code": "c1kmrkmv5f3d"
+                }
+              ]
             },
             {
               "p": 0,
@@ -81857,6 +81876,7 @@
               "events": []
             },
             {
+              "date": "2026-11-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -96357,7 +96377,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9967065972222221,
+          "uptime_percentage": 0.9966288377192982,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -96487,9 +96507,15 @@
               "events": []
             },
             {
-              "p": 0,
+              "date": "2026-11-19T00:00:00.000Z",
+              "p": 1374,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2",
+                  "code": "c1kmrkmv5f3d"
+                }
+              ]
             },
             {
               "p": 0,
@@ -109877,7 +109903,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9991350308641975,
+          "uptime_percentage": 0.9989294590643275,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -110016,9 +110042,15 @@
               "events": []
             },
             {
-              "p": 0,
+              "date": "2026-11-19T00:00:00.000Z",
+              "p": 1374,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2",
+                  "code": "c1kmrkmv5f3d"
+                }
+              ]
             },
             {
               "p": 0,
@@ -122771,6 +122803,7 @@
               "events": []
             },
             {
+              "date": "2026-11-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -134261,6 +134294,7 @@
               "events": []
             },
             {
+              "date": "2026-11-19T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
