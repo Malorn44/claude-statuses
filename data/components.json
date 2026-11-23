@@ -4,7 +4,7 @@
     "name": "Claude",
     "url": "https://status.claude.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-11-22T12:05:22.940Z"
+    "updated_at": "2026-11-23T13:55:04.087Z"
   },
   "components": [
     {
@@ -12,7 +12,7 @@
       "name": "claude.ai",
       "status": "operational",
       "created_at": "2023-07-11T17:52:24.275Z",
-      "updated_at": "2026-11-19T09:33:18.758Z",
+      "updated_at": "2026-11-23T10:07:23.265Z",
       "position": 1,
       "description": null,
       "showcase": true,
@@ -72,7 +72,7 @@
       "name": "Claude API (api.anthropic.com)",
       "status": "operational",
       "created_at": "2023-07-11T17:53:10.880Z",
-      "updated_at": "2026-11-19T09:33:18.788Z",
+      "updated_at": "2026-11-23T10:07:23.292Z",
       "position": 3,
       "description": null,
       "showcase": true,
@@ -102,7 +102,7 @@
       "name": "Claude Code",
       "status": "operational",
       "created_at": "2025-05-22T21:35:29.822Z",
-      "updated_at": "2026-11-19T09:33:18.813Z",
+      "updated_at": "2026-11-23T10:07:23.320Z",
       "position": 4,
       "description": null,
       "showcase": true,
@@ -117,7 +117,7 @@
       "name": "Claude Cowork",
       "status": "operational",
       "created_at": "2026-04-01T17:39:47.692Z",
-      "updated_at": "2026-11-19T09:33:18.842Z",
+      "updated_at": "2026-11-23T10:07:23.343Z",
       "position": 5,
       "description": null,
       "showcase": true,
