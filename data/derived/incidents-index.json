@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-11-23T14:31:13.883Z",
+  "generated_at": "2026-11-24T14:48:36.066Z",
   "incidents": [
+    {
+      "id": "3vbyqgnswwxq",
+      "name": "Claude for Microsoft 365 add-in missing for some users",
+      "impact": "minor",
+      "created_at": "2026-11-24T00:10:40.018Z",
+      "started_at": "2026-11-24T00:10:40.012Z",
+      "resolved_at": null,
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        }
+      ]
+    },
     {
       "id": "yzs0s90d8fm8",
       "name": "Elevated errors for multiple models",

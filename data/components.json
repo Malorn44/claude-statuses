@@ -4,15 +4,15 @@
     "name": "Claude",
     "url": "https://status.claude.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2026-11-23T13:55:04.087Z"
+    "updated_at": "2026-11-24T14:25:05.621Z"
   },
   "components": [
     {
       "id": "rwppv331jlwc",
       "name": "claude.ai",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2023-07-11T17:52:24.275Z",
-      "updated_at": "2026-11-23T10:07:23.265Z",
+      "updated_at": "2026-11-24T00:10:40.063Z",
       "position": 1,
       "description": null,
       "showcase": true,
