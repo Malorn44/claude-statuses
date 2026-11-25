@@ -1,10 +1,45 @@
 {
-  "generated_at": "2026-11-24T14:48:36.066Z",
+  "generated_at": "2026-11-25T14:15:25.031Z",
   "incidents": [
+    {
+      "id": "yl30wkjblcm6",
+      "name": "Elevated errors for multiple models",
+      "impact": "none",
+      "created_at": "2026-11-25T05:32:26.193Z",
+      "started_at": "2026-11-25T05:32:26.188Z",
+      "resolved_at": "2026-11-25T05:32:26.264Z",
+      "components": []
+    },
+    {
+      "id": "fbvlx4wx4zx5",
+      "name": "Elevated errors for Claude Haiku 5.5",
+      "impact": "major",
+      "created_at": "2026-11-24T17:19:31.951Z",
+      "started_at": "2026-11-24T17:19:31.942Z",
+      "resolved_at": "2026-11-24T17:50:42.776Z",
+      "components": [
+        {
+          "id": "rwppv331jlwc",
+          "name": "claude.ai"
+        },
+        {
+          "id": "k8w3r06qmzrp",
+          "name": "Claude API (api.anthropic.com)"
+        },
+        {
+          "id": "yyzkbfz2thpt",
+          "name": "Claude Code"
+        },
+        {
+          "id": "bpp5gb3hpjcl",
+          "name": "Claude Cowork"
+        }
+      ]
+    },
     {
       "id": "3vbyqgnswwxq",
       "name": "Claude for Microsoft 365 add-in missing for some users",
-      "impact": "minor",
+      "impact": "major",
       "created_at": "2026-11-24T00:10:40.018Z",
       "started_at": "2026-11-24T00:10:40.012Z",
       "resolved_at": null,

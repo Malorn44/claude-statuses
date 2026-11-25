@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T14:48:33.145Z",
+  "generated_at": "2026-11-25T14:15:23.396Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -16248,7 +16248,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.991219039351852,
+          "uptime_percentage": 0.9915061111111112,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -16472,6 +16472,21 @@
             },
             {
               "date": "2026-11-24T00:00:00.000Z",
+              "p": 462,
+              "m": 0,
+              "events": [
+                {
+                  "name": "Claude for Microsoft 365 add-in missing for some users",
+                  "code": "3vbyqgnswwxq"
+                },
+                {
+                  "name": "Elevated errors for Claude Haiku 5.5",
+                  "code": "fbvlx4wx4zx5"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": [
@@ -16480,11 +16495,6 @@
                   "code": "3vbyqgnswwxq"
                 }
               ]
-            },
-            {
-              "p": 0,
-              "m": 0,
-              "events": []
             },
             {
               "p": 0,
@@ -27978,6 +27988,7 @@
               "events": []
             },
             {
+              "date": "2026-11-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -42906,7 +42917,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9994234664351852,
+          "uptime_percentage": 0.9994465277777778,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -43058,6 +43069,7 @@
               "events": []
             },
             {
+              "date": "2026-11-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -54554,6 +54566,7 @@
               "events": []
             },
             {
+              "date": "2026-11-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -70284,7 +70297,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9978446180555555,
+          "uptime_percentage": 0.9978666666666666,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -70451,11 +70464,17 @@
             },
             {
               "date": "2026-11-24T00:00:00.000Z",
-              "p": 0,
+              "p": 462,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Haiku 5.5",
+                  "code": "fbvlx4wx4zx5"
+                }
+              ]
             },
             {
+              "date": "2026-11-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -81952,6 +81971,7 @@
               "events": []
             },
             {
+              "date": "2026-11-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -96422,7 +96442,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9972680844907407,
+          "uptime_percentage": 0.9973131944444443,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -96593,11 +96613,17 @@
             },
             {
               "date": "2026-11-24T00:00:00.000Z",
-              "p": 0,
+              "p": 462,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Haiku 5.5",
+                  "code": "fbvlx4wx4zx5"
+                }
+              ]
             },
             {
+              "date": "2026-11-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -109958,7 +109984,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9990894097222222,
+          "uptime_percentage": 0.9990616666666666,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -110138,11 +110164,17 @@
             },
             {
               "date": "2026-11-24T00:00:00.000Z",
-              "p": 0,
+              "p": 462,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Elevated errors for Claude Haiku 5.5",
+                  "code": "fbvlx4wx4zx5"
+                }
+              ]
             },
             {
+              "date": "2026-11-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -122904,6 +122936,7 @@
               "events": []
             },
             {
+              "date": "2026-11-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -134400,6 +134433,7 @@
               "events": []
             },
             {
+              "date": "2026-11-25T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []

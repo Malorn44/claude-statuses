@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T14:48:36.066Z",
+  "generated_at": "2026-11-25T14:15:25.031Z",
   "months": [
     {
       "key": "2023-07",
@@ -13001,10 +13001,22 @@
         },
         {
           "date": "2026-11-24",
-          "impact": "minor",
+          "impact": "major",
+          "major_s": 462,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": [
+            "3vbyqgnswwxq",
+            "fbvlx4wx4zx5"
+          ]
+        },
+        {
+          "date": "2026-11-25",
+          "impact": "none",
           "major_s": 0,
           "critical_s": 0,
-          "minor_s": 52676,
+          "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": [
             "3vbyqgnswwxq"
