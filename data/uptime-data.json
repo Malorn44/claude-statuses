@@ -7,11 +7,6 @@
     },
     "days": [
       {
-        "date": "2026-08-28",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-29",
         "outages": {},
         "related_events": []
@@ -703,6 +698,16 @@
             "code": "3vbyqgnswwxq"
           }
         ]
+      },
+      {
+        "date": "2026-11-26",
+        "outages": {},
+        "related_events": [
+          {
+            "name": "Claude for Microsoft 365 add-in missing for some users",
+            "code": "3vbyqgnswwxq"
+          }
+        ]
       }
     ]
   },
@@ -713,11 +718,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-28",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-29",
         "outages": {},
@@ -1234,6 +1234,11 @@
         "date": "2026-11-25",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-26",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1244,11 +1249,6 @@
       "startDate": "2023-07-11"
     },
     "days": [
-      {
-        "date": "2026-08-28",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-29",
         "outages": {},
@@ -1850,6 +1850,11 @@
         "date": "2026-11-25",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-26",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -1860,18 +1865,6 @@
       "startDate": "2025-02-06"
     },
     "days": [
-      {
-        "date": "2026-08-28",
-        "outages": {
-          "p": 6120
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Code and Claude Cowork",
-            "code": "vr9tpk8w7zr8"
-          }
-        ]
-      },
       {
         "date": "2026-08-29",
         "outages": {},
@@ -2483,6 +2476,11 @@
         "date": "2026-11-25",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-26",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -2493,18 +2491,6 @@
       "startDate": "2026-04-01"
     },
     "days": [
-      {
-        "date": "2026-08-28",
-        "outages": {
-          "p": 6120
-        },
-        "related_events": [
-          {
-            "name": "Elevated errors on Claude Code and Claude Cowork",
-            "code": "vr9tpk8w7zr8"
-          }
-        ]
-      },
       {
         "date": "2026-08-29",
         "outages": {},
@@ -3149,6 +3135,11 @@
         "date": "2026-11-25",
         "outages": {},
         "related_events": []
+      },
+      {
+        "date": "2026-11-26",
+        "outages": {},
+        "related_events": []
       }
     ]
   },
@@ -3159,11 +3150,6 @@
       "startDate": "2026-02-17"
     },
     "days": [
-      {
-        "date": "2026-08-28",
-        "outages": {},
-        "related_events": []
-      },
       {
         "date": "2026-08-29",
         "outages": {},
@@ -3606,6 +3592,11 @@
       },
       {
         "date": "2026-11-25",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-26",
         "outages": {},
         "related_events": []
       }
@@ -3619,11 +3610,6 @@
     },
     "days": [
       {
-        "date": "2026-08-28",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-29",
         "outages": {},
         "related_events": []
@@ -4065,6 +4051,11 @@
       },
       {
         "date": "2026-11-25",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-26",
         "outages": {},
         "related_events": []
       }
@@ -4078,11 +4069,6 @@
     },
     "days": [
       {
-        "date": "2026-08-28",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-29",
         "outages": {},
         "related_events": []
@@ -4524,6 +4510,11 @@
       },
       {
         "date": "2026-11-25",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-26",
         "outages": {},
         "related_events": []
       }
@@ -4537,11 +4528,6 @@
     },
     "days": [
       {
-        "date": "2026-08-28",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-29",
         "outages": {},
         "related_events": []
@@ -4983,6 +4969,11 @@
       },
       {
         "date": "2026-11-25",
+        "outages": {},
+        "related_events": []
+      },
+      {
+        "date": "2026-11-26",
         "outages": {},
         "related_events": []
       }
@@ -5001,11 +4992,6 @@
     },
     "days": [
       {
-        "date": "2026-08-28",
-        "outages": {},
-        "related_events": []
-      },
-      {
         "date": "2026-08-29",
         "outages": {},
         "related_events": []
@@ -5431,6 +5417,10 @@
       },
       {
         "date": "2026-11-25",
+        "outages": {}
+      },
+      {
+        "date": "2026-11-26",
         "outages": {}
       }
     ]
