@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T13:50:30.215Z",
+  "generated_at": "2026-11-27T13:47:35.866Z",
   "components": {
     "rwppv331jlwc": {
       "id": "rwppv331jlwc",
@@ -16248,7 +16248,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9918327991452992,
+          "uptime_percentage": 0.99209375,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -16508,9 +16508,19 @@
               ]
             },
             {
-              "p": 0,
+              "date": "2026-11-27T00:00:00.000Z",
+              "p": 323,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for Claude Fable 5.2",
+                  "code": "0x1yvzkfmmxj"
+                },
+                {
+                  "name": "Claude for Microsoft 365 add-in missing for some users",
+                  "code": "3vbyqgnswwxq"
+                }
+              ]
             },
             {
               "p": 0,
@@ -28006,6 +28016,7 @@
               "events": []
             },
             {
+              "date": "2026-11-27T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -42924,7 +42935,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9994678151709402,
+          "uptime_percentage": 0.9994875257201646,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -43088,6 +43099,7 @@
               "events": []
             },
             {
+              "date": "2026-11-27T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -54586,6 +54598,7 @@
               "events": []
             },
             {
+              "date": "2026-11-27T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -70306,7 +70319,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9979487179487179,
+          "uptime_percentage": 0.9979831532921811,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -70495,9 +70508,15 @@
               "events": []
             },
             {
-              "p": 0,
+              "date": "2026-11-27T00:00:00.000Z",
+              "p": 323,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for Claude Fable 5.2",
+                  "code": "0x1yvzkfmmxj"
+                }
+              ]
             },
             {
               "p": 0,
@@ -81993,6 +82012,7 @@
               "events": []
             },
             {
+              "date": "2026-11-27T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -96453,7 +96473,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.997416533119658,
+          "uptime_percentage": 0.9974706790123457,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -96646,9 +96666,15 @@
               "events": []
             },
             {
-              "p": 0,
+              "date": "2026-11-27T00:00:00.000Z",
+              "p": 323,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for Claude Fable 5.2",
+                  "code": "0x1yvzkfmmxj"
+                }
+              ]
             },
             {
               "p": 0,
@@ -109996,7 +110022,7 @@
           "year": 2026,
           "month": 11,
           "name": "November",
-          "uptime_percentage": 0.9990977564102563,
+          "uptime_percentage": 0.9990896347736625,
           "days": [
             {
               "date": "2026-11-01T00:00:00.000Z",
@@ -110198,9 +110224,15 @@
               "events": []
             },
             {
-              "p": 0,
+              "date": "2026-11-27T00:00:00.000Z",
+              "p": 323,
               "m": 0,
-              "events": []
+              "events": [
+                {
+                  "name": "Degraded performance for Claude Fable 5.2",
+                  "code": "0x1yvzkfmmxj"
+                }
+              ]
             },
             {
               "p": 0,
@@ -122961,6 +122993,7 @@
               "events": []
             },
             {
+              "date": "2026-11-27T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []
@@ -134459,6 +134492,7 @@
               "events": []
             },
             {
+              "date": "2026-11-27T00:00:00.000Z",
               "p": 0,
               "m": 0,
               "events": []

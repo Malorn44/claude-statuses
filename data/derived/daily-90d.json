@@ -1,24 +1,15 @@
 {
-  "generated_at": "2026-11-26T13:50:32.732Z",
+  "generated_at": "2026-11-27T13:47:38.309Z",
   "rows": [
     {
       "id": "__aggregate__",
       "name": "Claude Platform",
       "is_aggregate": true,
       "window_seconds": 7776000,
-      "major_seconds": 89547,
+      "major_seconds": 89870,
       "critical_seconds": 17627,
       "minor_seconds": 298921,
       "days": [
-        {
-          "date": "2026-08-29",
-          "impact": "none",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 0,
-          "maintenance_s": 0,
-          "incident_ids": []
-        },
         {
           "date": "2026-08-30",
           "impact": "none",
@@ -931,6 +922,18 @@
           "incident_ids": [
             "3vbyqgnswwxq"
           ]
+        },
+        {
+          "date": "2026-11-27",
+          "impact": "major",
+          "major_s": 323,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": [
+            "0x1yvzkfmmxj",
+            "3vbyqgnswwxq"
+          ]
         }
       ]
     },
@@ -939,19 +942,10 @@
       "name": "claude.ai",
       "is_aggregate": false,
       "window_seconds": 7776000,
-      "major_seconds": 41524,
+      "major_seconds": 41847,
       "critical_seconds": 17627,
       "minor_seconds": 263284,
       "days": [
-        {
-          "date": "2026-08-29",
-          "impact": "none",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 0,
-          "maintenance_s": 0,
-          "incident_ids": []
-        },
         {
           "date": "2026-08-30",
           "impact": "none",
@@ -1829,6 +1823,18 @@
           "incident_ids": [
             "3vbyqgnswwxq"
           ]
+        },
+        {
+          "date": "2026-11-27",
+          "impact": "major",
+          "major_s": 323,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": [
+            "0x1yvzkfmmxj",
+            "3vbyqgnswwxq"
+          ]
         }
       ]
     },
@@ -1836,20 +1842,11 @@
       "id": "w14q5j51spbm",
       "name": "Claude Platform on AWS",
       "is_aggregate": false,
-      "window_seconds": 1555200,
+      "window_seconds": 1641600,
       "major_seconds": 0,
       "critical_seconds": 0,
       "minor_seconds": 0,
       "days": [
-        {
-          "date": "2026-08-29",
-          "impact": "no_data",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 0,
-          "maintenance_s": 0,
-          "incident_ids": []
-        },
         {
           "date": "2026-08-30",
           "impact": "no_data",
@@ -2650,6 +2647,15 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": []
+        },
+        {
+          "date": "2026-11-27",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": []
         }
       ]
     },
@@ -2662,15 +2668,6 @@
       "critical_seconds": 0,
       "minor_seconds": 33306,
       "days": [
-        {
-          "date": "2026-08-29",
-          "impact": "none",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 0,
-          "maintenance_s": 0,
-          "incident_ids": []
-        },
         {
           "date": "2026-08-30",
           "impact": "none",
@@ -3497,6 +3494,15 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": []
+        },
+        {
+          "date": "2026-11-27",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": []
         }
       ]
     },
@@ -3504,20 +3510,11 @@
       "id": "69zh8pryjjgp",
       "name": "Claude in Microsoft Foundry",
       "is_aggregate": false,
-      "window_seconds": 1555200,
+      "window_seconds": 1641600,
       "major_seconds": 0,
       "critical_seconds": 0,
       "minor_seconds": 0,
       "days": [
-        {
-          "date": "2026-08-29",
-          "impact": "no_data",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 0,
-          "maintenance_s": 0,
-          "incident_ids": []
-        },
         {
           "date": "2026-08-30",
           "impact": "no_data",
@@ -4318,6 +4315,15 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": []
+        },
+        {
+          "date": "2026-11-27",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": []
         }
       ]
     },
@@ -4326,19 +4332,10 @@
       "name": "Claude API (api.anthropic.com)",
       "is_aggregate": false,
       "window_seconds": 7776000,
-      "major_seconds": 47203,
+      "major_seconds": 47526,
       "critical_seconds": 992,
       "minor_seconds": 32566,
       "days": [
-        {
-          "date": "2026-08-29",
-          "impact": "none",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 0,
-          "maintenance_s": 0,
-          "incident_ids": []
-        },
         {
           "date": "2026-08-30",
           "impact": "none",
@@ -5186,6 +5183,17 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": []
+        },
+        {
+          "date": "2026-11-27",
+          "impact": "major",
+          "major_s": 323,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": [
+            "0x1yvzkfmmxj"
+          ]
         }
       ]
     },
@@ -5193,20 +5201,11 @@
       "id": "csth13wtqbd6",
       "name": "Claude Models on Google Cloud (Anthropic managed)",
       "is_aggregate": false,
-      "window_seconds": 1555200,
+      "window_seconds": 1641600,
       "major_seconds": 0,
       "critical_seconds": 0,
       "minor_seconds": 0,
       "days": [
-        {
-          "date": "2026-08-29",
-          "impact": "no_data",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 0,
-          "maintenance_s": 0,
-          "incident_ids": []
-        },
         {
           "date": "2026-08-30",
           "impact": "no_data",
@@ -6007,6 +6006,15 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": []
+        },
+        {
+          "date": "2026-11-27",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": []
         }
       ]
     },
@@ -6015,19 +6023,10 @@
       "name": "Claude Code",
       "is_aggregate": false,
       "window_seconds": 7776000,
-      "major_seconds": 55165,
+      "major_seconds": 55488,
       "critical_seconds": 992,
       "minor_seconds": 28539,
       "days": [
-        {
-          "date": "2026-08-29",
-          "impact": "none",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 0,
-          "maintenance_s": 0,
-          "incident_ids": []
-        },
         {
           "date": "2026-08-30",
           "impact": "none",
@@ -6877,6 +6876,17 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": []
+        },
+        {
+          "date": "2026-11-27",
+          "impact": "major",
+          "major_s": 323,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": [
+            "0x1yvzkfmmxj"
+          ]
         }
       ]
     },
@@ -6885,19 +6895,10 @@
       "name": "Claude Cowork",
       "is_aggregate": false,
       "window_seconds": 7776000,
-      "major_seconds": 42060,
+      "major_seconds": 42383,
       "critical_seconds": 992,
       "minor_seconds": 45525,
       "days": [
-        {
-          "date": "2026-08-29",
-          "impact": "none",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 0,
-          "maintenance_s": 0,
-          "incident_ids": []
-        },
         {
           "date": "2026-08-30",
           "impact": "none",
@@ -7760,6 +7761,17 @@
           "minor_s": 0,
           "maintenance_s": 0,
           "incident_ids": []
+        },
+        {
+          "date": "2026-11-27",
+          "impact": "major",
+          "major_s": 323,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": [
+            "0x1yvzkfmmxj"
+          ]
         }
       ]
     },
@@ -7772,15 +7784,6 @@
       "critical_seconds": 0,
       "minor_seconds": 0,
       "days": [
-        {
-          "date": "2026-08-29",
-          "impact": "none",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 0,
-          "maintenance_s": 0,
-          "incident_ids": []
-        },
         {
           "date": "2026-08-30",
           "impact": "none",
@@ -8575,6 +8578,15 @@
         },
         {
           "date": "2026-11-26",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": []
+        },
+        {
+          "date": "2026-11-27",
           "impact": "none",
           "major_s": 0,
           "critical_s": 0,
@@ -8594,15 +8606,6 @@
       "minor_seconds": 0,
       "days": [
         {
-          "date": "2026-08-29",
-          "impact": "none",
-          "major_s": 0,
-          "critical_s": 0,
-          "minor_s": 0,
-          "maintenance_s": 0,
-          "incident_ids": []
-        },
-        {
           "date": "2026-08-30",
           "impact": "none",
           "major_s": 0,
@@ -9396,6 +9399,15 @@
         },
         {
           "date": "2026-11-26",
+          "impact": "none",
+          "major_s": 0,
+          "critical_s": 0,
+          "minor_s": 0,
+          "maintenance_s": 0,
+          "incident_ids": []
+        },
+        {
+          "date": "2026-11-27",
           "impact": "none",
           "major_s": 0,
           "critical_s": 0,
